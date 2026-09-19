@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "code": "ja",
+  "name": "日本語",
+  "rtl": false,
+  "order": 90,
+  "ui": [
+    {
+      "key": "win.title",
+      "value": "動的コリジョン"
+    },
+    {
+      "key": "win.none",
+      "value": "Dynamic Collision コンポーネントが付いたオブジェクトを選択してください。"
+    },
+    {
+      "key": "win.notarget",
+      "value": "（選択項目にコンポーネントがありません）"
+    },
+    {
+      "key": "win.lang",
+      "value": "言語"
+    },
+    {
+      "key": "tab.bake",
+      "value": "ベイク"
+    },
+    {
+      "key": "tab.paint",
+      "value": "ペイント"
+    },
+    {
+      "key": "tab.gizmo",
+      "value": "Gizmo"
+    },
+    {
+      "key": "tab.parts",
+      "value": "パーツ"
+    },
+    {
+      "key": "tab.materials",
+      "value": "マテリアル"
+    },
+    {
+      "key": "tab.health",
+      "value": "ヘルス"
+    },
+    {
+      "key": "tab.settings",
+      "value": "設定"
+    },
+    {
+      "key": "lbl.mode",
+      "value": "モード"
+    },
+    {
+      "key": "lbl.precision",
+      "value": "精度"
+    },
+    {
+      "key": "lbl.source",
+      "value": "ソース"
+    },
+    {
+      "key": "lbl.role",
+      "value": "コライダーの役割"
+    },
+    {
+      "key": "lbl.layers",
+      "value": "相互作用レイヤー"
+    },
+    {
+      "key": "lbl.detect",
+      "value": "検出"
+    },
+    {
+      "key": "lbl.collision",
+      "value": "コリジョン"
+    },
+    {
+      "key": "lbl.trigger",
+      "value": "Trigger（ポーリング）"
+    },
+    {
+      "key": "lbl.groups",
+      "value": "マテリアルグループ"
+    },
+    {
+      "key": "lbl.elements",
+      "value": "パーツ（element）"
+    },
+    {
+      "key": "lbl.group",
+      "value": "グループ"
+    },
+    {
+      "key": "lbl.material",
+      "value": "物理マテリアル"
+    },
+    {
+      "key": "lbl.density",
+      "value": "密度 kg/m³"
+    },
+    {
+      "key": "lbl.eventName",
+      "value": "イベント名"
+    },
+    {
+      "key": "lbl.damage",
+      "value": "ダメージ ×"
+    },
+    {
+      "key": "lbl.name",
+      "value": "名前"
+    },
+    {
+      "key": "btn.bake",
+      "value": "ベイク"
+    },
+    {
+      "key": "btn.rebuild",
+      "value": "シーン内で再構築"
+    },
+    {
+      "key": "btn.clear",
+      "value": "ベイク結果を消去"
+    },
+    {
+      "key": "btn.autofill",
+      "value": "パーツを自動入力（Humanoid）"
+    },
+    {
+      "key": "btn.addPart",
+      "value": "+ 空のパーツ"
+    },
+    {
+      "key": "btn.addGroup",
+      "value": "+ グループ"
+    },
+    {
+      "key": "btn.autoAssign",
+      "value": "名前で自動割り当て"
+    },
+    {
+      "key": "btn.pick",
+      "value": "プリセットを選択"
+    },
+    {
+      "key": "btn.paint",
+      "value": "ペイントを開始"
+    },
+    {
+      "key": "btn.stopPaint",
+      "value": "ペイントを停止"
+    },
+    {
+      "key": "btn.resetPose",
+      "value": "バインドポーズにリセット"
+    },
+    {
+      "key": "btn.clearPaint",
+      "value": "すべてのラベルを消去"
+    },
+    {
+      "key": "btn.remove",
+      "value": "×"
+    },
+    {
+      "key": "btn.paintThis",
+      "value": "これをペイント"
+    },
+    {
+      "key": "btn.showUncovered",
+      "value": "未カバーの面を表示"
+    },
+    {
+      "key": "btn.batchBake",
+      "value": "選択項目をすべてベイク"
+    },
+    {
+      "key": "bake.none",
+      "value": "まだベイクされていません。"
+    },
+    {
+      "key": "bake.stats",
+      "value": "統計"
+    },
+    {
+      "key": "bake.hulls",
+      "value": "凸包"
+    },
+    {
+      "key": "bake.verts",
+      "value": "頂点"
+    },
+    {
+      "key": "bake.peak",
+      "value": "凸包ごとのピーク"
+    },
+    {
+      "key": "bake.volume",
+      "value": "体積"
+    },
+    {
+      "key": "bake.unassigned",
+      "value": "未割り当ての三角形"
+    },
+    {
+      "key": "bake.precisionRow",
+      "value": "{0} 三角形/凸包 · {1} 凸包/パーツ · シーム {2:F1}mm · 重み ≥ {3:F2}"
+    },
+    {
+      "key": "cov.title",
+      "value": "カバレッジ"
+    },
+    {
+      "key": "cov.value",
+      "value": "{0:F1}%  （{1} / {2} 三角形）"
+    },
+    {
+      "key": "cov.uncovered",
+      "value": "{0} 個の三角形がどの凸包にもカバーされていません"
+    },
+    {
+      "key": "cov.analyze",
+      "value": "カバレッジを解析"
+    },
+    {
+      "key": "cov.none",
+      "value": "ベイクデータがありません。"
+    },
+    {
+      "key": "cov.nosource",
+      "value": "ソースメッシュがありません。"
+    },
+    {
+      "key": "paint.section",
+      "value": "ブラシ"
+    },
+    {
+      "key": "paint.ready",
+      "value": "ペイント可能"
+    },
+    {
+      "key": "paint.blocked",
+      "value": "ペイントがブロックされています"
+    },
+    {
+      "key": "paint.radius",
+      "value": "半径"
+    },
+    {
+      "key": "paint.xray",
+      "value": "X-Ray（裏面を無視）"
+    },
+    {
+      "key": "paint.symmetry",
+      "value": "X 軸ミラー"
+    },
+    {
+      "key": "paint.hud",
+      "value": "ブラシ · グループ [{0}] {1} · 半径 {2:F1}cm"
+    },
+    {
+      "key": "paint.hudKeys",
+      "value": "LMB ペイント / Shift 消去 / ホイール 半径 / X 対称 {0}"
+    },
+    {
+      "key": "paint.on",
+      "value": "オン"
+    },
+    {
+      "key": "paint.off",
+      "value": "オフ"
+    },
+    {
+      "key": "paint.tip1",
+      "value": "ブラシは面にタグを付けます。タグはベイク時のパーティション制約になるため、1 つのオブジェクトで一部の領域に柔らかいマテリアル、別の領域に硬いマテリアルを持たせられます — しかも 1 回のベイクで生成できます。"
+    },
+    {
+      "key": "paint.tip2",
+      "value": "Edit モードで Play を停止し、Animation ウィンドウを閉じているときだけ使えます。ラベルは三角形の番号で保存されるため、現在のポーズは影響しません。"
+    },
+    {
+      "key": "paint.nomask",
+      "value": "ラベルアセットがまだありません。一度ベイクすると作成されます。"
+    },
+    {
+      "key": "paint.trisPerGroup",
+      "value": "{0} 三角形"
+    },
+    {
+      "key": "pose.notarget",
+      "value": "ターゲットが選択されていません"
+    },
+    {
+      "key": "pose.noplay",
+      "value": "Play mode ではラベルを編集できません（読み取り専用プレビュー）"
+    },
+    {
+      "key": "pose.anim",
+      "value": "Animation ウィンドウがプレビュー中です。先にプレビューを終了してください。"
+    },
+    {
+      "key": "pose.notbind",
+      "value": "リグがバインドポーズではありません（{0:F1}cm のずれ、{1}）。先に「バインドポーズにリセット」をクリックしてください。"
+    },
+    {
+      "key": "gizmo.enabled",
+      "value": "凸包を表示"
+    },
+    {
+      "key": "gizmo.selected",
+      "value": "選択項目のみ"
+    },
+    {
+      "key": "gizmo.bind",
+      "value": "バインドポーズ（T-pose）"
+    },
+    {
+      "key": "gizmo.source",
+      "value": "ソースメッシュのワイヤーフレーム"
+    },
+    {
+      "key": "gizmo.uncovered",
+      "value": "未カバーの面をハイライト"
+    },
+    {
+      "key": "gizmo.painted",
+      "value": "塗った面を表示"
+    },
+    {
+      "key": "gizmo.labels",
+      "value": "ラベル"
+    },
+    {
+      "key": "gizmo.max",
+      "value": "最大描画凸包数"
+    },
+    {
+      "key": "gizmo.tip",
+      "value": "既定ではバインドポーズ：バインドポーズでは bone.localToWorldMatrix · bindposes[i] = I となり、バインドポーズは作成時のソースメッシュそのものです。アニメーション再生中も T-pose の凸包は安定したままです。"
+    },
+    {
+      "key": "gizmo.legendOk",
+      "value": "通常"
+    },
+    {
+      "key": "gizmo.legendPeak",
+      "value": "255 頂点超"
+    },
+    {
+      "key": "gizmo.legendUncov",
+      "value": "未カバー"
+    },
+    {
+      "key": "part.bone",
+      "value": "ボーン"
+    },
+    {
+      "key": "part.children",
+      "value": "子ボーンを含める"
+    },
+    {
+      "key": "part.rules",
+      "value": "パーティション規則：最も近い祖先が優先されます。親パーツで「子ボーンを含める」を有効にしても、より深いパーツが優先されるため、イベントが二重に送出されることはありません。"
+    },
+    {
+      "key": "mat.pair",
+      "value": "ペアの挙動"
+    },
+    {
+      "key": "mat.pairHint",
+      "value": "Unity の combine 優先度：Average < Minimum < Multiply < Maximum。"
+    },
+    {
+      "key": "mat.static",
+      "value": "静止摩擦"
+    },
+    {
+      "key": "mat.dynamic",
+      "value": "動摩擦"
+    },
+    {
+      "key": "mat.bounce",
+      "value": "反発係数"
+    },
+    {
+      "key": "mat.combine",
+      "value": "combine"
+    },
+    {
+      "key": "mat.summary",
+      "value": "静止 {0:F2} · 動摩擦 {1:F2} · 反発 {2:F2} · combine {3}/{4}"
+    },
+    {
+      "key": "mat.autoAll",
+      "value": "すべてのグループをプリセットで埋める"
+    },
+    {
+      "key": "phys.title",
+      "value": "プロジェクト物理設定"
+    },
+    {
+      "key": "phys.apply",
+      "value": "推奨値を適用"
+    },
+    {
+      "key": "phys.gravity",
+      "value": "gravity.y"
+    },
+    {
+      "key": "phys.bounce",
+      "value": "bounceThreshold"
+    },
+    {
+      "key": "phys.velIter",
+      "value": "solverVelocityIterations"
+    },
+    {
+      "key": "phys.contactOffset",
+      "value": "defaultContactOffset"
+    },
+    {
+      "key": "phys.maxDepen",
+      "value": "defaultMaxDepenetrationVelocity"
+    },
+    {
+      "key": "health.title",
+      "value": "コリジョンヘルス"
+    },
+    {
+      "key": "health.rerun",
+      "value": "再チェック"
+    },
+    {
+      "key": "health.none",
+      "value": "問題は見つかりませんでした。"
+    },
+    {
+      "key": "health.summary",
+      "value": "エラー {0} / 警告 {1} / ヒント {2}"
+    },
+    {
+      "key": "health.fix",
+      "value": "修正"
+    },
+    {
+      "key": "health.score",
+      "value": "スコア {0}/100"
+    },
+    {
+      "key": "health.grade",
+      "value": "評価 {0}"
+    },
+    {
+      "key": "menu.main",
+      "value": "メインウィンドウを開く"
+    },
+    {
+      "key": "menu.bake",
+      "value": "選択項目をベイク"
+    },
+    {
+      "key": "menu.gizmo",
+      "value": "凸包ギズモの表示切替"
+    },
+    {
+      "key": "menu.rebuild",
+      "value": "選択項目を再構築"
+    },
+    {
+      "key": "menu.health",
+      "value": "コリジョンヘルス"
+    },
+    {
+      "key": "menu.about",
+      "value": "Neko Dynamic Collision について"
+    },
+    {
+      "key": "cat.metal",
+      "value": "金属"
+    },
+    {
+      "key": "cat.plastic",
+      "value": "プラスチック"
+    },
+    {
+      "key": "cat.glass",
+      "value": "ガラス"
+    },
+    {
+      "key": "cat.wood",
+      "value": "木材"
+    },
+    {
+      "key": "cat.stone",
+      "value": "石材"
+    },
+    {
+      "key": "cat.rubber",
+      "value": "ゴム"
+    },
+    {
+      "key": "cat.fabric",
+      "value": "布"
+    },
+    {
+      "key": "cat.organic",
+      "value": "生体"
+    },
+    {
+      "key": "cat.ice",
+      "value": "氷"
+    },
+    {
+      "key": "cat.other",
+      "value": "その他"
+    },
+    {
+      "key": "bake.err.none",
+      "value": "target/set が null です"
+    },
+    {
+      "key": "bake.err.noSkin",
+      "value": "SkinnedMeshRenderer のソースが見つかりません"
+    },
+    {
+      "key": "bake.err.noMesh",
+      "value": "MeshFilter のソースが見つかりません"
+    },
+    {
+      "key": "bake.err.noGroups",
+      "value": "マテリアルグループがありません。先に既定のグループを作成してください。"
+    },
+    {
+      "key": "bake.err.empty",
+      "value": "凸包が生成されませんでした。"
+    },
+    {
+      "key": "bake.warn.maskMismatch",
+      "value": "ラベル数（{0}）がソースの三角形数（{1}）と一致しません。今回の実行ではラベルを無視しました。"
+    },
+    {
+      "key": "bake.warn.peak",
+      "value": "凸包の頂点数 {0} が PhysX の上限 255 を超えています。"
+    },
+    {
+      "key": "bake.warn.unassigned",
+      "value": "{0} 個の三角形がどのパーツにも属さず、ベイクされません。"
+    },
+    {
+      "key": "bake.warn.none",
+      "value": "凸包が生成されませんでした。パーツと精度を確認してください。"
+    },
+    {
+      "key": "bake.warn.nobones",
+      "value": "ボーンウェイトがないため、Skin パーティションを割り当てられません。"
+    },
+    {
+      "key": "desc.verySlippery",
+      "value": "非常に滑りやすい"
+    },
+    {
+      "key": "desc.slippery",
+      "value": "滑りやすい"
+    },
+    {
+      "key": "desc.normal",
+      "value": "普通"
+    },
+    {
+      "key": "desc.grippy",
+      "value": "グリップが良い"
+    },
+    {
+      "key": "desc.veryGrippy",
+      "value": "非常にグリップが良い"
+    },
+    {
+      "key": "desc.noBounce",
+      "value": "反発なし"
+    },
+    {
+      "key": "desc.lowBounce",
+      "value": "わずかに反発"
+    },
+    {
+      "key": "desc.bouncy",
+      "value": "よく弾む"
+    },
+    {
+      "key": "desc.veryBouncy",
+      "value": "非常によく弾む"
+    },
+    {
+      "key": "h.nobake.title",
+      "value": "まだベイクされていません"
+    },
+    {
+      "key": "h.nobake.detail",
+      "value": "実行時に何も組み立てられません。"
+    },
+    {
+      "key": "h.nobake.fix",
+      "value": "今すぐベイク"
+    },
+    {
+      "key": "h.peakOver.title",
+      "value": "凸包の頂点数が {0} で、PhysX の上限 255 を超えています"
+    },
+    {
+      "key": "h.peakOver.detail",
+      "value": "Unity は上限超過の凸包を拒否し、何も起きないまま無視されます。精度を下げるか、パーツの分割を増やしてください。"
+    },
+    {
+      "key": "h.peakOver.fix",
+      "value": "精度を 1 段階下げて再ベイク"
+    },
+    {
+      "key": "h.peakNear.title",
+      "value": "凸包の頂点ピーク {0}（255 に近い）"
+    },
+    {
+      "key": "h.peakNear.detail",
+      "value": "まだ収まっていますが、精度をもう 1 段階上げると上限に達します。"
+    },
+    {
+      "key": "h.degenerate.title",
+      "value": "{0} 個のクラスタが退化し、凸包を形成できません"
+    },
+    {
+      "key": "h.degenerate.detail",
+      "value": "通常はマテリアルラベルの断片化か、高すぎる重みしきい値が原因です。マテリアルグループが断片化していないか確認してください。"
+    },
+    {
+      "key": "h.unassigned.title",
+      "value": "{0} 個の三角形（{1:F1}%）がどのパーツにも属していません"
+    },
+    {
+      "key": "h.unassigned.detail",
+      "value": "これらの面には凸包が付かず、ヒットを取りこぼします。パーツのボーンがスケルトン全体をカバーしているか確認してください。"
+    },
+    {
+      "key": "h.unassigned.fix",
+      "value": "パーツを自動入力（Humanoid）"
+    },
+    {
+      "key": "h.hashMismatch.title",
+      "value": "ソースメッシュが変更されましたが再ベイクされていません"
+    },
+    {
+      "key": "h.hashMismatch.detail",
+      "value": "再インポートやトポロジ編集の後は三角形インデックスがベイク結果と一致しなくなるため、ヒット位置がずれます。"
+    },
+    {
+      "key": "h.hashMismatch.fix",
+      "value": "再ベイク"
+    },
+    {
+      "key": "h.layers.title",
+      "value": "役割は {0} ですが、相互作用レイヤーが設定されていません"
+    },
+    {
+      "key": "h.layers.detail",
+      "value": "includeLayers が空だと凸包がすべてと相互作用し、肌に密着した Hitbox がラグドールや環境、他のキャラクターを妨げます。"
+    },
+    {
+      "key": "h.layers.fix",
+      "value": "Bullet レイヤーに限定"
+    },
+    {
+      "key": "h.noGroups.title",
+      "value": "マテリアルグループがありません"
+    },
+    {
+      "key": "h.noGroups.detail",
+      "value": "ベイクには少なくとも 1 つのグループが必要です。"
+    },
+    {
+      "key": "h.noGroups.fix",
+      "value": "既定のグループを作成"
+    },
+    {
+      "key": "h.noMaterial.title",
+      "value": "グループ「{0}」に物理マテリアルがありません"
+    },
+    {
+      "key": "h.noMaterial.detail",
+      "value": "プロジェクトの既定値にフォールバックするため、摩擦と反発が制御できません。"
+    },
+    {
+      "key": "h.noMaterial.fix",
+      "value": "プリセットを割り当て"
+    },
+    {
+      "key": "h.emptyGroup.title",
+      "value": "グループ「{0}」には凸包がまったくありません"
+    },
+    {
+      "key": "h.emptyGroup.detail",
+      "value": "ブラシが面にタグを付けなかったか、タグ付けした面がすべて別のパーツに取られています。"
+    },
+    {
+      "key": "h.fragmented.title",
+      "value": "グループ「{0}」に {1} 個の凸包があります"
+    },
+    {
+      "key": "h.fragmented.detail",
+      "value": "断片化すると多数の小さなコライダーが生成され、cooking とブロードフェーズの負荷が高くなります。ラベルを統合するか精度を下げてください。"
+    },
+    {
+      "key": "h.fragmented.fix",
+      "value": "隣接するグループに統合"
+    },
+    {
+      "key": "h.noRigidbody.title",
+      "value": "Rigidbody がないため、コリジョンイベントが発火しません"
+    },
+    {
+      "key": "h.noRigidbody.detail",
+      "value": "Unity は Rigidbody を持つ GameObject にのみコリジョンコールバックを送ります。自動 Rigidbody を有効にするか、親にキネマティックな Rigidbody を追加してください。"
+    },
+    {
+      "key": "h.noRigidbody.fix",
+      "value": "自動 Rigidbody を有効化"
+    },
+    {
+      "key": "h.massSmall.title",
+      "value": "Rigidbody「{0}」の質量がわずか {1:F4}kg です"
+    },
+    {
+      "key": "h.massSmall.detail",
+      "value": "非常に小さな質量は数値的に不安定で、すり抜けが発生します。Auto Mass from Density を有効にしてください。"
+    },
+    {
+      "key": "h.massSmall.fix",
+      "value": "密度からの質量計算を有効化"
+    },
+    {
+      "key": "h.massLarge.title",
+      "value": "Rigidbody「{0}」の質量が {1:F0}kg です"
+    },
+    {
+      "key": "h.massLarge.detail",
+      "value": "意図的でなければ、密度の単位（kg/m³）を確認してください。"
+    },
+    {
+      "key": "h.selfCollision.title",
+      "value": "ラグドールの自己衝突が完全に有効です"
+    },
+    {
+      "key": "h.selfCollision.detail",
+      "value": "ボーン同士が押し合い、ラグドールの揺れのよくある原因になります。通常は「隣接を無視」を選びます。"
+    },
+    {
+      "key": "h.selfCollision.fix",
+      "value": "「隣接を無視」に切り替え"
+    },
+    {
+      "key": "h.dispatch.title",
+      "value": "{0} 件のディスパッチにリスナーがありませんでした（最後: {1}）"
+    },
+    {
+      "key": "h.dispatch.detail",
+      "value": "イベント名の綴り間違いはエラーにならず、診断にだけ現れます。リスナーは Dyc_Events.Register で登録してください。"
+    },
+    {
+      "key": "h.dispatch.fix",
+      "value": "カウンターをリセット"
+    },
+    {
+      "key": "h.physicsBounce.title",
+      "value": "bounceThreshold = {0}：これより遅い衝突は反発しません"
+    },
+    {
+      "key": "h.physicsBounce.detail",
+      "value": "ゴムやボールのプリセットが何も効かないように見えるのはこのためです。"
+    },
+    {
+      "key": "h.physicsBounce.fix",
+      "value": "bounceThreshold → 0.3"
+    },
+    {
+      "key": "h.physicsVelocity.title",
+      "value": "VelocityIterations = {0}：スタックや高速衝突が揺れたりすり抜けたりします"
+    },
+    {
+      "key": "h.physicsVelocity.detail",
+      "value": "Unity のラグドールの揺れのよくある根本原因です。"
+    },
+    {
+      "key": "h.physicsVelocity.fix",
+      "value": "VelocityIterations → 2"
+    },
+    {
+      "key": "h.physicsGravity.title",
+      "value": "gravity = {0:F2}（-9.81 ではありません）"
+    },
+    {
+      "key": "h.physicsGravity.detail",
+      "value": "-9.81 を前提とした質量や力積の感覚は {0:F2} 倍ずれるため、密度プリセットを修正する必要があります。"
+    },
+    {
+      "key": "h.physicsContact.title",
+      "value": "defaultContactOffset = {0}：接触ギャップが広すぎます"
+    },
+    {
+      "key": "h.physicsContact.detail",
+      "value": "薄いオブジェクトが浮いているように見えがちです。"
+    },
+    {
+      "key": "insp.sectionBasic",
+      "value": "基本"
+    },
+    {
+      "key": "insp.sectionCollision",
+      "value": "コリジョン"
+    },
+    {
+      "key": "insp.sectionPhysics",
+      "value": "物理"
+    },
+    {
+      "key": "insp.sectionTrigger",
+      "value": "Trigger"
+    },
+    {
+      "key": "insp.sectionLod",
+      "value": "LOD"
+    },
+    {
+      "key": "insp.multi",
+      "value": "複数選択は一括ベイクのみ対応しています。詳細編集には 1 つのオブジェクトを選択してください。"
+    },
+    {
+      "key": "insp.noBake",
+      "value": "まだベイクされていません"
+    },
+    {
+      "key": "insp.noBakeHint",
+      "value": "下の「ベイク」を押してください。"
+    },
+    {
+      "key": "insp.baked",
+      "value": "{0} 個の凸包をベイクしました"
+    },
+    {
+      "key": "insp.peakVerts",
+      "value": "頂点 / ピーク"
+    },
+    {
+      "key": "insp.volume",
+      "value": "体積"
+    },
+    {
+      "key": "insp.partsGroups",
+      "value": "パーツ / グループ"
+    },
+    {
+      "key": "insp.unassigned",
+      "value": "未割り当ての三角形"
+    },
+    {
+      "key": "insp.health",
+      "value": "ヘルス"
+    },
+    {
+      "key": "insp.tally",
+      "value": "エラー {0} · 警告 {1} · ヒント {2}"
+    },
+    {
+      "key": "insp.openBaker",
+      "value": "ベイカーを開く"
+    },
+    {
+      "key": "insp.showGizmo",
+      "value": "凸包 Gizmo を表示"
+    },
+    {
+      "key": "insp.autoRb",
+      "value": "Rigidbody を自動追加"
+    },
+    {
+      "key": "insp.selfCollision",
+      "value": "自己衝突"
+    },
+    {
+      "key": "insp.autoMass",
+      "value": "密度から質量を計算"
+    },
+    {
+      "key": "insp.targetMass",
+      "value": "合計質量を正規化（0 = オフ）"
+    },
+    {
+      "key": "insp.triggerMode",
+      "value": "モード"
+    },
+    {
+      "key": "insp.pollDivisor",
+      "value": "1 パスあたりのフレーム数"
+    },
+    {
+      "key": "insp.pollSweep",
+      "value": "スイープマージン（m）"
+    },
+    {
+      "key": "insp.pollNote",
+      "value": "ポーリングはサンプリングであり、イベントではありません。非常に速い通過は見逃されますが、スイープマージンが補います。"
+    },
+    {
+      "key": "insp.lodMode",
+      "value": "モード"
+    },
+    {
+      "key": "insp.lodDistance",
+      "value": "距離（m）"
+    },
+    {
+      "key": "insp.debugLog",
+      "value": "デバッグログ"
+    },
+    {
+      "key": "insp.rebuild",
+      "value": "再アセンブル（Play mode で有効）"
+    },
+    {
+      "key": "set.language",
+      "value": "言語"
+    },
+    {
+      "key": "set.langNote",
+      "value": "ウィンドウと NekoWorks メニューにすぐ反映されます。"
+    },
+    {
+      "key": "set.diagnostics",
+      "value": "診断"
+    },
+    {
+      "key": "set.languagesLoaded",
+      "value": "読み込み済み言語"
+    },
+    {
+      "key": "set.localeRoot",
+      "value": "言語フォルダー"
+    },
+    {
+      "key": "set.langMissing",
+      "value": "言語フォルダーが見つかりません。検索先: {0}"
+    },
+    {
+      "key": "set.presets",
+      "value": "マテリアルプリセット"
+    },
+    {
+      "key": "set.gizmoDefault",
+      "value": "凸包 Gizmo"
+    },
+    {
+      "key": "set.openBaked",
+      "value": "ベイク済みアセットフォルダーを開く"
+    },
+    {
+      "key": "set.resetPrefs",
+      "value": "プラグイン設定をリセット"
+    },
+    {
+      "key": "set.refreshIcon",
+      "value": "コンポーネントアイコンを更新"
+    },
+    {
+      "key": "lbl.childMeshes",
+      "value": "子メッシュを読む"
+    },
+    {
+      "key": "lbl.hullsPerPart",
+      "value": "パーツあたりの凸包数"
+    },
+    {
+      "key": "lbl.trisPerHull",
+      "value": "凸包あたりの三角形数"
+    },
+    {
+      "key": "lbl.weightThreshold",
+      "value": "ボーンウェイト閾値"
+    },
+    {
+      "key": "prec.skinHint",
+      "value": "Skin モードでは凸包の数はゾーンごとに自動で決まります。指の骨節と胴体は形が違い、全身に一つの数値を当てると必ずどちらかに嘘をつきます。凸包あたりの三角形数はあなたの設定のままです — これは形ではなくディテールの予算です。"
+    },
+    {
+      "key": "prec.customHint",
+      "value": "パーツあたりの凸包数は近似の「形」であり品質レベルではありません。細長い物 — 矢や骨 — は凸包1つが正解です。2つに割るとそれぞれが「半分の胴体」ではなく薄い殻になります。胴体や車両は4〜8が適切です。ウェイト閾値はどの頂点をボーンのものとみなすかを決めます。下回る頂点は捨てられ、ボーンの表面に穴が空き、その凸包は花びらのようになります。"
+    },
+    {
+      "key": "src.autoHint",
+      "value": "ソースが空ならこのオブジェクトの MeshFilter を使います。子メッシュを読むのは上のトグルがオンのときだけです — 以前の「子の最初のメッシュを黙って探す」動作は、違うメッシュを焼いてしまうことがありました。"
+    },
+    {
+      "key": "lbl.shape",
+      "value": "コライダー形状"
+    },
+    {
+      "key": "shape.convex",
+      "value": "凸包"
+    },
+    {
+      "key": "shape.concave",
+      "value": "非凸サーフェス"
+    },
+    {
+      "key": "shape.convexHint",
+      "value": "ボーンごとに1つの凸包をオフラインで焼きます。隣接する凸包が重なる場所だけがシームレスで、凹んだ関節（脇、股、首）には凸包間に隙間が残ります。動くリジッドボディでも動作し、メッシュ同士の衝突も可能です。"
+    },
+    {
+      "key": "shape.concaveHint",
+      "value": "各ボーンの実際のサーフェスをそのまま使います（凸包のような膨らませはしません）。関節に穴が開きません。代償：キネマティックまたはアニメーション駆動のボディのみ、メッシュ同士の衝突なし、高速ブロードフェーズなし。モバイルでは物理的な遮蔽よりもヒット検出向きです。"
+    },
+    {
+      "key": "lbl.excludedBones",
+      "value": "除外ボーン"
+    },
+    {
+      "key": "lbl.excludedBonesHint",
+      "value": "ここに挙げたボーンとそのサブツリー全体は、ゾーンもコライダーも持ちません。IK ターゲット、先端、補助ボーンの置き場所です。"
+    },
+    {
+      "key": "lbl.excludedSkins",
+      "value": "除外レンダラー"
+    },
+    {
+      "key": "lbl.excludedSkinsHint",
+      "value": "まったく焼かない SkinnedMeshRenderer — 髪、別の布レンダラー、小道具など。"
+    },
+    {
+      "key": "lbl.excludeGroup",
+      "value": "ベイクから除外"
+    },
+    {
+      "key": "lbl.excludeGroupHint",
+      "value": "このグループの面はベイクから完全に外れます：クラスタリングも分解もコライダーもなし。マントやハーネスに、マテリアルを変えずにヒットボックスを与えないための方法です。"
+    },
+    {
+      "key": "btn.expert",
+      "value": "エキスパートウィンドウ"
+    },
+    {
+      "key": "exp.title",
+      "value": "ボーン別の精度"
+    },
+    {
+      "key": "exp.noTarget",
+      "value": "Dynamic Collision コンポーネントを持つオブジェクトを選択してください。"
+    },
+    {
+      "key": "exp.basePrecision",
+      "value": "ボーンあたりのパーツ数"
+    },
+    {
+      "key": "exp.totals",
+      "value": "{1} 本のボーンに {0} パーツ"
+    },
+    {
+      "key": "exp.decompose",
+      "value": "分解"
+    },
+    {
+      "key": "exp.voxelSize",
+      "value": "ボクセル mm"
+    },
+    {
+      "key": "exp.maxHulls",
+      "value": "最大パーツ数"
+    },
+    {
+      "key": "exp.project",
+      "value": "投影"
+    },
+    {
+      "key": "exp.resetDefaults",
+      "value": "既定値に戻す"
+    },
+    {
+      "key": "exp.separate",
+      "value": "分離"
+    },
+    {
+      "key": "exp.separationMm",
+      "value": "隙間 mm"
+    },
+    {
+      "key": "exp.invertY",
+      "value": "Y を反転"
+    },
+    {
+      "key": "exp.secondary",
+      "value": "形状・自己衝突・LOD"
+    },
+    {
+      "key": "exp.rebake",
+      "value": "再ベイク"
+    },
+    {
+      "key": "exp.clearManual",
+      "value": "手動設定を消去"
+    },
+    {
+      "key": "exp.bones",
+      "value": "ボーン階層"
+    },
+    {
+      "key": "exp.noSkeleton",
+      "value": "スケルトンがありません。"
+    },
+    {
+      "key": "exp.concavityShort",
+      "value": "凹 {0:0.00}"
+    },
+    {
+      "key": "exp.concavity",
+      "value": "凹度"
+    },
+    {
+      "key": "exp.minDepth",
+      "value": "最小深さ"
+    },
+    {
+      "key": "exp.kernel",
+      "value": "カーネル"
+    },
+    {
+      "key": "exp.kernelOwn",
+      "value": "自前ボクセル"
+    },
+    {
+      "key": "exp.kernelNative",
+      "value": "ネイティブ V-HACD"
+    },
+    {
+      "key": "exp.maxVoxels",
+      "value": "ボクセル上限"
+    },
+    {
+      "key": "exp.fillRatio",
+      "value": "充填率"
+    },
+    {
+      "key": "exp.splitDepth",
+      "value": "分割深さ"
+    },
+    {
+      "key": "exp.timeBudget",
+      "value": "時間 秒"
+    },
+    {
+      "key": "bake.progress.title",
+      "value": "コリジョンをベイク中"
+    },
+    {
+      "key": "bake.progress.preparing",
+      "value": "準備中"
+    },
+    {
+      "key": "bake.progress.decomposing",
+      "value": "ボディを凸パーツに分解中"
+    },
+    {
+      "key": "bake.progress.assembling",
+      "value": "凸包を組み立て中"
+    },
+    {
+      "key": "bake.progress.baking",
+      "value": "ベイク中"
+    },
+    {
+      "key": "bake.progress.budget",
+      "value": "時間予算に到達 — できた分を組み立てます"
+    },
+    {
+      "key": "bake.progress.cancel",
+      "value": "キャンセル"
+    },
+    {
+      "key": "bake.progress.cancelling",
+      "value": "キャンセル中…"
+    },
+    {
+      "key": "bake.stage.decompose",
+      "value": "分解中"
+    },
+    {
+      "key": "bake.stage.assemble",
+      "value": "凸包を組み立て中"
+    },
+    {
+      "key": "exp.triangles",
+      "value": "三角形"
+    },
+    {
+      "key": "exp.pieces",
+      "value": "パーツ"
+    },
+    {
+      "key": "exp.volume",
+      "value": "体積"
+    },
+    {
+      "key": "exp.dropped",
+      "value": "予算により {0} パーツが破棄されました。このボーンの予算を上げるか、凹度を下げてください。"
+    },
+    {
+      "key": "exp.detail",
+      "value": "ボーン"
+    },
+    {
+      "key": "exp.pickBone",
+      "value": "階層または3Dビューでボーンを選んでください。"
+    },
+    {
+      "key": "exp.noStat",
+      "value": "このボーンのベイクデータがありません。先に再ベイクしてください。"
+    },
+    {
+      "key": "exp.manualPieces",
+      "value": "パーツ（手動）"
+    },
+    {
+      "key": "exp.locked",
+      "value": "固定"
+    },
+    {
+      "key": "exp.releaseBone",
+      "value": "自動に戻す"
+    },
+    {
+      "key": "exp.hullList",
+      "value": "パーツ"
+    },
+    {
+      "key": "exp.hullRow",
+      "value": "#{0} · {1} 頂点 · {2:0.0000} m³"
+    },
+    {
+      "key": "exp.noHulls",
+      "value": "このボーンにパーツがありません。"
+    },
+    {
+      "key": "exp.previewFailed",
+      "value": "プレビューがテクスチャを返しませんでした。コンソールのエラーを確認してください。"
+    },
+    {
+      "key": "exp.orbitHint",
+      "value": "右ドラッグ — 回転 · 左ドラッグ — 平行移動 · ホイール — ズーム · クリック — 選択 · ダブルクリック — 回転中心"
+    },
+    {
+      "key": "btn.fromSkeleton",
+      "value": "スケルトンからゾーンを生成"
+    },
+    {
+      "key": "btn.hideUncovered",
+      "value": "未カバーの面を隠す"
+    },
+    {
+      "key": "gizmo.occlude",
+      "value": "隠れたエッジを暗くする（50%）"
+    },
+    {
+      "key": "cat.ceramic",
+      "value": "セラミック"
+    },
+    {
+      "key": "cat.body",
+      "value": "人体部位"
+    },
+    {
+      "key": "cat.tissue",
+      "value": "組織と臓器"
+    },
+    {
+      "key": "cat.food",
+      "value": "食品"
+    },
+    {
+      "key": "forge.title",
+      "value": "マテリアルフォージ"
+    },
+    {
+      "key": "forge.hint",
+      "value": "表は「何でできているか」を示します。フォージは「今どうなっているか」を示します：基礎マテリアル × 表面状態。人体部位や組織は表の行ではなく、組織の配合から導出されます — だからその数値を説明できるのです。"
+    },
+    {
+      "key": "forge.base",
+      "value": "基礎マテリアル"
+    },
+    {
+      "key": "forge.condition",
+      "value": "表面状態"
+    },
+    {
+      "key": "forge.group",
+      "value": "グループ"
+    },
+    {
+      "key": "forge.apply",
+      "value": "生成して割り当て"
+    },
+    {
+      "key": "forge.generate",
+      "value": "バリアントアセットを生成"
+    },
+    {
+      "key": "forge.generateHint",
+      "value": "表面状態ごとに .physicMaterial をベイクフォルダへ書き出します。アーティストはプラグインなしで選べます。"
+    },
+    {
+      "key": "forge.generated",
+      "value": "{1} にマテリアルアセットを {0} 個生成しました"
+    },
+    {
+      "key": "forge.variantOf",
+      "value": "{0} · バリアント"
+    },
+    {
+      "key": "forge.presets",
+      "value": "{1} カテゴリに {0} プリセット"
+    },
+    {
+      "key": "forge.values",
+      "value": "静的 {0:F2} · 動的 {1:F2} · 反発 {2:F2} · {3:F0} kg/m³"
+    },
+    {
+      "key": "forge.derived",
+      "value": "導出"
+    },
+    {
+      "key": "forge.applied",
+      "value": "グループ \"{0}\" を {1} · {2} から生成しました"
+    },
+    {
+      "key": "forge.nogroup",
+      "value": "生成先のマテリアルグループがありません。"
+    },
+    {
+      "key": "forge.self",
+      "value": "自身へ生成"
+    },
+    {
+      "key": "forge.cond.dry",
+      "value": "乾燥"
+    },
+    {
+      "key": "forge.cond.wet",
+      "value": "濡れ"
+    },
+    {
+      "key": "forge.cond.oiled",
+      "value": "油"
+    },
+    {
+      "key": "forge.cond.bloody",
+      "value": "血"
+    },
+    {
+      "key": "forge.cond.sweaty",
+      "value": "汗"
+    },
+    {
+      "key": "forge.cond.icy",
+      "value": "氷結"
+    },
+    {
+      "key": "forge.cond.frozen",
+      "value": "凍結"
+    },
+    {
+      "key": "forge.cond.dusty",
+      "value": "粉塵"
+    },
+    {
+      "key": "forge.cond.rough",
+      "value": "粗面"
+    },
+    {
+      "key": "forge.cond.polished",
+      "value": "研磨"
+    },
+    {
+      "key": "forge.cond.rusted",
+      "value": "錆"
+    },
+    {
+      "key": "forge.cond.worn",
+      "value": "摩耗"
+    },
+    {
+      "key": "forge.cond.clothed",
+      "value": "被服"
+    },
+    {
+      "key": "forge.cond.armored",
+      "value": "装甲"
+    },
+    {
+      "key": "forge.cond.charred",
+      "value": "炭化"
+    },
+    {
+      "key": "forge.tissue.bone",
+      "value": "骨"
+    },
+    {
+      "key": "forge.tissue.cartilage",
+      "value": "軟骨"
+    },
+    {
+      "key": "forge.tissue.tendon",
+      "value": "腱"
+    },
+    {
+      "key": "forge.tissue.muscle",
+      "value": "筋肉"
+    },
+    {
+      "key": "forge.tissue.fat",
+      "value": "脂肪"
+    },
+    {
+      "key": "forge.tissue.skin",
+      "value": "皮膚"
+    },
+    {
+      "key": "forge.tissue.organ",
+      "value": "臓器"
+    },
+    {
+      "key": "forge.tissue.lung",
+      "value": "肺"
+    },
+    {
+      "key": "forge.tissue.brain",
+      "value": "脳"
+    },
+    {
+      "key": "forge.tissue.keratin",
+      "value": "ケラチン"
+    },
+    {
+      "key": "soft.hard",
+      "value": "硬い"
+    },
+    {
+      "key": "soft.firm",
+      "value": "やや硬い"
+    },
+    {
+      "key": "soft.soft",
+      "value": "柔らかい"
+    },
+    {
+      "key": "soft.verySoft",
+      "value": "とても柔らかい"
+    },
+    {
+      "key": "soft.gel",
+      "value": "ゲル状"
+    },
+    {
+      "key": "h.concaveDynamic.title",
+      "value": "動くリジッドボディ上の非凸メッシュ"
+    },
+    {
+      "key": "h.concaveDynamic.detail",
+      "value": "PhysX が非凸 MeshCollider を受け入れるのはキネマティックまたはアニメーション駆動のボディだけです。動くリジッドボディでは Unity がコライダーを黙って拒否し、何も衝突しなくなります。"
+    },
+    {
+      "key": "h.concaveDynamic.fix",
+      "value": "リジッドボディをキネマティックにする"
+    },
+    {
+      "key": "h.concaveScale.title",
+      "value": "非一様スケール（{0:F2}, {1:F2}, {2:F2}）"
+    },
+    {
+      "key": "h.concaveScale.detail",
+      "value": "非凸メッシュはローカル空間で調理されるため、引き伸ばしたスケールではコライダーがモデルからずれます。凸包にはこの問題がありません。"
+    },
+    {
+      "key": "h.concaveMeshMesh.title",
+      "value": "非凸メッシュ：メッシュ同士の衝突なし"
+    },
+    {
+      "key": "h.concaveMeshMesh.detail",
+      "value": "これは設定ではなく PhysX の制限です。非凸メッシュは別の非凸メッシュと決して衝突しません。プリミティブ、地形、凸包とは衝突します。"
+    },
+    {
+      "key": "h.allExcluded.title",
+      "value": "すべてのマテリアルグループがベイクから除外されています"
+    },
+    {
+      "key": "h.allExcluded.detail",
+      "value": "このままではコライダーが1つも生成されません。少なくとも1つのグループの除外を解除してください。"
+    },
+    {
+      "key": "h.excludeDead.title",
+      "value": "除外ボーン \"{0}\" がスケルトンにありません"
+    },
+    {
+      "key": "h.excludeDead.detail",
+      "value": "この項目は何もしません — そのボーンは焼いたレンダラーの一部ではありません。リグ変更後の残骸であることが多いです。"
+    },
+    {
+      "key": "h.softSelfCollision.title",
+      "value": "自己衝突が完全オンの柔らかい領域"
+    },
+    {
+      "key": "h.softSelfCollision.detail",
+      "value": "柔らかい領域は凸包を持ちながら自身の粒子も解きます。自己衝突をオンにすると両者が押し合い、布が沸騰します。「隣接を無視」が通常の選択です。"
+    },
+    {
+      "key": "h.softSelfCollision.fix",
+      "value": "「隣接を無視」に切り替える"
+    },
+    {
+      "key": "h.softNoSource.title",
+      "value": "柔らかい領域をベイクしましたが、変形ソースがありません"
+    },
+    {
+      "key": "h.softNoSource.detail",
+      "value": "フレームを書き込むソルバーがないと、各クラスタは剛体ブロックとして振る舞います：オブジェクトは全体として動き、変形しません。これは有効なフォールバックであり、エラーではありません。"
+    },
+    {
+      "key": "insp.sectionExclusions",
+      "value": "除外"
+    },
+    {
+      "key": "shape.concaveWarn",
+      "value": "PhysX が非凸メッシュを受け入れるのはキネマティックまたはアニメーション駆動のボディだけです。動くリジッドボディでは Unity がコライダーを黙って拒否し、何も衝突せずエラーも出ません。キャラクターをキネマティックなボディで焼くか、エキスパートウィンドウを開いて他の制限を確認してから焼いてください。"
+    },
+    {
+      "key": "btn.openExpert",
+      "value": "エキスパートウィンドウを開く"
+    },
+    {
+      "key": "exp.groupActions",
+      "value": "操作"
+    },
+    {
+      "key": "exp.groupPrecision",
+      "value": "分解の精度"
+    },
+    {
+      "key": "exp.groupBody",
+      "value": "ゾーンと分離"
+    },
+    {
+      "key": "exp.groupKernel",
+      "value": "カーネルと予算"
+    },
+    {
+      "key": "exp.groupView",
+      "value": "表示"
+    },
+    {
+      "key": "bake.concaveNote",
+      "value": "非凸サーフェスには PhysX の頂点上限がありません。三角形の予算は面を分割するのではなく、サーフェスを簡略化して満たします。"
+    },
+    {
+      "key": "lbl.decomposeDetail",
+      "value": "分解の精度"
+    },
+    {
+      "key": "lbl.decomposeVoxel",
+      "value": "ボクセルサイズ（mm）"
+    },
+    {
+      "key": "decomp.hint",
+      "value": "粗いボクセル：部品は少なく大きく、最も安価です。{0} mm。"
+    },
+    {
+      "key": "decomp.fineHint",
+      "value": "最細：部品が表面に追従するため、コストは非凸モードと同等になります。これ以上細くしても精度は上がらず、コストだけが増えます。"
+    },
+    {
+      "key": "exp.decomposed",
+      "value": "部品：凸分解（凹みに沿って切断）"
+    },
+    {
+      "key": "exp.clustered",
+      "value": "部品：空間クラスタリング（分解が使えず代替経路）"
+    },
+    {
+      "key": "lbl.concaveDetail",
+      "value": "表面の精度"
+    },
+    {
+      "key": "concave.exact",
+      "value": "簡略化なし：表面はメッシュのまま使われます。"
+    },
+    {
+      "key": "concave.budget",
+      "value": "1 ピースあたり約 {0} 三角形に簡略化。右へドラッグすると精細になり、右端は簡略化なしです。"
+    },
+    {
+      "key": "insp.sectionSimple",
+      "value": "通常の使い方（システムコライダーと同様）"
+    },
+    {
+      "key": "insp.generateOnStart",
+      "value": "ベイクが無い場合、起動時に構築"
+    },
+    {
+      "key": "insp.generateHint",
+      "value": "コンポーネントを付けて Play するだけです。コライダーはメッシュからボーンごとに作られます。ゾーンと分解は従来どおりベイクで作ります。"
+    },
+    {
+      "key": "insp.isTrigger",
+      "value": "コライダーをトリガーにする"
+    },
+    {
+      "key": "insp.receiver",
+      "value": "OnCollision*/OnTrigger* を次にも送る"
+    },
+    {
+      "key": "insp.receiverHint",
+      "value": "空欄なら Unity の通常動作です。メッセージは Rigidbody のオブジェクトに届きます。"
+    },
+    {
+      "key": "insp.sectionLive",
+      "value": "ライブ更新（予算付き）"
+    },
+    {
+      "key": "insp.liveUpdate",
+      "value": "現在のポーズから外殻を再構築"
+    },
+    {
+      "key": "insp.liveContinuous",
+      "value": "継続的に更新"
+    },
+    {
+      "key": "insp.idleBudget",
+      "value": "静止時の予算（ms/フレーム）"
+    },
+    {
+      "key": "insp.activeBudget",
+      "value": "動作時の予算（ms/フレーム）"
+    },
+    {
+      "key": "insp.updateThreshold",
+      "value": "この移動量（m）未満なら更新を省略"
+    },
+    {
+      "key": "insp.maxColliderTriangles",
+      "value": "コライダーあたりの最大三角形数"
+    },
+    {
+      "key": "insp.liveHint",
+      "value": "既定はオフです。プラグインの約束は毎フレームのコストゼロだからです。強い変形が重要なときだけ有効にしてください。"
+    },
+    {
+      "key": "insp.sectionMaterials",
+      "value": "元マテリアル別のマテリアル"
+    },
+    {
+      "key": "insp.materialSource",
+      "value": "元マテリアル"
+    },
+    {
+      "key": "insp.materialPhysics",
+      "value": "物理マテリアル"
+    },
+    {
+      "key": "insp.materialHint",
+      "value": "その元マテリアルの外殻について、塗ったゾーンのマテリアルを上書きします。ボーン自身の Dyc_BoneProperties が優先されます。"
+    },
+    {
+      "key": "insp.sectionExclusionMap",
+      "value": "除外マップ"
+    },
+    {
+      "key": "insp.exclusionMap",
+      "value": "マップ（Read/Write 必須）"
+    },
+    {
+      "key": "insp.exclusionChannel",
+      "value": "チャンネル"
+    },
+    {
+      "key": "insp.exclusionThreshold",
+      "value": "しきい値"
+    },
+    {
+      "key": "insp.exclusionMapHint",
+      "value": "選んだチャンネルが白い頂点は除外されます。ブラシは面を、マップは頂点を指定します。"
+    },
+    {
+      "key": "insp.sectionSkeleton",
+      "value": "スケルトン"
+    },
+    {
+      "key": "insp.retargetRoot",
+      "value": "外殻を別のスケルトンに付ける"
+    },
+    {
+      "key": "insp.retargetHint",
+      "value": "RetargetSkeleton：外殻はこのメッシュから作られますが、そのルートの同名ボーンに付けられます（Puppet Master など）。"
+    },
+    {
+      "key": "insp.sectionCharLod",
+      "value": "キャラクター衝突 LOD"
+    },
+    {
+      "key": "insp.collisionLod",
+      "value": "距離で外殻を無効化"
+    },
+    {
+      "key": "insp.lodNear",
+      "value": "完全な詳細の上限（m）"
+    },
+    {
+      "key": "insp.lodFar",
+      "value": "これを超えたら削減（m）"
+    },
+    {
+      "key": "insp.lodKeep",
+      "value": "遠方で残す外殻数"
+    },
+    {
+      "key": "insp.lodHysteresis",
+      "value": "ヒステリシス（m）"
+    },
+    {
+      "key": "insp.lodVisibility",
+      "value": "画面内にあることも条件にする"
+    },
+    {
+      "key": "insp.lodReference",
+      "value": "距離の基準（空 = Camera.main）"
+    },
+    {
+      "key": "insp.lodHint",
+      "value": "これはキャラクター用です。静的コライダーの LOD は別の課題であり、キャラクターの群れは別の予算です。これがその予算です。"
+    },
+    {
+      "key": "insp.expertMode",
+      "value": "エキスパート設定"
+    },
+    {
+      "key": "insp.expertHint",
+      "value": "オフ：4 つのコントロールとベイクボタンだけ。始めるには十分です。オン：技術面 — 予算、分解カーネル、ボーン単位の上書き、マテリアルと除外マップ。隠しているものはなく、畳んであるだけです。"
+    }
+  ]
+}

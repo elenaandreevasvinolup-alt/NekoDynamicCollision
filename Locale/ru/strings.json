@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "code": "ru",
+  "name": "Русский",
+  "rtl": false,
+  "order": 20,
+  "ui": [
+    {
+      "key": "win.title",
+      "value": "Динамические столкновения"
+    },
+    {
+      "key": "win.none",
+      "value": "Выберите объект с компонентом Dynamic Collision."
+    },
+    {
+      "key": "win.notarget",
+      "value": "(на выделении нет компонента)"
+    },
+    {
+      "key": "win.lang",
+      "value": "Язык"
+    },
+    {
+      "key": "tab.bake",
+      "value": "Запекание"
+    },
+    {
+      "key": "tab.paint",
+      "value": "Кисть"
+    },
+    {
+      "key": "tab.gizmo",
+      "value": "Gizmo"
+    },
+    {
+      "key": "tab.parts",
+      "value": "Части"
+    },
+    {
+      "key": "tab.materials",
+      "value": "Материалы"
+    },
+    {
+      "key": "tab.health",
+      "value": "Здоровье"
+    },
+    {
+      "key": "tab.settings",
+      "value": "Настройки"
+    },
+    {
+      "key": "lbl.mode",
+      "value": "Режим"
+    },
+    {
+      "key": "lbl.precision",
+      "value": "Точность"
+    },
+    {
+      "key": "lbl.source",
+      "value": "Источник"
+    },
+    {
+      "key": "lbl.role",
+      "value": "Роль коллайдера"
+    },
+    {
+      "key": "lbl.layers",
+      "value": "Слои взаимодействия"
+    },
+    {
+      "key": "lbl.detect",
+      "value": "Обнаружение"
+    },
+    {
+      "key": "lbl.collision",
+      "value": "Столкновение"
+    },
+    {
+      "key": "lbl.trigger",
+      "value": "Trigger (опрос)"
+    },
+    {
+      "key": "lbl.groups",
+      "value": "Группы материалов"
+    },
+    {
+      "key": "lbl.elements",
+      "value": "Части (элементы)"
+    },
+    {
+      "key": "lbl.group",
+      "value": "Группа"
+    },
+    {
+      "key": "lbl.material",
+      "value": "Физический материал"
+    },
+    {
+      "key": "lbl.density",
+      "value": "Плотность кг/м³"
+    },
+    {
+      "key": "lbl.eventName",
+      "value": "Имя события"
+    },
+    {
+      "key": "lbl.damage",
+      "value": "Урон ×"
+    },
+    {
+      "key": "lbl.name",
+      "value": "Имя"
+    },
+    {
+      "key": "btn.bake",
+      "value": "Запечь"
+    },
+    {
+      "key": "btn.rebuild",
+      "value": "Пересобрать в сцене"
+    },
+    {
+      "key": "btn.clear",
+      "value": "Очистить запечённое"
+    },
+    {
+      "key": "btn.autofill",
+      "value": "Автозаполнение частей (Humanoid)"
+    },
+    {
+      "key": "btn.addPart",
+      "value": "+ пустая часть"
+    },
+    {
+      "key": "btn.addGroup",
+      "value": "+ группа"
+    },
+    {
+      "key": "btn.autoAssign",
+      "value": "Назначить автоматически по имени"
+    },
+    {
+      "key": "btn.pick",
+      "value": "Выбрать пресет"
+    },
+    {
+      "key": "btn.paint",
+      "value": "Начать покраску"
+    },
+    {
+      "key": "btn.stopPaint",
+      "value": "Закончить покраску"
+    },
+    {
+      "key": "btn.resetPose",
+      "value": "Сбросить в bind pose"
+    },
+    {
+      "key": "btn.clearPaint",
+      "value": "Очистить все метки"
+    },
+    {
+      "key": "btn.remove",
+      "value": "×"
+    },
+    {
+      "key": "btn.paintThis",
+      "value": "Покрасить это"
+    },
+    {
+      "key": "btn.showUncovered",
+      "value": "Показать непокрытые грани"
+    },
+    {
+      "key": "btn.batchBake",
+      "value": "Запечь все выбранные"
+    },
+    {
+      "key": "bake.none",
+      "value": "Пока ничего не запечено."
+    },
+    {
+      "key": "bake.stats",
+      "value": "Статистика"
+    },
+    {
+      "key": "bake.hulls",
+      "value": "Оболочки"
+    },
+    {
+      "key": "bake.verts",
+      "value": "Вершины"
+    },
+    {
+      "key": "bake.peak",
+      "value": "Пик на оболочку"
+    },
+    {
+      "key": "bake.volume",
+      "value": "Объём"
+    },
+    {
+      "key": "bake.unassigned",
+      "value": "Нераспределённые треугольники"
+    },
+    {
+      "key": "bake.precisionRow",
+      "value": "{0} треуг./оболочку · {1} оболочек/часть · шов {2:F1}мм · вес ≥ {3:F2}"
+    },
+    {
+      "key": "cov.title",
+      "value": "Покрытие"
+    },
+    {
+      "key": "cov.value",
+      "value": "{0:F1}%  ({1} / {2} треуг.)"
+    },
+    {
+      "key": "cov.uncovered",
+      "value": "{0} треугольников не покрыто ни одной оболочкой"
+    },
+    {
+      "key": "cov.analyze",
+      "value": "Анализировать покрытие"
+    },
+    {
+      "key": "cov.none",
+      "value": "Нет запечённых данных."
+    },
+    {
+      "key": "cov.nosource",
+      "value": "Нет исходного меша."
+    },
+    {
+      "key": "paint.section",
+      "value": "Кисть"
+    },
+    {
+      "key": "paint.ready",
+      "value": "Готово к покраске"
+    },
+    {
+      "key": "paint.blocked",
+      "value": "Покраска заблокирована"
+    },
+    {
+      "key": "paint.radius",
+      "value": "Радиус"
+    },
+    {
+      "key": "paint.xray",
+      "value": "X-Ray (игнорировать обратные грани)"
+    },
+    {
+      "key": "paint.symmetry",
+      "value": "Зеркало по X"
+    },
+    {
+      "key": "paint.hud",
+      "value": "Кисть · группа [{0}] {1} · радиус {2:F1}см"
+    },
+    {
+      "key": "paint.hudKeys",
+      "value": "ЛКМ красить / Shift стирать / колесо радиус / X симметрия {0}"
+    },
+    {
+      "key": "paint.on",
+      "value": "вкл"
+    },
+    {
+      "key": "paint.off",
+      "value": "выкл"
+    },
+    {
+      "key": "paint.tip1",
+      "value": "Кисть помечает грани. Метки становятся ограничениями разбиения при запекании, поэтому один объект может нести мягкий материал в одной области и твёрдый в другой — за одно запекание."
+    },
+    {
+      "key": "paint.tip2",
+      "value": "Доступно только в режиме редактирования, при остановленном Play и закрытом окне Animation. Метки хранятся по номерам треугольников, поэтому текущая поза не важна."
+    },
+    {
+      "key": "paint.nomask",
+      "value": "Ассета меток ещё нет. Запеките один раз, чтобы создать его."
+    },
+    {
+      "key": "paint.trisPerGroup",
+      "value": "{0} треуг."
+    },
+    {
+      "key": "pose.notarget",
+      "value": "Цель не выбрана"
+    },
+    {
+      "key": "pose.noplay",
+      "value": "Нельзя редактировать метки в Play mode (предпросмотр только для чтения)"
+    },
+    {
+      "key": "pose.anim",
+      "value": "Окно Animation находится в режиме предпросмотра. Сначала выйдите из предпросмотра."
+    },
+    {
+      "key": "pose.notbind",
+      "value": "Риг не в bind pose (отклонение {0:F1}см в {1}). Сначала нажмите «Сбросить в bind pose»."
+    },
+    {
+      "key": "gizmo.enabled",
+      "value": "Показать оболочки"
+    },
+    {
+      "key": "gizmo.selected",
+      "value": "Только выбранные"
+    },
+    {
+      "key": "gizmo.bind",
+      "value": "Bind pose (T-pose)"
+    },
+    {
+      "key": "gizmo.source",
+      "value": "Каркас исходного меша"
+    },
+    {
+      "key": "gizmo.uncovered",
+      "value": "Подсветить непокрытые грани"
+    },
+    {
+      "key": "gizmo.painted",
+      "value": "Показывать закрашенные грани"
+    },
+    {
+      "key": "gizmo.labels",
+      "value": "Метки"
+    },
+    {
+      "key": "gizmo.max",
+      "value": "Макс. рисуемых оболочек"
+    },
+    {
+      "key": "gizmo.tip",
+      "value": "По умолчанию — bind pose: в bind pose bone.localToWorldMatrix · bindposes[i] = I, поэтому bind pose И ЕСТЬ исходный меш в авторском виде. Оболочки T-pose остаются стабильными во время проигрывания анимации."
+    },
+    {
+      "key": "gizmo.legendOk",
+      "value": "норма"
+    },
+    {
+      "key": "gizmo.legendPeak",
+      "value": "больше 255 вершин"
+    },
+    {
+      "key": "gizmo.legendUncov",
+      "value": "не покрыто"
+    },
+    {
+      "key": "part.bone",
+      "value": "Кость"
+    },
+    {
+      "key": "part.children",
+      "value": "Включать дочерние кости"
+    },
+    {
+      "key": "part.rules",
+      "value": "Правило разбиения: побеждает ближайший предок. Когда родительская часть включает «включать дочерние кости», более глубокая часть всё равно имеет приоритет, поэтому события никогда не отправляются дважды."
+    },
+    {
+      "key": "mat.pair",
+      "value": "Поведение пары"
+    },
+    {
+      "key": "mat.pairHint",
+      "value": "Приоритет объединения Unity: Average < Minimum < Multiply < Maximum."
+    },
+    {
+      "key": "mat.static",
+      "value": "статическое трение"
+    },
+    {
+      "key": "mat.dynamic",
+      "value": "динамическое трение"
+    },
+    {
+      "key": "mat.bounce",
+      "value": "упругость"
+    },
+    {
+      "key": "mat.combine",
+      "value": "объединение"
+    },
+    {
+      "key": "mat.summary",
+      "value": "статика {0:F2} · динамика {1:F2} · отскок {2:F2} · объединение {3}/{4}"
+    },
+    {
+      "key": "mat.autoAll",
+      "value": "Заполнить все группы из пресетов"
+    },
+    {
+      "key": "phys.title",
+      "value": "Физика проекта"
+    },
+    {
+      "key": "phys.apply",
+      "value": "Применить рекомендованное"
+    },
+    {
+      "key": "phys.gravity",
+      "value": "gravity.y"
+    },
+    {
+      "key": "phys.bounce",
+      "value": "bounceThreshold"
+    },
+    {
+      "key": "phys.velIter",
+      "value": "solverVelocityIterations"
+    },
+    {
+      "key": "phys.contactOffset",
+      "value": "defaultContactOffset"
+    },
+    {
+      "key": "phys.maxDepen",
+      "value": "defaultMaxDepenetrationVelocity"
+    },
+    {
+      "key": "health.title",
+      "value": "Здоровье коллизий"
+    },
+    {
+      "key": "health.rerun",
+      "value": "Проверить снова"
+    },
+    {
+      "key": "health.none",
+      "value": "Проблем не найдено."
+    },
+    {
+      "key": "health.summary",
+      "value": "ошибки {0} / предупреждения {1} / подсказки {2}"
+    },
+    {
+      "key": "health.fix",
+      "value": "Исправить"
+    },
+    {
+      "key": "health.score",
+      "value": "Оценка {0}/100"
+    },
+    {
+      "key": "health.grade",
+      "value": "Класс {0}"
+    },
+    {
+      "key": "menu.main",
+      "value": "Открыть главное окно"
+    },
+    {
+      "key": "menu.bake",
+      "value": "Запечь выбранное"
+    },
+    {
+      "key": "menu.gizmo",
+      "value": "Переключить гизмо оболочек"
+    },
+    {
+      "key": "menu.rebuild",
+      "value": "Пересобрать выбранное"
+    },
+    {
+      "key": "menu.health",
+      "value": "Здоровье коллизий"
+    },
+    {
+      "key": "menu.about",
+      "value": "О Neko Dynamic Collision"
+    },
+    {
+      "key": "cat.metal",
+      "value": "Металл"
+    },
+    {
+      "key": "cat.plastic",
+      "value": "Пластик"
+    },
+    {
+      "key": "cat.glass",
+      "value": "Стекло"
+    },
+    {
+      "key": "cat.wood",
+      "value": "Дерево"
+    },
+    {
+      "key": "cat.stone",
+      "value": "Камень"
+    },
+    {
+      "key": "cat.rubber",
+      "value": "Резина"
+    },
+    {
+      "key": "cat.fabric",
+      "value": "Ткань"
+    },
+    {
+      "key": "cat.organic",
+      "value": "Биология"
+    },
+    {
+      "key": "cat.ice",
+      "value": "Лёд"
+    },
+    {
+      "key": "cat.other",
+      "value": "Прочее"
+    },
+    {
+      "key": "bake.err.none",
+      "value": "target/set равен null"
+    },
+    {
+      "key": "bake.err.noSkin",
+      "value": "Источник SkinnedMeshRenderer не найден"
+    },
+    {
+      "key": "bake.err.noMesh",
+      "value": "Источник MeshFilter не найден"
+    },
+    {
+      "key": "bake.err.noGroups",
+      "value": "Нет групп материалов. Сначала создайте группу по умолчанию."
+    },
+    {
+      "key": "bake.err.empty",
+      "value": "Ни одной оболочки не создано."
+    },
+    {
+      "key": "bake.warn.maskMismatch",
+      "value": "Количество меток ({0}) не совпадает с числом треугольников источника ({1}); метки проигнорированы в этом запуске."
+    },
+    {
+      "key": "bake.warn.peak",
+      "value": "Число вершин оболочки {0} превышает лимит PhysX в 255."
+    },
+    {
+      "key": "bake.warn.unassigned",
+      "value": "{0} треугольников не принадлежат ни одной части и не будут запечены."
+    },
+    {
+      "key": "bake.warn.none",
+      "value": "Ни одной оболочки не создано; проверьте части и точность."
+    },
+    {
+      "key": "bake.warn.nobones",
+      "value": "Веса костей отсутствуют, поэтому разбиение по Skin невозможно назначить."
+    },
+    {
+      "key": "desc.verySlippery",
+      "value": "очень скользко"
+    },
+    {
+      "key": "desc.slippery",
+      "value": "скользко"
+    },
+    {
+      "key": "desc.normal",
+      "value": "нормально"
+    },
+    {
+      "key": "desc.grippy",
+      "value": "цепко"
+    },
+    {
+      "key": "desc.veryGrippy",
+      "value": "очень цепко"
+    },
+    {
+      "key": "desc.noBounce",
+      "value": "не отскакивает"
+    },
+    {
+      "key": "desc.lowBounce",
+      "value": "слабо отскакивает"
+    },
+    {
+      "key": "desc.bouncy",
+      "value": "упруго"
+    },
+    {
+      "key": "desc.veryBouncy",
+      "value": "очень упруго"
+    },
+    {
+      "key": "h.nobake.title",
+      "value": "Пока ничего не запечено"
+    },
+    {
+      "key": "h.nobake.detail",
+      "value": "Во время выполнения ничего не будет собрано."
+    },
+    {
+      "key": "h.nobake.fix",
+      "value": "Запечь сейчас"
+    },
+    {
+      "key": "h.peakOver.title",
+      "value": "У оболочки {0} вершин, что превышает лимит PhysX в 255"
+    },
+    {
+      "key": "h.peakOver.detail",
+      "value": "Unity отклоняет оболочку сверх лимита, и она молча ничего не делает. Понизьте точность или увеличьте подразбиение части."
+    },
+    {
+      "key": "h.peakOver.fix",
+      "value": "Перезапечь на шаг точности ниже"
+    },
+    {
+      "key": "h.peakNear.title",
+      "value": "Пик вершин оболочки {0} (близко к 255)"
+    },
+    {
+      "key": "h.peakNear.detail",
+      "value": "Пока укладывается, но ещё один шаг точности достигнет потолка."
+    },
+    {
+      "key": "h.degenerate.title",
+      "value": "{0} кластеров выродились и не могут образовать оболочку"
+    },
+    {
+      "key": "h.degenerate.detail",
+      "value": "Обычно вызвано фрагментированными метками материалов или слишком высоким порогом веса. Проверьте, не фрагментированы ли группы материалов."
+    },
+    {
+      "key": "h.unassigned.title",
+      "value": "{0} треугольников ({1:F1}%) не принадлежат ни одной части"
+    },
+    {
+      "key": "h.unassigned.detail",
+      "value": "Эти грани не получают оболочку и будут пропускать попадания. Проверьте, что кости частей покрывают весь скелет."
+    },
+    {
+      "key": "h.unassigned.fix",
+      "value": "Автозаполнение частей (Humanoid)"
+    },
+    {
+      "key": "h.hashMismatch.title",
+      "value": "Исходный меш изменился, но не был перезапечён"
+    },
+    {
+      "key": "h.hashMismatch.detail",
+      "value": "После повторного импорта или правки топологии индексы треугольников больше не совпадают с запечённым результатом, поэтому позиции попаданий будут смещены."
+    },
+    {
+      "key": "h.hashMismatch.fix",
+      "value": "Перезапечь"
+    },
+    {
+      "key": "h.layers.title",
+      "value": "Роль {0}, но слои взаимодействия не заданы"
+    },
+    {
+      "key": "h.layers.detail",
+      "value": "Пустой includeLayers заставляет оболочки взаимодействовать со всем; обтягивающий Hitbox тогда блокирует ragdoll, окружение и других персонажей."
+    },
+    {
+      "key": "h.layers.fix",
+      "value": "Ограничить слоем Bullet"
+    },
+    {
+      "key": "h.noGroups.title",
+      "value": "Нет групп материалов"
+    },
+    {
+      "key": "h.noGroups.detail",
+      "value": "Для запекания нужна хотя бы одна группа."
+    },
+    {
+      "key": "h.noGroups.fix",
+      "value": "Создать группу по умолчанию"
+    },
+    {
+      "key": "h.noMaterial.title",
+      "value": "Группа «{0}» без физического материала"
+    },
+    {
+      "key": "h.noMaterial.detail",
+      "value": "Она откатывается к значению проекта по умолчанию, поэтому трение и отскок неконтролируемы."
+    },
+    {
+      "key": "h.noMaterial.fix",
+      "value": "Назначить пресет"
+    },
+    {
+      "key": "h.emptyGroup.title",
+      "value": "В группе «{0}» вообще нет оболочек"
+    },
+    {
+      "key": "h.emptyGroup.detail",
+      "value": "Либо кисть так и не пометила ни одной грани, либо каждую помеченную грань забрала другая часть."
+    },
+    {
+      "key": "h.fragmented.title",
+      "value": "В группе «{0}» оболочек: {1}"
+    },
+    {
+      "key": "h.fragmented.detail",
+      "value": "Фрагментация создаёт множество крошечных коллайдеров, что удорожает кукинг и broadphase. Объедините метки или понизьте точность."
+    },
+    {
+      "key": "h.fragmented.fix",
+      "value": "Объединить с соседней группой"
+    },
+    {
+      "key": "h.noRigidbody.title",
+      "value": "Нет Rigidbody, поэтому события столкновений никогда не сработают"
+    },
+    {
+      "key": "h.noRigidbody.detail",
+      "value": "Unity доставляет колбэки столкновений только GameObject, владеющему Rigidbody. Включите авто Rigidbody или добавьте кинематический Rigidbody родителю."
+    },
+    {
+      "key": "h.noRigidbody.fix",
+      "value": "Включить авто Rigidbody"
+    },
+    {
+      "key": "h.massSmall.title",
+      "value": "Масса Rigidbody «{0}» всего {1:F4}кг"
+    },
+    {
+      "key": "h.massSmall.detail",
+      "value": "Очень малая масса численно нестабильна и приводит к туннелированию. Включите Auto Mass from Density."
+    },
+    {
+      "key": "h.massSmall.fix",
+      "value": "Включить массу из плотности"
+    },
+    {
+      "key": "h.massLarge.title",
+      "value": "Масса Rigidbody «{0}» равна {1:F0}кг"
+    },
+    {
+      "key": "h.massLarge.detail",
+      "value": "Если это не намеренно, проверьте единицу плотности (кг/м³)."
+    },
+    {
+      "key": "h.selfCollision.title",
+      "value": "Самостолкновение ragdoll полностью включено"
+    },
+    {
+      "key": "h.selfCollision.detail",
+      "value": "Кости расталкивают друг друга, что часто вызывает дрожание ragdoll. Обычно выбирают «Игнорировать соседние»."
+    },
+    {
+      "key": "h.selfCollision.fix",
+      "value": "Переключить на игнорирование соседних"
+    },
+    {
+      "key": "h.dispatch.title",
+      "value": "{0} отправок остались без слушателя (последняя: {1})"
+    },
+    {
+      "key": "h.dispatch.detail",
+      "value": "Имя события с опечаткой не вызывает ошибки; оно проявляется только в диагностике. Регистрируйте слушателей через Dyc_Events.Register."
+    },
+    {
+      "key": "h.dispatch.fix",
+      "value": "Сбросить счётчики"
+    },
+    {
+      "key": "h.physicsBounce.title",
+      "value": "bounceThreshold = {0}: удары медленнее этого никогда не отскакивают"
+    },
+    {
+      "key": "h.physicsBounce.detail",
+      "value": "Именно поэтому пресеты резины и мяча выглядят так, будто ничего не делают."
+    },
+    {
+      "key": "h.physicsBounce.fix",
+      "value": "bounceThreshold → 0.3"
+    },
+    {
+      "key": "h.physicsVelocity.title",
+      "value": "VelocityIterations = {0}: стопки и быстрые удары дрожат или туннелируют"
+    },
+    {
+      "key": "h.physicsVelocity.detail",
+      "value": "Частая первопричина дрожания ragdoll в Unity."
+    },
+    {
+      "key": "h.physicsVelocity.fix",
+      "value": "VelocityIterations → 2"
+    },
+    {
+      "key": "h.physicsGravity.title",
+      "value": "gravity = {0:F2} (не -9.81)"
+    },
+    {
+      "key": "h.physicsGravity.detail",
+      "value": "Вся интуиция о массе и импульсе, выведенная из -9.81, ошибочна в {0:F2}× раза, поэтому пресеты плотности нуждаются в коррекции."
+    },
+    {
+      "key": "h.physicsContact.title",
+      "value": "defaultContactOffset = {0}: зазор контакта широк"
+    },
+    {
+      "key": "h.physicsContact.detail",
+      "value": "Тонкие объекты часто выглядят так, будто парят."
+    },
+    {
+      "key": "insp.sectionBasic",
+      "value": "Основное"
+    },
+    {
+      "key": "insp.sectionCollision",
+      "value": "Столкновение"
+    },
+    {
+      "key": "insp.sectionPhysics",
+      "value": "Физика"
+    },
+    {
+      "key": "insp.sectionTrigger",
+      "value": "Trigger"
+    },
+    {
+      "key": "insp.sectionLod",
+      "value": "LOD"
+    },
+    {
+      "key": "insp.multi",
+      "value": "Множественное выделение поддерживает только пакетное запекание. Для детального редактирования выберите один объект."
+    },
+    {
+      "key": "insp.noBake",
+      "value": "Пока не запечено"
+    },
+    {
+      "key": "insp.noBakeHint",
+      "value": "Нажмите «Запечь» ниже."
+    },
+    {
+      "key": "insp.baked",
+      "value": "Запечено оболочек: {0}"
+    },
+    {
+      "key": "insp.peakVerts",
+      "value": "Вершины / пик"
+    },
+    {
+      "key": "insp.volume",
+      "value": "Объём"
+    },
+    {
+      "key": "insp.partsGroups",
+      "value": "Части / группы"
+    },
+    {
+      "key": "insp.unassigned",
+      "value": "Нераспределённые треугольники"
+    },
+    {
+      "key": "insp.health",
+      "value": "Здоровье"
+    },
+    {
+      "key": "insp.tally",
+      "value": "{0} ошибок · {1} предупреждений · {2} подсказок"
+    },
+    {
+      "key": "insp.openBaker",
+      "value": "Открыть запекание"
+    },
+    {
+      "key": "insp.showGizmo",
+      "value": "Показать Gizmo оболочек"
+    },
+    {
+      "key": "insp.autoRb",
+      "value": "Автодобавление Rigidbody"
+    },
+    {
+      "key": "insp.selfCollision",
+      "value": "Самостолкновение"
+    },
+    {
+      "key": "insp.autoMass",
+      "value": "Масса из плотности"
+    },
+    {
+      "key": "insp.targetMass",
+      "value": "Нормализовать общую массу (0 = выкл.)"
+    },
+    {
+      "key": "insp.triggerMode",
+      "value": "Режим"
+    },
+    {
+      "key": "insp.pollDivisor",
+      "value": "Кадров на проход"
+    },
+    {
+      "key": "insp.pollSweep",
+      "value": "Запас свипа (м)"
+    },
+    {
+      "key": "insp.pollNote",
+      "value": "Опрос — это выборка, а не событие. Очень быстрые прохождения пропускаются; запас свипа компенсирует это."
+    },
+    {
+      "key": "insp.lodMode",
+      "value": "Режим"
+    },
+    {
+      "key": "insp.lodDistance",
+      "value": "Дистанция (м)"
+    },
+    {
+      "key": "insp.debugLog",
+      "value": "Журнал отладки"
+    },
+    {
+      "key": "insp.rebuild",
+      "value": "Пересобрать (вступает в силу в Play mode)"
+    },
+    {
+      "key": "set.language",
+      "value": "Язык"
+    },
+    {
+      "key": "set.langNote",
+      "value": "Применяется к окну и меню NekoWorks сразу."
+    },
+    {
+      "key": "set.diagnostics",
+      "value": "Диагностика"
+    },
+    {
+      "key": "set.languagesLoaded",
+      "value": "Загружено языков"
+    },
+    {
+      "key": "set.localeRoot",
+      "value": "Папка языков"
+    },
+    {
+      "key": "set.langMissing",
+      "value": "Папка языков не найдена. Искали в: {0}"
+    },
+    {
+      "key": "set.presets",
+      "value": "Пресеты материалов"
+    },
+    {
+      "key": "set.gizmoDefault",
+      "value": "Гизмо выпуклых тел"
+    },
+    {
+      "key": "set.openBaked",
+      "value": "Открыть папку запечённых ассетов"
+    },
+    {
+      "key": "set.resetPrefs",
+      "value": "Сбросить настройки плагина"
+    },
+    {
+      "key": "set.refreshIcon",
+      "value": "Перевесить иконку компонента"
+    },
+    {
+      "key": "lbl.childMeshes",
+      "value": "Читать дочерние меши"
+    },
+    {
+      "key": "lbl.hullsPerPart",
+      "value": "Оболочек на зону"
+    },
+    {
+      "key": "lbl.trisPerHull",
+      "value": "Треугольников на оболочку"
+    },
+    {
+      "key": "lbl.weightThreshold",
+      "value": "Порог веса кости"
+    },
+    {
+      "key": "prec.skinHint",
+      "value": "В режиме Skin число оболочек считается по зоне автоматически: у фаланги пальца и у торса разная форма, и одно число на всё тело всегда врёт одному из них. Треугольники на оболочку остаются за вами — это бюджет детализации, а не форма."
+    },
+    {
+      "key": "prec.customHint",
+      "value": "Число оболочек на зону — это форма приближения, а не уровень качества. Тонкий предмет — стрела, кость — хочет ОДНУ оболочку: две делят его пополам, и каждая половина становится тонкой скорлупой вместо половины тела. Торс или машина хотят 4-8. Порог веса решает, какие вершины вообще считаются принадлежащими кости: ниже порога вершина отбрасывается, кость получает поверхность с дырами, и её оболочка выглядит как лепесток."
+    },
+    {
+      "key": "src.autoHint",
+      "value": "Пустой источник означает MeshFilter на этом объекте. Дочерние меши читаются только при включённом переключателе выше — прежний молчаливый поиск первого меша в детях мог запечь не тот меш."
+    },
+    {
+      "key": "lbl.shape",
+      "value": "Форма коллайдера"
+    },
+    {
+      "key": "shape.convex",
+      "value": "Выпуклые оболочки"
+    },
+    {
+      "key": "shape.concave",
+      "value": "Невыпуклая поверхность"
+    },
+    {
+      "key": "shape.convexHint",
+      "value": "Одна выпуклая оболочка на кость, запечена заранее. Бесшовно только там, где соседние оболочки перекрываются; вогнутые суставы (подмышка, пах, шея) сохраняют щель. Работает на подвижных твёрдых телах и сталкивается mesh-mesh."
+    },
+    {
+      "key": "shape.concaveHint",
+      "value": "Настоящая поверхность каждой кости, без раздувания оболочки — дыр в суставах нет. Цена: только кинематическое или анимационное тело, нет столкновений mesh-mesh, нет быстрой широкой фазы. На мобильных лучше для определения попаданий, а не для физического блокирования."
+    },
+    {
+      "key": "lbl.excludedBones",
+      "value": "Исключённые кости"
+    },
+    {
+      "key": "lbl.excludedBonesHint",
+      "value": "Кость из списка и всё её поддерево не получают ни зоны, ни коллайдера. Это место для целей IK, кончиков и вспомогательных костей."
+    },
+    {
+      "key": "lbl.excludedSkins",
+      "value": "Исключённые рендереры"
+    },
+    {
+      "key": "lbl.excludedSkinsHint",
+      "value": "SkinnedMeshRenderer'ы, которые не запекаются вовсе — волосы, отдельный рендерер одежды, реквизит."
+    },
+    {
+      "key": "lbl.excludeGroup",
+      "value": "Исключить из запекания"
+    },
+    {
+      "key": "lbl.excludeGroupHint",
+      "value": "Грани этой группы не попадают в запекание вообще: ни кластеризации, ни разложения, ни коллайдеров. Так плащ или разгрузка остаются без хитбокса, не меняя свой материал."
+    },
+    {
+      "key": "btn.expert",
+      "value": "Окно эксперта"
+    },
+    {
+      "key": "exp.title",
+      "value": "Точность по костям"
+    },
+    {
+      "key": "exp.noTarget",
+      "value": "Выберите объект с компонентом Dynamic Collision."
+    },
+    {
+      "key": "exp.basePrecision",
+      "value": "Частей на кость"
+    },
+    {
+      "key": "exp.totals",
+      "value": "{0} частей на {1} костях"
+    },
+    {
+      "key": "exp.decompose",
+      "value": "Разложение"
+    },
+    {
+      "key": "exp.voxelSize",
+      "value": "Воксель мм"
+    },
+    {
+      "key": "exp.maxHulls",
+      "value": "Макс. частей"
+    },
+    {
+      "key": "exp.project",
+      "value": "Проекция"
+    },
+    {
+      "key": "exp.resetDefaults",
+      "value": "Сбросить к умолчанию"
+    },
+    {
+      "key": "exp.separate",
+      "value": "Раздвигать"
+    },
+    {
+      "key": "exp.separationMm",
+      "value": "Зазор мм"
+    },
+    {
+      "key": "exp.invertY",
+      "value": "Инверсия Y"
+    },
+    {
+      "key": "exp.secondary",
+      "value": "Форма, самоколлизии, LOD"
+    },
+    {
+      "key": "exp.rebake",
+      "value": "Перезапечь"
+    },
+    {
+      "key": "exp.clearManual",
+      "value": "Сбросить ручные"
+    },
+    {
+      "key": "exp.bones",
+      "value": "Дерево костей"
+    },
+    {
+      "key": "exp.noSkeleton",
+      "value": "Нет скелета."
+    },
+    {
+      "key": "exp.concavityShort",
+      "value": "в {0:0.00}"
+    },
+    {
+      "key": "exp.concavity",
+      "value": "Вогнутость"
+    },
+    {
+      "key": "exp.minDepth",
+      "value": "Мин. глубина"
+    },
+    {
+      "key": "exp.kernel",
+      "value": "Ядро"
+    },
+    {
+      "key": "exp.kernelOwn",
+      "value": "Своё воксельное"
+    },
+    {
+      "key": "exp.kernelNative",
+      "value": "Нативный V-HACD"
+    },
+    {
+      "key": "exp.maxVoxels",
+      "value": "Предел вокселей"
+    },
+    {
+      "key": "exp.fillRatio",
+      "value": "Заполнение"
+    },
+    {
+      "key": "exp.splitDepth",
+      "value": "Глубина деления"
+    },
+    {
+      "key": "exp.timeBudget",
+      "value": "Время с"
+    },
+    {
+      "key": "bake.progress.title",
+      "value": "Запекание столкновений"
+    },
+    {
+      "key": "bake.progress.preparing",
+      "value": "Подготовка"
+    },
+    {
+      "key": "bake.progress.decomposing",
+      "value": "Разложение тела на выпуклые части"
+    },
+    {
+      "key": "bake.progress.assembling",
+      "value": "Сборка оболочек"
+    },
+    {
+      "key": "bake.progress.baking",
+      "value": "Запекание"
+    },
+    {
+      "key": "bake.progress.budget",
+      "value": "Бюджет времени исчерпан — собирается готовое"
+    },
+    {
+      "key": "bake.progress.cancel",
+      "value": "Отмена"
+    },
+    {
+      "key": "bake.progress.cancelling",
+      "value": "Отмена…"
+    },
+    {
+      "key": "bake.stage.decompose",
+      "value": "Разложение"
+    },
+    {
+      "key": "bake.stage.assemble",
+      "value": "Сборка оболочек"
+    },
+    {
+      "key": "exp.triangles",
+      "value": "Треугольники"
+    },
+    {
+      "key": "exp.pieces",
+      "value": "Части"
+    },
+    {
+      "key": "exp.volume",
+      "value": "Объём"
+    },
+    {
+      "key": "exp.dropped",
+      "value": "Бюджет отбросил частей: {0}. Поднимите бюджет кости или уменьшите вогнутость."
+    },
+    {
+      "key": "exp.detail",
+      "value": "Кость"
+    },
+    {
+      "key": "exp.pickBone",
+      "value": "Выберите кость в дереве или в 3D-виде."
+    },
+    {
+      "key": "exp.noStat",
+      "value": "Нет данных запекания для этой кости. Сначала перезапеките."
+    },
+    {
+      "key": "exp.manualPieces",
+      "value": "Частей (вручную)"
+    },
+    {
+      "key": "exp.locked",
+      "value": "Зафиксировано"
+    },
+    {
+      "key": "exp.releaseBone",
+      "value": "Вернуть автоматику"
+    },
+    {
+      "key": "exp.hullList",
+      "value": "Части"
+    },
+    {
+      "key": "exp.hullRow",
+      "value": "#{0} · вершин {1} · {2:0.0000} м³"
+    },
+    {
+      "key": "exp.noHulls",
+      "value": "У этой кости нет частей."
+    },
+    {
+      "key": "exp.previewFailed",
+      "value": "Предпросмотр не вернул текстуру. Проверьте консоль на ошибки."
+    },
+    {
+      "key": "exp.orbitHint",
+      "value": "Правая кнопка — вращение · Левая — сдвиг · Колесо — зум · Щелчок — выбор · Двойной щелчок — центр вращения"
+    },
+    {
+      "key": "btn.fromSkeleton",
+      "value": "Зоны из скелета"
+    },
+    {
+      "key": "btn.hideUncovered",
+      "value": "Скрыть непокрытые грани"
+    },
+    {
+      "key": "gizmo.occlude",
+      "value": "Приглушать закрытые рёбра (50%)"
+    },
+    {
+      "key": "cat.ceramic",
+      "value": "Керамика"
+    },
+    {
+      "key": "cat.body",
+      "value": "Части тела"
+    },
+    {
+      "key": "cat.tissue",
+      "value": "Ткани и органы"
+    },
+    {
+      "key": "cat.food",
+      "value": "Еда"
+    },
+    {
+      "key": "forge.title",
+      "value": "Кузница материалов"
+    },
+    {
+      "key": "forge.hint",
+      "value": "Таблица говорит, ИЗ ЧЕГО вещь сделана. Кузница говорит, ЧТО она сейчас: базовый материал × состояние поверхности. Части тела и ткани — вообще не строки таблицы: они выводятся из смеси тканей, поэтому их числа можно объяснить."
+    },
+    {
+      "key": "forge.base",
+      "value": "Базовый материал"
+    },
+    {
+      "key": "forge.condition",
+      "value": "Состояние поверхности"
+    },
+    {
+      "key": "forge.group",
+      "value": "Группа"
+    },
+    {
+      "key": "forge.apply",
+      "value": "Выковать и назначить"
+    },
+    {
+      "key": "forge.generate",
+      "value": "Создать ассеты вариантов"
+    },
+    {
+      "key": "forge.generateHint",
+      "value": "Пишет по одному .physicMaterial на каждое состояние поверхности в папку запекания — художник выберет их без плагина."
+    },
+    {
+      "key": "forge.generated",
+      "value": "Создано ассетов материала: {0} в {1}"
+    },
+    {
+      "key": "forge.variantOf",
+      "value": "{0} · вариантов"
+    },
+    {
+      "key": "forge.presets",
+      "value": "{0} пресетов в {1} категориях"
+    },
+    {
+      "key": "forge.values",
+      "value": "покой {0:F2} · движение {1:F2} · отскок {2:F2} · {3:F0} кг/м³"
+    },
+    {
+      "key": "forge.derived",
+      "value": "выведено"
+    },
+    {
+      "key": "forge.applied",
+      "value": "Группа \"{0}\" выкована из {1} · {2}"
+    },
+    {
+      "key": "forge.nogroup",
+      "value": "Нет группы материалов, куда ковать."
+    },
+    {
+      "key": "forge.self",
+      "value": "Выковать в себя"
+    },
+    {
+      "key": "forge.cond.dry",
+      "value": "Сухое"
+    },
+    {
+      "key": "forge.cond.wet",
+      "value": "Мокрое"
+    },
+    {
+      "key": "forge.cond.oiled",
+      "value": "В масле"
+    },
+    {
+      "key": "forge.cond.bloody",
+      "value": "В крови"
+    },
+    {
+      "key": "forge.cond.sweaty",
+      "value": "Потное"
+    },
+    {
+      "key": "forge.cond.icy",
+      "value": "Обледенелое"
+    },
+    {
+      "key": "forge.cond.frozen",
+      "value": "Мёрзлое"
+    },
+    {
+      "key": "forge.cond.dusty",
+      "value": "Пыльное"
+    },
+    {
+      "key": "forge.cond.rough",
+      "value": "Шероховатое"
+    },
+    {
+      "key": "forge.cond.polished",
+      "value": "Полированное"
+    },
+    {
+      "key": "forge.cond.rusted",
+      "value": "Ржавое"
+    },
+    {
+      "key": "forge.cond.worn",
+      "value": "Изношенное"
+    },
+    {
+      "key": "forge.cond.clothed",
+      "value": "В одежде"
+    },
+    {
+      "key": "forge.cond.armored",
+      "value": "В броне"
+    },
+    {
+      "key": "forge.cond.charred",
+      "value": "Обугленное"
+    },
+    {
+      "key": "forge.tissue.bone",
+      "value": "Кость"
+    },
+    {
+      "key": "forge.tissue.cartilage",
+      "value": "Хрящ"
+    },
+    {
+      "key": "forge.tissue.tendon",
+      "value": "Сухожилие"
+    },
+    {
+      "key": "forge.tissue.muscle",
+      "value": "Мышца"
+    },
+    {
+      "key": "forge.tissue.fat",
+      "value": "Жир"
+    },
+    {
+      "key": "forge.tissue.skin",
+      "value": "Кожа"
+    },
+    {
+      "key": "forge.tissue.organ",
+      "value": "Орган"
+    },
+    {
+      "key": "forge.tissue.lung",
+      "value": "Лёгкое"
+    },
+    {
+      "key": "forge.tissue.brain",
+      "value": "Мозг"
+    },
+    {
+      "key": "forge.tissue.keratin",
+      "value": "Кератин"
+    },
+    {
+      "key": "soft.hard",
+      "value": "жёстко"
+    },
+    {
+      "key": "soft.firm",
+      "value": "упруго"
+    },
+    {
+      "key": "soft.soft",
+      "value": "мягко"
+    },
+    {
+      "key": "soft.verySoft",
+      "value": "очень мягко"
+    },
+    {
+      "key": "soft.gel",
+      "value": "гелеобразно"
+    },
+    {
+      "key": "h.concaveDynamic.title",
+      "value": "Невыпуклая сетка на подвижном твёрдом теле"
+    },
+    {
+      "key": "h.concaveDynamic.detail",
+      "value": "PhysX принимает невыпуклый MeshCollider только на кинематическом или анимационном теле. На подвижном твёрдом теле Unity молча отказывает в коллайдере, и не сталкивается вообще ничего."
+    },
+    {
+      "key": "h.concaveDynamic.fix",
+      "value": "Сделать тело кинематическим"
+    },
+    {
+      "key": "h.concaveScale.title",
+      "value": "Неравномерный масштаб ({0:F2}, {1:F2}, {2:F2})"
+    },
+    {
+      "key": "h.concaveScale.detail",
+      "value": "Невыпуклая сетка готовится в локальном пространстве, поэтому растянутый масштаб уводит коллайдер от модели. У выпуклых оболочек этой проблемы нет."
+    },
+    {
+      "key": "h.concaveMeshMesh.title",
+      "value": "Невыпуклая сетка: нет столкновений mesh-mesh"
+    },
+    {
+      "key": "h.concaveMeshMesh.detail",
+      "value": "Это ограничение PhysX, а не настройка: невыпуклая сетка никогда не сталкивается с другой невыпуклой. С примитивами, ландшафтом и выпуклыми оболочками она сталкивается по-прежнему."
+    },
+    {
+      "key": "h.allExcluded.title",
+      "value": "Все группы материалов исключены из запекания"
+    },
+    {
+      "key": "h.allExcluded.detail",
+      "value": "Запекание даст ноль коллайдеров. Снимите исключение хотя бы с одной группы."
+    },
+    {
+      "key": "h.excludeDead.title",
+      "value": "Исключённая кость \"{0}\" отсутствует в скелете"
+    },
+    {
+      "key": "h.excludeDead.detail",
+      "value": "Запись ничего не делает — кость не входит в запекаемый рендерер. Обычно это остаток после смены рига."
+    },
+    {
+      "key": "h.softSelfCollision.title",
+      "value": "Мягкая зона с полными самоколлизиями"
+    },
+    {
+      "key": "h.softSelfCollision.detail",
+      "value": "Мягкая зона владеет оболочками и одновременно решает свои частицы; при включённых самоколлизиях они расталкивают друг друга, и ткань «кипит». Обычный выбор — «игнорировать соседние»."
+    },
+    {
+      "key": "h.softSelfCollision.fix",
+      "value": "Переключить на игнорирование соседних"
+    },
+    {
+      "key": "h.softNoSource.title",
+      "value": "Мягкие зоны запечены, но источника деформации нет"
+    },
+    {
+      "key": "h.softNoSource.detail",
+      "value": "Без решателя, который пишет кадры, каждый кластер ведёт себя как жёсткий блок: объект движется целиком и не деформируется. Это законный запасной режим, а не ошибка."
+    },
+    {
+      "key": "insp.sectionExclusions",
+      "value": "Исключения"
+    },
+    {
+      "key": "shape.concaveWarn",
+      "value": "PhysX принимает невыпуклую сетку только на кинематическом или анимационном теле. На подвижном твёрдом теле Unity молча отказывает в коллайдере: не сталкивается ничего, и никакой ошибки не появляется. Запекайте персонажа на кинематическом теле или откройте окно эксперта, чтобы проверить остальные ограничения до запекания."
+    },
+    {
+      "key": "btn.openExpert",
+      "value": "Открыть окно эксперта"
+    },
+    {
+      "key": "exp.groupActions",
+      "value": "Действия"
+    },
+    {
+      "key": "exp.groupPrecision",
+      "value": "Точность разложения"
+    },
+    {
+      "key": "exp.groupBody",
+      "value": "Зоны и раздвижение"
+    },
+    {
+      "key": "exp.groupKernel",
+      "value": "Ядро и бюджет"
+    },
+    {
+      "key": "exp.groupView",
+      "value": "Вид"
+    },
+    {
+      "key": "bake.concaveNote",
+      "value": "У невыпуклых поверхностей потолка вершин PhysX нет: бюджет треугольников выдерживается упрощением поверхности, а не её разрезанием."
+    },
+    {
+      "key": "lbl.decomposeDetail",
+      "value": "Детализация разложения"
+    },
+    {
+      "key": "lbl.decomposeVoxel",
+      "value": "Размер вокселя (мм)"
+    },
+    {
+      "key": "decomp.hint",
+      "value": "Грубый воксель: меньше и крупнее части — дешевле всего. {0} мм."
+    },
+    {
+      "key": "decomp.fineHint",
+      "value": "Предел: части повторяют поверхность, поэтому стоимость сравнивается с невыпуклой формой. Точнее уже нечего — только дороже."
+    },
+    {
+      "key": "exp.decomposed",
+      "value": "Части: выпуклое разложение (рез по впадинам)"
+    },
+    {
+      "key": "exp.clustered",
+      "value": "Части: пространственная кластеризация (разложение недоступно — запасной путь)"
+    },
+    {
+      "key": "lbl.concaveDetail",
+      "value": "Детализация поверхности"
+    },
+    {
+      "key": "concave.exact",
+      "value": "Без упрощения: поверхность берётся из меша как есть."
+    },
+    {
+      "key": "concave.budget",
+      "value": "Упрощено примерно до {0} треугольников на кусок. Тяните вправо для точности; крайнее правое положение — без упрощения."
+    },
+    {
+      "key": "insp.sectionSimple",
+      "value": "Обычное использование (как системный коллайдер)"
+    },
+    {
+      "key": "insp.generateOnStart",
+      "value": "Строить при запуске, если запекания нет"
+    },
+    {
+      "key": "insp.generateHint",
+      "value": "Добавьте компонент и нажмите Play. Оболочки строятся из меша по костям; зоны и разложение по-прежнему даёт запекание."
+    },
+    {
+      "key": "insp.isTrigger",
+      "value": "Коллайдеры — триггеры"
+    },
+    {
+      "key": "insp.receiver",
+      "value": "Также слать OnCollision*/OnTrigger* на"
+    },
+    {
+      "key": "insp.receiverHint",
+      "value": "Оставьте пустым для обычного поведения Unity: сообщения приходят на объект с Rigidbody."
+    },
+    {
+      "key": "insp.sectionLive",
+      "value": "Живое обновление (с бюджетом)"
+    },
+    {
+      "key": "insp.liveUpdate",
+      "value": "Пересобирать оболочки по текущей позе"
+    },
+    {
+      "key": "insp.liveContinuous",
+      "value": "Обновлять непрерывно"
+    },
+    {
+      "key": "insp.idleBudget",
+      "value": "Бюджет простоя (мс/кадр)"
+    },
+    {
+      "key": "insp.activeBudget",
+      "value": "Бюджет активности (мс/кадр)"
+    },
+    {
+      "key": "insp.updateThreshold",
+      "value": "Пропускать обновление при смещении ниже (м)"
+    },
+    {
+      "key": "insp.maxColliderTriangles",
+      "value": "Максимум треугольников на коллайдер"
+    },
+    {
+      "key": "insp.liveHint",
+      "value": "По умолчанию выключено: обещание плагина — ноль затрат на кадр. Включайте там, где важна сильная деформация."
+    },
+    {
+      "key": "insp.sectionMaterials",
+      "value": "Материалы по исходному материалу"
+    },
+    {
+      "key": "insp.materialSource",
+      "value": "Исходный материал"
+    },
+    {
+      "key": "insp.materialPhysics",
+      "value": "Физический материал"
+    },
+    {
+      "key": "insp.materialHint",
+      "value": "Переопределяет материал зоны для оболочек этого исходного материала. Своя настройка на кости (Dyc_BoneProperties) старше."
+    },
+    {
+      "key": "insp.sectionExclusionMap",
+      "value": "Карта исключений"
+    },
+    {
+      "key": "insp.exclusionMap",
+      "value": "Карта (нужен Read/Write)"
+    },
+    {
+      "key": "insp.exclusionChannel",
+      "value": "Канал"
+    },
+    {
+      "key": "insp.exclusionThreshold",
+      "value": "Порог"
+    },
+    {
+      "key": "insp.exclusionMapHint",
+      "value": "Белое в выбранном канале исключает вершину. Кисть размечает грани, карта — вершины."
+    },
+    {
+      "key": "insp.sectionSkeleton",
+      "value": "Скелет"
+    },
+    {
+      "key": "insp.retargetRoot",
+      "value": "Крепить оболочки к другому скелету"
+    },
+    {
+      "key": "insp.retargetHint",
+      "value": "RetargetSkeleton: оболочки строятся по этому мешу, но вешаются на одноимённые кости того корня (Puppet Master и подобные)."
+    },
+    {
+      "key": "insp.sectionCharLod",
+      "value": "LOD столкновений персонажа"
+    },
+    {
+      "key": "insp.collisionLod",
+      "value": "Гасить оболочки по расстоянию"
+    },
+    {
+      "key": "insp.lodNear",
+      "value": "Полная детализация до (м)"
+    },
+    {
+      "key": "insp.lodFar",
+      "value": "Сокращать дальше (м)"
+    },
+    {
+      "key": "insp.lodKeep",
+      "value": "Оболочек в дальней зоне"
+    },
+    {
+      "key": "insp.lodHysteresis",
+      "value": "Гистерезис (м)"
+    },
+    {
+      "key": "insp.lodVisibility",
+      "value": "Также требовать видимость на экране"
+    },
+    {
+      "key": "insp.lodReference",
+      "value": "Точка отсчёта (пусто = Camera.main)"
+    },
+    {
+      "key": "insp.lodHint",
+      "value": "Это для персонажей. LOD статики — отдельная задача, а толпа персонажей — отдельный бюджет, и это он."
+    },
+    {
+      "key": "insp.expertMode",
+      "value": "Экспертные настройки"
+    },
+    {
+      "key": "insp.expertHint",
+      "value": "Выкл.: четыре контрола и кнопка «Запечь» — этого хватает, чтобы начать. Вкл.: техническая сторона — бюджеты, ядро разложения, переопределения по костям, карты материалов и исключений. Ничего не спрятано, только свёрнуто."
+    }
+  ]
+}

@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "code": "pl",
+  "name": "Polski",
+  "rtl": false,
+  "order": 120,
+  "ui": [
+    {
+      "key": "win.title",
+      "value": "Kolizje dynamiczne"
+    },
+    {
+      "key": "win.none",
+      "value": "Wybierz obiekt z komponentem Dynamic Collision."
+    },
+    {
+      "key": "win.notarget",
+      "value": "(brak komponentu na zaznaczeniu)"
+    },
+    {
+      "key": "win.lang",
+      "value": "Język"
+    },
+    {
+      "key": "tab.bake",
+      "value": "Pieczenie"
+    },
+    {
+      "key": "tab.paint",
+      "value": "Malowanie"
+    },
+    {
+      "key": "tab.gizmo",
+      "value": "Gizmo"
+    },
+    {
+      "key": "tab.parts",
+      "value": "Części"
+    },
+    {
+      "key": "tab.materials",
+      "value": "Materiały"
+    },
+    {
+      "key": "tab.health",
+      "value": "Zdrowie"
+    },
+    {
+      "key": "tab.settings",
+      "value": "Ustawienia"
+    },
+    {
+      "key": "lbl.mode",
+      "value": "Tryb"
+    },
+    {
+      "key": "lbl.precision",
+      "value": "Precyzja"
+    },
+    {
+      "key": "lbl.source",
+      "value": "Źródło"
+    },
+    {
+      "key": "lbl.role",
+      "value": "Rola kolidera"
+    },
+    {
+      "key": "lbl.layers",
+      "value": "Warstwy interakcji"
+    },
+    {
+      "key": "lbl.detect",
+      "value": "Wykrywanie"
+    },
+    {
+      "key": "lbl.collision",
+      "value": "Kolizja"
+    },
+    {
+      "key": "lbl.trigger",
+      "value": "Trigger (odpytywanie)"
+    },
+    {
+      "key": "lbl.groups",
+      "value": "Grupy materiałów"
+    },
+    {
+      "key": "lbl.elements",
+      "value": "Części (elementy)"
+    },
+    {
+      "key": "lbl.group",
+      "value": "Grupa"
+    },
+    {
+      "key": "lbl.material",
+      "value": "Materiał fizyczny"
+    },
+    {
+      "key": "lbl.density",
+      "value": "Gęstość kg/m³"
+    },
+    {
+      "key": "lbl.eventName",
+      "value": "Nazwa zdarzenia"
+    },
+    {
+      "key": "lbl.damage",
+      "value": "Obrażenia ×"
+    },
+    {
+      "key": "lbl.name",
+      "value": "Nazwa"
+    },
+    {
+      "key": "btn.bake",
+      "value": "Upiecz"
+    },
+    {
+      "key": "btn.rebuild",
+      "value": "Przebuduj w scenie"
+    },
+    {
+      "key": "btn.clear",
+      "value": "Wyczyść upieczone"
+    },
+    {
+      "key": "btn.autofill",
+      "value": "Auto-uzupełnij części (Humanoid)"
+    },
+    {
+      "key": "btn.addPart",
+      "value": "+ pusta część"
+    },
+    {
+      "key": "btn.addGroup",
+      "value": "+ grupa"
+    },
+    {
+      "key": "btn.autoAssign",
+      "value": "Przypisz automatycznie po nazwie"
+    },
+    {
+      "key": "btn.pick",
+      "value": "Wybierz preset"
+    },
+    {
+      "key": "btn.paint",
+      "value": "Rozpocznij malowanie"
+    },
+    {
+      "key": "btn.stopPaint",
+      "value": "Zakończ malowanie"
+    },
+    {
+      "key": "btn.resetPose",
+      "value": "Przywróć bind pose"
+    },
+    {
+      "key": "btn.clearPaint",
+      "value": "Wyczyść wszystkie etykiety"
+    },
+    {
+      "key": "btn.remove",
+      "value": "×"
+    },
+    {
+      "key": "btn.paintThis",
+      "value": "Maluj to"
+    },
+    {
+      "key": "btn.showUncovered",
+      "value": "Pokaż niepokryte ściany"
+    },
+    {
+      "key": "btn.batchBake",
+      "value": "Upiecz wszystkie zaznaczone"
+    },
+    {
+      "key": "bake.none",
+      "value": "Nic jeszcze nie upieczono."
+    },
+    {
+      "key": "bake.stats",
+      "value": "Statystyki"
+    },
+    {
+      "key": "bake.hulls",
+      "value": "Otoczki"
+    },
+    {
+      "key": "bake.verts",
+      "value": "Wierzchołki"
+    },
+    {
+      "key": "bake.peak",
+      "value": "Szczyt na otoczkę"
+    },
+    {
+      "key": "bake.volume",
+      "value": "Objętość"
+    },
+    {
+      "key": "bake.unassigned",
+      "value": "Nieprzypisane trójkąty"
+    },
+    {
+      "key": "bake.precisionRow",
+      "value": "{0} trójkątów/otoczkę · {1} otoczek/część · szew {2:F1}mm · waga ≥ {3:F2}"
+    },
+    {
+      "key": "cov.title",
+      "value": "Pokrycie"
+    },
+    {
+      "key": "cov.value",
+      "value": "{0:F1}%  ({1} / {2} trójkątów)"
+    },
+    {
+      "key": "cov.uncovered",
+      "value": "{0} trójkątów nie jest pokrytych przez żadną otoczkę"
+    },
+    {
+      "key": "cov.analyze",
+      "value": "Analizuj pokrycie"
+    },
+    {
+      "key": "cov.none",
+      "value": "Brak upieczonych danych."
+    },
+    {
+      "key": "cov.nosource",
+      "value": "Brak siatki źródłowej."
+    },
+    {
+      "key": "paint.section",
+      "value": "Pędzel"
+    },
+    {
+      "key": "paint.ready",
+      "value": "Gotowe do malowania"
+    },
+    {
+      "key": "paint.blocked",
+      "value": "Malowanie jest zablokowane"
+    },
+    {
+      "key": "paint.radius",
+      "value": "Promień"
+    },
+    {
+      "key": "paint.xray",
+      "value": "X-Ray (ignoruj tylne ściany)"
+    },
+    {
+      "key": "paint.symmetry",
+      "value": "Lustro na X"
+    },
+    {
+      "key": "paint.hud",
+      "value": "Pędzel · grupa [{0}] {1} · promień {2:F1}cm"
+    },
+    {
+      "key": "paint.hudKeys",
+      "value": "LPM maluj / Shift wymazuj / kółko promień / X symetria {0}"
+    },
+    {
+      "key": "paint.on",
+      "value": "wł."
+    },
+    {
+      "key": "paint.off",
+      "value": "wył."
+    },
+    {
+      "key": "paint.tip1",
+      "value": "Pędzel oznacza ściany. Etykiety stają się ograniczeniami podziału podczas pieczenia, więc jeden obiekt może mieć miękki materiał w jednym obszarze, a twardy w innym — w jednym pieczeniu."
+    },
+    {
+      "key": "paint.tip2",
+      "value": "Dostępne tylko w trybie edycji, przy zatrzymanym Play i zamkniętym oknie Animation. Metki są zapisywane po numerach trójkątów, więc aktualna poza nie ma znaczenia."
+    },
+    {
+      "key": "paint.nomask",
+      "value": "Brak jeszcze assetu etykiet. Upiecz raz, aby go utworzyć."
+    },
+    {
+      "key": "paint.trisPerGroup",
+      "value": "{0} trójkątów"
+    },
+    {
+      "key": "pose.notarget",
+      "value": "Nie wybrano celu"
+    },
+    {
+      "key": "pose.noplay",
+      "value": "Nie można edytować etykiet w Play mode (podgląd tylko do odczytu)"
+    },
+    {
+      "key": "pose.anim",
+      "value": "Okno Animation jest w podglądzie. Najpierw wyjdź z podglądu."
+    },
+    {
+      "key": "pose.notbind",
+      "value": "Rig nie jest w bind pose (odchylenie {0:F1}cm w {1}). Najpierw kliknij „Przywróć bind pose”."
+    },
+    {
+      "key": "gizmo.enabled",
+      "value": "Pokaż otoczki"
+    },
+    {
+      "key": "gizmo.selected",
+      "value": "Tylko zaznaczone"
+    },
+    {
+      "key": "gizmo.bind",
+      "value": "Bind pose (T-pose)"
+    },
+    {
+      "key": "gizmo.source",
+      "value": "Wireframe siatki źródłowej"
+    },
+    {
+      "key": "gizmo.uncovered",
+      "value": "Podświetl niepokryte ściany"
+    },
+    {
+      "key": "gizmo.painted",
+      "value": "Pokaż pomalowane ściany"
+    },
+    {
+      "key": "gizmo.labels",
+      "value": "Etykiety"
+    },
+    {
+      "key": "gizmo.max",
+      "value": "Maks. rysowanych otoczek"
+    },
+    {
+      "key": "gizmo.tip",
+      "value": "Domyślnie bind pose: w bind pose bone.localToWorldMatrix · bindposes[i] = I, więc bind pose JEST siatką źródłową w postaci autorskiej. Otoczki T-pose pozostają stabilne podczas odtwarzania animacji."
+    },
+    {
+      "key": "gizmo.legendOk",
+      "value": "normalna"
+    },
+    {
+      "key": "gizmo.legendPeak",
+      "value": "ponad 255 wierzchołków"
+    },
+    {
+      "key": "gizmo.legendUncov",
+      "value": "niepokryte"
+    },
+    {
+      "key": "part.bone",
+      "value": "Kość"
+    },
+    {
+      "key": "part.children",
+      "value": "Uwzględnij kości podrzędne"
+    },
+    {
+      "key": "part.rules",
+      "value": "Reguła podziału: wygrywa najbliższy przodek. Gdy część nadrzędna włącza „uwzględnij kości podrzędne”, głębsza część nadal ma priorytet, więc zdarzenia nigdy nie są wysyłane dwukrotnie."
+    },
+    {
+      "key": "mat.pair",
+      "value": "Zachowanie pary"
+    },
+    {
+      "key": "mat.pairHint",
+      "value": "Priorytet łączenia Unity: Average < Minimum < Multiply < Maximum."
+    },
+    {
+      "key": "mat.static",
+      "value": "tarcie statyczne"
+    },
+    {
+      "key": "mat.dynamic",
+      "value": "tarcie dynamiczne"
+    },
+    {
+      "key": "mat.bounce",
+      "value": "sprężystość"
+    },
+    {
+      "key": "mat.combine",
+      "value": "łączenie"
+    },
+    {
+      "key": "mat.summary",
+      "value": "statyczne {0:F2} · dynamiczne {1:F2} · odbicie {2:F2} · łączenie {3}/{4}"
+    },
+    {
+      "key": "mat.autoAll",
+      "value": "Wypełnij wszystkie grupy z presetów"
+    },
+    {
+      "key": "phys.title",
+      "value": "Fizyka projektu"
+    },
+    {
+      "key": "phys.apply",
+      "value": "Zastosuj zalecane"
+    },
+    {
+      "key": "phys.gravity",
+      "value": "gravity.y"
+    },
+    {
+      "key": "phys.bounce",
+      "value": "bounceThreshold"
+    },
+    {
+      "key": "phys.velIter",
+      "value": "solverVelocityIterations"
+    },
+    {
+      "key": "phys.contactOffset",
+      "value": "defaultContactOffset"
+    },
+    {
+      "key": "phys.maxDepen",
+      "value": "defaultMaxDepenetrationVelocity"
+    },
+    {
+      "key": "health.title",
+      "value": "Zdrowie kolizji"
+    },
+    {
+      "key": "health.rerun",
+      "value": "Sprawdź ponownie"
+    },
+    {
+      "key": "health.none",
+      "value": "Nie znaleziono problemów."
+    },
+    {
+      "key": "health.summary",
+      "value": "błędy {0} / ostrzeżenia {1} / wskazówki {2}"
+    },
+    {
+      "key": "health.fix",
+      "value": "Napraw"
+    },
+    {
+      "key": "health.score",
+      "value": "Ocena {0}/100"
+    },
+    {
+      "key": "health.grade",
+      "value": "Klasa {0}"
+    },
+    {
+      "key": "menu.main",
+      "value": "Otwórz główne okno"
+    },
+    {
+      "key": "menu.bake",
+      "value": "Upiecz zaznaczone"
+    },
+    {
+      "key": "menu.gizmo",
+      "value": "Przełącz gizmo otoczek"
+    },
+    {
+      "key": "menu.rebuild",
+      "value": "Przebuduj zaznaczone"
+    },
+    {
+      "key": "menu.health",
+      "value": "Zdrowie kolizji"
+    },
+    {
+      "key": "menu.about",
+      "value": "O Neko Dynamic Collision"
+    },
+    {
+      "key": "cat.metal",
+      "value": "Metal"
+    },
+    {
+      "key": "cat.plastic",
+      "value": "Plastik"
+    },
+    {
+      "key": "cat.glass",
+      "value": "Szkło"
+    },
+    {
+      "key": "cat.wood",
+      "value": "Drewno"
+    },
+    {
+      "key": "cat.stone",
+      "value": "Kamień"
+    },
+    {
+      "key": "cat.rubber",
+      "value": "Guma"
+    },
+    {
+      "key": "cat.fabric",
+      "value": "Tkanina"
+    },
+    {
+      "key": "cat.organic",
+      "value": "Biologia"
+    },
+    {
+      "key": "cat.ice",
+      "value": "Lód"
+    },
+    {
+      "key": "cat.other",
+      "value": "Inne"
+    },
+    {
+      "key": "bake.err.none",
+      "value": "target/set jest null"
+    },
+    {
+      "key": "bake.err.noSkin",
+      "value": "Nie znaleziono źródła SkinnedMeshRenderer"
+    },
+    {
+      "key": "bake.err.noMesh",
+      "value": "Nie znaleziono źródła MeshFilter"
+    },
+    {
+      "key": "bake.err.noGroups",
+      "value": "Brak grup materiałów. Najpierw utwórz grupę domyślną."
+    },
+    {
+      "key": "bake.err.empty",
+      "value": "Nie utworzono żadnej otoczki."
+    },
+    {
+      "key": "bake.warn.maskMismatch",
+      "value": "Liczba etykiet ({0}) nie zgadza się z liczbą trójkątów źródła ({1}); etykiety pominięto w tym przebiegu."
+    },
+    {
+      "key": "bake.warn.peak",
+      "value": "Liczba wierzchołków otoczki {0} przekracza limit PhysX wynoszący 255."
+    },
+    {
+      "key": "bake.warn.unassigned",
+      "value": "{0} trójkątów nie należy do żadnej części i nie zostanie upieczonych."
+    },
+    {
+      "key": "bake.warn.none",
+      "value": "Nie utworzono żadnej otoczki; sprawdź części i precyzję."
+    },
+    {
+      "key": "bake.warn.nobones",
+      "value": "Brak wag kości, więc partycje Skin nie mogą zostać przypisane."
+    },
+    {
+      "key": "desc.verySlippery",
+      "value": "bardzo ślisko"
+    },
+    {
+      "key": "desc.slippery",
+      "value": "ślisko"
+    },
+    {
+      "key": "desc.normal",
+      "value": "normalnie"
+    },
+    {
+      "key": "desc.grippy",
+      "value": "przyczepnie"
+    },
+    {
+      "key": "desc.veryGrippy",
+      "value": "bardzo przyczepnie"
+    },
+    {
+      "key": "desc.noBounce",
+      "value": "nie odbija się"
+    },
+    {
+      "key": "desc.lowBounce",
+      "value": "słabo się odbija"
+    },
+    {
+      "key": "desc.bouncy",
+      "value": "sprężyście"
+    },
+    {
+      "key": "desc.veryBouncy",
+      "value": "bardzo sprężyście"
+    },
+    {
+      "key": "h.nobake.title",
+      "value": "Nic jeszcze nie upieczono"
+    },
+    {
+      "key": "h.nobake.detail",
+      "value": "W czasie działania nic nie zostanie złożone."
+    },
+    {
+      "key": "h.nobake.fix",
+      "value": "Upiecz teraz"
+    },
+    {
+      "key": "h.peakOver.title",
+      "value": "Otoczka ma {0} wierzchołków, powyżej limitu PhysX wynoszącego 255"
+    },
+    {
+      "key": "h.peakOver.detail",
+      "value": "Unity odrzuca otoczkę przekraczającą limit i po cichu nic nie robi. Zmniejsz precyzję lub zwiększ podział części."
+    },
+    {
+      "key": "h.peakOver.fix",
+      "value": "Upiecz ponownie o jeden stopień precyzji niżej"
+    },
+    {
+      "key": "h.peakNear.title",
+      "value": "Szczyt wierzchołków otoczki {0} (blisko 255)"
+    },
+    {
+      "key": "h.peakNear.detail",
+      "value": "Wciąż się mieści, ale kolejny stopień precyzji osiągnie pułap."
+    },
+    {
+      "key": "h.degenerate.title",
+      "value": "{0} klastrów zdegenerowało się i nie może utworzyć otoczki"
+    },
+    {
+      "key": "h.degenerate.detail",
+      "value": "Zwykle powodowane przez rozdrobnione etykiety materiałów lub zbyt wysoki próg wagi. Sprawdź, czy grupy materiałów nie są rozdrobnione."
+    },
+    {
+      "key": "h.unassigned.title",
+      "value": "{0} trójkątów ({1:F1}%) nie należy do żadnej części"
+    },
+    {
+      "key": "h.unassigned.detail",
+      "value": "Te ściany nie dostają otoczki i będą pomijać trafienia. Sprawdź, czy kości części pokrywają cały szkielet."
+    },
+    {
+      "key": "h.unassigned.fix",
+      "value": "Auto-uzupełnij części (Humanoid)"
+    },
+    {
+      "key": "h.hashMismatch.title",
+      "value": "Siatka źródłowa zmieniła się, ale nie została ponownie upieczona"
+    },
+    {
+      "key": "h.hashMismatch.detail",
+      "value": "Po ponownym imporcie lub edycji topologii indeksy trójkątów nie odpowiadają już upieczonemu wynikowi, więc pozycje trafień będą przesunięte."
+    },
+    {
+      "key": "h.hashMismatch.fix",
+      "value": "Upiecz ponownie"
+    },
+    {
+      "key": "h.layers.title",
+      "value": "Rola {0}, ale nie ustawiono warstw interakcji"
+    },
+    {
+      "key": "h.layers.detail",
+      "value": "Puste includeLayers sprawia, że otoczki oddziałują ze wszystkim; obcisły Hitbox blokuje wtedy ragdoll, otoczenie i inne postacie."
+    },
+    {
+      "key": "h.layers.fix",
+      "value": "Ogranicz do warstwy Bullet"
+    },
+    {
+      "key": "h.noGroups.title",
+      "value": "Brak grup materiałów"
+    },
+    {
+      "key": "h.noGroups.detail",
+      "value": "Pieczenie wymaga co najmniej jednej grupy."
+    },
+    {
+      "key": "h.noGroups.fix",
+      "value": "Utwórz grupę domyślną"
+    },
+    {
+      "key": "h.noMaterial.title",
+      "value": "Grupa „{0}” nie ma materiału fizycznego"
+    },
+    {
+      "key": "h.noMaterial.detail",
+      "value": "Spada do domyślnego ustawienia projektu, więc tarcie i odbicie są niekontrolowane."
+    },
+    {
+      "key": "h.noMaterial.fix",
+      "value": "Przypisz preset"
+    },
+    {
+      "key": "h.emptyGroup.title",
+      "value": "Grupa „{0}” nie ma żadnych otoczek"
+    },
+    {
+      "key": "h.emptyGroup.detail",
+      "value": "Albo pędzel nigdy nie oznaczył ściany, albo każdą oznaczoną ścianę przejęła inna część."
+    },
+    {
+      "key": "h.fragmented.title",
+      "value": "Grupa „{0}” ma {1} otoczek"
+    },
+    {
+      "key": "h.fragmented.detail",
+      "value": "Fragmentacja tworzy wiele drobnych koliderów, co czyni gotowanie i broadphase kosztownymi. Scal etykiety lub zmniejsz precyzję."
+    },
+    {
+      "key": "h.fragmented.fix",
+      "value": "Scal z sąsiednią grupą"
+    },
+    {
+      "key": "h.noRigidbody.title",
+      "value": "Brak Rigidbody, więc zdarzenia kolizji nigdy nie zadziałają"
+    },
+    {
+      "key": "h.noRigidbody.detail",
+      "value": "Unity dostarcza wywołania zwrotne kolizji tylko do GameObject, który posiada Rigidbody. Włącz auto Rigidbody lub dodaj kinematyczne Rigidbody do rodzica."
+    },
+    {
+      "key": "h.noRigidbody.fix",
+      "value": "Włącz auto Rigidbody"
+    },
+    {
+      "key": "h.massSmall.title",
+      "value": "Masa Rigidbody „{0}” to tylko {1:F4}kg"
+    },
+    {
+      "key": "h.massSmall.detail",
+      "value": "Bardzo mała masa jest niestabilna numerycznie i tuneluje. Włącz Auto Mass from Density."
+    },
+    {
+      "key": "h.massSmall.fix",
+      "value": "Włącz masę z gęstości"
+    },
+    {
+      "key": "h.massLarge.title",
+      "value": "Masa Rigidbody „{0}” wynosi {1:F0}kg"
+    },
+    {
+      "key": "h.massLarge.detail",
+      "value": "Jeśli nie jest to zamierzone, sprawdź jednostkę gęstości (kg/m³)."
+    },
+    {
+      "key": "h.selfCollision.title",
+      "value": "Samokolizja ragdolla jest w pełni włączona"
+    },
+    {
+      "key": "h.selfCollision.detail",
+      "value": "Kości odpychają się nawzajem, co często powoduje drgania ragdolla. „Ignoruj sąsiednie” to zwykły wybór."
+    },
+    {
+      "key": "h.selfCollision.fix",
+      "value": "Przełącz na ignorowanie sąsiednich"
+    },
+    {
+      "key": "h.dispatch.title",
+      "value": "{0} wysłań nie miało odbiorcy (ostatnie: {1})"
+    },
+    {
+      "key": "h.dispatch.detail",
+      "value": "Błędnie zapisana nazwa zdarzenia nie zgłasza błędu; pojawia się tylko w diagnostyce. Rejestruj odbiorców przez Dyc_Events.Register."
+    },
+    {
+      "key": "h.dispatch.fix",
+      "value": "Zresetuj liczniki"
+    },
+    {
+      "key": "h.physicsBounce.title",
+      "value": "bounceThreshold = {0}: uderzenia wolniejsze niż to nigdy się nie odbijają"
+    },
+    {
+      "key": "h.physicsBounce.detail",
+      "value": "Dlatego presety gumy i piłki wyglądają, jakby nic nie robiły."
+    },
+    {
+      "key": "h.physicsBounce.fix",
+      "value": "bounceThreshold → 0.3"
+    },
+    {
+      "key": "h.physicsVelocity.title",
+      "value": "VelocityIterations = {0}: stosy i szybkie uderzenia drgają lub tunelują"
+    },
+    {
+      "key": "h.physicsVelocity.detail",
+      "value": "Częsta główna przyczyna drgań ragdolla w Unity."
+    },
+    {
+      "key": "h.physicsVelocity.fix",
+      "value": "VelocityIterations → 2"
+    },
+    {
+      "key": "h.physicsGravity.title",
+      "value": "gravity = {0:F2} (nie -9.81)"
+    },
+    {
+      "key": "h.physicsGravity.detail",
+      "value": "Cała intuicja dotycząca masy i impulsu wywiedziona z -9.81 jest błędna o {0:F2}×, więc presety gęstości wymagają korekty."
+    },
+    {
+      "key": "h.physicsContact.title",
+      "value": "defaultContactOffset = {0}: szczelina kontaktu jest szeroka"
+    },
+    {
+      "key": "h.physicsContact.detail",
+      "value": "Cienkie obiekty często wyglądają, jakby lewitowały."
+    },
+    {
+      "key": "insp.sectionBasic",
+      "value": "Podstawowe"
+    },
+    {
+      "key": "insp.sectionCollision",
+      "value": "Kolizja"
+    },
+    {
+      "key": "insp.sectionPhysics",
+      "value": "Fizyka"
+    },
+    {
+      "key": "insp.sectionTrigger",
+      "value": "Trigger"
+    },
+    {
+      "key": "insp.sectionLod",
+      "value": "LOD"
+    },
+    {
+      "key": "insp.multi",
+      "value": "Zaznaczenie wielu obsługuje tylko pieczenie wsadowe. Wybierz jeden obiekt do szczegółowej edycji."
+    },
+    {
+      "key": "insp.noBake",
+      "value": "Jeszcze nie upieczono"
+    },
+    {
+      "key": "insp.noBakeHint",
+      "value": "Naciśnij „Upiecz” poniżej."
+    },
+    {
+      "key": "insp.baked",
+      "value": "Upieczono otoczek: {0}"
+    },
+    {
+      "key": "insp.peakVerts",
+      "value": "Wierzchołki / szczyt"
+    },
+    {
+      "key": "insp.volume",
+      "value": "Objętość"
+    },
+    {
+      "key": "insp.partsGroups",
+      "value": "Części / grupy"
+    },
+    {
+      "key": "insp.unassigned",
+      "value": "Nieprzypisane trójkąty"
+    },
+    {
+      "key": "insp.health",
+      "value": "Zdrowie"
+    },
+    {
+      "key": "insp.tally",
+      "value": "{0} błędów · {1} ostrzeżeń · {2} wskazówek"
+    },
+    {
+      "key": "insp.openBaker",
+      "value": "Otwórz pieczenie"
+    },
+    {
+      "key": "insp.showGizmo",
+      "value": "Pokaż Gizmo otoczek"
+    },
+    {
+      "key": "insp.autoRb",
+      "value": "Auto-dodaj Rigidbody"
+    },
+    {
+      "key": "insp.selfCollision",
+      "value": "Samokolizja"
+    },
+    {
+      "key": "insp.autoMass",
+      "value": "Masa z gęstości"
+    },
+    {
+      "key": "insp.targetMass",
+      "value": "Normalizuj masę całkowitą (0 = wył.)"
+    },
+    {
+      "key": "insp.triggerMode",
+      "value": "Tryb"
+    },
+    {
+      "key": "insp.pollDivisor",
+      "value": "Klatek na przebieg"
+    },
+    {
+      "key": "insp.pollSweep",
+      "value": "Margines sweep (m)"
+    },
+    {
+      "key": "insp.pollNote",
+      "value": "Odpytywanie to próbkowanie, nie zdarzenie. Bardzo szybkie przebiegi są pomijane; margines sweep to kompensuje."
+    },
+    {
+      "key": "insp.lodMode",
+      "value": "Tryb"
+    },
+    {
+      "key": "insp.lodDistance",
+      "value": "Odległość (m)"
+    },
+    {
+      "key": "insp.debugLog",
+      "value": "Dziennik debugowania"
+    },
+    {
+      "key": "insp.rebuild",
+      "value": "Przebuduj (działa w Play mode)"
+    },
+    {
+      "key": "set.language",
+      "value": "Język"
+    },
+    {
+      "key": "set.langNote",
+      "value": "Stosuje się od razu do okna i menu NekoWorks."
+    },
+    {
+      "key": "set.diagnostics",
+      "value": "Diagnostyka"
+    },
+    {
+      "key": "set.languagesLoaded",
+      "value": "Wczytane języki"
+    },
+    {
+      "key": "set.localeRoot",
+      "value": "Folder języków"
+    },
+    {
+      "key": "set.langMissing",
+      "value": "Nie znaleziono folderu języków. Szukano w: {0}"
+    },
+    {
+      "key": "set.presets",
+      "value": "Presety materiałów"
+    },
+    {
+      "key": "set.gizmoDefault",
+      "value": "Gizmo brył"
+    },
+    {
+      "key": "set.openBaked",
+      "value": "Otwórz folder zapieczonych zasobów"
+    },
+    {
+      "key": "set.resetPrefs",
+      "value": "Zresetuj ustawienia wtyczki"
+    },
+    {
+      "key": "set.refreshIcon",
+      "value": "Odśwież ikonę komponentu"
+    },
+    {
+      "key": "lbl.childMeshes",
+      "value": "Czytaj siatki dzieci"
+    },
+    {
+      "key": "lbl.hullsPerPart",
+      "value": "Otoczki na część"
+    },
+    {
+      "key": "lbl.trisPerHull",
+      "value": "Trójkąty na otoczkę"
+    },
+    {
+      "key": "lbl.weightThreshold",
+      "value": "Próg wagi kości"
+    },
+    {
+      "key": "prec.skinHint",
+      "value": "W trybie Skin liczba otoczek jest ustalana dla każdej strefy automatycznie: paliczek i tors mają różne kształty, a jedna liczba dla całego ciała zawsze kłamie jednemu z nich. Trójkąty na otoczkę pozostają twoją decyzją — to budżet szczegółowości, nie kształt."
+    },
+    {
+      "key": "prec.customHint",
+      "value": "Otoczki na część to kształt przybliżenia, nie poziom jakości. Cienki obiekt — strzała, kość — chce JEDNEJ otoczki: dwie dzielą go na pół, a każda połowa staje się cienką skorupą zamiast połowy ciała. Tors albo pojazd chce 4-8. Próg wagi decyduje, które wierzchołki należą do kości: poniżej niego wierzchołek jest odrzucany, kość dostaje dziurawą powierzchnię, a jej otoczka wygląda jak płatek."
+    },
+    {
+      "key": "src.autoHint",
+      "value": "Puste źródło oznacza MeshFilter na tym obiekcie. Siatki dzieci są czytane tylko gdy przełącznik powyżej jest włączony — dawne ciche szukanie pierwszej siatki wśród dzieci mogło zapiec niewłaściwą siatkę."
+    },
+    {
+      "key": "lbl.shape",
+      "value": "Kształt kolidera"
+    },
+    {
+      "key": "shape.convex",
+      "value": "Otoczki wypukłe"
+    },
+    {
+      "key": "shape.concave",
+      "value": "Powierzchnia niewypukła"
+    },
+    {
+      "key": "shape.convexHint",
+      "value": "Jedna otoczka wypukła na kość, zapiekana offline. Bez szwów tylko tam, gdzie sąsiednie otoczki się nakładają; wklęsłe stawy (pacha, pachwina, szyja) zachowują szczelinę. Działa na ruchomych ciałach sztywnych i koliduje siatka-siatka."
+    },
+    {
+      "key": "shape.concaveHint",
+      "value": "Rzeczywista powierzchnia każdej kości, bez rozdymania otoczki — brak dziur w stawach. Koszt: tylko ciała kinematyczne lub animowane, brak kolizji siatka-siatka, brak szybkiej fazy szerokiej. Na mobile lepsze do wykrywania trafień niż do blokowania fizycznego."
+    },
+    {
+      "key": "lbl.excludedBones",
+      "value": "Wykluczone kości"
+    },
+    {
+      "key": "lbl.excludedBonesHint",
+      "value": "Kość tu wymieniona, wraz z całym poddrzewem, nie dostaje strefy ani kolidera. To miejsce na cele IK, końcówki i kości pomocnicze."
+    },
+    {
+      "key": "lbl.excludedSkins",
+      "value": "Wykluczone renderery"
+    },
+    {
+      "key": "lbl.excludedSkinsHint",
+      "value": "SkinnedMeshRenderer, które nie są w ogóle pieczone — włosy, osobny renderer tkaniny, rekwizyty."
+    },
+    {
+      "key": "lbl.excludeGroup",
+      "value": "Wyklucz z pieczenia"
+    },
+    {
+      "key": "lbl.excludeGroupHint",
+      "value": "Ściany tej grupy są całkowicie pomijane przy pieczeniu: bez grupowania, bez dekompozycji, bez koliderów. Tak peleryna albo uprząż nie dostaje hitboxa bez zmiany materiału."
+    },
+    {
+      "key": "btn.expert",
+      "value": "Okno eksperta"
+    },
+    {
+      "key": "exp.title",
+      "value": "Precyzja na kość"
+    },
+    {
+      "key": "exp.noTarget",
+      "value": "Wybierz obiekt z komponentem Dynamic Collision."
+    },
+    {
+      "key": "exp.basePrecision",
+      "value": "Części na kość"
+    },
+    {
+      "key": "exp.totals",
+      "value": "{0} części na {1} kości"
+    },
+    {
+      "key": "exp.decompose",
+      "value": "Dekompozycja"
+    },
+    {
+      "key": "exp.voxelSize",
+      "value": "Woksel mm"
+    },
+    {
+      "key": "exp.maxHulls",
+      "value": "Maks. części"
+    },
+    {
+      "key": "exp.project",
+      "value": "Rzutuj"
+    },
+    {
+      "key": "exp.resetDefaults",
+      "value": "Przywróć domyślne"
+    },
+    {
+      "key": "exp.separate",
+      "value": "Rozdziel"
+    },
+    {
+      "key": "exp.separationMm",
+      "value": "Szczelina mm"
+    },
+    {
+      "key": "exp.invertY",
+      "value": "Odwróć Y"
+    },
+    {
+      "key": "exp.secondary",
+      "value": "Kształt, samokolizja, LOD"
+    },
+    {
+      "key": "exp.rebake",
+      "value": "Piecz ponownie"
+    },
+    {
+      "key": "exp.clearManual",
+      "value": "Wyczyść ręczne"
+    },
+    {
+      "key": "exp.bones",
+      "value": "Drzewo kości"
+    },
+    {
+      "key": "exp.noSkeleton",
+      "value": "Brak szkieletu."
+    },
+    {
+      "key": "exp.concavityShort",
+      "value": "w {0:0.00}"
+    },
+    {
+      "key": "exp.concavity",
+      "value": "Wklęsłość"
+    },
+    {
+      "key": "exp.minDepth",
+      "value": "Min. głębokość"
+    },
+    {
+      "key": "exp.kernel",
+      "value": "Jądro"
+    },
+    {
+      "key": "exp.kernelOwn",
+      "value": "Własny woksel"
+    },
+    {
+      "key": "exp.kernelNative",
+      "value": "Natywny V-HACD"
+    },
+    {
+      "key": "exp.maxVoxels",
+      "value": "Limit wokseli"
+    },
+    {
+      "key": "exp.fillRatio",
+      "value": "Wypełnienie"
+    },
+    {
+      "key": "exp.splitDepth",
+      "value": "Głębokość cięcia"
+    },
+    {
+      "key": "exp.timeBudget",
+      "value": "Czas s"
+    },
+    {
+      "key": "bake.progress.title",
+      "value": "Pieczenie kolizji"
+    },
+    {
+      "key": "bake.progress.preparing",
+      "value": "Przygotowanie"
+    },
+    {
+      "key": "bake.progress.decomposing",
+      "value": "Dekompozycja ciała na części wypukłe"
+    },
+    {
+      "key": "bake.progress.assembling",
+      "value": "Składanie otoczek"
+    },
+    {
+      "key": "bake.progress.baking",
+      "value": "Pieczenie"
+    },
+    {
+      "key": "bake.progress.budget",
+      "value": "Budżet czasu wyczerpany — składane jest to, co gotowe"
+    },
+    {
+      "key": "bake.progress.cancel",
+      "value": "Anuluj"
+    },
+    {
+      "key": "bake.progress.cancelling",
+      "value": "Anulowanie…"
+    },
+    {
+      "key": "bake.stage.decompose",
+      "value": "Dekompozycja"
+    },
+    {
+      "key": "bake.stage.assemble",
+      "value": "Składanie otoczek"
+    },
+    {
+      "key": "exp.triangles",
+      "value": "Trójkąty"
+    },
+    {
+      "key": "exp.pieces",
+      "value": "Części"
+    },
+    {
+      "key": "exp.volume",
+      "value": "Objętość"
+    },
+    {
+      "key": "exp.dropped",
+      "value": "Budżet odrzucił {0} części. Zwiększ go dla tej kości albo zmniejsz wklęsłość."
+    },
+    {
+      "key": "exp.detail",
+      "value": "Kość"
+    },
+    {
+      "key": "exp.pickBone",
+      "value": "Wybierz kość w drzewie albo w widoku 3D."
+    },
+    {
+      "key": "exp.noStat",
+      "value": "Brak danych pieczenia dla tej kości. Najpierw zapiecz ponownie."
+    },
+    {
+      "key": "exp.manualPieces",
+      "value": "Części (ręczne)"
+    },
+    {
+      "key": "exp.locked",
+      "value": "Zablokowane"
+    },
+    {
+      "key": "exp.releaseBone",
+      "value": "Powrót do automatycznego"
+    },
+    {
+      "key": "exp.hullList",
+      "value": "Części"
+    },
+    {
+      "key": "exp.hullRow",
+      "value": "#{0} · {1} wierzchołków · {2:0.0000} m³"
+    },
+    {
+      "key": "exp.noHulls",
+      "value": "Brak części dla tej kości."
+    },
+    {
+      "key": "exp.previewFailed",
+      "value": "Podgląd nie zwrócił tekstury. Sprawdź konsolę."
+    },
+    {
+      "key": "exp.orbitHint",
+      "value": "Przeciągnij prawym — obrót · Przeciągnij lewym — przesuń · Kółko — zoom · Klik — wybór · Podwójny klik — środek obrotu"
+    },
+    {
+      "key": "btn.fromSkeleton",
+      "value": "Wypełnij strefy ze szkieletu"
+    },
+    {
+      "key": "btn.hideUncovered",
+      "value": "Ukryj niepokryte ściany"
+    },
+    {
+      "key": "gizmo.occlude",
+      "value": "Przygasz zasłonięte krawędzie (50%)"
+    },
+    {
+      "key": "cat.ceramic",
+      "value": "Ceramika"
+    },
+    {
+      "key": "cat.body",
+      "value": "Części ciała"
+    },
+    {
+      "key": "cat.tissue",
+      "value": "Tkanki i narządy"
+    },
+    {
+      "key": "cat.food",
+      "value": "Żywność"
+    },
+    {
+      "key": "forge.title",
+      "value": "Kuźnia materiałów"
+    },
+    {
+      "key": "forge.hint",
+      "value": "Tabela mówi, z czego coś jest zrobione. Kuźnia mówi, czym jest teraz: materiał bazowy × stan powierzchni. Części ciała i tkanki nie są wierszami tabeli — wynikają z mieszanki tkanek, dlatego ich liczby da się wyjaśnić."
+    },
+    {
+      "key": "forge.base",
+      "value": "Materiał bazowy"
+    },
+    {
+      "key": "forge.condition",
+      "value": "Stan powierzchni"
+    },
+    {
+      "key": "forge.group",
+      "value": "Grupa"
+    },
+    {
+      "key": "forge.apply",
+      "value": "Wykuj i przypisz"
+    },
+    {
+      "key": "forge.generate",
+      "value": "Wygeneruj zasoby wariantów"
+    },
+    {
+      "key": "forge.generateHint",
+      "value": "Zapisuje po jednym .physicMaterial na stan powierzchni do folderu pieczenia, aby grafik mógł je wybrać bez wtyczki."
+    },
+    {
+      "key": "forge.generated",
+      "value": "Wygenerowano {0} zasobów materiału w {1}"
+    },
+    {
+      "key": "forge.variantOf",
+      "value": "{0} · warianty"
+    },
+    {
+      "key": "forge.presets",
+      "value": "{0} ustawień w {1} kategoriach"
+    },
+    {
+      "key": "forge.values",
+      "value": "statyczne {0:F2} · dynamiczne {1:F2} · odbicie {2:F2} · {3:F0} kg/m³"
+    },
+    {
+      "key": "forge.derived",
+      "value": "pochodne"
+    },
+    {
+      "key": "forge.applied",
+      "value": "Grupa \"{0}\" wykuta z {1} · {2}"
+    },
+    {
+      "key": "forge.nogroup",
+      "value": "Brak grupy materiału do wykucia."
+    },
+    {
+      "key": "forge.self",
+      "value": "Wykuj w siebie"
+    },
+    {
+      "key": "forge.cond.dry",
+      "value": "Suchy"
+    },
+    {
+      "key": "forge.cond.wet",
+      "value": "Mokry"
+    },
+    {
+      "key": "forge.cond.oiled",
+      "value": "Naoliwiony"
+    },
+    {
+      "key": "forge.cond.bloody",
+      "value": "Zakrwawiony"
+    },
+    {
+      "key": "forge.cond.sweaty",
+      "value": "Spocony"
+    },
+    {
+      "key": "forge.cond.icy",
+      "value": "Lodowaty"
+    },
+    {
+      "key": "forge.cond.frozen",
+      "value": "Zamrożony"
+    },
+    {
+      "key": "forge.cond.dusty",
+      "value": "Zakurzony"
+    },
+    {
+      "key": "forge.cond.rough",
+      "value": "Szorstki"
+    },
+    {
+      "key": "forge.cond.polished",
+      "value": "Wypolerowany"
+    },
+    {
+      "key": "forge.cond.rusted",
+      "value": "Zardzewiały"
+    },
+    {
+      "key": "forge.cond.worn",
+      "value": "Zużyty"
+    },
+    {
+      "key": "forge.cond.clothed",
+      "value": "Odziany"
+    },
+    {
+      "key": "forge.cond.armored",
+      "value": "Opancerzony"
+    },
+    {
+      "key": "forge.cond.charred",
+      "value": "Zwęglony"
+    },
+    {
+      "key": "forge.tissue.bone",
+      "value": "Kość"
+    },
+    {
+      "key": "forge.tissue.cartilage",
+      "value": "Chrząstka"
+    },
+    {
+      "key": "forge.tissue.tendon",
+      "value": "Ścięgno"
+    },
+    {
+      "key": "forge.tissue.muscle",
+      "value": "Mięsień"
+    },
+    {
+      "key": "forge.tissue.fat",
+      "value": "Tłuszcz"
+    },
+    {
+      "key": "forge.tissue.skin",
+      "value": "Skóra"
+    },
+    {
+      "key": "forge.tissue.organ",
+      "value": "Narząd"
+    },
+    {
+      "key": "forge.tissue.lung",
+      "value": "Płuco"
+    },
+    {
+      "key": "forge.tissue.brain",
+      "value": "Mózg"
+    },
+    {
+      "key": "forge.tissue.keratin",
+      "value": "Keratin"
+    },
+    {
+      "key": "soft.hard",
+      "value": "twarde"
+    },
+    {
+      "key": "soft.firm",
+      "value": "sprężyste"
+    },
+    {
+      "key": "soft.soft",
+      "value": "miękkie"
+    },
+    {
+      "key": "soft.verySoft",
+      "value": "bardzo miękkie"
+    },
+    {
+      "key": "soft.gel",
+      "value": "galaretowate"
+    },
+    {
+      "key": "h.concaveDynamic.title",
+      "value": "Siatka niewypukła na ruchomym ciele sztywnym"
+    },
+    {
+      "key": "h.concaveDynamic.detail",
+      "value": "PhysX przyjmuje niewypukły MeshCollider tylko na ciele kinematycznym lub animowanym. Na ruchomym ciele sztywnym Unity po cichu odrzuca kolider i nic nie koliduje."
+    },
+    {
+      "key": "h.concaveDynamic.fix",
+      "value": "Ustaw ciało sztywne jako kinematyczne"
+    },
+    {
+      "key": "h.concaveScale.title",
+      "value": "Niejednorodna skala ({0:F2}, {1:F2}, {2:F2})"
+    },
+    {
+      "key": "h.concaveScale.detail",
+      "value": "Siatka niewypukła jest pieczona w przestrzeni lokalnej, więc rozciągnięta skala odsuwa kolider od modelu. Otoczki wypukłe nie mają tego problemu."
+    },
+    {
+      "key": "h.concaveMeshMesh.title",
+      "value": "Siatka niewypukła: brak kolizji siatka-siatka"
+    },
+    {
+      "key": "h.concaveMeshMesh.detail",
+      "value": "To ograniczenie PhysX, nie ustawienie: niewypukła siatka nigdy nie zderza się z inną niewypukłą. Nadal zderza się z bryłami prostymi, terenem i otoczkami wypukłymi."
+    },
+    {
+      "key": "h.allExcluded.title",
+      "value": "Wszystkie grupy materiału są wykluczone z pieczenia"
+    },
+    {
+      "key": "h.allExcluded.detail",
+      "value": "Pieczenie da zero koliderów. Usuń wykluczenie z co najmniej jednej grupy."
+    },
+    {
+      "key": "h.excludeDead.title",
+      "value": "Wykluczona kość \"{0}\" nie występuje w szkielecie"
+    },
+    {
+      "key": "h.excludeDead.detail",
+      "value": "Wpis nic nie robi — kość nie należy do pieczonego renderera. Zwykle pozostałość po zmianie riga."
+    },
+    {
+      "key": "h.softSelfCollision.title",
+      "value": "Miękka strefa z pełną samokolizją"
+    },
+    {
+      "key": "h.softSelfCollision.detail",
+      "value": "Miękka strefa ma otoczki i jednocześnie rozwiązuje własne cząstki; przy włączonej samokolizji oba się odpychają i tkanina wrze. \"Ignoruj sąsiednie\" to zwykły wybór."
+    },
+    {
+      "key": "h.softSelfCollision.fix",
+      "value": "Przełącz na ignorowanie sąsiednich"
+    },
+    {
+      "key": "h.softNoSource.title",
+      "value": "Miękkie strefy zapieczone, ale brak źródła deformacji"
+    },
+    {
+      "key": "h.softNoSource.detail",
+      "value": "Bez solvera zapisującego klatki każdy klaster zachowuje się jak sztywny blok: obiekt porusza się w całości i nie deformuje. To prawidłowy wariant awaryjny, nie błąd."
+    },
+    {
+      "key": "insp.sectionExclusions",
+      "value": "Wykluczenia"
+    },
+    {
+      "key": "shape.concaveWarn",
+      "value": "PhysX przyjmuje siatkę niewypukłą tylko na ciele kinematycznym lub animowanym. Na ruchomym ciele sztywnym Unity po cichu odrzuca kolider: nic nie koliduje i nie pojawia się żaden błąd. Zapiecz postać na ciele kinematycznym albo otwórz okno eksperta, aby sprawdzić pozostałe ograniczenia przed pieczeniem."
+    },
+    {
+      "key": "btn.openExpert",
+      "value": "Otwórz okno eksperta"
+    },
+    {
+      "key": "exp.groupActions",
+      "value": "Działania"
+    },
+    {
+      "key": "exp.groupPrecision",
+      "value": "Precyzja dekompozycji"
+    },
+    {
+      "key": "exp.groupBody",
+      "value": "Strefy i rozdzielanie"
+    },
+    {
+      "key": "exp.groupKernel",
+      "value": "Jądro i budżet"
+    },
+    {
+      "key": "exp.groupView",
+      "value": "Widok"
+    },
+    {
+      "key": "bake.concaveNote",
+      "value": "Powierzchnie niewypukłe nie mają limitu wierzchołków PhysX: budżet trójkątów jest dotrzymywany przez upraszczanie powierzchni, a nie przez jej dzielenie."
+    },
+    {
+      "key": "lbl.decomposeDetail",
+      "value": "Szczegółowość rozkładu"
+    },
+    {
+      "key": "lbl.decomposeVoxel",
+      "value": "Rozmiar woksela (mm)"
+    },
+    {
+      "key": "decomp.hint",
+      "value": "Gruby woksel: mniej, większych części — najtaniej. {0} mm."
+    },
+    {
+      "key": "decomp.fineHint",
+      "value": "Najdrobniej: części podążają za powierzchnią, więc koszt dorównuje trybowi niewypukłemu. Dokładniej nic nie da — tylko koszt."
+    },
+    {
+      "key": "exp.decomposed",
+      "value": "Części: rozkład wypukły (cięcie wzdłuż wklęsłości)"
+    },
+    {
+      "key": "exp.clustered",
+      "value": "Części: grupowanie przestrzenne (rozkład niedostępny — ścieżka zapasowa)"
+    },
+    {
+      "key": "lbl.concaveDetail",
+      "value": "Szczegółowość powierzchni"
+    },
+    {
+      "key": "concave.exact",
+      "value": "Bez upraszczania: powierzchnia brana jest z siatki tak, jak jest."
+    },
+    {
+      "key": "concave.budget",
+      "value": "Uproszczono do około {0} trójkątów na część. Przeciągnij w prawo po dokładność; skrajnie w prawo — bez upraszczania."
+    },
+    {
+      "key": "insp.sectionSimple",
+      "value": "Zwykłe użycie (jak kolider systemowy)"
+    },
+    {
+      "key": "insp.generateOnStart",
+      "value": "Buduj przy starcie, gdy nic nie wypieczono"
+    },
+    {
+      "key": "insp.generateHint",
+      "value": "Dodaj komponent i naciśnij Play. Kolidery powstają z siatki na kość; strefy i rozkład nadal daje pieczenie."
+    },
+    {
+      "key": "insp.isTrigger",
+      "value": "Koliderami są triggery"
+    },
+    {
+      "key": "insp.receiver",
+      "value": "Wysyłaj też OnCollision*/OnTrigger* do"
+    },
+    {
+      "key": "insp.receiverHint",
+      "value": "Pozostaw puste dla zwykłego zachowania Unity: komunikaty trafiają do obiektu z Rigidbody."
+    },
+    {
+      "key": "insp.sectionLive",
+      "value": "Aktualizacja na żywo (z budżetem)"
+    },
+    {
+      "key": "insp.liveUpdate",
+      "value": "Odbuduj otoczki z bieżącej pozy"
+    },
+    {
+      "key": "insp.liveContinuous",
+      "value": "Aktualizuj ciągle"
+    },
+    {
+      "key": "insp.idleBudget",
+      "value": "Budżet bezruchu (ms/klatkę)"
+    },
+    {
+      "key": "insp.activeBudget",
+      "value": "Budżet ruchu (ms/klatkę)"
+    },
+    {
+      "key": "insp.updateThreshold",
+      "value": "Pomiń aktualizację poniżej tego ruchu (m)"
+    },
+    {
+      "key": "insp.maxColliderTriangles",
+      "value": "Maks. trójkątów na kolider"
+    },
+    {
+      "key": "insp.liveHint",
+      "value": "Domyślnie wyłączone: obietnicą wtyczki jest zerowy koszt na klatkę. Włącz tam, gdzie liczy się silna deformacja."
+    },
+    {
+      "key": "insp.sectionMaterials",
+      "value": "Materiały wg materiału źródłowego"
+    },
+    {
+      "key": "insp.materialSource",
+      "value": "Materiał źródłowy"
+    },
+    {
+      "key": "insp.materialPhysics",
+      "value": "Materiał fizyczny"
+    },
+    {
+      "key": "insp.materialHint",
+      "value": "Zastępuje materiał namalowanej strefy dla otoczek z tego materiału źródłowego. Dyc_BoneProperties na kości ma pierwszeństwo."
+    },
+    {
+      "key": "insp.sectionExclusionMap",
+      "value": "Mapa wykluczeń"
+    },
+    {
+      "key": "insp.exclusionMap",
+      "value": "Mapa (wymaga Read/Write)"
+    },
+    {
+      "key": "insp.exclusionChannel",
+      "value": "Kanał"
+    },
+    {
+      "key": "insp.exclusionThreshold",
+      "value": "Próg"
+    },
+    {
+      "key": "insp.exclusionMapHint",
+      "value": "Biel w wybranym kanale wyklucza ten wierzchołek. Pędzel znaczy ściany, mapa znaczy wierzchołki."
+    },
+    {
+      "key": "insp.sectionSkeleton",
+      "value": "Szkielet"
+    },
+    {
+      "key": "insp.retargetRoot",
+      "value": "Podczep otoczki do innego szkieletu"
+    },
+    {
+      "key": "insp.retargetHint",
+      "value": "RetargetSkeleton: otoczki powstają z tej siatki, ale wiszą na jednoimiennych kościach tamtego korzenia (Puppet Master i podobne)."
+    },
+    {
+      "key": "insp.sectionCharLod",
+      "value": "LOD kolizji postaci"
+    },
+    {
+      "key": "insp.collisionLod",
+      "value": "Wyłączaj otoczki wg odległości"
+    },
+    {
+      "key": "insp.lodNear",
+      "value": "Pełne szczegóły do (m)"
+    },
+    {
+      "key": "insp.lodFar",
+      "value": "Ograniczaj powyżej (m)"
+    },
+    {
+      "key": "insp.lodKeep",
+      "value": "Otoczki zostawiane z daleka"
+    },
+    {
+      "key": "insp.lodHysteresis",
+      "value": "Histereza (m)"
+    },
+    {
+      "key": "insp.lodVisibility",
+      "value": "Wymagaj też widoczności na ekranie"
+    },
+    {
+      "key": "insp.lodReference",
+      "value": "Punkt odniesienia (puste = Camera.main)"
+    },
+    {
+      "key": "insp.lodHint",
+      "value": "To jest dla postaci. LOD kolizji statyki to osobne zagadnienie; tłum postaci to osobny budżet — i właśnie ten."
+    },
+    {
+      "key": "insp.expertMode",
+      "value": "Ustawienia eksperckie"
+    },
+    {
+      "key": "insp.expertHint",
+      "value": "Wył.: cztery kontrolki i przycisk Piecz — dość, by zacząć. Wł.: strona techniczna — budżety, jądro rozkładu, nadpisania na kość, mapy materiałów i wykluczeń. Nic nie jest ukryte, tylko zwinięte."
+    }
+  ]
+}

@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "code": "ar",
+  "name": "العربية",
+  "rtl": true,
+  "order": 130,
+  "ui": [
+    {
+      "key": "win.title",
+      "value": "Dynamic Collision"
+    },
+    {
+      "key": "win.none",
+      "value": "اختر كائنًا يحمل مكوّن Dynamic Collision."
+    },
+    {
+      "key": "win.notarget",
+      "value": "(لا يوجد مكوّن على العنصر المحدد)"
+    },
+    {
+      "key": "win.lang",
+      "value": "اللغة"
+    },
+    {
+      "key": "tab.bake",
+      "value": "الخبز"
+    },
+    {
+      "key": "tab.paint",
+      "value": "الرسم"
+    },
+    {
+      "key": "tab.gizmo",
+      "value": "Gizmo"
+    },
+    {
+      "key": "tab.parts",
+      "value": "الأجزاء"
+    },
+    {
+      "key": "tab.materials",
+      "value": "المواد"
+    },
+    {
+      "key": "tab.health",
+      "value": "السلامة"
+    },
+    {
+      "key": "tab.settings",
+      "value": "الإعدادات"
+    },
+    {
+      "key": "lbl.mode",
+      "value": "الوضع"
+    },
+    {
+      "key": "lbl.precision",
+      "value": "الدقة"
+    },
+    {
+      "key": "lbl.source",
+      "value": "المصدر"
+    },
+    {
+      "key": "lbl.role",
+      "value": "دور المُصادِم"
+    },
+    {
+      "key": "lbl.layers",
+      "value": "طبقات التفاعل"
+    },
+    {
+      "key": "lbl.detect",
+      "value": "الكشف"
+    },
+    {
+      "key": "lbl.collision",
+      "value": "التصادم"
+    },
+    {
+      "key": "lbl.trigger",
+      "value": "Trigger (استطلاع)"
+    },
+    {
+      "key": "lbl.groups",
+      "value": "مجموعات المواد"
+    },
+    {
+      "key": "lbl.elements",
+      "value": "الأجزاء (elements)"
+    },
+    {
+      "key": "lbl.group",
+      "value": "المجموعة"
+    },
+    {
+      "key": "lbl.material",
+      "value": "مادة فيزيائية"
+    },
+    {
+      "key": "lbl.density",
+      "value": "الكثافة kg/m³"
+    },
+    {
+      "key": "lbl.eventName",
+      "value": "اسم الحدث"
+    },
+    {
+      "key": "lbl.damage",
+      "value": "الضرر ×"
+    },
+    {
+      "key": "lbl.name",
+      "value": "الاسم"
+    },
+    {
+      "key": "btn.bake",
+      "value": "خبز"
+    },
+    {
+      "key": "btn.rebuild",
+      "value": "إعادة التجميع في المشهد"
+    },
+    {
+      "key": "btn.clear",
+      "value": "مسح المخبوز"
+    },
+    {
+      "key": "btn.autofill",
+      "value": "تعبئة الأجزاء تلقائيًا (Humanoid)"
+    },
+    {
+      "key": "btn.addPart",
+      "value": "+ جزء فارغ"
+    },
+    {
+      "key": "btn.addGroup",
+      "value": "+ مجموعة"
+    },
+    {
+      "key": "btn.autoAssign",
+      "value": "إسناد تلقائي بالاسم"
+    },
+    {
+      "key": "btn.pick",
+      "value": "اختر إعدادًا مسبقًا"
+    },
+    {
+      "key": "btn.paint",
+      "value": "بدء الرسم"
+    },
+    {
+      "key": "btn.stopPaint",
+      "value": "إيقاف الرسم"
+    },
+    {
+      "key": "btn.resetPose",
+      "value": "إعادة إلى وضع الربط"
+    },
+    {
+      "key": "btn.clearPaint",
+      "value": "مسح كل التسميات"
+    },
+    {
+      "key": "btn.remove",
+      "value": "×"
+    },
+    {
+      "key": "btn.paintThis",
+      "value": "ارسم هذا"
+    },
+    {
+      "key": "btn.showUncovered",
+      "value": "إظهار الأوجه غير المغطاة"
+    },
+    {
+      "key": "btn.batchBake",
+      "value": "خبز كل المحدد"
+    },
+    {
+      "key": "bake.none",
+      "value": "لا شيء مخبوز بعد."
+    },
+    {
+      "key": "bake.stats",
+      "value": "إحصاءات"
+    },
+    {
+      "key": "bake.hulls",
+      "value": "القشور المحدبة"
+    },
+    {
+      "key": "bake.verts",
+      "value": "الرؤوس"
+    },
+    {
+      "key": "bake.peak",
+      "value": "الذروة لكل قشرة"
+    },
+    {
+      "key": "bake.volume",
+      "value": "الحجم"
+    },
+    {
+      "key": "bake.unassigned",
+      "value": "مثلثات غير مُسندة"
+    },
+    {
+      "key": "bake.precisionRow",
+      "value": "{0} مثلث/قشرة · {1} قشرة/جزء · الدرز {2:F1}mm · الوزن ≥ {3:F2}"
+    },
+    {
+      "key": "cov.title",
+      "value": "التغطية"
+    },
+    {
+      "key": "cov.value",
+      "value": "{0:F1}%  ({1} / {2} مثلثات)"
+    },
+    {
+      "key": "cov.uncovered",
+      "value": "{0} مثلثًا غير مغطى بأي قشرة"
+    },
+    {
+      "key": "cov.analyze",
+      "value": "تحليل التغطية"
+    },
+    {
+      "key": "cov.none",
+      "value": "لا توجد بيانات مخبوزة."
+    },
+    {
+      "key": "cov.nosource",
+      "value": "لا توجد شبكة مصدر."
+    },
+    {
+      "key": "paint.section",
+      "value": "الفرشاة"
+    },
+    {
+      "key": "paint.ready",
+      "value": "جاهز للرسم"
+    },
+    {
+      "key": "paint.blocked",
+      "value": "الرسم محظور"
+    },
+    {
+      "key": "paint.radius",
+      "value": "نصف القطر"
+    },
+    {
+      "key": "paint.xray",
+      "value": "X-Ray (تجاهل الأسطح الخلفية)"
+    },
+    {
+      "key": "paint.symmetry",
+      "value": "انعكاس على X"
+    },
+    {
+      "key": "paint.hud",
+      "value": "الفرشاة · المجموعة [{0}] {1} · نصف القطر {2:F1}cm"
+    },
+    {
+      "key": "paint.hudKeys",
+      "value": "LMB رسم / Shift مسح / عجلة نصف القطر / X تناظر {0}"
+    },
+    {
+      "key": "paint.on",
+      "value": "مفعّل"
+    },
+    {
+      "key": "paint.off",
+      "value": "معطّل"
+    },
+    {
+      "key": "paint.tip1",
+      "value": "الفرشاة تضع تسميات على الأوجه. تصبح التسميات قيود تقسيم أثناء الخبز، لذا يمكن لكائن واحد أن يحمل مادة لينة في منطقة ومادة صلبة في أخرى — ويُنتج ذلك في خبزة واحدة."
+    },
+    {
+      "key": "paint.tip2",
+      "value": "متاح فقط في وضع التحرير مع إيقاف Play وإغلاق نافذة Animation. تُحفظ العلامات حسب رقم المثلث، لذا لا يهم الوضع الحالي."
+    },
+    {
+      "key": "paint.nomask",
+      "value": "لا يوجد أصل تسميات بعد. اخبز مرة واحدة لإنشائه."
+    },
+    {
+      "key": "paint.trisPerGroup",
+      "value": "{0} مثلثات"
+    },
+    {
+      "key": "pose.notarget",
+      "value": "لم يُحدَّد هدف"
+    },
+    {
+      "key": "pose.noplay",
+      "value": "لا يمكن تعديل التسميات في وضع Play mode (معاينة للقراءة فقط)"
+    },
+    {
+      "key": "pose.anim",
+      "value": "نافذة Animation تعرض معاينة. اخرج من المعاينة أولًا."
+    },
+    {
+      "key": "pose.notbind",
+      "value": "الهيكل ليس في وضع الربط (الانحراف {0:F1}cm عند {1}). اضغط \"إعادة إلى وضع الربط\" أولًا."
+    },
+    {
+      "key": "gizmo.enabled",
+      "value": "إظهار القشور"
+    },
+    {
+      "key": "gizmo.selected",
+      "value": "المحدد فقط"
+    },
+    {
+      "key": "gizmo.bind",
+      "value": "وضع الربط (T-pose)"
+    },
+    {
+      "key": "gizmo.source",
+      "value": "شبكة المصدر السلكية"
+    },
+    {
+      "key": "gizmo.uncovered",
+      "value": "إبراز الأوجه غير المغطاة"
+    },
+    {
+      "key": "gizmo.painted",
+      "value": "إظهار الأوجه الملوّنة"
+    },
+    {
+      "key": "gizmo.labels",
+      "value": "التسميات"
+    },
+    {
+      "key": "gizmo.max",
+      "value": "الحد الأقصى للقشور المرسومة"
+    },
+    {
+      "key": "gizmo.tip",
+      "value": "وضع الربط افتراضيًا: في وضع الربط bone.localToWorldMatrix · bindposes[i] = I، لذا فإن وضع الربط هو شبكة المصدر كما صُمّمت. تبقى قشور T-pose مستقرة أثناء تشغيل الحركة."
+    },
+    {
+      "key": "gizmo.legendOk",
+      "value": "عادي"
+    },
+    {
+      "key": "gizmo.legendPeak",
+      "value": "أكثر من 255 رأسًا"
+    },
+    {
+      "key": "gizmo.legendUncov",
+      "value": "غير مغطى"
+    },
+    {
+      "key": "part.bone",
+      "value": "العظم"
+    },
+    {
+      "key": "part.children",
+      "value": "تضمين العظام الفرعية"
+    },
+    {
+      "key": "part.rules",
+      "value": "قاعدة التقسيم: أقرب سلف يفوز. عندما يفعّل جزء أب \"تضمين العظام الفرعية\"، يبقى للجزء الأعمق الأولوية، لذا لا تُرسل الأحداث مرتين."
+    },
+    {
+      "key": "mat.pair",
+      "value": "سلوك الزوج"
+    },
+    {
+      "key": "mat.pairHint",
+      "value": "أولوية الدمج في Unity: Average < Minimum < Multiply < Maximum."
+    },
+    {
+      "key": "mat.static",
+      "value": "الاحتكاك الساكن"
+    },
+    {
+      "key": "mat.dynamic",
+      "value": "الاحتكاك الحركي"
+    },
+    {
+      "key": "mat.bounce",
+      "value": "الارتداد"
+    },
+    {
+      "key": "mat.combine",
+      "value": "الدمج"
+    },
+    {
+      "key": "mat.summary",
+      "value": "ساكن {0:F2} · حركي {1:F2} · ارتداد {2:F2} · دمج {3}/{4}"
+    },
+    {
+      "key": "mat.autoAll",
+      "value": "تعبئة كل المجموعات من الإعدادات المسبقة"
+    },
+    {
+      "key": "phys.title",
+      "value": "فيزياء المشروع"
+    },
+    {
+      "key": "phys.apply",
+      "value": "تطبيق الموصى به"
+    },
+    {
+      "key": "phys.gravity",
+      "value": "gravity.y"
+    },
+    {
+      "key": "phys.bounce",
+      "value": "bounceThreshold"
+    },
+    {
+      "key": "phys.velIter",
+      "value": "solverVelocityIterations"
+    },
+    {
+      "key": "phys.contactOffset",
+      "value": "defaultContactOffset"
+    },
+    {
+      "key": "phys.maxDepen",
+      "value": "defaultMaxDepenetrationVelocity"
+    },
+    {
+      "key": "health.title",
+      "value": "سلامة التصادم"
+    },
+    {
+      "key": "health.rerun",
+      "value": "إعادة الفحص"
+    },
+    {
+      "key": "health.none",
+      "value": "لم يُعثر على مشكلات."
+    },
+    {
+      "key": "health.summary",
+      "value": "أخطاء {0} / تحذيرات {1} / تلميحات {2}"
+    },
+    {
+      "key": "health.fix",
+      "value": "إصلاح"
+    },
+    {
+      "key": "health.score",
+      "value": "النتيجة {0}/100"
+    },
+    {
+      "key": "health.grade",
+      "value": "التقدير {0}"
+    },
+    {
+      "key": "menu.main",
+      "value": "فتح النافذة الرئيسية"
+    },
+    {
+      "key": "menu.bake",
+      "value": "خبز المحدد"
+    },
+    {
+      "key": "menu.gizmo",
+      "value": "تبديل عرض الهياكل"
+    },
+    {
+      "key": "menu.rebuild",
+      "value": "إعادة تجميع المحدد"
+    },
+    {
+      "key": "menu.health",
+      "value": "سلامة التصادم"
+    },
+    {
+      "key": "menu.about",
+      "value": "حول Neko Dynamic Collision"
+    },
+    {
+      "key": "cat.metal",
+      "value": "معدن"
+    },
+    {
+      "key": "cat.plastic",
+      "value": "بلاستيك"
+    },
+    {
+      "key": "cat.glass",
+      "value": "زجاج"
+    },
+    {
+      "key": "cat.wood",
+      "value": "خشب"
+    },
+    {
+      "key": "cat.stone",
+      "value": "حجر"
+    },
+    {
+      "key": "cat.rubber",
+      "value": "مطاط"
+    },
+    {
+      "key": "cat.fabric",
+      "value": "قماش"
+    },
+    {
+      "key": "cat.organic",
+      "value": "عضوي"
+    },
+    {
+      "key": "cat.ice",
+      "value": "جليد"
+    },
+    {
+      "key": "cat.other",
+      "value": "أخرى"
+    },
+    {
+      "key": "bake.err.none",
+      "value": "target/set قيمة فارغة"
+    },
+    {
+      "key": "bake.err.noSkin",
+      "value": "لم يُعثر على مصدر SkinnedMeshRenderer"
+    },
+    {
+      "key": "bake.err.noMesh",
+      "value": "لم يُعثر على مصدر MeshFilter"
+    },
+    {
+      "key": "bake.err.noGroups",
+      "value": "لا توجد مجموعات مواد. أنشئ مجموعة افتراضية أولًا."
+    },
+    {
+      "key": "bake.err.empty",
+      "value": "لم تُنتَج أي قشرة."
+    },
+    {
+      "key": "bake.warn.maskMismatch",
+      "value": "عدد التسميات ({0}) لا يطابق عدد مثلثات المصدر ({1})؛ تم تجاهل التسميات في هذه الجولة."
+    },
+    {
+      "key": "bake.warn.peak",
+      "value": "عدد رؤوس القشرة {0} يتجاوز حد PhysX البالغ 255."
+    },
+    {
+      "key": "bake.warn.unassigned",
+      "value": "{0} مثلثًا لا تنتمي إلى أي جزء ولن تُخبز."
+    },
+    {
+      "key": "bake.warn.none",
+      "value": "لم تُنتَج أي قشرة؛ تحقق من الأجزاء والدقة."
+    },
+    {
+      "key": "bake.warn.nobones",
+      "value": "أوزان العظام مفقودة، لذا لا يمكن إسناد تقسيمات Skin."
+    },
+    {
+      "key": "desc.verySlippery",
+      "value": "انزلاق شديد"
+    },
+    {
+      "key": "desc.slippery",
+      "value": "زلق"
+    },
+    {
+      "key": "desc.normal",
+      "value": "عادي"
+    },
+    {
+      "key": "desc.grippy",
+      "value": "ثابت"
+    },
+    {
+      "key": "desc.veryGrippy",
+      "value": "ثابت جدًا"
+    },
+    {
+      "key": "desc.noBounce",
+      "value": "بلا ارتداد"
+    },
+    {
+      "key": "desc.lowBounce",
+      "value": "ارتداد طفيف"
+    },
+    {
+      "key": "desc.bouncy",
+      "value": "مرتد"
+    },
+    {
+      "key": "desc.veryBouncy",
+      "value": "مرتد جدًا"
+    },
+    {
+      "key": "h.nobake.title",
+      "value": "لا شيء مخبوز بعد"
+    },
+    {
+      "key": "h.nobake.detail",
+      "value": "لن يُجمَّع أي شيء في وقت التشغيل."
+    },
+    {
+      "key": "h.nobake.fix",
+      "value": "اخبز الآن"
+    },
+    {
+      "key": "h.peakOver.title",
+      "value": "القشرة تحتوي على {0} رأسًا، متجاوزة حد PhysX البالغ 255"
+    },
+    {
+      "key": "h.peakOver.detail",
+      "value": "ترفض Unity القشرة المتجاوزة للحد ولا تفعل شيئًا بصمت. خفّض الدقة أو ارفع تقسيم الجزء."
+    },
+    {
+      "key": "h.peakOver.fix",
+      "value": "أعد الخبز بدرجة دقة أقل"
+    },
+    {
+      "key": "h.peakNear.title",
+      "value": "ذروة رؤوس القشرة {0} (قريبة من 255)"
+    },
+    {
+      "key": "h.peakNear.detail",
+      "value": "لا تزال مناسبة، لكن خطوة دقة أخرى ستبلغ الحد الأقصى."
+    },
+    {
+      "key": "h.degenerate.title",
+      "value": "{0} تجمعات انحلّت ولم تستطع تشكيل قشرة"
+    },
+    {
+      "key": "h.degenerate.detail",
+      "value": "يحدث عادةً بسبب تسميات مواد مجزّأة أو حد وزن مرتفع جدًا. تحقق مما إذا كانت مجموعات المواد مجزّأة."
+    },
+    {
+      "key": "h.unassigned.title",
+      "value": "{0} مثلثًا ({1:F1}%) لا تنتمي إلى أي جزء"
+    },
+    {
+      "key": "h.unassigned.detail",
+      "value": "هذه الأوجه لا تحصل على قشرة وستفوّت الإصابات. تحقق من أن عظام الأجزاء تغطي الهيكل كاملًا."
+    },
+    {
+      "key": "h.unassigned.fix",
+      "value": "تعبئة الأجزاء تلقائيًا (Humanoid)"
+    },
+    {
+      "key": "h.hashMismatch.title",
+      "value": "تغيّرت شبكة المصدر لكن لم يُعد خبزها"
+    },
+    {
+      "key": "h.hashMismatch.detail",
+      "value": "بعد إعادة استيراد أو تعديل الطوبولوجيا لم تعد فهارس المثلثات تطابق النتيجة المخبوزة، لذا ستكون مواضع الإصابة خاطئة."
+    },
+    {
+      "key": "h.hashMismatch.fix",
+      "value": "أعد الخبز"
+    },
+    {
+      "key": "h.layers.title",
+      "value": "{0} دور لكن لم تُضبط طبقات تفاعل"
+    },
+    {
+      "key": "h.layers.detail",
+      "value": "includeLayers الفارغة تجعل القشور تتفاعل مع كل شيء؛ حينها يحجب Hitbox ملتصق بالجسم الدمية والبيئة والشخصيات الأخرى."
+    },
+    {
+      "key": "h.layers.fix",
+      "value": "اقصر على طبقة Bullet"
+    },
+    {
+      "key": "h.noGroups.title",
+      "value": "لا توجد مجموعات مواد"
+    },
+    {
+      "key": "h.noGroups.detail",
+      "value": "يحتاج الخبز إلى مجموعة واحدة على الأقل."
+    },
+    {
+      "key": "h.noGroups.fix",
+      "value": "أنشئ مجموعة افتراضية"
+    },
+    {
+      "key": "h.noMaterial.title",
+      "value": "المجموعة \"{0}\" بلا مادة فيزيائية"
+    },
+    {
+      "key": "h.noMaterial.detail",
+      "value": "ترجع إلى القيمة الافتراضية للمشروع، لذا الاحتكاك والارتداد غير مضبوطين."
+    },
+    {
+      "key": "h.noMaterial.fix",
+      "value": "أسند إعدادًا مسبقًا"
+    },
+    {
+      "key": "h.emptyGroup.title",
+      "value": "المجموعة \"{0}\" بلا قشور على الإطلاق"
+    },
+    {
+      "key": "h.emptyGroup.detail",
+      "value": "إما أن الفرشاة لم تضع تسمية على أي وجه، أو أن كل وجه موسوم ادّعاه جزء آخر."
+    },
+    {
+      "key": "h.fragmented.title",
+      "value": "المجموعة \"{0}\" تحتوي على {1} قشرة"
+    },
+    {
+      "key": "h.fragmented.detail",
+      "value": "التجزئة تنتج العديد من المُصادِمات الصغيرة، مما يجعل الطبخ والطور العريض مكلفين. ادمج التسميات أو خفّض الدقة."
+    },
+    {
+      "key": "h.fragmented.fix",
+      "value": "ادمج في مجموعة مجاورة"
+    },
+    {
+      "key": "h.noRigidbody.title",
+      "value": "لا يوجد Rigidbody، لذا لن تُطلق أحداث التصادم أبدًا"
+    },
+    {
+      "key": "h.noRigidbody.detail",
+      "value": "تسلّم Unity نداءات التصادم فقط إلى GameObject المالك لـ Rigidbody. فعّل Rigidbody التلقائي، أو أضف Rigidbody حركيًا إلى الأب."
+    },
+    {
+      "key": "h.noRigidbody.fix",
+      "value": "تفعيل Rigidbody التلقائي"
+    },
+    {
+      "key": "h.massSmall.title",
+      "value": "كتلة Rigidbody \"{0}\" تساوي {1:F4}kg فقط"
+    },
+    {
+      "key": "h.massSmall.detail",
+      "value": "الكتلة الصغيرة جدًا غير مستقرة عدديًا وتنفذ عبر الأجسام. فعّل Auto Mass from Density."
+    },
+    {
+      "key": "h.massSmall.fix",
+      "value": "تفعيل الكتلة من الكثافة"
+    },
+    {
+      "key": "h.massLarge.title",
+      "value": "كتلة Rigidbody \"{0}\" تساوي {1:F0}kg"
+    },
+    {
+      "key": "h.massLarge.detail",
+      "value": "إذا لم يكن ذلك مقصودًا، تحقق من وحدة الكثافة (kg/m³)."
+    },
+    {
+      "key": "h.selfCollision.title",
+      "value": "التصادم الذاتي للدمية مفعّل بالكامل"
+    },
+    {
+      "key": "h.selfCollision.detail",
+      "value": "تدفع العظام بعضها عن بعض، وهذا سبب شائع لاهتزاز الدمية. \"Ignore adjacent\" هو الخيار المعتاد."
+    },
+    {
+      "key": "h.selfCollision.fix",
+      "value": "التبديل إلى تجاهل المتجاور"
+    },
+    {
+      "key": "h.dispatch.title",
+      "value": "{0} إرسالًا بلا مستمع (الأخير: {1})"
+    },
+    {
+      "key": "h.dispatch.detail",
+      "value": "اسم حدث مكتوب خطأً لا يرفع خطأً؛ يظهر فقط في التشخيص. سجّل المستمعين عبر Dyc_Events.Register."
+    },
+    {
+      "key": "h.dispatch.fix",
+      "value": "إعادة تعيين العدادات"
+    },
+    {
+      "key": "h.physicsBounce.title",
+      "value": "bounceThreshold = {0}: الإصابات الأبطأ من ذلك لا ترتد أبدًا"
+    },
+    {
+      "key": "h.physicsBounce.detail",
+      "value": "لهذا تبدو إعدادات المطاط والكرة كأنها لا تفعل شيئًا."
+    },
+    {
+      "key": "h.physicsBounce.fix",
+      "value": "bounceThreshold → 0.3"
+    },
+    {
+      "key": "h.physicsVelocity.title",
+      "value": "VelocityIterations = {0}: الأكوام والإصابات السريعة تهتز أو تنفذ"
+    },
+    {
+      "key": "h.physicsVelocity.detail",
+      "value": "سبب جذري شائع لاهتزاز الدمية في Unity."
+    },
+    {
+      "key": "h.physicsVelocity.fix",
+      "value": "VelocityIterations → 2"
+    },
+    {
+      "key": "h.physicsGravity.title",
+      "value": "gravity = {0:F2} (وليس -9.81)"
+    },
+    {
+      "key": "h.physicsGravity.detail",
+      "value": "كل حدس للكتلة والدفع مشتق من -9.81 خاطئ بمقدار {0:F2}×، لذا تحتاج إعدادات الكثافة إلى تصحيح."
+    },
+    {
+      "key": "h.physicsContact.title",
+      "value": "defaultContactOffset = {0}: فجوة التلامس واسعة"
+    },
+    {
+      "key": "h.physicsContact.detail",
+      "value": "تميل الأجسام الرقيقة إلى الظهور كأنها تطفو."
+    },
+    {
+      "key": "insp.sectionBasic",
+      "value": "أساسي"
+    },
+    {
+      "key": "insp.sectionCollision",
+      "value": "التصادم"
+    },
+    {
+      "key": "insp.sectionPhysics",
+      "value": "الفيزياء"
+    },
+    {
+      "key": "insp.sectionTrigger",
+      "value": "Trigger"
+    },
+    {
+      "key": "insp.sectionLod",
+      "value": "LOD"
+    },
+    {
+      "key": "insp.multi",
+      "value": "التحديد المتعدد يدعم الخبز الدفعي فقط. حدد كائنًا واحدًا للتحرير التفصيلي."
+    },
+    {
+      "key": "insp.noBake",
+      "value": "غير مخبوز بعد"
+    },
+    {
+      "key": "insp.noBakeHint",
+      "value": "اضغط \"خبز\" بالأسفل."
+    },
+    {
+      "key": "insp.baked",
+      "value": "{0} قشرة مخبوزة"
+    },
+    {
+      "key": "insp.peakVerts",
+      "value": "الرؤوس / الذروة"
+    },
+    {
+      "key": "insp.volume",
+      "value": "الحجم"
+    },
+    {
+      "key": "insp.partsGroups",
+      "value": "الأجزاء / المجموعات"
+    },
+    {
+      "key": "insp.unassigned",
+      "value": "مثلثات غير مُسندة"
+    },
+    {
+      "key": "insp.health",
+      "value": "السلامة"
+    },
+    {
+      "key": "insp.tally",
+      "value": "{0} أخطاء · {1} تحذيرات · {2} تلميحات"
+    },
+    {
+      "key": "insp.openBaker",
+      "value": "فتح أداة الخبز"
+    },
+    {
+      "key": "insp.showGizmo",
+      "value": "إظهار Gizmo القشور"
+    },
+    {
+      "key": "insp.autoRb",
+      "value": "إضافة Rigidbody تلقائيًا"
+    },
+    {
+      "key": "insp.selfCollision",
+      "value": "التصادم الذاتي"
+    },
+    {
+      "key": "insp.autoMass",
+      "value": "الكتلة من الكثافة"
+    },
+    {
+      "key": "insp.targetMass",
+      "value": "تطبيع الكتلة الكلية (0 = معطّل)"
+    },
+    {
+      "key": "insp.triggerMode",
+      "value": "الوضع"
+    },
+    {
+      "key": "insp.pollDivisor",
+      "value": "الإطارات لكل دورة"
+    },
+    {
+      "key": "insp.pollSweep",
+      "value": "هامش المسح (m)"
+    },
+    {
+      "key": "insp.pollNote",
+      "value": "الاستطلاع يأخذ عينات، وليس حدثًا. تُفوَّت الدورات السريعة جدًا؛ ويعوّض هامش المسح ذلك."
+    },
+    {
+      "key": "insp.lodMode",
+      "value": "الوضع"
+    },
+    {
+      "key": "insp.lodDistance",
+      "value": "المسافة (m)"
+    },
+    {
+      "key": "insp.debugLog",
+      "value": "سجل التصحيح"
+    },
+    {
+      "key": "insp.rebuild",
+      "value": "إعادة التجميع (يسري في وضع Play mode)"
+    },
+    {
+      "key": "set.language",
+      "value": "اللغة"
+    },
+    {
+      "key": "set.langNote",
+      "value": "يُطبَّق فورًا على النافذة وقائمة NekoWorks."
+    },
+    {
+      "key": "set.diagnostics",
+      "value": "التشخيص"
+    },
+    {
+      "key": "set.languagesLoaded",
+      "value": "اللغات المحمَّلة"
+    },
+    {
+      "key": "set.localeRoot",
+      "value": "مجلد اللغات"
+    },
+    {
+      "key": "set.langMissing",
+      "value": "لم يُعثر على مجلد اللغات. تم البحث في: {0}"
+    },
+    {
+      "key": "set.presets",
+      "value": "إعدادات المواد المسبقة"
+    },
+    {
+      "key": "set.gizmoDefault",
+      "value": "Gizmo المجسمات"
+    },
+    {
+      "key": "set.openBaked",
+      "value": "فتح مجلد الأصول المخبوزة"
+    },
+    {
+      "key": "set.resetPrefs",
+      "value": "إعادة تعيين تفضيلات الإضافة"
+    },
+    {
+      "key": "set.refreshIcon",
+      "value": "تحديث أيقونة المكوّن"
+    },
+    {
+      "key": "lbl.childMeshes",
+      "value": "قراءة شبكات الأبناء"
+    },
+    {
+      "key": "lbl.hullsPerPart",
+      "value": "أجسام محدبة لكل جزء"
+    },
+    {
+      "key": "lbl.trisPerHull",
+      "value": "مثلثات لكل جسم محدب"
+    },
+    {
+      "key": "lbl.weightThreshold",
+      "value": "عتبة وزن العظم"
+    },
+    {
+      "key": "prec.skinHint",
+      "value": "في وضع Skin يُحدَّد عدد الأجسام المحدبة لكل منطقة تلقائيًا: سلامية الإصبع والجذع شكلان مختلفان، ورقم واحد للجسم كله يكذب على أحدهما دائمًا. أما المثلثات لكل جسم محدب فتبقى بيدك — فهي ميزانية تفاصيل، لا شكل."
+    },
+    {
+      "key": "prec.customHint",
+      "value": "عدد الأجسام لكل جزء هو شكل التقريب لا مستوى جودة. الجسم النحيل — سهم، عظم — يريد جسمًا واحدًا: اثنان يقسمانه نصفين، ويصبح كل نصف قشرة رقيقة بدل نصف جسم. الجذع أو المركبة يريد 4-8. عتبة الوزن تحدد الرؤوس التي تُحسب للعظم: ما دونها يُسقَط، فيحصل العظم على سطح مثقوب ويبدو جسمه كبتلة."
+    },
+    {
+      "key": "src.autoHint",
+      "value": "ترك المصدر فارغًا يعني استخدام MeshFilter على هذا الكائن. تُقرأ شبكات الأبناء فقط عند تشغيل المفتاح أعلاه — البحث الصامت القديم عن أول شبكة بين الأبناء قد يخبز شبكة خاطئة."
+    },
+    {
+      "key": "lbl.shape",
+      "value": "شكل المُصادِم"
+    },
+    {
+      "key": "shape.convex",
+      "value": "أجسام محدبة"
+    },
+    {
+      "key": "shape.concave",
+      "value": "سطح غير محدب"
+    },
+    {
+      "key": "shape.convexHint",
+      "value": "جسم محدب واحد لكل عظم، مخبوز مسبقًا. لا تلامس إلا حيث تتراكب الأجسام المتجاورة؛ المفاصل الغائرة (الإبط، الأربية، الرقبة) تبقى فجوة بين أجسامها. تعمل على الأجسام الصلبة المتحركة وتتصادم شبكة-شبكة."
+    },
+    {
+      "key": "shape.concaveHint",
+      "value": "السطح الفعلي لكل عظم، بلا تضخيم محدب — لا فجوات عند المفاصل. الثمن: الأجسام الكينماتيكية أو المحرَّكة بالتحريك فقط، ولا تصادم شبكة-شبكة، ولا طور عريض سريع. الأفضل على الجوال لكشف الإصابة لا للحجب الفيزيائي."
+    },
+    {
+      "key": "lbl.excludedBones",
+      "value": "عظام مستثناة"
+    },
+    {
+      "key": "lbl.excludedBonesHint",
+      "value": "العظم المذكور هنا، وكل فرعه، لا يحصل على منطقة ولا مُصادِم. هذا مكان أهداف IK والأطراف والحوامل المساعدة."
+    },
+    {
+      "key": "lbl.excludedSkins",
+      "value": "عارضات مستثناة"
+    },
+    {
+      "key": "lbl.excludedSkinsHint",
+      "value": "عارضات SkinnedMeshRenderer لا تُخبز إطلاقًا — الشعر، عارضة قماش منفصلة، الأدوات."
+    },
+    {
+      "key": "lbl.excludeGroup",
+      "value": "استثناء من الخبز"
+    },
+    {
+      "key": "lbl.excludeGroupHint",
+      "value": "أوجه هذه المجموعة تُترك خارج الخبز كليًا: لا تجميع، ولا تفكيك، ولا مُصادِمات. هكذا لا تحصل عباءة أو حزام على صندوق إصابة دون تغيير مادته."
+    },
+    {
+      "key": "btn.expert",
+      "value": "نافذة الخبير"
+    },
+    {
+      "key": "exp.title",
+      "value": "دقة العظام"
+    },
+    {
+      "key": "exp.noTarget",
+      "value": "اختر كائنًا يحمل مكوّن Dynamic Collision."
+    },
+    {
+      "key": "exp.basePrecision",
+      "value": "أجزاء لكل عظم"
+    },
+    {
+      "key": "exp.totals",
+      "value": "{0} جزءًا على {1} عظمًا"
+    },
+    {
+      "key": "exp.decompose",
+      "value": "التفكيك"
+    },
+    {
+      "key": "exp.voxelSize",
+      "value": "مم الفوكسل"
+    },
+    {
+      "key": "exp.maxHulls",
+      "value": "أقصى الأجزاء"
+    },
+    {
+      "key": "exp.project",
+      "value": "إسقاط"
+    },
+    {
+      "key": "exp.resetDefaults",
+      "value": "إرجاع الافتراضي"
+    },
+    {
+      "key": "exp.separate",
+      "value": "فصل"
+    },
+    {
+      "key": "exp.separationMm",
+      "value": "فرجة مم"
+    },
+    {
+      "key": "exp.invertY",
+      "value": "عكس Y"
+    },
+    {
+      "key": "exp.secondary",
+      "value": "الشكل، التصادم الذاتي، LOD"
+    },
+    {
+      "key": "exp.rebake",
+      "value": "إعادة الخبز"
+    },
+    {
+      "key": "exp.clearManual",
+      "value": "مسح اليدوي"
+    },
+    {
+      "key": "exp.bones",
+      "value": "شجرة العظام"
+    },
+    {
+      "key": "exp.noSkeleton",
+      "value": "لا هيكل."
+    },
+    {
+      "key": "exp.concavityShort",
+      "value": "ت {0:0.00}"
+    },
+    {
+      "key": "exp.concavity",
+      "value": "التقعّر"
+    },
+    {
+      "key": "exp.minDepth",
+      "value": "أدنى عمق"
+    },
+    {
+      "key": "exp.kernel",
+      "value": "النواة"
+    },
+    {
+      "key": "exp.kernelOwn",
+      "value": "فوكسل خاص"
+    },
+    {
+      "key": "exp.kernelNative",
+      "value": "V-HACD الأصلي"
+    },
+    {
+      "key": "exp.maxVoxels",
+      "value": "حد الفوكسل"
+    },
+    {
+      "key": "exp.fillRatio",
+      "value": "الملء"
+    },
+    {
+      "key": "exp.splitDepth",
+      "value": "عمق التقسيم"
+    },
+    {
+      "key": "exp.timeBudget",
+      "value": "زمن ث"
+    },
+    {
+      "key": "bake.progress.title",
+      "value": "خبز التصادم"
+    },
+    {
+      "key": "bake.progress.preparing",
+      "value": "التحضير"
+    },
+    {
+      "key": "bake.progress.decomposing",
+      "value": "تفكيك الجسم إلى أجزاء محدبة"
+    },
+    {
+      "key": "bake.progress.assembling",
+      "value": "تجميع الأجسام"
+    },
+    {
+      "key": "bake.progress.baking",
+      "value": "الخبز"
+    },
+    {
+      "key": "bake.progress.budget",
+      "value": "انتهت ميزانية الوقت — يُجمَّع الجاهز"
+    },
+    {
+      "key": "bake.progress.cancel",
+      "value": "إلغاء"
+    },
+    {
+      "key": "bake.progress.cancelling",
+      "value": "جارٍ الإلغاء…"
+    },
+    {
+      "key": "bake.stage.decompose",
+      "value": "التفكيك"
+    },
+    {
+      "key": "bake.stage.assemble",
+      "value": "تجميع الأجسام"
+    },
+    {
+      "key": "exp.triangles",
+      "value": "المثلثات"
+    },
+    {
+      "key": "exp.pieces",
+      "value": "الأجزاء"
+    },
+    {
+      "key": "exp.volume",
+      "value": "الحجم"
+    },
+    {
+      "key": "exp.dropped",
+      "value": "أُسقط {0} جزءًا بسبب الميزانية. ارفعها لهذا العظم أو خفّض التقعّر."
+    },
+    {
+      "key": "exp.detail",
+      "value": "العظم"
+    },
+    {
+      "key": "exp.pickBone",
+      "value": "اختر عظمًا من الشجرة أو من العرض ثلاثي الأبعاد."
+    },
+    {
+      "key": "exp.noStat",
+      "value": "لا بيانات خبز لهذا العظم. أعد الخبز أولًا."
+    },
+    {
+      "key": "exp.manualPieces",
+      "value": "أجزاء (يدوي)"
+    },
+    {
+      "key": "exp.locked",
+      "value": "مقفل"
+    },
+    {
+      "key": "exp.releaseBone",
+      "value": "رجوع إلى التلقائي"
+    },
+    {
+      "key": "exp.hullList",
+      "value": "الأجزاء"
+    },
+    {
+      "key": "exp.hullRow",
+      "value": "#{0} · {1} رأس · {2:0.0000} م³"
+    },
+    {
+      "key": "exp.noHulls",
+      "value": "لا أجزاء لهذا العظم."
+    },
+    {
+      "key": "exp.previewFailed",
+      "value": "أعاد العرض لا شيء. راجع الطرفية بحثًا عن أخطاء."
+    },
+    {
+      "key": "exp.orbitHint",
+      "value": "سحب أيمن — دوران · سحب أيسر — تحريك · عجلة — تكبير · نقرة — تحديد · نقرة مزدوجة — مركز الدوران"
+    },
+    {
+      "key": "btn.fromSkeleton",
+      "value": "تعبئة المناطق من الهيكل"
+    },
+    {
+      "key": "btn.hideUncovered",
+      "value": "إخفاء الأوجه غير المغطاة"
+    },
+    {
+      "key": "gizmo.occlude",
+      "value": "تعتيم الحواف المحجوبة (50%)"
+    },
+    {
+      "key": "cat.ceramic",
+      "value": "سيراميك"
+    },
+    {
+      "key": "cat.body",
+      "value": "أعضاء الجسم"
+    },
+    {
+      "key": "cat.tissue",
+      "value": "أنسجة وأعضاء"
+    },
+    {
+      "key": "cat.food",
+      "value": "طعام"
+    },
+    {
+      "key": "forge.title",
+      "value": "مسبك المواد"
+    },
+    {
+      "key": "forge.hint",
+      "value": "الجدول يقول مما يتكون الشيء. المسبك يقول ما هو الآن: مادة أساسية × حالة سطح. أعضاء الجسم والأنسجة ليست صفوفًا في الجدول — بل تُشتق من خلطة أنسجة، ولذلك يمكن تفسير أرقامها."
+    },
+    {
+      "key": "forge.base",
+      "value": "المادة الأساسية"
+    },
+    {
+      "key": "forge.condition",
+      "value": "حالة السطح"
+    },
+    {
+      "key": "forge.group",
+      "value": "المجموعة"
+    },
+    {
+      "key": "forge.apply",
+      "value": "اصنع وعيّن"
+    },
+    {
+      "key": "forge.generate",
+      "value": "توليد أصول المتغيرات"
+    },
+    {
+      "key": "forge.generateHint",
+      "value": "يكتب ملف .physicMaterial لكل حالة سطح في مجلد الخبز، ليختارها الفنان دون الإضافة."
+    },
+    {
+      "key": "forge.generated",
+      "value": "وُلّد {0} أصل مادة في {1}"
+    },
+    {
+      "key": "forge.variantOf",
+      "value": "{0} · متغيرات"
+    },
+    {
+      "key": "forge.presets",
+      "value": "{0} إعدادًا في {1} فئة"
+    },
+    {
+      "key": "forge.values",
+      "value": "سكوني {0:F2} · حركي {1:F2} · ارتداد {2:F2} · {3:F0} كغ/م³"
+    },
+    {
+      "key": "forge.derived",
+      "value": "مشتق"
+    },
+    {
+      "key": "forge.applied",
+      "value": "صُنعت المجموعة \"{0}\" من {1} · {2}"
+    },
+    {
+      "key": "forge.nogroup",
+      "value": "لا مجموعة مواد لتصبّ فيها."
+    },
+    {
+      "key": "forge.self",
+      "value": "اصبب في نفسها"
+    },
+    {
+      "key": "forge.cond.dry",
+      "value": "جاف"
+    },
+    {
+      "key": "forge.cond.wet",
+      "value": "مبلل"
+    },
+    {
+      "key": "forge.cond.oiled",
+      "value": "مزيّت"
+    },
+    {
+      "key": "forge.cond.bloody",
+      "value": "ملطخ بالدم"
+    },
+    {
+      "key": "forge.cond.sweaty",
+      "value": "متعرق"
+    },
+    {
+      "key": "forge.cond.icy",
+      "value": "مثلج"
+    },
+    {
+      "key": "forge.cond.frozen",
+      "value": "متجمد"
+    },
+    {
+      "key": "forge.cond.dusty",
+      "value": "مغبر"
+    },
+    {
+      "key": "forge.cond.rough",
+      "value": "خشن"
+    },
+    {
+      "key": "forge.cond.polished",
+      "value": "مصقول"
+    },
+    {
+      "key": "forge.cond.rusted",
+      "value": "صدئ"
+    },
+    {
+      "key": "forge.cond.worn",
+      "value": "مستهلك"
+    },
+    {
+      "key": "forge.cond.clothed",
+      "value": "مكسو"
+    },
+    {
+      "key": "forge.cond.armored",
+      "value": "مدرّع"
+    },
+    {
+      "key": "forge.cond.charred",
+      "value": "متفحم"
+    },
+    {
+      "key": "forge.tissue.bone",
+      "value": "عظم"
+    },
+    {
+      "key": "forge.tissue.cartilage",
+      "value": "غضروف"
+    },
+    {
+      "key": "forge.tissue.tendon",
+      "value": "وتر"
+    },
+    {
+      "key": "forge.tissue.muscle",
+      "value": "عضلة"
+    },
+    {
+      "key": "forge.tissue.fat",
+      "value": "دهن"
+    },
+    {
+      "key": "forge.tissue.skin",
+      "value": "جلد"
+    },
+    {
+      "key": "forge.tissue.organ",
+      "value": "عضو"
+    },
+    {
+      "key": "forge.tissue.lung",
+      "value": "رئة"
+    },
+    {
+      "key": "forge.tissue.brain",
+      "value": "دماغ"
+    },
+    {
+      "key": "forge.tissue.keratin",
+      "value": "كيراتين"
+    },
+    {
+      "key": "soft.hard",
+      "value": "صلب"
+    },
+    {
+      "key": "soft.firm",
+      "value": "متين"
+    },
+    {
+      "key": "soft.soft",
+      "value": "طري"
+    },
+    {
+      "key": "soft.verySoft",
+      "value": "طري جدًا"
+    },
+    {
+      "key": "soft.gel",
+      "value": "هلامي"
+    },
+    {
+      "key": "h.concaveDynamic.title",
+      "value": "شبكة غير محدبة على جسم صلب متحرك"
+    },
+    {
+      "key": "h.concaveDynamic.detail",
+      "value": "لا يقبل PhysX مُصادِم شبكة غير محدب إلا على جسم كينماتيكي أو محرَّك بالتحريك. على جسم صلب متحرك ترفض Unity المُصادِم بصمت، فلا يتصادم شيء إطلاقًا."
+    },
+    {
+      "key": "h.concaveDynamic.fix",
+      "value": "اجعل الجسم الصلب كينماتيكيًا"
+    },
+    {
+      "key": "h.concaveScale.title",
+      "value": "مقياس غير متساوٍ ({0:F2}, {1:F2}, {2:F2})"
+    },
+    {
+      "key": "h.concaveScale.detail",
+      "value": "تُخبز الشبكة غير المحدبة في الفضاء المحلي، فالمقياس الممدد يبعد المُصادِم عن النموذج. الأجسام المحدبة لا تعاني من هذا."
+    },
+    {
+      "key": "h.concaveMeshMesh.title",
+      "value": "شبكة غير محدبة: لا تصادم شبكة-شبكة"
+    },
+    {
+      "key": "h.concaveMeshMesh.detail",
+      "value": "هذا حد PhysX لا إعداد: الشبكة غير المحدبة لا تتصادم أبدًا مع شبكة غير محدبة أخرى. لكنها تتصادم مع الأجسام الأولية والتضاريس والأجسام المحدبة."
+    },
+    {
+      "key": "h.allExcluded.title",
+      "value": "كل مجموعات المواد مستثناة من الخبز"
+    },
+    {
+      "key": "h.allExcluded.detail",
+      "value": "سينتج الخبز صفر مُصادِمات. ألغِ استثناء مجموعة واحدة على الأقل."
+    },
+    {
+      "key": "h.excludeDead.title",
+      "value": "العظم المستثنى \"{0}\" ليس في الهيكل"
+    },
+    {
+      "key": "h.excludeDead.detail",
+      "value": "المدخل لا يفعل شيئًا — العظم ليس جزءًا من العارضة المخبوزة. غالبًا بقايا بعد تغيّر الهيكل."
+    },
+    {
+      "key": "h.softSelfCollision.title",
+      "value": "منطقة لينة مع تصادم ذاتي كامل"
+    },
+    {
+      "key": "h.softSelfCollision.detail",
+      "value": "المنطقة اللينة تملك أجسامًا وتحلّ جزيئاتها أيضًا؛ مع تشغيل التصادم الذاتي يدفع كل منهما الآخر وتغلي القماش. \"تجاهل المتجاور\" هو الخيار المعتاد."
+    },
+    {
+      "key": "h.softSelfCollision.fix",
+      "value": "التبديل إلى تجاهل المتجاور"
+    },
+    {
+      "key": "h.softNoSource.title",
+      "value": "خُبزت مناطق لينة دون مصدر تشوّه"
+    },
+    {
+      "key": "h.softNoSource.detail",
+      "value": "بلا حلال يكتب الإطارات، يتصرف كل عنقود ككتلة صلبة: يتحرك الجسم ككل ولا يتشوّه. هذا تراجع صالح لا خطأ."
+    },
+    {
+      "key": "insp.sectionExclusions",
+      "value": "الاستثناءات"
+    },
+    {
+      "key": "shape.concaveWarn",
+      "value": "PhysX لا يقبل شبكة غير محدبة إلا على جسم كينماتيكي أو محرَّك بالتحريك. على جسم صلب متحرك ترفض Unity المُصادِم بصمت، فلا يتصادم شيء ولا تظهر أي رسالة خطأ. اخبز الشخصية على جسم كينماتيكي، أو افتح نافذة الخبير لمراجعة بقية الحدود قبل الخبز."
+    },
+    {
+      "key": "btn.openExpert",
+      "value": "افتح نافذة الخبير"
+    },
+    {
+      "key": "exp.groupActions",
+      "value": "الإجراءات"
+    },
+    {
+      "key": "exp.groupPrecision",
+      "value": "دقة التفكيك"
+    },
+    {
+      "key": "exp.groupBody",
+      "value": "المناطق والفصل"
+    },
+    {
+      "key": "exp.groupKernel",
+      "value": "النواة والميزانية"
+    },
+    {
+      "key": "exp.groupView",
+      "value": "العرض"
+    },
+    {
+      "key": "bake.concaveNote",
+      "value": "الأسطح غير المحدبة ليس لها سقف رؤوس من PhysX: ميزانية المثلثات تُطبَّق بتبسيط السطح لا بتقسيمه."
+    },
+    {
+      "key": "lbl.decomposeDetail",
+      "value": "تفصيل التحليل"
+    },
+    {
+      "key": "lbl.decomposeVoxel",
+      "value": "حجم الفوكسل (مم)"
+    },
+    {
+      "key": "decomp.hint",
+      "value": "فوكسل خشن: أجزاء أقل وأكبر — الأرخص. {0} مم."
+    },
+    {
+      "key": "decomp.fineHint",
+      "value": "الأدق: تتبع الأجزاء السطح، فتصبح الكلفة مساوية للوضع غير المحدب. لا فائدة من أدق من ذلك — كلفة فقط."
+    },
+    {
+      "key": "exp.decomposed",
+      "value": "الأجزاء: تحليل محدب (قطع على طول التقعرات)"
+    },
+    {
+      "key": "exp.clustered",
+      "value": "الأجزاء: تجميع مكاني (التحليل غير متاح — مسار احتياطي)"
+    },
+    {
+      "key": "lbl.concaveDetail",
+      "value": "تفصيل السطح"
+    },
+    {
+      "key": "concave.exact",
+      "value": "بلا تبسيط: يُؤخذ السطح من الشبكة كما هو."
+    },
+    {
+      "key": "concave.budget",
+      "value": "مبسَّط إلى نحو {0} مثلثًا لكل قطعة. اسحب يمينًا لمزيد من التفصيل؛ أقصى اليمين بلا تبسيط."
+    },
+    {
+      "key": "insp.sectionSimple",
+      "value": "استخدام عادي (مثل مُصادِم النظام)"
+    },
+    {
+      "key": "insp.generateOnStart",
+      "value": "ابنِ عند البدء إن لم يكن هناك خبز"
+    },
+    {
+      "key": "insp.generateHint",
+      "value": "أضف المكوّن واضغط Play. تُبنى المُصادِمات من الشبكة لكل عظم؛ تبقى المناطق والتحليل من الخبز."
+    },
+    {
+      "key": "insp.isTrigger",
+      "value": "المُصادِمات كمُشغِّلات"
+    },
+    {
+      "key": "insp.receiver",
+      "value": "أرسل أيضًا OnCollision*/OnTrigger* إلى"
+    },
+    {
+      "key": "insp.receiverHint",
+      "value": "اتركه فارغًا لسلوك Unity المعتاد: تصل الرسائل إلى كائن الـ Rigidbody."
+    },
+    {
+      "key": "insp.sectionLive",
+      "value": "تحديث حي (بميزانية)"
+    },
+    {
+      "key": "insp.liveUpdate",
+      "value": "أعد بناء الأغلفة من الوضع الحالي"
+    },
+    {
+      "key": "insp.liveContinuous",
+      "value": "حدِّث باستمرار"
+    },
+    {
+      "key": "insp.idleBudget",
+      "value": "ميزانية السكون (مم/إطار)"
+    },
+    {
+      "key": "insp.activeBudget",
+      "value": "ميزانية النشاط (مم/إطار)"
+    },
+    {
+      "key": "insp.updateThreshold",
+      "value": "تخطَّ التحديث دون هذه الحركة (م)"
+    },
+    {
+      "key": "insp.maxColliderTriangles",
+      "value": "أقصى مثلثات لكل مُصادِم"
+    },
+    {
+      "key": "insp.liveHint",
+      "value": "مطفأ افتراضيًا: وعد الإضافة هو صفر كلفة لكل إطار. شغّله حيث تهم التشوّه الشديد."
+    },
+    {
+      "key": "insp.sectionMaterials",
+      "value": "المواد حسب المادة المصدر"
+    },
+    {
+      "key": "insp.materialSource",
+      "value": "المادة المصدر"
+    },
+    {
+      "key": "insp.materialPhysics",
+      "value": "المادة الفيزيائية"
+    },
+    {
+      "key": "insp.materialHint",
+      "value": "يستبدل مادة المنطقة المرسومة لأغلفة تلك المادة المصدر. أولوية Dyc_BoneProperties على العظم أعلى."
+    },
+    {
+      "key": "insp.sectionExclusionMap",
+      "value": "خريطة الاستبعاد"
+    },
+    {
+      "key": "insp.exclusionMap",
+      "value": "الخريطة (تتطلب Read/Write)"
+    },
+    {
+      "key": "insp.exclusionChannel",
+      "value": "القناة"
+    },
+    {
+      "key": "insp.exclusionThreshold",
+      "value": "العتبة"
+    },
+    {
+      "key": "insp.exclusionMapHint",
+      "value": "الأبيض في القناة المختارة يستبعد ذلك الرأس. الفرشاة تُعلِّم الأوجه، والخريطة تُعلِّم الرؤوس."
+    },
+    {
+      "key": "insp.sectionSkeleton",
+      "value": "الهيكل"
+    },
+    {
+      "key": "insp.retargetRoot",
+      "value": "علِّق الأغلفة على هيكل آخر"
+    },
+    {
+      "key": "insp.retargetHint",
+      "value": "RetargetSkeleton: تُبنى الأغلفة من هذه الشبكة لكنها تُعلَّق على عظام بنفس الاسم في ذلك الجذر (Puppet Master وما شابه)."
+    },
+    {
+      "key": "insp.sectionCharLod",
+      "value": "LOD تصادم الشخصيات"
+    },
+    {
+      "key": "insp.collisionLod",
+      "value": "تعطيل الأغلفة حسب المسافة"
+    },
+    {
+      "key": "insp.lodNear",
+      "value": "تفصيل كامل حتى (م)"
+    },
+    {
+      "key": "insp.lodFar",
+      "value": "التقليل بعد (م)"
+    },
+    {
+      "key": "insp.lodKeep",
+      "value": "الأغلفة المُبقاة عن بُعد"
+    },
+    {
+      "key": "insp.lodHysteresis",
+      "value": "تباطؤ (م)"
+    },
+    {
+      "key": "insp.lodVisibility",
+      "value": "اشترط أيضًا الظهور على الشاشة"
+    },
+    {
+      "key": "insp.lodReference",
+      "value": "مرجع المسافة (فارغ = Camera.main)"
+    },
+    {
+      "key": "insp.lodHint",
+      "value": "هذا للشخصيات. LOD التصادم الثابت مسألة أخرى؛ وحشد الشخصيات ميزانية منفصلة — وهذه هي."
+    },
+    {
+      "key": "insp.expertMode",
+      "value": "إعدادات الخبير"
+    },
+    {
+      "key": "insp.expertHint",
+      "value": "إيقاف: أربعة عناصر وزر خبز — يكفي للبدء. تشغيل: الجانب التقني — الميزانيات، نواة التحليل، تجاوزات كل عظم، وخرائط المواد والاستبعاد. لا شيء مخفي، بل مطويّ فقط."
+    }
+  ]
+}

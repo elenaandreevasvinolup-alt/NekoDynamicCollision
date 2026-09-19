@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "code": "he",
+  "name": "עברית",
+  "rtl": true,
+  "order": 140,
+  "ui": [
+    {
+      "key": "win.title",
+      "value": "Dynamic Collision"
+    },
+    {
+      "key": "win.none",
+      "value": "בחר עצם שיש לו רכיב Dynamic Collision."
+    },
+    {
+      "key": "win.notarget",
+      "value": "(אין רכיב על הבחירה)"
+    },
+    {
+      "key": "win.lang",
+      "value": "שפה"
+    },
+    {
+      "key": "tab.bake",
+      "value": "אפייה"
+    },
+    {
+      "key": "tab.paint",
+      "value": "צביעה"
+    },
+    {
+      "key": "tab.gizmo",
+      "value": "Gizmo"
+    },
+    {
+      "key": "tab.parts",
+      "value": "חלקים"
+    },
+    {
+      "key": "tab.materials",
+      "value": "חומרים"
+    },
+    {
+      "key": "tab.health",
+      "value": "בריאות"
+    },
+    {
+      "key": "tab.settings",
+      "value": "הגדרות"
+    },
+    {
+      "key": "lbl.mode",
+      "value": "מצב"
+    },
+    {
+      "key": "lbl.precision",
+      "value": "דיוק"
+    },
+    {
+      "key": "lbl.source",
+      "value": "מקור"
+    },
+    {
+      "key": "lbl.role",
+      "value": "תפקיד המתנגש"
+    },
+    {
+      "key": "lbl.layers",
+      "value": "שכבות אינטראקציה"
+    },
+    {
+      "key": "lbl.detect",
+      "value": "זיהוי"
+    },
+    {
+      "key": "lbl.collision",
+      "value": "התנגשות"
+    },
+    {
+      "key": "lbl.trigger",
+      "value": "Trigger (סקר)"
+    },
+    {
+      "key": "lbl.groups",
+      "value": "קבוצות חומר"
+    },
+    {
+      "key": "lbl.elements",
+      "value": "חלקים (elements)"
+    },
+    {
+      "key": "lbl.group",
+      "value": "קבוצה"
+    },
+    {
+      "key": "lbl.material",
+      "value": "חומר פיזי"
+    },
+    {
+      "key": "lbl.density",
+      "value": "צפיפות kg/m³"
+    },
+    {
+      "key": "lbl.eventName",
+      "value": "שם אירוע"
+    },
+    {
+      "key": "lbl.damage",
+      "value": "נזק ×"
+    },
+    {
+      "key": "lbl.name",
+      "value": "שם"
+    },
+    {
+      "key": "btn.bake",
+      "value": "אפה"
+    },
+    {
+      "key": "btn.rebuild",
+      "value": "הרכב מחדש בסצנה"
+    },
+    {
+      "key": "btn.clear",
+      "value": "נקה אפוי"
+    },
+    {
+      "key": "btn.autofill",
+      "value": "מלא חלקים אוטומטית (Humanoid)"
+    },
+    {
+      "key": "btn.addPart",
+      "value": "+ חלק ריק"
+    },
+    {
+      "key": "btn.addGroup",
+      "value": "+ קבוצה"
+    },
+    {
+      "key": "btn.autoAssign",
+      "value": "הקצה אוטומטית לפי שם"
+    },
+    {
+      "key": "btn.pick",
+      "value": "בחר פריסט"
+    },
+    {
+      "key": "btn.paint",
+      "value": "התחל צביעה"
+    },
+    {
+      "key": "btn.stopPaint",
+      "value": "עצור צביעה"
+    },
+    {
+      "key": "btn.resetPose",
+      "value": "אפס לתנוחת קישור"
+    },
+    {
+      "key": "btn.clearPaint",
+      "value": "נקה את כל התוויות"
+    },
+    {
+      "key": "btn.remove",
+      "value": "×"
+    },
+    {
+      "key": "btn.paintThis",
+      "value": "צבע את זה"
+    },
+    {
+      "key": "btn.showUncovered",
+      "value": "הצג פנים לא מכוסות"
+    },
+    {
+      "key": "btn.batchBake",
+      "value": "אפה את כל הנבחרים"
+    },
+    {
+      "key": "bake.none",
+      "value": "עדיין לא נאפה דבר."
+    },
+    {
+      "key": "bake.stats",
+      "value": "סטטיסטיקה"
+    },
+    {
+      "key": "bake.hulls",
+      "value": "מעטפות"
+    },
+    {
+      "key": "bake.verts",
+      "value": "קודקודים"
+    },
+    {
+      "key": "bake.peak",
+      "value": "שיא לכל מעטפת"
+    },
+    {
+      "key": "bake.volume",
+      "value": "נפח"
+    },
+    {
+      "key": "bake.unassigned",
+      "value": "משולשים לא משויכים"
+    },
+    {
+      "key": "bake.precisionRow",
+      "value": "{0} משולשים/מעטפת · {1} מעטפות/חלק · תפר {2:F1}mm · משקל ≥ {3:F2}"
+    },
+    {
+      "key": "cov.title",
+      "value": "כיסוי"
+    },
+    {
+      "key": "cov.value",
+      "value": "{0:F1}%  ({1} / {2} משולשים)"
+    },
+    {
+      "key": "cov.uncovered",
+      "value": "{0} משולשים אינם מכוסים על ידי אף מעטפת"
+    },
+    {
+      "key": "cov.analyze",
+      "value": "נתח כיסוי"
+    },
+    {
+      "key": "cov.none",
+      "value": "אין נתונים אפויים."
+    },
+    {
+      "key": "cov.nosource",
+      "value": "אין mesh מקור."
+    },
+    {
+      "key": "paint.section",
+      "value": "מברשת"
+    },
+    {
+      "key": "paint.ready",
+      "value": "מוכן לצביעה"
+    },
+    {
+      "key": "paint.blocked",
+      "value": "הצביעה חסומה"
+    },
+    {
+      "key": "paint.radius",
+      "value": "רדיוס"
+    },
+    {
+      "key": "paint.xray",
+      "value": "X-Ray (התעלם מפנים אחוריות)"
+    },
+    {
+      "key": "paint.symmetry",
+      "value": "שיקוף על X"
+    },
+    {
+      "key": "paint.hud",
+      "value": "מברשת · קבוצה [{0}] {1} · רדיוס {2:F1}cm"
+    },
+    {
+      "key": "paint.hudKeys",
+      "value": "LMB צבע / Shift מחק / גלגלת רדיוס / X סימטריה {0}"
+    },
+    {
+      "key": "paint.on",
+      "value": "פועל"
+    },
+    {
+      "key": "paint.off",
+      "value": "כבוי"
+    },
+    {
+      "key": "paint.tip1",
+      "value": "המברשת מתייגת פנים. התוויות הופכות לאילוצי חלוקה במהלך האפייה, כך שעצם אחד יכול לשאת חומר רך באזור אחד וקשה באחר — מיוצר באפייה אחת."
+    },
+    {
+      "key": "paint.tip2",
+      "value": "זמין רק במצב עריכה, עם Play עצור וחלון Animation סגור. התוויות נשמרות לפי מספר המשולש, כך שהתנוחה הנוכחית לא משנה."
+    },
+    {
+      "key": "paint.nomask",
+      "value": "אין עדיין נכס תוויות. אפה פעם אחת כדי ליצור אותו."
+    },
+    {
+      "key": "paint.trisPerGroup",
+      "value": "{0} משולשים"
+    },
+    {
+      "key": "pose.notarget",
+      "value": "לא נבחר יעד"
+    },
+    {
+      "key": "pose.noplay",
+      "value": "לא ניתן לערוך תוויות במצב Play mode (תצוגה לקריאה בלבד)"
+    },
+    {
+      "key": "pose.anim",
+      "value": "חלון Animation מציג תצוגה מקדימה. צא מהתצוגה תחילה."
+    },
+    {
+      "key": "pose.notbind",
+      "value": "השלד אינו בתנוחת קישור (סטייה {0:F1}cm ב-{1}). לחץ תחילה על \"אפס לתנוחת קישור\"."
+    },
+    {
+      "key": "gizmo.enabled",
+      "value": "הצג מעטפות"
+    },
+    {
+      "key": "gizmo.selected",
+      "value": "נבחרים בלבד"
+    },
+    {
+      "key": "gizmo.bind",
+      "value": "תנוחת קישור (T-pose)"
+    },
+    {
+      "key": "gizmo.source",
+      "value": "מסגרת mesh המקור"
+    },
+    {
+      "key": "gizmo.uncovered",
+      "value": "הדגש פנים לא מכוסות"
+    },
+    {
+      "key": "gizmo.painted",
+      "value": "הצג פאות צבועות"
+    },
+    {
+      "key": "gizmo.labels",
+      "value": "תוויות"
+    },
+    {
+      "key": "gizmo.max",
+      "value": "מקסימום מעטפות מצוירות"
+    },
+    {
+      "key": "gizmo.tip",
+      "value": "תנוחת קישור כברירת מחדל: בתנוחת קישור bone.localToWorldMatrix · bindposes[i] = I, כך שתנוחת הקישור היא mesh המקור כפי שנבנה. מעטפות ה-T-pose נשארות יציבות בזמן שאנימציה מופעלת."
+    },
+    {
+      "key": "gizmo.legendOk",
+      "value": "רגיל"
+    },
+    {
+      "key": "gizmo.legendPeak",
+      "value": "מעל 255 קודקודים"
+    },
+    {
+      "key": "gizmo.legendUncov",
+      "value": "לא מכוסה"
+    },
+    {
+      "key": "part.bone",
+      "value": "עצם"
+    },
+    {
+      "key": "part.children",
+      "value": "כלול עצמות בנות"
+    },
+    {
+      "key": "part.rules",
+      "value": "כלל חלוקה: האב הקרוב ביותר מנצח. כאשר חלק הורה מפעיל \"כלול עצמות בנות\", חלק עמוק יותר עדיין מקבל עדיפות, כך שאירועים לעולם אינם נשלחים פעמיים."
+    },
+    {
+      "key": "mat.pair",
+      "value": "התנהגות זוג"
+    },
+    {
+      "key": "mat.pairHint",
+      "value": "עדיפות שילוב ב-Unity: Average < Minimum < Multiply < Maximum."
+    },
+    {
+      "key": "mat.static",
+      "value": "חיכוך סטטי"
+    },
+    {
+      "key": "mat.dynamic",
+      "value": "חיכוך דינמי"
+    },
+    {
+      "key": "mat.bounce",
+      "value": "החזר"
+    },
+    {
+      "key": "mat.combine",
+      "value": "שילוב"
+    },
+    {
+      "key": "mat.summary",
+      "value": "סטטי {0:F2} · דינמי {1:F2} · החזר {2:F2} · שילוב {3}/{4}"
+    },
+    {
+      "key": "mat.autoAll",
+      "value": "מלא את כל הקבוצות מפריסטים"
+    },
+    {
+      "key": "phys.title",
+      "value": "פיזיקת הפרויקט"
+    },
+    {
+      "key": "phys.apply",
+      "value": "החל מומלץ"
+    },
+    {
+      "key": "phys.gravity",
+      "value": "gravity.y"
+    },
+    {
+      "key": "phys.bounce",
+      "value": "bounceThreshold"
+    },
+    {
+      "key": "phys.velIter",
+      "value": "solverVelocityIterations"
+    },
+    {
+      "key": "phys.contactOffset",
+      "value": "defaultContactOffset"
+    },
+    {
+      "key": "phys.maxDepen",
+      "value": "defaultMaxDepenetrationVelocity"
+    },
+    {
+      "key": "health.title",
+      "value": "בריאות התנגשות"
+    },
+    {
+      "key": "health.rerun",
+      "value": "בדוק מחדש"
+    },
+    {
+      "key": "health.none",
+      "value": "לא נמצאו בעיות."
+    },
+    {
+      "key": "health.summary",
+      "value": "שגיאות {0} / אזהרות {1} / רמזים {2}"
+    },
+    {
+      "key": "health.fix",
+      "value": "תקן"
+    },
+    {
+      "key": "health.score",
+      "value": "ציון {0}/100"
+    },
+    {
+      "key": "health.grade",
+      "value": "דירוג {0}"
+    },
+    {
+      "key": "menu.main",
+      "value": "פתח חלון ראשי"
+    },
+    {
+      "key": "menu.bake",
+      "value": "אפה נבחרים"
+    },
+    {
+      "key": "menu.gizmo",
+      "value": "החלף גיזמו מעטפות"
+    },
+    {
+      "key": "menu.rebuild",
+      "value": "הרכב מחדש נבחרים"
+    },
+    {
+      "key": "menu.health",
+      "value": "בריאות התנגשות"
+    },
+    {
+      "key": "menu.about",
+      "value": "אודות Neko Dynamic Collision"
+    },
+    {
+      "key": "cat.metal",
+      "value": "מתכת"
+    },
+    {
+      "key": "cat.plastic",
+      "value": "פלסטיק"
+    },
+    {
+      "key": "cat.glass",
+      "value": "זכוכית"
+    },
+    {
+      "key": "cat.wood",
+      "value": "עץ"
+    },
+    {
+      "key": "cat.stone",
+      "value": "אבן"
+    },
+    {
+      "key": "cat.rubber",
+      "value": "גומי"
+    },
+    {
+      "key": "cat.fabric",
+      "value": "בד"
+    },
+    {
+      "key": "cat.organic",
+      "value": "אורגני"
+    },
+    {
+      "key": "cat.ice",
+      "value": "קרח"
+    },
+    {
+      "key": "cat.other",
+      "value": "אחר"
+    },
+    {
+      "key": "bake.err.none",
+      "value": "target/set הוא null"
+    },
+    {
+      "key": "bake.err.noSkin",
+      "value": "לא נמצא מקור SkinnedMeshRenderer"
+    },
+    {
+      "key": "bake.err.noMesh",
+      "value": "לא נמצא מקור MeshFilter"
+    },
+    {
+      "key": "bake.err.noGroups",
+      "value": "אין קבוצות חומר. צור תחילה קבוצת ברירת מחדל."
+    },
+    {
+      "key": "bake.err.empty",
+      "value": "לא הופקה שום מעטפת."
+    },
+    {
+      "key": "bake.warn.maskMismatch",
+      "value": "ספירת התוויות ({0}) אינה תואמת את ספירת משולשי המקור ({1}); התוויות התעלמו בהרצה זו."
+    },
+    {
+      "key": "bake.warn.peak",
+      "value": "ספירת קודקודי המעטפת {0} חורגת ממגבלת PhysX של 255."
+    },
+    {
+      "key": "bake.warn.unassigned",
+      "value": "{0} משולשים אינם שייכים לאף חלק ולא יאפו."
+    },
+    {
+      "key": "bake.warn.none",
+      "value": "לא הופקה מעטפת; בדוק חלקים ודיוק."
+    },
+    {
+      "key": "bake.warn.nobones",
+      "value": "משקולות עצם חסרות, ולכן לא ניתן להקצות מחיצות Skin."
+    },
+    {
+      "key": "desc.verySlippery",
+      "value": "חלקלק מאוד"
+    },
+    {
+      "key": "desc.slippery",
+      "value": "חלקלק"
+    },
+    {
+      "key": "desc.normal",
+      "value": "רגיל"
+    },
+    {
+      "key": "desc.grippy",
+      "value": "בעל אחיזה"
+    },
+    {
+      "key": "desc.veryGrippy",
+      "value": "בעל אחיזה רבה"
+    },
+    {
+      "key": "desc.noBounce",
+      "value": "ללא החזר"
+    },
+    {
+      "key": "desc.lowBounce",
+      "value": "החזר קל"
+    },
+    {
+      "key": "desc.bouncy",
+      "value": "מחזיר"
+    },
+    {
+      "key": "desc.veryBouncy",
+      "value": "מחזיר מאוד"
+    },
+    {
+      "key": "h.nobake.title",
+      "value": "עדיין לא נאפה דבר"
+    },
+    {
+      "key": "h.nobake.detail",
+      "value": "שום דבר לא יורכב בזמן ריצה."
+    },
+    {
+      "key": "h.nobake.fix",
+      "value": "אפה עכשיו"
+    },
+    {
+      "key": "h.peakOver.title",
+      "value": "למעטפת יש {0} קודקודים, מעל מגבלת PhysX של 255"
+    },
+    {
+      "key": "h.peakOver.detail",
+      "value": "Unity דוחה מעטפת חורגת והיא לא עושה דבר בשקט. הנמך את הדיוק או הגדל את תת-החלוקה של החלק."
+    },
+    {
+      "key": "h.peakOver.fix",
+      "value": "אפה מחדש שלב דיוק אחד נמוך יותר"
+    },
+    {
+      "key": "h.peakNear.title",
+      "value": "שיא קודקודי המעטפת {0} (קרוב ל-255)"
+    },
+    {
+      "key": "h.peakNear.detail",
+      "value": "עדיין נכנס, אך שלב דיוק נוסף יפגע בתקרה."
+    },
+    {
+      "key": "h.degenerate.title",
+      "value": "{0} אשכולות התנוונו ואינם יכולים ליצור מעטפת"
+    },
+    {
+      "key": "h.degenerate.detail",
+      "value": "נגרם בדרך כלל מתוויות חומר מקוטעות או מסף משקל גבוה מדי. בדוק אם קבוצות החומר מקוטעות."
+    },
+    {
+      "key": "h.unassigned.title",
+      "value": "{0} משולשים ({1:F1}%) אינם שייכים לאף חלק"
+    },
+    {
+      "key": "h.unassigned.detail",
+      "value": "הפנים האלה לא מקבלות מעטפת ויפספסו פגיעות. בדוק שעצמות החלקים מכסות את כל השלד."
+    },
+    {
+      "key": "h.unassigned.fix",
+      "value": "מלא חלקים אוטומטית (Humanoid)"
+    },
+    {
+      "key": "h.hashMismatch.title",
+      "value": "mesh המקור השתנה אך לא נאפה מחדש"
+    },
+    {
+      "key": "h.hashMismatch.detail",
+      "value": "לאחר ייבוא מחדש או עריכת טופולוגיה, מדדי המשולשים אינם תואמים עוד את התוצאה האפויה, כך שמיקומי הפגיעה יהיו שגויים."
+    },
+    {
+      "key": "h.hashMismatch.fix",
+      "value": "אפה מחדש"
+    },
+    {
+      "key": "h.layers.title",
+      "value": "{0} תפקיד אך לא הוגדרו שכבות אינטראקציה"
+    },
+    {
+      "key": "h.layers.detail",
+      "value": "includeLayers ריק גורם למעטפות ליצור אינטראקציה עם הכול; Hitbox צמוד-עור אז חוסם את הבובה, את הסביבה ואת הדמויות האחרות."
+    },
+    {
+      "key": "h.layers.fix",
+      "value": "הגבל לשכבת Bullet"
+    },
+    {
+      "key": "h.noGroups.title",
+      "value": "אין קבוצות חומר"
+    },
+    {
+      "key": "h.noGroups.detail",
+      "value": "אפייה דורשת לפחות קבוצה אחת."
+    },
+    {
+      "key": "h.noGroups.fix",
+      "value": "צור קבוצת ברירת מחדל"
+    },
+    {
+      "key": "h.noMaterial.title",
+      "value": "לקבוצה \"{0}\" אין חומר פיזי"
+    },
+    {
+      "key": "h.noMaterial.detail",
+      "value": "היא נופלת לברירת המחדל של הפרויקט, כך שחיכוך והחזר אינם מבוקרים."
+    },
+    {
+      "key": "h.noMaterial.fix",
+      "value": "הקצה פריסט"
+    },
+    {
+      "key": "h.emptyGroup.title",
+      "value": "לקבוצה \"{0}\" אין מעטפות כלל"
+    },
+    {
+      "key": "h.emptyGroup.detail",
+      "value": "או שהמברשת לא תייגה אף פן, או שכל פן מתויג נתבע על ידי חלק אחר."
+    },
+    {
+      "key": "h.fragmented.title",
+      "value": "לקבוצה \"{0}\" יש {1} מעטפות"
+    },
+    {
+      "key": "h.fragmented.detail",
+      "value": "קיטוע מייצר מתנגשים זעירים רבים, מה שהופך את הבישול ואת ה-broadphase ליקרים. מזג תוויות או הנמך את הדיוק."
+    },
+    {
+      "key": "h.fragmented.fix",
+      "value": "מזג לקבוצה שכנה"
+    },
+    {
+      "key": "h.noRigidbody.title",
+      "value": "אין Rigidbody, כך שאירועי התנגשות לעולם לא יופעלו"
+    },
+    {
+      "key": "h.noRigidbody.detail",
+      "value": "Unity מעבירה קריאות התנגשות רק ל-GameObject שמחזיק ב-Rigidbody. הפעל Rigidbody אוטומטי, או הוסף Rigidbody קינמטי להורה."
+    },
+    {
+      "key": "h.noRigidbody.fix",
+      "value": "הפעל Rigidbody אוטומטי"
+    },
+    {
+      "key": "h.massSmall.title",
+      "value": "המסה של Rigidbody \"{0}\" היא רק {1:F4}kg"
+    },
+    {
+      "key": "h.massSmall.detail",
+      "value": "מסה קטנה מאוד אינה יציבה מספרית ומנהרת דרך עצמים. הפעל Auto Mass from Density."
+    },
+    {
+      "key": "h.massSmall.fix",
+      "value": "הפעל מסה מתוך צפיפות"
+    },
+    {
+      "key": "h.massLarge.title",
+      "value": "המסה של Rigidbody \"{0}\" היא {1:F0}kg"
+    },
+    {
+      "key": "h.massLarge.detail",
+      "value": "אם זה לא מכוון, בדוק את יחידת הצפיפות (kg/m³)."
+    },
+    {
+      "key": "h.selfCollision.title",
+      "value": "התנגשות עצמית של הבובה פועלת במלואה"
+    },
+    {
+      "key": "h.selfCollision.detail",
+      "value": "עצמות דוחפות זו את זו, וזו סיבה נפוצה לרעידות בובה. \"Ignore adjacent\" היא הבחירה הרגילה."
+    },
+    {
+      "key": "h.selfCollision.fix",
+      "value": "עבור להתעלם מסמוכים"
+    },
+    {
+      "key": "h.dispatch.title",
+      "value": "{0} שליחות ללא מאזין (אחרונה: {1})"
+    },
+    {
+      "key": "h.dispatch.detail",
+      "value": "שם אירוע עם שגיאת כתיב אינו מעלה שגיאה; הוא מופיע רק באבחון. רשום מאזינים עם Dyc_Events.Register."
+    },
+    {
+      "key": "h.dispatch.fix",
+      "value": "אפס מונים"
+    },
+    {
+      "key": "h.physicsBounce.title",
+      "value": "bounceThreshold = {0}: פגיעות איטיות מכך לעולם לא מחזירות"
+    },
+    {
+      "key": "h.physicsBounce.detail",
+      "value": "זו הסיבה שפריסטים של גומי וכדור נראים כאילו אינם עושים דבר."
+    },
+    {
+      "key": "h.physicsBounce.fix",
+      "value": "bounceThreshold → 0.3"
+    },
+    {
+      "key": "h.physicsVelocity.title",
+      "value": "VelocityIterations = {0}: ערימות ופגיעות מהירות רועדות או מנהרות"
+    },
+    {
+      "key": "h.physicsVelocity.detail",
+      "value": "סיבה שורשית נפוצה לרעידות בובה ב-Unity."
+    },
+    {
+      "key": "h.physicsVelocity.fix",
+      "value": "VelocityIterations → 2"
+    },
+    {
+      "key": "h.physicsGravity.title",
+      "value": "gravity = {0:F2} (לא -9.81)"
+    },
+    {
+      "key": "h.physicsGravity.detail",
+      "value": "כל אינטואיציית מסה ודחף שנגזרה מ-9.81- שגויה פי {0:F2}×, ולכן יש לתקן פריסטים של צפיפות."
+    },
+    {
+      "key": "h.physicsContact.title",
+      "value": "defaultContactOffset = {0}: מרווח המגע רחב"
+    },
+    {
+      "key": "h.physicsContact.detail",
+      "value": "עצמים דקים נוטים להיראות כאילו הם מרחפים."
+    },
+    {
+      "key": "insp.sectionBasic",
+      "value": "בסיסי"
+    },
+    {
+      "key": "insp.sectionCollision",
+      "value": "התנגשות"
+    },
+    {
+      "key": "insp.sectionPhysics",
+      "value": "פיזיקה"
+    },
+    {
+      "key": "insp.sectionTrigger",
+      "value": "Trigger"
+    },
+    {
+      "key": "insp.sectionLod",
+      "value": "LOD"
+    },
+    {
+      "key": "insp.multi",
+      "value": "בחירה מרובה תומכת רק באפייה קבוצתית. בחר עצם אחד לעריכה מפורטת."
+    },
+    {
+      "key": "insp.noBake",
+      "value": "עדיין לא נאפה"
+    },
+    {
+      "key": "insp.noBakeHint",
+      "value": "לחץ \"אפה\" למטה."
+    },
+    {
+      "key": "insp.baked",
+      "value": "{0} מעטפות נאפו"
+    },
+    {
+      "key": "insp.peakVerts",
+      "value": "קודקודים / שיא"
+    },
+    {
+      "key": "insp.volume",
+      "value": "נפח"
+    },
+    {
+      "key": "insp.partsGroups",
+      "value": "חלקים / קבוצות"
+    },
+    {
+      "key": "insp.unassigned",
+      "value": "משולשים לא משויכים"
+    },
+    {
+      "key": "insp.health",
+      "value": "בריאות"
+    },
+    {
+      "key": "insp.tally",
+      "value": "{0} שגיאות · {1} אזהרות · {2} רמזים"
+    },
+    {
+      "key": "insp.openBaker",
+      "value": "פתח אפייה"
+    },
+    {
+      "key": "insp.showGizmo",
+      "value": "הצג Gizmo מעטפות"
+    },
+    {
+      "key": "insp.autoRb",
+      "value": "הוסף Rigidbody אוטומטית"
+    },
+    {
+      "key": "insp.selfCollision",
+      "value": "התנגשות עצמית"
+    },
+    {
+      "key": "insp.autoMass",
+      "value": "מסה מתוך צפיפות"
+    },
+    {
+      "key": "insp.targetMass",
+      "value": "נרמל מסה כוללת (0 = כבוי)"
+    },
+    {
+      "key": "insp.triggerMode",
+      "value": "מצב"
+    },
+    {
+      "key": "insp.pollDivisor",
+      "value": "פריימים לכל מעבר"
+    },
+    {
+      "key": "insp.pollSweep",
+      "value": "שולי סריקה (m)"
+    },
+    {
+      "key": "insp.pollNote",
+      "value": "הסקר לוקח דגימות, זה אינו אירוע. מעברים מהירים מאוד מוחמצים; שולי הסריקה מפצים על כך."
+    },
+    {
+      "key": "insp.lodMode",
+      "value": "מצב"
+    },
+    {
+      "key": "insp.lodDistance",
+      "value": "מרחק (m)"
+    },
+    {
+      "key": "insp.debugLog",
+      "value": "יומן דיבוג"
+    },
+    {
+      "key": "insp.rebuild",
+      "value": "הרכב מחדש (נכנס לתוקף במצב Play mode)"
+    },
+    {
+      "key": "set.language",
+      "value": "שפה"
+    },
+    {
+      "key": "set.langNote",
+      "value": "חל מיד על החלון ועל תפריט NekoWorks."
+    },
+    {
+      "key": "set.diagnostics",
+      "value": "אבחון"
+    },
+    {
+      "key": "set.languagesLoaded",
+      "value": "שפות נטענו"
+    },
+    {
+      "key": "set.localeRoot",
+      "value": "תיקיית שפות"
+    },
+    {
+      "key": "set.langMissing",
+      "value": "תיקיית השפות לא נמצאה. חופשה ב: {0}"
+    },
+    {
+      "key": "set.presets",
+      "value": "ערכות חומר"
+    },
+    {
+      "key": "set.gizmoDefault",
+      "value": "Gizmo של מעטפות"
+    },
+    {
+      "key": "set.openBaked",
+      "value": "פתח תיקיית נכסים אפויים"
+    },
+    {
+      "key": "set.resetPrefs",
+      "value": "אפס העדפות תוסף"
+    },
+    {
+      "key": "set.refreshIcon",
+      "value": "רענן סמל רכיב"
+    },
+    {
+      "key": "lbl.childMeshes",
+      "value": "קרא רשתות בנים"
+    },
+    {
+      "key": "lbl.hullsPerPart",
+      "value": "מעטפות לכל חלק"
+    },
+    {
+      "key": "lbl.trisPerHull",
+      "value": "משולשים לכל מעטפת"
+    },
+    {
+      "key": "lbl.weightThreshold",
+      "value": "סף משקל עצם"
+    },
+    {
+      "key": "prec.skinHint",
+      "value": "במצב Skin מספר המעטפות נקבע לכל אזור אוטומטית: גליל אצבע ופלג גוף עליון הם צורות שונות, ומספר אחד לכל הגוף תמיד משקר לאחד מהם. המשולשים לכל מעטפת נשארים בידיך — זו תקציב פירוט, לא צורה."
+    },
+    {
+      "key": "prec.customHint",
+      "value": "מעטפות לכל חלק הן צורת הקירוב, לא רמת איכות. עצם דק — חץ, עצם — רוצה מעטפת אחת: שתיים חוצות אותו, וכל חצי הופך לקליפה דקה במקום חצי גוף. פלג גוף או רכב רוצים 4-8. סף המשקל קובע אילו קודקודים נחשבים לעצם: מתחתיו הקודקוד נזרק, העצם מקבל משטח מחורר והמעטפת שלו נראית כמו עלה כותרת."
+    },
+    {
+      "key": "src.autoHint",
+      "value": "מקור ריק משמעו ה-MeshFilter על האובייקט הזה. רשתות בנים נקראות רק כשהמתג למעלה דלוק — החיפוש השקט הישן אחרי הרשת הראשונה בבנים יכול היה לאפות רשת שגויה."
+    },
+    {
+      "key": "lbl.shape",
+      "value": "צורת הקוליידר"
+    },
+    {
+      "key": "shape.convex",
+      "value": "מעטפות קמורות"
+    },
+    {
+      "key": "shape.concave",
+      "value": "משטח לא קמור"
+    },
+    {
+      "key": "shape.convexHint",
+      "value": "מעטפת קמורה אחת לכל עצם, נאפית מראש. חלק רק היכן שמעטפות שכנות חופפות; מפרקים קעורים (בית שחי, מפשעה, צוואר) נשארים עם רווח. עובד על גופים קשיחים נעים ומתנגש רשת-רשת."
+    },
+    {
+      "key": "shape.concaveHint",
+      "value": "המשטח האמיתי של כל עצם, בלי ניפוח מעטפת — אין חורים במפרקים. המחיר: גופים קינמטיים או מונפשים בלבד, בלי התנגשויות רשת-רשת, בלי שלב רחב מהיר. הטוב ביותר במובייל לזיהוי פגיעות, לא לחסימה פיזית."
+    },
+    {
+      "key": "lbl.excludedBones",
+      "value": "עצמות מוחרגות"
+    },
+    {
+      "key": "lbl.excludedBonesHint",
+      "value": "עצם ברשימה הזו, וכל תת-העץ שלה, לא מקבלת אזור ולא קוליידר. זה המקום למטרות IK, קצוות ועצמות עזר."
+    },
+    {
+      "key": "lbl.excludedSkins",
+      "value": "רנדררים מוחרגים"
+    },
+    {
+      "key": "lbl.excludedSkinsHint",
+      "value": "SkinnedMeshRenderer שלא נאפים כלל — שיער, רנדרר בד נפרד, אביזרים."
+    },
+    {
+      "key": "lbl.excludeGroup",
+      "value": "החרג מהאפייה"
+    },
+    {
+      "key": "lbl.excludeGroupHint",
+      "value": "הפאות של הקבוצה הזו יוצאות מהאפייה לגמרי: בלי אשכול, בלי פירוק, בלי קוליידרים. כך גלימה או רתמה לא מקבלות תיבת פגיעה בלי לשנות את החומר שלהן."
+    },
+    {
+      "key": "btn.expert",
+      "value": "חלון מומחה"
+    },
+    {
+      "key": "exp.title",
+      "value": "דיוק לפי עצם"
+    },
+    {
+      "key": "exp.noTarget",
+      "value": "בחר אובייקט עם רכיב Dynamic Collision."
+    },
+    {
+      "key": "exp.basePrecision",
+      "value": "חלקים לכל עצם"
+    },
+    {
+      "key": "exp.totals",
+      "value": "{0} חלקים על {1} עצמות"
+    },
+    {
+      "key": "exp.decompose",
+      "value": "פירוק"
+    },
+    {
+      "key": "exp.voxelSize",
+      "value": "ווקסל מ\"מ"
+    },
+    {
+      "key": "exp.maxHulls",
+      "value": "מקסימום חלקים"
+    },
+    {
+      "key": "exp.project",
+      "value": "הטל"
+    },
+    {
+      "key": "exp.resetDefaults",
+      "value": "חזור לברירת מחדל"
+    },
+    {
+      "key": "exp.separate",
+      "value": "הפרד"
+    },
+    {
+      "key": "exp.separationMm",
+      "value": "מרווח מ\"מ"
+    },
+    {
+      "key": "exp.invertY",
+      "value": "הפוך Y"
+    },
+    {
+      "key": "exp.secondary",
+      "value": "צורה, התנגשות עצמית, LOD"
+    },
+    {
+      "key": "exp.rebake",
+      "value": "אפה מחדש"
+    },
+    {
+      "key": "exp.clearManual",
+      "value": "נקה ידני"
+    },
+    {
+      "key": "exp.bones",
+      "value": "עץ עצמות"
+    },
+    {
+      "key": "exp.noSkeleton",
+      "value": "אין שלד."
+    },
+    {
+      "key": "exp.concavityShort",
+      "value": "ק {0:0.00}"
+    },
+    {
+      "key": "exp.concavity",
+      "value": "קיעור"
+    },
+    {
+      "key": "exp.minDepth",
+      "value": "עומק מזערי"
+    },
+    {
+      "key": "exp.kernel",
+      "value": "ליבה"
+    },
+    {
+      "key": "exp.kernelOwn",
+      "value": "ווקסל עצמי"
+    },
+    {
+      "key": "exp.kernelNative",
+      "value": "V-HACD מקורי"
+    },
+    {
+      "key": "exp.maxVoxels",
+      "value": "תקרת ווקסלים"
+    },
+    {
+      "key": "exp.fillRatio",
+      "value": "מילוי"
+    },
+    {
+      "key": "exp.splitDepth",
+      "value": "עומק חיתוך"
+    },
+    {
+      "key": "exp.timeBudget",
+      "value": "זמן ש'"
+    },
+    {
+      "key": "bake.progress.title",
+      "value": "אופה התנגשות"
+    },
+    {
+      "key": "bake.progress.preparing",
+      "value": "מכין"
+    },
+    {
+      "key": "bake.progress.decomposing",
+      "value": "מפרק את הגוף לחלקים קמורים"
+    },
+    {
+      "key": "bake.progress.assembling",
+      "value": "מרכיב מעטפות"
+    },
+    {
+      "key": "bake.progress.baking",
+      "value": "אופה"
+    },
+    {
+      "key": "bake.progress.budget",
+      "value": "תקציב הזמן נגמר — מרכיב את מה שמוכן"
+    },
+    {
+      "key": "bake.progress.cancel",
+      "value": "בטל"
+    },
+    {
+      "key": "bake.progress.cancelling",
+      "value": "מבטל…"
+    },
+    {
+      "key": "bake.stage.decompose",
+      "value": "מפרק"
+    },
+    {
+      "key": "bake.stage.assemble",
+      "value": "מרכיב מעטפות"
+    },
+    {
+      "key": "exp.triangles",
+      "value": "משולשים"
+    },
+    {
+      "key": "exp.pieces",
+      "value": "חלקים"
+    },
+    {
+      "key": "exp.volume",
+      "value": "נפח"
+    },
+    {
+      "key": "exp.dropped",
+      "value": "{0} חלקים נזרקו בגלל התקציב. העלה אותו לעצם הזו או הנמך את הקיעור."
+    },
+    {
+      "key": "exp.detail",
+      "value": "עצם"
+    },
+    {
+      "key": "exp.pickBone",
+      "value": "בחר עצם בעץ או בתצוגת התלת-ממד."
+    },
+    {
+      "key": "exp.noStat",
+      "value": "אין נתוני אפייה לעצם הזו. אפה מחדש תחילה."
+    },
+    {
+      "key": "exp.manualPieces",
+      "value": "חלקים (ידני)"
+    },
+    {
+      "key": "exp.locked",
+      "value": "נעול"
+    },
+    {
+      "key": "exp.releaseBone",
+      "value": "חזור לאוטומטי"
+    },
+    {
+      "key": "exp.hullList",
+      "value": "חלקים"
+    },
+    {
+      "key": "exp.hullRow",
+      "value": "#{0} · {1} קודקודים · {2:0.0000} מ\"ק"
+    },
+    {
+      "key": "exp.noHulls",
+      "value": "אין חלקים לעצם הזו."
+    },
+    {
+      "key": "exp.previewFailed",
+      "value": "התצוגה המקדימה לא החזירה טקסטורה. בדוק את הקונסולה."
+    },
+    {
+      "key": "exp.orbitHint",
+      "value": "גרירה ימין — סיבוב · גרירה שמאל — הזזה · גלגלת — זום · לחיצה — בחירה · לחיצה כפולה — מרכז סיבוב"
+    },
+    {
+      "key": "btn.fromSkeleton",
+      "value": "מלא אזורים מהשלד"
+    },
+    {
+      "key": "btn.hideUncovered",
+      "value": "הסתר פאות לא מכוסות"
+    },
+    {
+      "key": "gizmo.occlude",
+      "value": "עמעם קצוות מוסתרים (50%)"
+    },
+    {
+      "key": "cat.ceramic",
+      "value": "קרמיקה"
+    },
+    {
+      "key": "cat.body",
+      "value": "חלקי גוף"
+    },
+    {
+      "key": "cat.tissue",
+      "value": "רקמות ואיברים"
+    },
+    {
+      "key": "cat.food",
+      "value": "מזון"
+    },
+    {
+      "key": "forge.title",
+      "value": "מפעל חומרים"
+    },
+    {
+      "key": "forge.hint",
+      "value": "הטבלה אומרת ממה הדבר עשוי. המפעל אומר מה הוא כרגע: חומר בסיס × מצב פני שטח. חלקי גוף ורקמות אינם שורות בטבלה — הם נגזרים מתערובת רקמות, ולכן אפשר להסביר את המספרים שלהם."
+    },
+    {
+      "key": "forge.base",
+      "value": "חומר בסיס"
+    },
+    {
+      "key": "forge.condition",
+      "value": "מצב פני שטח"
+    },
+    {
+      "key": "forge.group",
+      "value": "קבוצה"
+    },
+    {
+      "key": "forge.apply",
+      "value": "צור והקצה"
+    },
+    {
+      "key": "forge.generate",
+      "value": "צור נכסי וריאנטים"
+    },
+    {
+      "key": "forge.generateHint",
+      "value": "כותב קובץ .physicMaterial לכל מצב פני שטח לתיקיית האפייה, כדי שאמן יבחר אותם בלי התוסף."
+    },
+    {
+      "key": "forge.generated",
+      "value": "נוצרו {0} נכסי חומר אל {1}"
+    },
+    {
+      "key": "forge.variantOf",
+      "value": "{0} · וריאנטים"
+    },
+    {
+      "key": "forge.presets",
+      "value": "{0} הגדרות מוגדרות מראש ב-{1} קטגוריות"
+    },
+    {
+      "key": "forge.values",
+      "value": "סטטי {0:F2} · קינטי {1:F2} · החזר {2:F2} · {3:F0} קג/מ\"ק"
+    },
+    {
+      "key": "forge.derived",
+      "value": "נגזר"
+    },
+    {
+      "key": "forge.applied",
+      "value": "קבוצה \"{0}\" נוצרה מ-{1} · {2}"
+    },
+    {
+      "key": "forge.nogroup",
+      "value": "אין קבוצת חומר ליצוק לתוכה."
+    },
+    {
+      "key": "forge.self",
+      "value": "צוק אל תוך עצמה"
+    },
+    {
+      "key": "forge.cond.dry",
+      "value": "יבש"
+    },
+    {
+      "key": "forge.cond.wet",
+      "value": "רטוב"
+    },
+    {
+      "key": "forge.cond.oiled",
+      "value": "משומן"
+    },
+    {
+      "key": "forge.cond.bloody",
+      "value": "מוכתם בדם"
+    },
+    {
+      "key": "forge.cond.sweaty",
+      "value": "מיוזע"
+    },
+    {
+      "key": "forge.cond.icy",
+      "value": "קפוא"
+    },
+    {
+      "key": "forge.cond.frozen",
+      "value": "קפוא לגמרי"
+    },
+    {
+      "key": "forge.cond.dusty",
+      "value": "מאובק"
+    },
+    {
+      "key": "forge.cond.rough",
+      "value": "מחוספס"
+    },
+    {
+      "key": "forge.cond.polished",
+      "value": "מלוטש"
+    },
+    {
+      "key": "forge.cond.rusted",
+      "value": "חלוד"
+    },
+    {
+      "key": "forge.cond.worn",
+      "value": "שחוק"
+    },
+    {
+      "key": "forge.cond.clothed",
+      "value": "לבוש"
+    },
+    {
+      "key": "forge.cond.armored",
+      "value": "משוריין"
+    },
+    {
+      "key": "forge.cond.charred",
+      "value": "חרוך"
+    },
+    {
+      "key": "forge.tissue.bone",
+      "value": "עצם"
+    },
+    {
+      "key": "forge.tissue.cartilage",
+      "value": "סחוס"
+    },
+    {
+      "key": "forge.tissue.tendon",
+      "value": "גיד"
+    },
+    {
+      "key": "forge.tissue.muscle",
+      "value": "שריר"
+    },
+    {
+      "key": "forge.tissue.fat",
+      "value": "שומן"
+    },
+    {
+      "key": "forge.tissue.skin",
+      "value": "עור"
+    },
+    {
+      "key": "forge.tissue.organ",
+      "value": "איבר"
+    },
+    {
+      "key": "forge.tissue.lung",
+      "value": "ריאה"
+    },
+    {
+      "key": "forge.tissue.brain",
+      "value": "מוח"
+    },
+    {
+      "key": "forge.tissue.keratin",
+      "value": "קרטין"
+    },
+    {
+      "key": "soft.hard",
+      "value": "קשה"
+    },
+    {
+      "key": "soft.firm",
+      "value": "יציב"
+    },
+    {
+      "key": "soft.soft",
+      "value": "רך"
+    },
+    {
+      "key": "soft.verySoft",
+      "value": "רך מאוד"
+    },
+    {
+      "key": "soft.gel",
+      "value": "דמוי ג'ל"
+    },
+    {
+      "key": "h.concaveDynamic.title",
+      "value": "רשת לא קמורה על גוף קשיח נע"
+    },
+    {
+      "key": "h.concaveDynamic.detail",
+      "value": "PhysX מקבל MeshCollider לא קמור רק על גוף קינמטי או מונפש. על גוף קשיח נע Unity דוחה את הקוליידר בשקט, ואז שום דבר לא מתנגש."
+    },
+    {
+      "key": "h.concaveDynamic.fix",
+      "value": "הפוך את הגוף הקשיח לקינמטי"
+    },
+    {
+      "key": "h.concaveScale.title",
+      "value": "קנה מידה לא אחיד ({0:F2}, {1:F2}, {2:F2})"
+    },
+    {
+      "key": "h.concaveScale.detail",
+      "value": "רשת לא קמורה נאפית במרחב מקומי, ולכן קנה מידה מתוח מרחיק את הקוליידר מהמודל. למעטפות קמורות אין בעיה זו."
+    },
+    {
+      "key": "h.concaveMeshMesh.title",
+      "value": "רשת לא קמורה: בלי התנגשויות רשת-רשת"
+    },
+    {
+      "key": "h.concaveMeshMesh.detail",
+      "value": "זו מגבלה של PhysX, לא הגדרה: רשת לא קמורה לעולם לא מתנגשת עם רשת לא קמורה אחרת. היא כן מתנגשת עם פרימיטיבים, תוואי שטח ומעטפות קמורות."
+    },
+    {
+      "key": "h.allExcluded.title",
+      "value": "כל קבוצות החומר מוחרגות מהאפייה"
+    },
+    {
+      "key": "h.allExcluded.detail",
+      "value": "האפייה תייצר אפס קוליידרים. הסר את ההחרגה מלפחות קבוצה אחת."
+    },
+    {
+      "key": "h.excludeDead.title",
+      "value": "העצם המוחרגת \"{0}\" אינה בשלד"
+    },
+    {
+      "key": "h.excludeDead.detail",
+      "value": "הרשומה לא עושה דבר — העצם אינה חלק מהרנדרר הנאפה. לרוב שארית אחרי שינוי ריג."
+    },
+    {
+      "key": "h.softSelfCollision.title",
+      "value": "אזור רך עם התנגשות עצמית מלאה"
+    },
+    {
+      "key": "h.softSelfCollision.detail",
+      "value": "אזור רך מחזיק מעטפות וגם פותר את החלקיקים שלו; עם התנגשות עצמית השניים דוחפים זה את זה והבד רותח. \"התעלם משכנים\" היא הבחירה הרגילה."
+    },
+    {
+      "key": "h.softSelfCollision.fix",
+      "value": "עבור להתעלם משכנים"
+    },
+    {
+      "key": "h.softNoSource.title",
+      "value": "אזורים רכים נאפו, אך לא מותקן מקור עיוות"
+    },
+    {
+      "key": "h.softNoSource.detail",
+      "value": "בלי פותר שכותב פריימים, כל אשכול מתנהג כבלוק קשיח: האובייקט זז כשלם ואינו מתעוות. זו נסיגה תקפה, לא שגיאה."
+    },
+    {
+      "key": "insp.sectionExclusions",
+      "value": "החרגות"
+    },
+    {
+      "key": "shape.concaveWarn",
+      "value": "PhysX מקבל רשת לא קמורה רק על גוף קינמטי או מונפש. על גוף קשיח נע Unity דוחה את הקוליידר בשקט: שום דבר לא מתנגש ולא מופיעה שגיאה. אפה את הדמות על גוף קינמטי, או פתח את חלון המומחה כדי לבדוק את שאר המגבלות לפני האפייה."
+    },
+    {
+      "key": "btn.openExpert",
+      "value": "פתח חלון מומחה"
+    },
+    {
+      "key": "exp.groupActions",
+      "value": "פעולות"
+    },
+    {
+      "key": "exp.groupPrecision",
+      "value": "דיוק הפירוק"
+    },
+    {
+      "key": "exp.groupBody",
+      "value": "אזורים והפרדה"
+    },
+    {
+      "key": "exp.groupKernel",
+      "value": "ליבה ותקציב"
+    },
+    {
+      "key": "exp.groupView",
+      "value": "תצוגה"
+    },
+    {
+      "key": "bake.concaveNote",
+      "value": "למשטחים לא קמורים אין תקרת קודקודים של PhysX: תקציב המשולשים נשמר על ידי פישוט המשטח, לא על ידי חיתוכו."
+    },
+    {
+      "key": "lbl.decomposeDetail",
+      "value": "פירוט הפירוק"
+    },
+    {
+      "key": "lbl.decomposeVoxel",
+      "value": "גודל ווקסל (מ״מ)"
+    },
+    {
+      "key": "decomp.hint",
+      "value": "ווקסל גס: פחות חלקים וגדולים יותר — הזול ביותר. {0} מ״מ."
+    },
+    {
+      "key": "decomp.fineHint",
+      "value": "העדין ביותר: החלקים עוקבים אחרי המשטח, ולכן העלות משתווה למצב הלא־קמור. עדין מזה לא מוסיף דבר — רק עלות."
+    },
+    {
+      "key": "exp.decomposed",
+      "value": "חלקים: פירוק קמור (חיתוך לאורך השקעים)"
+    },
+    {
+      "key": "exp.clustered",
+      "value": "חלקים: אשכול מרחבי (פירוק לא זמין — מסלול חלופי)"
+    },
+    {
+      "key": "lbl.concaveDetail",
+      "value": "פירוט המשטח"
+    },
+    {
+      "key": "concave.exact",
+      "value": "בלי פישוט: המשטח נלקח מהמשטח כפי שהוא."
+    },
+    {
+      "key": "concave.budget",
+      "value": "פושט לכ־{0} משולשים לכל חלק. גרור ימינה לפירוט רב יותר; בקצה הימני — בלי פישוט."
+    },
+    {
+      "key": "insp.sectionSimple",
+      "value": "שימוש רגיל (כמו קוליידר מערכת)"
+    },
+    {
+      "key": "insp.generateOnStart",
+      "value": "בנה בהפעלה אם אין אפייה"
+    },
+    {
+      "key": "insp.generateHint",
+      "value": "הוסף את הרכיב ולחץ Play. הקוליידרים נבנים מהמשטח לפי עצם; האזורים והפירוק עדיין מגיעים מהאפייה."
+    },
+    {
+      "key": "insp.isTrigger",
+      "value": "הקוליידרים הם טריגרים"
+    },
+    {
+      "key": "insp.receiver",
+      "value": "שלח גם OnCollision*/OnTrigger* אל"
+    },
+    {
+      "key": "insp.receiverHint",
+      "value": "השאר ריק להתנהגות הרגילה של Unity: ההודעות מגיעות לאובייקט עם ה־Rigidbody."
+    },
+    {
+      "key": "insp.sectionLive",
+      "value": "עדכון חי (עם תקציב)"
+    },
+    {
+      "key": "insp.liveUpdate",
+      "value": "בנה מחדש את המעטפות לפי התנוחה הנוכחית"
+    },
+    {
+      "key": "insp.liveContinuous",
+      "value": "עדכן ברציפות"
+    },
+    {
+      "key": "insp.idleBudget",
+      "value": "תקציב במנוחה (מ״ש/פריים)"
+    },
+    {
+      "key": "insp.activeBudget",
+      "value": "תקציב בתנועה (מ״ש/פריים)"
+    },
+    {
+      "key": "insp.updateThreshold",
+      "value": "דלג על עדכון מתחת לתנועה זו (מ׳)"
+    },
+    {
+      "key": "insp.maxColliderTriangles",
+      "value": "מקסימום משולשים לקוליידר"
+    },
+    {
+      "key": "insp.liveHint",
+      "value": "כבוי כברירת מחדל: ההבטחה של התוסף היא אפס עלות לפריים. הפעל היכן שעיוות חזק חשוב."
+    },
+    {
+      "key": "insp.sectionMaterials",
+      "value": "חומרים לפי חומר מקור"
+    },
+    {
+      "key": "insp.materialSource",
+      "value": "חומר מקור"
+    },
+    {
+      "key": "insp.materialPhysics",
+      "value": "חומר פיזי"
+    },
+    {
+      "key": "insp.materialHint",
+      "value": "מחליף את חומר האזור הצבוע עבור מעטפות של אותו חומר מקור. ל־Dyc_BoneProperties על העצם יש עדיפות."
+    },
+    {
+      "key": "insp.sectionExclusionMap",
+      "value": "מפת החרגה"
+    },
+    {
+      "key": "insp.exclusionMap",
+      "value": "מפה (דורש Read/Write)"
+    },
+    {
+      "key": "insp.exclusionChannel",
+      "value": "ערוץ"
+    },
+    {
+      "key": "insp.exclusionThreshold",
+      "value": "סף"
+    },
+    {
+      "key": "insp.exclusionMapHint",
+      "value": "לבן בערוץ הנבחר מחריג את אותו קודקוד. המברשת מסמנת פאות, המפה מסמנת קודקודים."
+    },
+    {
+      "key": "insp.sectionSkeleton",
+      "value": "שלד"
+    },
+    {
+      "key": "insp.retargetRoot",
+      "value": "תלה את המעטפות על שלד אחר"
+    },
+    {
+      "key": "insp.retargetHint",
+      "value": "RetargetSkeleton: המעטפות נבנות מהמשטח הזה אך תלויות על עצמות באותו שם בשורש ההוא (Puppet Master וכדומה)."
+    },
+    {
+      "key": "insp.sectionCharLod",
+      "value": "LOD התנגשות דמויות"
+    },
+    {
+      "key": "insp.collisionLod",
+      "value": "כבה מעטפות לפי מרחק"
+    },
+    {
+      "key": "insp.lodNear",
+      "value": "פירוט מלא עד (מ׳)"
+    },
+    {
+      "key": "insp.lodFar",
+      "value": "צמצם מעבר ל־(מ׳)"
+    },
+    {
+      "key": "insp.lodKeep",
+      "value": "מעטפות שנשמרות מרחוק"
+    },
+    {
+      "key": "insp.lodHysteresis",
+      "value": "היסטרזיס (מ׳)"
+    },
+    {
+      "key": "insp.lodVisibility",
+      "value": "דרוש גם נראות על המסך"
+    },
+    {
+      "key": "insp.lodReference",
+      "value": "נקודת ייחוס למרחק (ריק = Camera.main)"
+    },
+    {
+      "key": "insp.lodHint",
+      "value": "זה מיועד לדמויות. LOD התנגשות לסטטי הוא נושא אחר; קהל דמויות הוא תקציב נפרד — וזה התקציב הזה."
+    },
+    {
+      "key": "insp.expertMode",
+      "value": "הגדרות מומחה"
+    },
+    {
+      "key": "insp.expertHint",
+      "value": "כבוי: ארבעה פקדים וכפתור אפייה — די כדי להתחיל. דלוק: הצד הטכני — תקציבים, ליבת הפירוק, דריסות לפי עצם, מפות חומר והחרגה. שום דבר לא מוסתר, רק מקופל."
+    }
+  ]
+}

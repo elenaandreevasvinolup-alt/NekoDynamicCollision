@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "code": "ko",
+  "name": "한국어",
+  "rtl": false,
+  "order": 100,
+  "ui": [
+    {
+      "key": "win.title",
+      "value": "동적 콜리전"
+    },
+    {
+      "key": "win.none",
+      "value": "Dynamic Collision 컴포넌트가 있는 오브젝트를 선택하세요."
+    },
+    {
+      "key": "win.notarget",
+      "value": "(선택 항목에 컴포넌트가 없음)"
+    },
+    {
+      "key": "win.lang",
+      "value": "언어"
+    },
+    {
+      "key": "tab.bake",
+      "value": "베이크"
+    },
+    {
+      "key": "tab.paint",
+      "value": "페인트"
+    },
+    {
+      "key": "tab.gizmo",
+      "value": "Gizmo"
+    },
+    {
+      "key": "tab.parts",
+      "value": "파츠"
+    },
+    {
+      "key": "tab.materials",
+      "value": "머티리얼"
+    },
+    {
+      "key": "tab.health",
+      "value": "헬스"
+    },
+    {
+      "key": "tab.settings",
+      "value": "설정"
+    },
+    {
+      "key": "lbl.mode",
+      "value": "모드"
+    },
+    {
+      "key": "lbl.precision",
+      "value": "정밀도"
+    },
+    {
+      "key": "lbl.source",
+      "value": "소스"
+    },
+    {
+      "key": "lbl.role",
+      "value": "콜라이더 역할"
+    },
+    {
+      "key": "lbl.layers",
+      "value": "상호작용 레이어"
+    },
+    {
+      "key": "lbl.detect",
+      "value": "검출"
+    },
+    {
+      "key": "lbl.collision",
+      "value": "콜리전"
+    },
+    {
+      "key": "lbl.trigger",
+      "value": "Trigger (폴링)"
+    },
+    {
+      "key": "lbl.groups",
+      "value": "머티리얼 그룹"
+    },
+    {
+      "key": "lbl.elements",
+      "value": "파츠 (element)"
+    },
+    {
+      "key": "lbl.group",
+      "value": "그룹"
+    },
+    {
+      "key": "lbl.material",
+      "value": "물리 머티리얼"
+    },
+    {
+      "key": "lbl.density",
+      "value": "밀도 kg/m³"
+    },
+    {
+      "key": "lbl.eventName",
+      "value": "이벤트 이름"
+    },
+    {
+      "key": "lbl.damage",
+      "value": "데미지 ×"
+    },
+    {
+      "key": "lbl.name",
+      "value": "이름"
+    },
+    {
+      "key": "btn.bake",
+      "value": "베이크"
+    },
+    {
+      "key": "btn.rebuild",
+      "value": "씬에서 재조립"
+    },
+    {
+      "key": "btn.clear",
+      "value": "베이크 결과 지우기"
+    },
+    {
+      "key": "btn.autofill",
+      "value": "파츠 자동 채우기 (Humanoid)"
+    },
+    {
+      "key": "btn.addPart",
+      "value": "+ 빈 파츠"
+    },
+    {
+      "key": "btn.addGroup",
+      "value": "+ 그룹"
+    },
+    {
+      "key": "btn.autoAssign",
+      "value": "이름으로 자동 할당"
+    },
+    {
+      "key": "btn.pick",
+      "value": "프리셋 선택"
+    },
+    {
+      "key": "btn.paint",
+      "value": "페인트 시작"
+    },
+    {
+      "key": "btn.stopPaint",
+      "value": "페인트 중지"
+    },
+    {
+      "key": "btn.resetPose",
+      "value": "바인드 포즈로 리셋"
+    },
+    {
+      "key": "btn.clearPaint",
+      "value": "모든 라벨 지우기"
+    },
+    {
+      "key": "btn.remove",
+      "value": "×"
+    },
+    {
+      "key": "btn.paintThis",
+      "value": "이것 페인트"
+    },
+    {
+      "key": "btn.showUncovered",
+      "value": "미커버 면 표시"
+    },
+    {
+      "key": "btn.batchBake",
+      "value": "선택 항목 모두 베이크"
+    },
+    {
+      "key": "bake.none",
+      "value": "아직 베이크되지 않았습니다."
+    },
+    {
+      "key": "bake.stats",
+      "value": "통계"
+    },
+    {
+      "key": "bake.hulls",
+      "value": "볼록 껍질"
+    },
+    {
+      "key": "bake.verts",
+      "value": "버텍스"
+    },
+    {
+      "key": "bake.peak",
+      "value": "볼록 껍질당 최대치"
+    },
+    {
+      "key": "bake.volume",
+      "value": "부피"
+    },
+    {
+      "key": "bake.unassigned",
+      "value": "할당되지 않은 삼각형"
+    },
+    {
+      "key": "bake.precisionRow",
+      "value": "{0} 삼각형/볼록 껍질 · {1} 볼록 껍질/파츠 · 시임 {2:F1}mm · 가중치 ≥ {3:F2}"
+    },
+    {
+      "key": "cov.title",
+      "value": "커버리지"
+    },
+    {
+      "key": "cov.value",
+      "value": "{0:F1}%  ({1} / {2} 삼각형)"
+    },
+    {
+      "key": "cov.uncovered",
+      "value": "{0}개의 삼각형이 어떤 볼록 껍질에도 포함되지 않았습니다"
+    },
+    {
+      "key": "cov.analyze",
+      "value": "커버리지 분석"
+    },
+    {
+      "key": "cov.none",
+      "value": "베이크 데이터가 없습니다."
+    },
+    {
+      "key": "cov.nosource",
+      "value": "소스 메시가 없습니다."
+    },
+    {
+      "key": "paint.section",
+      "value": "브러시"
+    },
+    {
+      "key": "paint.ready",
+      "value": "페인트 가능"
+    },
+    {
+      "key": "paint.blocked",
+      "value": "페인트가 차단되었습니다"
+    },
+    {
+      "key": "paint.radius",
+      "value": "반경"
+    },
+    {
+      "key": "paint.xray",
+      "value": "X-Ray (뒷면 무시)"
+    },
+    {
+      "key": "paint.symmetry",
+      "value": "X축 미러"
+    },
+    {
+      "key": "paint.hud",
+      "value": "브러시 · 그룹 [{0}] {1} · 반경 {2:F1}cm"
+    },
+    {
+      "key": "paint.hudKeys",
+      "value": "LMB 페인트 / Shift 지우기 / 휠 반경 / X 대칭 {0}"
+    },
+    {
+      "key": "paint.on",
+      "value": "켜짐"
+    },
+    {
+      "key": "paint.off",
+      "value": "꺼짐"
+    },
+    {
+      "key": "paint.tip1",
+      "value": "브러시는 면에 태그를 남깁니다. 태그는 베이크 시 파티션 제약이 되므로, 하나의 오브젝트가 한 영역에는 부드러운 머티리얼을, 다른 영역에는 단단한 머티리얼을 가질 수 있습니다 — 단 한 번의 베이크로 생성됩니다."
+    },
+    {
+      "key": "paint.tip2",
+      "value": "Edit 모드에서 Play를 정지하고 Animation 창을 닫은 상태에서만 사용할 수 있습니다. 라벨은 삼각형 번호로 저장되므로 현재 포즈는 영향을 주지 않습니다."
+    },
+    {
+      "key": "paint.nomask",
+      "value": "아직 라벨 에셋이 없습니다. 한 번 베이크하면 생성됩니다."
+    },
+    {
+      "key": "paint.trisPerGroup",
+      "value": "{0} 삼각형"
+    },
+    {
+      "key": "pose.notarget",
+      "value": "대상이 선택되지 않았습니다"
+    },
+    {
+      "key": "pose.noplay",
+      "value": "Play mode에서는 라벨을 편집할 수 없습니다 (읽기 전용 미리보기)"
+    },
+    {
+      "key": "pose.anim",
+      "value": "Animation 창이 미리보기 중입니다. 먼저 미리보기를 종료하세요."
+    },
+    {
+      "key": "pose.notbind",
+      "value": "리그가 바인드 포즈가 아닙니다 ({0:F1}cm 편차, {1}). 먼저 \"바인드 포즈로 리셋\"을 클릭하세요."
+    },
+    {
+      "key": "gizmo.enabled",
+      "value": "볼록 껍질 표시"
+    },
+    {
+      "key": "gizmo.selected",
+      "value": "선택 항목만"
+    },
+    {
+      "key": "gizmo.bind",
+      "value": "바인드 포즈 (T-pose)"
+    },
+    {
+      "key": "gizmo.source",
+      "value": "소스 메시 와이어프레임"
+    },
+    {
+      "key": "gizmo.uncovered",
+      "value": "미커버 면 강조"
+    },
+    {
+      "key": "gizmo.painted",
+      "value": "칠한 면 표시"
+    },
+    {
+      "key": "gizmo.labels",
+      "value": "라벨"
+    },
+    {
+      "key": "gizmo.max",
+      "value": "최대 표시 볼록 껍질 수"
+    },
+    {
+      "key": "gizmo.tip",
+      "value": "기본값은 바인드 포즈입니다. 바인드 포즈에서는 bone.localToWorldMatrix · bindposes[i] = I 이므로, 바인드 포즈가 곧 작성된 그대로의 소스 메시입니다. 애니메이션이 재생되는 동안에도 T-pose 볼록 껍질은 안정적으로 유지됩니다."
+    },
+    {
+      "key": "gizmo.legendOk",
+      "value": "일반"
+    },
+    {
+      "key": "gizmo.legendPeak",
+      "value": "255 버텍스 초과"
+    },
+    {
+      "key": "gizmo.legendUncov",
+      "value": "미커버"
+    },
+    {
+      "key": "part.bone",
+      "value": "본"
+    },
+    {
+      "key": "part.children",
+      "value": "자식 본 포함"
+    },
+    {
+      "key": "part.rules",
+      "value": "파티션 규칙: 가장 가까운 상위가 우선합니다. 상위 파츠에서 \"자식 본 포함\"을 활성화해도 더 깊은 파츠가 여전히 우선하므로, 이벤트가 두 번 전달되는 일은 없습니다."
+    },
+    {
+      "key": "mat.pair",
+      "value": "쌍 동작"
+    },
+    {
+      "key": "mat.pairHint",
+      "value": "Unity combine 우선순위: Average < Minimum < Multiply < Maximum."
+    },
+    {
+      "key": "mat.static",
+      "value": "정지 마찰"
+    },
+    {
+      "key": "mat.dynamic",
+      "value": "동적 마찰"
+    },
+    {
+      "key": "mat.bounce",
+      "value": "반발력"
+    },
+    {
+      "key": "mat.combine",
+      "value": "combine"
+    },
+    {
+      "key": "mat.summary",
+      "value": "정지 {0:F2} · 동적 {1:F2} · 반발 {2:F2} · combine {3}/{4}"
+    },
+    {
+      "key": "mat.autoAll",
+      "value": "모든 그룹을 프리셋으로 채우기"
+    },
+    {
+      "key": "phys.title",
+      "value": "프로젝트 물리 설정"
+    },
+    {
+      "key": "phys.apply",
+      "value": "권장값 적용"
+    },
+    {
+      "key": "phys.gravity",
+      "value": "gravity.y"
+    },
+    {
+      "key": "phys.bounce",
+      "value": "bounceThreshold"
+    },
+    {
+      "key": "phys.velIter",
+      "value": "solverVelocityIterations"
+    },
+    {
+      "key": "phys.contactOffset",
+      "value": "defaultContactOffset"
+    },
+    {
+      "key": "phys.maxDepen",
+      "value": "defaultMaxDepenetrationVelocity"
+    },
+    {
+      "key": "health.title",
+      "value": "콜리전 헬스"
+    },
+    {
+      "key": "health.rerun",
+      "value": "다시 검사"
+    },
+    {
+      "key": "health.none",
+      "value": "발견된 문제가 없습니다."
+    },
+    {
+      "key": "health.summary",
+      "value": "오류 {0} / 경고 {1} / 힌트 {2}"
+    },
+    {
+      "key": "health.fix",
+      "value": "수정"
+    },
+    {
+      "key": "health.score",
+      "value": "점수 {0}/100"
+    },
+    {
+      "key": "health.grade",
+      "value": "등급 {0}"
+    },
+    {
+      "key": "menu.main",
+      "value": "메인 창 열기"
+    },
+    {
+      "key": "menu.bake",
+      "value": "선택 항목 베이크"
+    },
+    {
+      "key": "menu.gizmo",
+      "value": "껍질 기즈모 전환"
+    },
+    {
+      "key": "menu.rebuild",
+      "value": "선택 항목 재조립"
+    },
+    {
+      "key": "menu.health",
+      "value": "콜리전 헬스"
+    },
+    {
+      "key": "menu.about",
+      "value": "Neko Dynamic Collision 정보"
+    },
+    {
+      "key": "cat.metal",
+      "value": "금속"
+    },
+    {
+      "key": "cat.plastic",
+      "value": "플라스틱"
+    },
+    {
+      "key": "cat.glass",
+      "value": "유리"
+    },
+    {
+      "key": "cat.wood",
+      "value": "나무"
+    },
+    {
+      "key": "cat.stone",
+      "value": "석재"
+    },
+    {
+      "key": "cat.rubber",
+      "value": "고무"
+    },
+    {
+      "key": "cat.fabric",
+      "value": "직물"
+    },
+    {
+      "key": "cat.organic",
+      "value": "생체"
+    },
+    {
+      "key": "cat.ice",
+      "value": "얼음"
+    },
+    {
+      "key": "cat.other",
+      "value": "기타"
+    },
+    {
+      "key": "bake.err.none",
+      "value": "target/set이 null입니다"
+    },
+    {
+      "key": "bake.err.noSkin",
+      "value": "SkinnedMeshRenderer 소스를 찾을 수 없습니다"
+    },
+    {
+      "key": "bake.err.noMesh",
+      "value": "MeshFilter 소스를 찾을 수 없습니다"
+    },
+    {
+      "key": "bake.err.noGroups",
+      "value": "머티리얼 그룹이 없습니다. 먼저 기본 그룹을 만드세요."
+    },
+    {
+      "key": "bake.err.empty",
+      "value": "볼록 껍질이 생성되지 않았습니다."
+    },
+    {
+      "key": "bake.warn.maskMismatch",
+      "value": "라벨 수({0})가 소스 삼각형 수({1})와 일치하지 않습니다. 이번 실행에서는 라벨을 무시했습니다."
+    },
+    {
+      "key": "bake.warn.peak",
+      "value": "볼록 껍질 버텍스 수 {0}이(가) PhysX 한계 255를 초과합니다."
+    },
+    {
+      "key": "bake.warn.unassigned",
+      "value": "{0}개의 삼각형이 어떤 파츠에도 속하지 않아 베이크되지 않습니다."
+    },
+    {
+      "key": "bake.warn.none",
+      "value": "볼록 껍질이 생성되지 않았습니다. 파츠와 정밀도를 확인하세요."
+    },
+    {
+      "key": "bake.warn.nobones",
+      "value": "본 가중치가 없어 Skin 파티션을 할당할 수 없습니다."
+    },
+    {
+      "key": "desc.verySlippery",
+      "value": "매우 미끄러움"
+    },
+    {
+      "key": "desc.slippery",
+      "value": "미끄러움"
+    },
+    {
+      "key": "desc.normal",
+      "value": "보통"
+    },
+    {
+      "key": "desc.grippy",
+      "value": "접지력 좋음"
+    },
+    {
+      "key": "desc.veryGrippy",
+      "value": "접지력 매우 좋음"
+    },
+    {
+      "key": "desc.noBounce",
+      "value": "반발 없음"
+    },
+    {
+      "key": "desc.lowBounce",
+      "value": "약간 반발"
+    },
+    {
+      "key": "desc.bouncy",
+      "value": "잘 튕김"
+    },
+    {
+      "key": "desc.veryBouncy",
+      "value": "매우 잘 튕김"
+    },
+    {
+      "key": "h.nobake.title",
+      "value": "아직 베이크되지 않음"
+    },
+    {
+      "key": "h.nobake.detail",
+      "value": "런타임에 아무것도 조립되지 않습니다."
+    },
+    {
+      "key": "h.nobake.fix",
+      "value": "지금 베이크"
+    },
+    {
+      "key": "h.peakOver.title",
+      "value": "볼록 껍질 버텍스가 {0}개로 PhysX 한계 255를 초과합니다"
+    },
+    {
+      "key": "h.peakOver.detail",
+      "value": "Unity는 한계를 초과한 볼록 껍질을 거부하고 아무 동작도 하지 않습니다. 정밀도를 낮추거나 파츠 세분화를 높이세요."
+    },
+    {
+      "key": "h.peakOver.fix",
+      "value": "정밀도를 한 단계 낮춰 다시 베이크"
+    },
+    {
+      "key": "h.peakNear.title",
+      "value": "볼록 껍질 최대 버텍스 {0} (255에 근접)"
+    },
+    {
+      "key": "h.peakNear.detail",
+      "value": "아직 여유가 있지만, 정밀도를 한 단계 더 올리면 한계에 도달합니다."
+    },
+    {
+      "key": "h.degenerate.title",
+      "value": "{0}개의 클러스터가 퇴화되어 볼록 껍질을 형성할 수 없습니다"
+    },
+    {
+      "key": "h.degenerate.detail",
+      "value": "보통 머티리얼 라벨의 파편화나 지나치게 높은 가중치 임계값이 원인입니다. 머티리얼 그룹이 파편화되었는지 확인하세요."
+    },
+    {
+      "key": "h.unassigned.title",
+      "value": "{0}개의 삼각형({1:F1}%)이 어떤 파츠에도 속하지 않습니다"
+    },
+    {
+      "key": "h.unassigned.detail",
+      "value": "이 면들은 볼록 껍질을 갖지 못해 히트를 놓칩니다. 파츠 본이 전체 스켈레톤을 커버하는지 확인하세요."
+    },
+    {
+      "key": "h.unassigned.fix",
+      "value": "파츠 자동 채우기 (Humanoid)"
+    },
+    {
+      "key": "h.hashMismatch.title",
+      "value": "소스 메시가 변경되었지만 다시 베이크되지 않았습니다"
+    },
+    {
+      "key": "h.hashMismatch.detail",
+      "value": "재임포트나 토폴로지 편집 후에는 삼각형 인덱스가 베이크 결과와 더 이상 일치하지 않아 히트 위치가 어긋납니다."
+    },
+    {
+      "key": "h.hashMismatch.fix",
+      "value": "다시 베이크"
+    },
+    {
+      "key": "h.layers.title",
+      "value": "역할은 {0}이지만 상호작용 레이어가 설정되지 않았습니다"
+    },
+    {
+      "key": "h.layers.detail",
+      "value": "includeLayers가 비어 있으면 볼록 껍질이 모든 것과 상호작용하며, 피부에 밀착된 Hitbox가 래그돌, 환경 및 다른 캐릭터를 방해합니다."
+    },
+    {
+      "key": "h.layers.fix",
+      "value": "Bullet 레이어로 제한"
+    },
+    {
+      "key": "h.noGroups.title",
+      "value": "머티리얼 그룹이 없습니다"
+    },
+    {
+      "key": "h.noGroups.detail",
+      "value": "베이크에는 최소 하나의 그룹이 필요합니다."
+    },
+    {
+      "key": "h.noGroups.fix",
+      "value": "기본 그룹 만들기"
+    },
+    {
+      "key": "h.noMaterial.title",
+      "value": "그룹 \"{0}\"에 물리 머티리얼이 없습니다"
+    },
+    {
+      "key": "h.noMaterial.detail",
+      "value": "프로젝트 기본값으로 대체되어 마찰과 반발을 제어할 수 없습니다."
+    },
+    {
+      "key": "h.noMaterial.fix",
+      "value": "프리셋 할당"
+    },
+    {
+      "key": "h.emptyGroup.title",
+      "value": "그룹 \"{0}\"에는 볼록 껍질이 전혀 없습니다"
+    },
+    {
+      "key": "h.emptyGroup.detail",
+      "value": "브러시가 면에 태그를 남기지 않았거나, 태그된 모든 면이 다른 파츠에 의해 가져가졌습니다."
+    },
+    {
+      "key": "h.fragmented.title",
+      "value": "그룹 \"{0}\"에 볼록 껍질이 {1}개 있습니다"
+    },
+    {
+      "key": "h.fragmented.detail",
+      "value": "파편화되면 많은 작은 콜라이더가 생겨 cooking과 브로드페이즈 비용이 커집니다. 라벨을 병합하거나 정밀도를 낮추세요."
+    },
+    {
+      "key": "h.fragmented.fix",
+      "value": "인접 그룹으로 병합"
+    },
+    {
+      "key": "h.noRigidbody.title",
+      "value": "Rigidbody가 없어 콜리전 이벤트가 발생하지 않습니다"
+    },
+    {
+      "key": "h.noRigidbody.detail",
+      "value": "Unity는 Rigidbody를 가진 GameObject에만 콜리전 콜백을 전달합니다. 자동 Rigidbody를 활성화하거나 부모에 키네마틱 Rigidbody를 추가하세요."
+    },
+    {
+      "key": "h.noRigidbody.fix",
+      "value": "자동 Rigidbody 활성화"
+    },
+    {
+      "key": "h.massSmall.title",
+      "value": "Rigidbody \"{0}\"의 질량이 {1:F4}kg에 불과합니다"
+    },
+    {
+      "key": "h.massSmall.detail",
+      "value": "너무 작은 질량은 수치적으로 불안정하고 터널링이 발생합니다. Auto Mass from Density를 활성화하세요."
+    },
+    {
+      "key": "h.massSmall.fix",
+      "value": "밀도 기반 질량 활성화"
+    },
+    {
+      "key": "h.massLarge.title",
+      "value": "Rigidbody \"{0}\"의 질량이 {1:F0}kg입니다"
+    },
+    {
+      "key": "h.massLarge.detail",
+      "value": "의도한 것이 아니라면 밀도 단위(kg/m³)를 확인하세요."
+    },
+    {
+      "key": "h.selfCollision.title",
+      "value": "래그돌 자기 충돌이 완전히 켜져 있습니다"
+    },
+    {
+      "key": "h.selfCollision.detail",
+      "value": "본들이 서로 밀어내어 래그돌 떨림의 흔한 원인이 됩니다. 보통 \"인접 무시\"를 선택합니다."
+    },
+    {
+      "key": "h.selfCollision.fix",
+      "value": "\"인접 무시\"로 전환"
+    },
+    {
+      "key": "h.dispatch.title",
+      "value": "리스너가 없는 디스패치 {0}건 (마지막: {1})"
+    },
+    {
+      "key": "h.dispatch.detail",
+      "value": "이벤트 이름 철자가 틀려도 오류가 발생하지 않고 진단에만 나타납니다. 리스너는 Dyc_Events.Register로 등록하세요."
+    },
+    {
+      "key": "h.dispatch.fix",
+      "value": "카운터 초기화"
+    },
+    {
+      "key": "h.physicsBounce.title",
+      "value": "bounceThreshold = {0}: 이보다 느린 충돌은 반발하지 않습니다"
+    },
+    {
+      "key": "h.physicsBounce.detail",
+      "value": "고무와 공 프리셋이 아무 효과 없는 것처럼 보이는 이유입니다."
+    },
+    {
+      "key": "h.physicsBounce.fix",
+      "value": "bounceThreshold → 0.3"
+    },
+    {
+      "key": "h.physicsVelocity.title",
+      "value": "VelocityIterations = {0}: 쌓인 물체와 빠른 충돌이 떨리거나 터널링합니다"
+    },
+    {
+      "key": "h.physicsVelocity.detail",
+      "value": "Unity 래그돌 떨림의 흔한 근본 원인입니다."
+    },
+    {
+      "key": "h.physicsVelocity.fix",
+      "value": "VelocityIterations → 2"
+    },
+    {
+      "key": "h.physicsGravity.title",
+      "value": "gravity = {0:F2} (-9.81이 아님)"
+    },
+    {
+      "key": "h.physicsGravity.detail",
+      "value": "-9.81에서 비롯된 모든 질량과 임펄스 감각이 {0:F2}배 어긋나므로 밀도 프리셋을 수정해야 합니다."
+    },
+    {
+      "key": "h.physicsContact.title",
+      "value": "defaultContactOffset = {0}: 접촉 간격이 넓습니다"
+    },
+    {
+      "key": "h.physicsContact.detail",
+      "value": "얇은 오브젝트가 떠 있는 것처럼 보이는 경향이 있습니다."
+    },
+    {
+      "key": "insp.sectionBasic",
+      "value": "기본"
+    },
+    {
+      "key": "insp.sectionCollision",
+      "value": "콜리전"
+    },
+    {
+      "key": "insp.sectionPhysics",
+      "value": "물리"
+    },
+    {
+      "key": "insp.sectionTrigger",
+      "value": "Trigger"
+    },
+    {
+      "key": "insp.sectionLod",
+      "value": "LOD"
+    },
+    {
+      "key": "insp.multi",
+      "value": "다중 선택은 일괄 베이크만 지원합니다. 세부 편집을 하려면 오브젝트 하나를 선택하세요."
+    },
+    {
+      "key": "insp.noBake",
+      "value": "아직 베이크되지 않음"
+    },
+    {
+      "key": "insp.noBakeHint",
+      "value": "아래의 \"베이크\"를 누르세요."
+    },
+    {
+      "key": "insp.baked",
+      "value": "볼록 껍질 {0}개 베이크됨"
+    },
+    {
+      "key": "insp.peakVerts",
+      "value": "버텍스 / 최대"
+    },
+    {
+      "key": "insp.volume",
+      "value": "부피"
+    },
+    {
+      "key": "insp.partsGroups",
+      "value": "파츠 / 그룹"
+    },
+    {
+      "key": "insp.unassigned",
+      "value": "할당되지 않은 삼각형"
+    },
+    {
+      "key": "insp.health",
+      "value": "헬스"
+    },
+    {
+      "key": "insp.tally",
+      "value": "오류 {0} · 경고 {1} · 힌트 {2}"
+    },
+    {
+      "key": "insp.openBaker",
+      "value": "베이커 열기"
+    },
+    {
+      "key": "insp.showGizmo",
+      "value": "볼록 껍질 Gizmo 표시"
+    },
+    {
+      "key": "insp.autoRb",
+      "value": "Rigidbody 자동 추가"
+    },
+    {
+      "key": "insp.selfCollision",
+      "value": "자기 충돌"
+    },
+    {
+      "key": "insp.autoMass",
+      "value": "밀도로부터 질량"
+    },
+    {
+      "key": "insp.targetMass",
+      "value": "총 질량 정규화 (0 = 끔)"
+    },
+    {
+      "key": "insp.triggerMode",
+      "value": "모드"
+    },
+    {
+      "key": "insp.pollDivisor",
+      "value": "패스당 프레임"
+    },
+    {
+      "key": "insp.pollSweep",
+      "value": "스윕 마진 (m)"
+    },
+    {
+      "key": "insp.pollNote",
+      "value": "폴링은 샘플링이며 이벤트가 아닙니다. 매우 빠른 통과는 놓치지만 스윕 마진이 보완합니다."
+    },
+    {
+      "key": "insp.lodMode",
+      "value": "모드"
+    },
+    {
+      "key": "insp.lodDistance",
+      "value": "거리 (m)"
+    },
+    {
+      "key": "insp.debugLog",
+      "value": "디버그 로그"
+    },
+    {
+      "key": "insp.rebuild",
+      "value": "재조립 (Play mode에서 적용)"
+    },
+    {
+      "key": "set.language",
+      "value": "언어"
+    },
+    {
+      "key": "set.langNote",
+      "value": "창과 NekoWorks 메뉴에 즉시 적용됩니다."
+    },
+    {
+      "key": "set.diagnostics",
+      "value": "진단"
+    },
+    {
+      "key": "set.languagesLoaded",
+      "value": "로드된 언어"
+    },
+    {
+      "key": "set.localeRoot",
+      "value": "언어 폴더"
+    },
+    {
+      "key": "set.langMissing",
+      "value": "언어 폴더를 찾지 못했습니다. 검색 위치: {0}"
+    },
+    {
+      "key": "set.presets",
+      "value": "머티리얼 프리셋"
+    },
+    {
+      "key": "set.gizmoDefault",
+      "value": "볼록체 Gizmo"
+    },
+    {
+      "key": "set.openBaked",
+      "value": "베이크된 에셋 폴더 열기"
+    },
+    {
+      "key": "set.resetPrefs",
+      "value": "플러그인 설정 초기화"
+    },
+    {
+      "key": "set.refreshIcon",
+      "value": "컴포넌트 아이콘 새로 고침"
+    },
+    {
+      "key": "lbl.childMeshes",
+      "value": "자식 메시 읽기"
+    },
+    {
+      "key": "lbl.hullsPerPart",
+      "value": "파트당 볼록 껍질 수"
+    },
+    {
+      "key": "lbl.trisPerHull",
+      "value": "껍질당 삼각형 수"
+    },
+    {
+      "key": "lbl.weightThreshold",
+      "value": "본 가중치 임계값"
+    },
+    {
+      "key": "prec.skinHint",
+      "value": "Skin 모드에서는 껍질 수가 영역별로 자동 결정됩니다. 손가락 마디와 몸통은 모양이 다르고, 온몸에 숫자 하나를 쓰면 둘 중 하나에는 반드시 거짓말이 됩니다. 껍질당 삼각형 수는 직접 정하는 값입니다 — 이는 모양이 아니라 디테일 예산입니다."
+    },
+    {
+      "key": "prec.customHint",
+      "value": "파트당 껍질 수는 근사의 '모양'이지 품질 등급이 아닙니다. 얇은 물체 — 화살, 뼈 — 는 껍질 하나가 정답입니다. 둘로 나누면 각각이 '반쪽 몸통'이 아니라 얇은 껍데기가 됩니다. 몸통이나 차량은 4~8이 맞습니다. 가중치 임계값은 어떤 정점을 본에 속한다고 볼지 정합니다. 그보다 낮으면 정점이 버려지고 본의 표면에 구멍이 생기며 껍질이 꽃잎처럼 보입니다."
+    },
+    {
+      "key": "src.autoHint",
+      "value": "소스를 비우면 이 오브젝트의 MeshFilter를 사용합니다. 자식 메시는 위 토글이 켜져 있을 때만 읽습니다 — 예전의 '자식에서 첫 메시를 조용히 찾는' 동작은 엉뚱한 메시를 굽곤 했습니다."
+    },
+    {
+      "key": "lbl.shape",
+      "value": "콜라이더 형상"
+    },
+    {
+      "key": "shape.convex",
+      "value": "볼록 껍질"
+    },
+    {
+      "key": "shape.concave",
+      "value": "비볼록 표면"
+    },
+    {
+      "key": "shape.convexHint",
+      "value": "본마다 볼록 껍질 하나를 오프라인으로 굽습니다. 이웃 껍질이 겹치는 곳만 이음새가 없고, 오목한 관절(겨드랑이, 사타구니, 목)에는 껍질 사이 간격이 남습니다. 움직이는 리지드바디에서 동작하며 메시-메시 충돌이 됩니다."
+    },
+    {
+      "key": "shape.concaveHint",
+      "value": "각 본의 실제 표면을 그대로 씁니다(껍질처럼 부풀리지 않음). 관절에 구멍이 생기지 않습니다. 대가: 키네마틱 또는 애니메이션 구동 바디 전용, 메시-메시 충돌 없음, 고속 광역 단계 없음. 모바일에서는 물리적 차단보다 피격 판정에 적합합니다."
+    },
+    {
+      "key": "lbl.excludedBones",
+      "value": "제외할 본"
+    },
+    {
+      "key": "lbl.excludedBonesHint",
+      "value": "여기 등록한 본과 그 하위 트리 전체는 영역도 콜라이더도 갖지 않습니다. IK 타깃, 끝단, 보조 본을 두는 자리입니다."
+    },
+    {
+      "key": "lbl.excludedSkins",
+      "value": "제외할 렌더러"
+    },
+    {
+      "key": "lbl.excludedSkinsHint",
+      "value": "전혀 굽지 않는 SkinnedMeshRenderer — 머리카락, 별도 천 렌더러, 소품 등."
+    },
+    {
+      "key": "lbl.excludeGroup",
+      "value": "굽기에서 제외"
+    },
+    {
+      "key": "lbl.excludeGroupHint",
+      "value": "이 그룹의 면은 굽기에서 완전히 빠집니다: 클러스터링도, 분해도, 콜라이더도 없습니다. 망토나 하네스에 재질을 바꾸지 않고 히트박스를 주지 않는 방법입니다."
+    },
+    {
+      "key": "btn.expert",
+      "value": "전문가 창"
+    },
+    {
+      "key": "exp.title",
+      "value": "본별 정밀도"
+    },
+    {
+      "key": "exp.noTarget",
+      "value": "Dynamic Collision 컴포넌트가 있는 오브젝트를 선택하세요."
+    },
+    {
+      "key": "exp.basePrecision",
+      "value": "본당 파트 수"
+    },
+    {
+      "key": "exp.totals",
+      "value": "{1}개 본에 {0}개 파트"
+    },
+    {
+      "key": "exp.decompose",
+      "value": "분해"
+    },
+    {
+      "key": "exp.voxelSize",
+      "value": "복셀 mm"
+    },
+    {
+      "key": "exp.maxHulls",
+      "value": "최대 파트"
+    },
+    {
+      "key": "exp.project",
+      "value": "투영"
+    },
+    {
+      "key": "exp.resetDefaults",
+      "value": "기본값으로 되돌리기"
+    },
+    {
+      "key": "exp.separate",
+      "value": "분리"
+    },
+    {
+      "key": "exp.separationMm",
+      "value": "간격 mm"
+    },
+    {
+      "key": "exp.invertY",
+      "value": "Y 반전"
+    },
+    {
+      "key": "exp.secondary",
+      "value": "형상, 자체 충돌, LOD"
+    },
+    {
+      "key": "exp.rebake",
+      "value": "다시 굽기"
+    },
+    {
+      "key": "exp.clearManual",
+      "value": "수동 설정 지우기"
+    },
+    {
+      "key": "exp.bones",
+      "value": "본 트리"
+    },
+    {
+      "key": "exp.noSkeleton",
+      "value": "스켈레톤이 없습니다."
+    },
+    {
+      "key": "exp.concavityShort",
+      "value": "오목 {0:0.00}"
+    },
+    {
+      "key": "exp.concavity",
+      "value": "오목도"
+    },
+    {
+      "key": "exp.minDepth",
+      "value": "최소 깊이"
+    },
+    {
+      "key": "exp.kernel",
+      "value": "커널"
+    },
+    {
+      "key": "exp.kernelOwn",
+      "value": "자체 복셀"
+    },
+    {
+      "key": "exp.kernelNative",
+      "value": "네이티브 V-HACD"
+    },
+    {
+      "key": "exp.maxVoxels",
+      "value": "복셀 상한"
+    },
+    {
+      "key": "exp.fillRatio",
+      "value": "채움"
+    },
+    {
+      "key": "exp.splitDepth",
+      "value": "분할 깊이"
+    },
+    {
+      "key": "exp.timeBudget",
+      "value": "시간 초"
+    },
+    {
+      "key": "bake.progress.title",
+      "value": "충돌 굽는 중"
+    },
+    {
+      "key": "bake.progress.preparing",
+      "value": "준비 중"
+    },
+    {
+      "key": "bake.progress.decomposing",
+      "value": "몸을 볼록 파트로 분해 중"
+    },
+    {
+      "key": "bake.progress.assembling",
+      "value": "껍질 조립 중"
+    },
+    {
+      "key": "bake.progress.baking",
+      "value": "굽는 중"
+    },
+    {
+      "key": "bake.progress.budget",
+      "value": "시간 예산 도달 — 준비된 것만 조립합니다"
+    },
+    {
+      "key": "bake.progress.cancel",
+      "value": "취소"
+    },
+    {
+      "key": "bake.progress.cancelling",
+      "value": "취소 중…"
+    },
+    {
+      "key": "bake.stage.decompose",
+      "value": "분해 중"
+    },
+    {
+      "key": "bake.stage.assemble",
+      "value": "껍질 조립 중"
+    },
+    {
+      "key": "exp.triangles",
+      "value": "삼각형"
+    },
+    {
+      "key": "exp.pieces",
+      "value": "파트"
+    },
+    {
+      "key": "exp.volume",
+      "value": "부피"
+    },
+    {
+      "key": "exp.dropped",
+      "value": "예산 때문에 {0}개 파트가 버려졌습니다. 이 본의 예산을 올리거나 오목도를 낮추세요."
+    },
+    {
+      "key": "exp.detail",
+      "value": "본"
+    },
+    {
+      "key": "exp.pickBone",
+      "value": "트리나 3D 뷰에서 본을 고르세요."
+    },
+    {
+      "key": "exp.noStat",
+      "value": "이 본의 굽기 데이터가 없습니다. 먼저 다시 구우세요."
+    },
+    {
+      "key": "exp.manualPieces",
+      "value": "파트(수동)"
+    },
+    {
+      "key": "exp.locked",
+      "value": "고정됨"
+    },
+    {
+      "key": "exp.releaseBone",
+      "value": "자동으로 되돌리기"
+    },
+    {
+      "key": "exp.hullList",
+      "value": "파트"
+    },
+    {
+      "key": "exp.hullRow",
+      "value": "#{0} · 정점 {1} · {2:0.0000} m³"
+    },
+    {
+      "key": "exp.noHulls",
+      "value": "이 본에 파트가 없습니다."
+    },
+    {
+      "key": "exp.previewFailed",
+      "value": "미리보기가 텍스처를 반환하지 않았습니다. 콘솔 오류를 확인하세요."
+    },
+    {
+      "key": "exp.orbitHint",
+      "value": "오른쪽 드래그 — 회전 · 왼쪽 드래그 — 이동 · 휠 — 확대 · 클릭 — 선택 · 더블 클릭 — 회전 중심"
+    },
+    {
+      "key": "btn.fromSkeleton",
+      "value": "스켈레톤에서 영역 채우기"
+    },
+    {
+      "key": "btn.hideUncovered",
+      "value": "덮이지 않은 면 숨기기"
+    },
+    {
+      "key": "gizmo.occlude",
+      "value": "가려진 모서리 어둡게(50%)"
+    },
+    {
+      "key": "cat.ceramic",
+      "value": "세라믹"
+    },
+    {
+      "key": "cat.body",
+      "value": "신체 부위"
+    },
+    {
+      "key": "cat.tissue",
+      "value": "조직과 장기"
+    },
+    {
+      "key": "cat.food",
+      "value": "음식"
+    },
+    {
+      "key": "forge.title",
+      "value": "재질 단조"
+    },
+    {
+      "key": "forge.hint",
+      "value": "표는 무엇으로 만들어졌는지 말합니다. 단조는 지금 어떤 상태인지 말합니다: 기본 재질 × 표면 상태. 신체 부위와 조직은 표의 행이 아니라 조직 배합에서 유도됩니다 — 그래서 그 숫자를 설명할 수 있습니다."
+    },
+    {
+      "key": "forge.base",
+      "value": "기본 재질"
+    },
+    {
+      "key": "forge.condition",
+      "value": "표면 상태"
+    },
+    {
+      "key": "forge.group",
+      "value": "그룹"
+    },
+    {
+      "key": "forge.apply",
+      "value": "생성 후 지정"
+    },
+    {
+      "key": "forge.generate",
+      "value": "변형 에셋 생성"
+    },
+    {
+      "key": "forge.generateHint",
+      "value": "표면 상태마다 .physicMaterial을 굽기 폴더에 씁니다. 아티스트가 플러그인 없이 고를 수 있습니다."
+    },
+    {
+      "key": "forge.generated",
+      "value": "{1}에 재질 에셋 {0}개를 생성했습니다"
+    },
+    {
+      "key": "forge.variantOf",
+      "value": "{0} · 변형"
+    },
+    {
+      "key": "forge.presets",
+      "value": "{1}개 분류에 {0}개 프리셋"
+    },
+    {
+      "key": "forge.values",
+      "value": "정적 {0:F2} · 동적 {1:F2} · 반발 {2:F2} · {3:F0} kg/m³"
+    },
+    {
+      "key": "forge.derived",
+      "value": "유도됨"
+    },
+    {
+      "key": "forge.applied",
+      "value": "그룹 \"{0}\"을 {1} · {2}에서 생성했습니다"
+    },
+    {
+      "key": "forge.nogroup",
+      "value": "생성할 재질 그룹이 없습니다."
+    },
+    {
+      "key": "forge.self",
+      "value": "자기 자신에 생성"
+    },
+    {
+      "key": "forge.cond.dry",
+      "value": "건조"
+    },
+    {
+      "key": "forge.cond.wet",
+      "value": "젖음"
+    },
+    {
+      "key": "forge.cond.oiled",
+      "value": "기름"
+    },
+    {
+      "key": "forge.cond.bloody",
+      "value": "혈흔"
+    },
+    {
+      "key": "forge.cond.sweaty",
+      "value": "땀"
+    },
+    {
+      "key": "forge.cond.icy",
+      "value": "결빙"
+    },
+    {
+      "key": "forge.cond.frozen",
+      "value": "동결"
+    },
+    {
+      "key": "forge.cond.dusty",
+      "value": "먼지"
+    },
+    {
+      "key": "forge.cond.rough",
+      "value": "거침"
+    },
+    {
+      "key": "forge.cond.polished",
+      "value": "연마"
+    },
+    {
+      "key": "forge.cond.rusted",
+      "value": "녹"
+    },
+    {
+      "key": "forge.cond.worn",
+      "value": "마모"
+    },
+    {
+      "key": "forge.cond.clothed",
+      "value": "의복"
+    },
+    {
+      "key": "forge.cond.armored",
+      "value": "장갑"
+    },
+    {
+      "key": "forge.cond.charred",
+      "value": "탄화"
+    },
+    {
+      "key": "forge.tissue.bone",
+      "value": "뼈"
+    },
+    {
+      "key": "forge.tissue.cartilage",
+      "value": "연골"
+    },
+    {
+      "key": "forge.tissue.tendon",
+      "value": "힘줄"
+    },
+    {
+      "key": "forge.tissue.muscle",
+      "value": "근육"
+    },
+    {
+      "key": "forge.tissue.fat",
+      "value": "지방"
+    },
+    {
+      "key": "forge.tissue.skin",
+      "value": "피부"
+    },
+    {
+      "key": "forge.tissue.organ",
+      "value": "장기"
+    },
+    {
+      "key": "forge.tissue.lung",
+      "value": "폐"
+    },
+    {
+      "key": "forge.tissue.brain",
+      "value": "뇌"
+    },
+    {
+      "key": "forge.tissue.keratin",
+      "value": "케라틴"
+    },
+    {
+      "key": "soft.hard",
+      "value": "딱딱함"
+    },
+    {
+      "key": "soft.firm",
+      "value": "단단함"
+    },
+    {
+      "key": "soft.soft",
+      "value": "부드러움"
+    },
+    {
+      "key": "soft.verySoft",
+      "value": "매우 부드러움"
+    },
+    {
+      "key": "soft.gel",
+      "value": "젤 형태"
+    },
+    {
+      "key": "h.concaveDynamic.title",
+      "value": "움직이는 리지드바디 위의 비볼록 메시"
+    },
+    {
+      "key": "h.concaveDynamic.detail",
+      "value": "PhysX는 키네마틱 또는 애니메이션 구동 바디에서만 비볼록 MeshCollider를 받습니다. 움직이는 리지드바디에서는 Unity가 콜라이더를 조용히 거부하므로 아무것도 충돌하지 않습니다."
+    },
+    {
+      "key": "h.concaveDynamic.fix",
+      "value": "리지드바디를 키네마틱으로"
+    },
+    {
+      "key": "h.concaveScale.title",
+      "value": "비균일 스케일({0:F2}, {1:F2}, {2:F2})"
+    },
+    {
+      "key": "h.concaveScale.detail",
+      "value": "비볼록 메시는 로컬 공간에서 조리되므로 스케일을 늘리면 콜라이더가 모델에서 벗어납니다. 볼록 껍질에는 이 문제가 없습니다."
+    },
+    {
+      "key": "h.concaveMeshMesh.title",
+      "value": "비볼록 메시: 메시-메시 충돌 없음"
+    },
+    {
+      "key": "h.concaveMeshMesh.detail",
+      "value": "설정이 아니라 PhysX의 한계입니다. 비볼록 메시는 다른 비볼록 메시와 절대 충돌하지 않습니다. 프리미티브, 지형, 볼록 껍질과는 충돌합니다."
+    },
+    {
+      "key": "h.allExcluded.title",
+      "value": "모든 재질 그룹이 굽기에서 제외되었습니다"
+    },
+    {
+      "key": "h.allExcluded.detail",
+      "value": "이대로면 콜라이더가 하나도 생성되지 않습니다. 최소 한 그룹의 제외를 해제하세요."
+    },
+    {
+      "key": "h.excludeDead.title",
+      "value": "제외한 본 \"{0}\"이 스켈레톤에 없습니다"
+    },
+    {
+      "key": "h.excludeDead.detail",
+      "value": "이 항목은 아무 일도 하지 않습니다 — 그 본은 구운 렌더러의 일부가 아닙니다. 리그 변경 후 남은 잔재인 경우가 많습니다."
+    },
+    {
+      "key": "h.softSelfCollision.title",
+      "value": "자체 충돌이 완전히 켜진 부드러운 영역"
+    },
+    {
+      "key": "h.softSelfCollision.detail",
+      "value": "부드러운 영역은 껍질을 가지면서 자체 입자도 풉니다. 자체 충돌을 켜면 둘이 서로 밀어내며 천이 끓습니다. \"인접 무시\"가 일반적인 선택입니다."
+    },
+    {
+      "key": "h.softSelfCollision.fix",
+      "value": "인접 무시로 전환"
+    },
+    {
+      "key": "h.softNoSource.title",
+      "value": "부드러운 영역을 구웠지만 변형 소스가 없습니다"
+    },
+    {
+      "key": "h.softNoSource.detail",
+      "value": "프레임을 쓰는 솔버가 없으면 각 클러스터는 강체 블록처럼 동작합니다: 물체는 통째로 움직이고 변형되지 않습니다. 이는 유효한 대체 동작이며 오류가 아닙니다."
+    },
+    {
+      "key": "insp.sectionExclusions",
+      "value": "제외"
+    },
+    {
+      "key": "shape.concaveWarn",
+      "value": "PhysX는 키네마틱 또는 애니메이션 구동 바디에서만 비볼록 메시를 받습니다. 움직이는 리지드바디에서는 Unity가 콜라이더를 조용히 거부하므로 아무것도 충돌하지 않고 오류도 나오지 않습니다. 키네마틱 바디에서 캐릭터를 굽거나, 전문가 창을 열어 나머지 제한을 확인한 뒤 굽으세요."
+    },
+    {
+      "key": "btn.openExpert",
+      "value": "전문가 창 열기"
+    },
+    {
+      "key": "exp.groupActions",
+      "value": "동작"
+    },
+    {
+      "key": "exp.groupPrecision",
+      "value": "분해 정밀도"
+    },
+    {
+      "key": "exp.groupBody",
+      "value": "영역과 분리"
+    },
+    {
+      "key": "exp.groupKernel",
+      "value": "커널과 예산"
+    },
+    {
+      "key": "exp.groupView",
+      "value": "보기"
+    },
+    {
+      "key": "bake.concaveNote",
+      "value": "비볼록 표면에는 PhysX 정점 상한이 없습니다. 삼각형 예산은 표면을 쪼개는 대신 단순화하여 지킵니다."
+    },
+    {
+      "key": "lbl.decomposeDetail",
+      "value": "분해 정밀도"
+    },
+    {
+      "key": "lbl.decomposeVoxel",
+      "value": "복셀 크기(mm)"
+    },
+    {
+      "key": "decomp.hint",
+      "value": "거친 복셀: 부품이 적고 커지며 가장 저렴합니다. {0} mm."
+    },
+    {
+      "key": "decomp.fineHint",
+      "value": "최정밀: 부품이 표면을 따르므로 비용이 비볼록 모드와 같아집니다. 더 정밀해도 얻을 것은 없고 비용만 늘어납니다."
+    },
+    {
+      "key": "exp.decomposed",
+      "value": "부품: 볼록 분해(오목한 곳을 따라 절단)"
+    },
+    {
+      "key": "exp.clustered",
+      "value": "부품: 공간 클러스터링(분해 불가 — 대체 경로)"
+    },
+    {
+      "key": "lbl.concaveDetail",
+      "value": "표면 정밀도"
+    },
+    {
+      "key": "concave.exact",
+      "value": "단순화 없음: 표면을 메시 그대로 사용합니다."
+    },
+    {
+      "key": "concave.budget",
+      "value": "조각당 약 {0}개 삼각형으로 단순화했습니다. 오른쪽으로 끌수록 정밀해지며, 맨 오른쪽은 단순화 없음입니다."
+    },
+    {
+      "key": "insp.sectionSimple",
+      "value": "일반 사용(시스템 콜라이더처럼)"
+    },
+    {
+      "key": "insp.generateOnStart",
+      "value": "베이크가 없으면 시작할 때 생성"
+    },
+    {
+      "key": "insp.generateHint",
+      "value": "컴포넌트를 추가하고 Play만 누르면 됩니다. 콜라이더는 메시에서 본 단위로 생성되며, 구역과 분해는 여전히 베이크가 담당합니다."
+    },
+    {
+      "key": "insp.isTrigger",
+      "value": "콜라이더를 트리거로"
+    },
+    {
+      "key": "insp.receiver",
+      "value": "OnCollision*/OnTrigger*도 함께 보낼 대상"
+    },
+    {
+      "key": "insp.receiverHint",
+      "value": "비워 두면 Unity 기본 동작입니다. 메시지는 Rigidbody가 있는 오브젝트로 전달됩니다."
+    },
+    {
+      "key": "insp.sectionLive",
+      "value": "실시간 갱신(예산 포함)"
+    },
+    {
+      "key": "insp.liveUpdate",
+      "value": "현재 포즈로 외곽을 다시 생성"
+    },
+    {
+      "key": "insp.liveContinuous",
+      "value": "계속 갱신"
+    },
+    {
+      "key": "insp.idleBudget",
+      "value": "정지 예산(ms/프레임)"
+    },
+    {
+      "key": "insp.activeBudget",
+      "value": "동작 예산(ms/프레임)"
+    },
+    {
+      "key": "insp.updateThreshold",
+      "value": "이 이동량(m) 미만이면 갱신 생략"
+    },
+    {
+      "key": "insp.maxColliderTriangles",
+      "value": "콜라이더당 최대 삼각형"
+    },
+    {
+      "key": "insp.liveHint",
+      "value": "기본 꺼짐: 플러그인의 약속은 프레임당 비용 0입니다. 강한 변형이 중요할 때만 켜세요."
+    },
+    {
+      "key": "insp.sectionMaterials",
+      "value": "원본 머티리얼별 머티리얼"
+    },
+    {
+      "key": "insp.materialSource",
+      "value": "원본 머티리얼"
+    },
+    {
+      "key": "insp.materialPhysics",
+      "value": "물리 머티리얼"
+    },
+    {
+      "key": "insp.materialHint",
+      "value": "해당 원본 머티리얼 외곽에 대해 칠한 구역 머티리얼을 덮어씁니다. 본의 Dyc_BoneProperties가 우선합니다."
+    },
+    {
+      "key": "insp.sectionExclusionMap",
+      "value": "제외 맵"
+    },
+    {
+      "key": "insp.exclusionMap",
+      "value": "맵(Read/Write 필요)"
+    },
+    {
+      "key": "insp.exclusionChannel",
+      "value": "채널"
+    },
+    {
+      "key": "insp.exclusionThreshold",
+      "value": "임계값"
+    },
+    {
+      "key": "insp.exclusionMapHint",
+      "value": "선택한 채널이 흰 정점은 제외됩니다. 브러시는 면을, 맵은 정점을 지정합니다."
+    },
+    {
+      "key": "insp.sectionSkeleton",
+      "value": "스켈레톤"
+    },
+    {
+      "key": "insp.retargetRoot",
+      "value": "외곽을 다른 스켈레톤에 부착"
+    },
+    {
+      "key": "insp.retargetHint",
+      "value": "RetargetSkeleton: 외곽은 이 메시로 만들되 해당 루트의 같은 이름 본에 부착합니다(Puppet Master 등)."
+    },
+    {
+      "key": "insp.sectionCharLod",
+      "value": "캐릭터 충돌 LOD"
+    },
+    {
+      "key": "insp.collisionLod",
+      "value": "거리에 따라 외곽 비활성화"
+    },
+    {
+      "key": "insp.lodNear",
+      "value": "완전한 디테일 상한(m)"
+    },
+    {
+      "key": "insp.lodFar",
+      "value": "이 거리부터 축소(m)"
+    },
+    {
+      "key": "insp.lodKeep",
+      "value": "먼 구간에서 유지할 외곽 수"
+    },
+    {
+      "key": "insp.lodHysteresis",
+      "value": "히스테리시스(m)"
+    },
+    {
+      "key": "insp.lodVisibility",
+      "value": "화면에 보일 것도 요구"
+    },
+    {
+      "key": "insp.lodReference",
+      "value": "거리 기준(비우면 Camera.main)"
+    },
+    {
+      "key": "insp.lodHint",
+      "value": "캐릭터용입니다. 정적 충돌 LOD는 별개의 문제이고, 캐릭터 무리는 별도의 예산이며 이것이 그 예산입니다."
+    },
+    {
+      "key": "insp.expertMode",
+      "value": "전문가 설정"
+    },
+    {
+      "key": "insp.expertHint",
+      "value": "끔: 컨트롤 넷과 베이크 버튼이면 시작하기에 충분합니다. 켬: 기술적인 면 — 예산, 분해 커널, 본 단위 재정의, 머티리얼과 제외 맵. 숨긴 것은 없고 접어 둔 것뿐입니다."
+    }
+  ]
+}

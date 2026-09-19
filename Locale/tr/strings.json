@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "code": "tr",
+  "name": "Türkçe",
+  "rtl": false,
+  "order": 110,
+  "ui": [
+    {
+      "key": "win.title",
+      "value": "Dinamik Çarpışmalar"
+    },
+    {
+      "key": "win.none",
+      "value": "Dynamic Collision bileşeni olan bir nesne seçin."
+    },
+    {
+      "key": "win.notarget",
+      "value": "(seçimde bileşen yok)"
+    },
+    {
+      "key": "win.lang",
+      "value": "Dil"
+    },
+    {
+      "key": "tab.bake",
+      "value": "Bake"
+    },
+    {
+      "key": "tab.paint",
+      "value": "Boyama"
+    },
+    {
+      "key": "tab.gizmo",
+      "value": "Gizmo"
+    },
+    {
+      "key": "tab.parts",
+      "value": "Parçalar"
+    },
+    {
+      "key": "tab.materials",
+      "value": "Materyaller"
+    },
+    {
+      "key": "tab.health",
+      "value": "Sağlık"
+    },
+    {
+      "key": "tab.settings",
+      "value": "Ayarlar"
+    },
+    {
+      "key": "lbl.mode",
+      "value": "Mod"
+    },
+    {
+      "key": "lbl.precision",
+      "value": "Hassasiyet"
+    },
+    {
+      "key": "lbl.source",
+      "value": "Kaynak"
+    },
+    {
+      "key": "lbl.role",
+      "value": "Collider rolü"
+    },
+    {
+      "key": "lbl.layers",
+      "value": "Etkileşim katmanları"
+    },
+    {
+      "key": "lbl.detect",
+      "value": "Algılama"
+    },
+    {
+      "key": "lbl.collision",
+      "value": "Çarpışma"
+    },
+    {
+      "key": "lbl.trigger",
+      "value": "Trigger (Poll)"
+    },
+    {
+      "key": "lbl.groups",
+      "value": "Materyal grupları"
+    },
+    {
+      "key": "lbl.elements",
+      "value": "Parçalar (öğeler)"
+    },
+    {
+      "key": "lbl.group",
+      "value": "Grup"
+    },
+    {
+      "key": "lbl.material",
+      "value": "Fizik materyali"
+    },
+    {
+      "key": "lbl.density",
+      "value": "Yoğunluk kg/m³"
+    },
+    {
+      "key": "lbl.eventName",
+      "value": "Olay adı"
+    },
+    {
+      "key": "lbl.damage",
+      "value": "Hasar ×"
+    },
+    {
+      "key": "lbl.name",
+      "value": "Ad"
+    },
+    {
+      "key": "btn.bake",
+      "value": "Bake"
+    },
+    {
+      "key": "btn.rebuild",
+      "value": "Sahnede yeniden oluştur"
+    },
+    {
+      "key": "btn.clear",
+      "value": "Bake'i temizle"
+    },
+    {
+      "key": "btn.autofill",
+      "value": "Parçaları otomatik doldur (Humanoid)"
+    },
+    {
+      "key": "btn.addPart",
+      "value": "+ boş parça"
+    },
+    {
+      "key": "btn.addGroup",
+      "value": "+ grup"
+    },
+    {
+      "key": "btn.autoAssign",
+      "value": "Ada göre otomatik ata"
+    },
+    {
+      "key": "btn.pick",
+      "value": "Preset seç"
+    },
+    {
+      "key": "btn.paint",
+      "value": "Boyamayı başlat"
+    },
+    {
+      "key": "btn.stopPaint",
+      "value": "Boyamayı durdur"
+    },
+    {
+      "key": "btn.resetPose",
+      "value": "Bind pose'a sıfırla"
+    },
+    {
+      "key": "btn.clearPaint",
+      "value": "Tüm etiketleri temizle"
+    },
+    {
+      "key": "btn.remove",
+      "value": "×"
+    },
+    {
+      "key": "btn.paintThis",
+      "value": "Bunu boya"
+    },
+    {
+      "key": "btn.showUncovered",
+      "value": "Açıkta kalan yüzleri göster"
+    },
+    {
+      "key": "btn.batchBake",
+      "value": "Seçili tümünü bake et"
+    },
+    {
+      "key": "bake.none",
+      "value": "Henüz hiçbir şey bake edilmedi."
+    },
+    {
+      "key": "bake.stats",
+      "value": "İstatistikler"
+    },
+    {
+      "key": "bake.hulls",
+      "value": "Hull'lar"
+    },
+    {
+      "key": "bake.verts",
+      "value": "Vertex'ler"
+    },
+    {
+      "key": "bake.peak",
+      "value": "Hull başına en yüksek"
+    },
+    {
+      "key": "bake.volume",
+      "value": "Hacim"
+    },
+    {
+      "key": "bake.unassigned",
+      "value": "Atanmamış tris"
+    },
+    {
+      "key": "bake.precisionRow",
+      "value": "{0} tris/hull · {1} hull/parça · dikiş {2:F1}mm · ağırlık ≥ {3:F2}"
+    },
+    {
+      "key": "cov.title",
+      "value": "Kapsam"
+    },
+    {
+      "key": "cov.value",
+      "value": "{0:F1}%  ({1} / {2} tris)"
+    },
+    {
+      "key": "cov.uncovered",
+      "value": "{0} üçgen hiçbir hull tarafından kapsanmıyor"
+    },
+    {
+      "key": "cov.analyze",
+      "value": "Kapsamı analiz et"
+    },
+    {
+      "key": "cov.none",
+      "value": "Bake verisi yok."
+    },
+    {
+      "key": "cov.nosource",
+      "value": "Kaynak mesh yok."
+    },
+    {
+      "key": "paint.section",
+      "value": "Fırça"
+    },
+    {
+      "key": "paint.ready",
+      "value": "Boyamaya hazır"
+    },
+    {
+      "key": "paint.blocked",
+      "value": "Boyama engellendi"
+    },
+    {
+      "key": "paint.radius",
+      "value": "Yarıçap"
+    },
+    {
+      "key": "paint.xray",
+      "value": "X-Ray (arka yüzleri yok say)"
+    },
+    {
+      "key": "paint.symmetry",
+      "value": "X'te aynala"
+    },
+    {
+      "key": "paint.hud",
+      "value": "Fırça · grup [{0}] {1} · yarıçap {2:F1}cm"
+    },
+    {
+      "key": "paint.hudKeys",
+      "value": "LMB boya / Shift sil / tekerlek yarıçap / X simetri {0}"
+    },
+    {
+      "key": "paint.on",
+      "value": "açık"
+    },
+    {
+      "key": "paint.off",
+      "value": "kapalı"
+    },
+    {
+      "key": "paint.tip1",
+      "value": "Fırça yüzleri etiketler. Etiketler bake sırasında bölümleme kısıtlarına dönüşür, böylece bir nesne bir bölgede yumuşak, başka bir bölgede sert materyal taşıyabilir — tek bir bake ile üretilir."
+    },
+    {
+      "key": "paint.tip2",
+      "value": "Yalnızca Edit modunda, Play durdurulmuş ve Animation penceresi kapalıyken kullanılabilir. Etiketler üçgen indeksine göre saklanır, bu yüzden geçerli poz önemli değildir."
+    },
+    {
+      "key": "paint.nomask",
+      "value": "Henüz etiket asset'i yok. Oluşturmak için bir kez bake edin."
+    },
+    {
+      "key": "paint.trisPerGroup",
+      "value": "{0} tris"
+    },
+    {
+      "key": "pose.notarget",
+      "value": "Hedef seçilmedi"
+    },
+    {
+      "key": "pose.noplay",
+      "value": "Play mode'da etiketler düzenlenemez (salt okunur önizleme)"
+    },
+    {
+      "key": "pose.anim",
+      "value": "Animation penceresi önizleme yapıyor. Önce önizlemeden çıkın."
+    },
+    {
+      "key": "pose.notbind",
+      "value": "Rig bind pose'da değil ({0:F1}cm sapma, {1} noktasında). Önce \"Bind pose'a sıfırla\" seçeneğine tıklayın."
+    },
+    {
+      "key": "gizmo.enabled",
+      "value": "Hull'ları göster"
+    },
+    {
+      "key": "gizmo.selected",
+      "value": "Yalnızca seçili"
+    },
+    {
+      "key": "gizmo.bind",
+      "value": "Bind pose (T-pose)"
+    },
+    {
+      "key": "gizmo.source",
+      "value": "Kaynak mesh wireframe'i"
+    },
+    {
+      "key": "gizmo.uncovered",
+      "value": "Açıkta kalan yüzleri vurgula"
+    },
+    {
+      "key": "gizmo.painted",
+      "value": "Boyanmış yüzleri göster"
+    },
+    {
+      "key": "gizmo.labels",
+      "value": "Etiketler"
+    },
+    {
+      "key": "gizmo.max",
+      "value": "Çizilen maks. hull"
+    },
+    {
+      "key": "gizmo.tip",
+      "value": "Varsayılan olarak bind pose: bind pose'da bone.localToWorldMatrix · bindposes[i] = I olduğundan bind pose, yazıldığı haliyle kaynak mesh'in ta kendisidir. Animasyon oynarken T-pose hull'ları sabit kalır."
+    },
+    {
+      "key": "gizmo.legendOk",
+      "value": "normal"
+    },
+    {
+      "key": "gizmo.legendPeak",
+      "value": "255 vertex üzeri"
+    },
+    {
+      "key": "gizmo.legendUncov",
+      "value": "açıkta"
+    },
+    {
+      "key": "part.bone",
+      "value": "Bone"
+    },
+    {
+      "key": "part.children",
+      "value": "Alt bone'ları dahil et"
+    },
+    {
+      "key": "part.rules",
+      "value": "Bölümleme kuralı: en yakın ata kazanır. Bir üst parça \"alt bone'ları dahil et\" seçeneğini açtığında daha derin bir parça yine önceliklidir, böylece olaylar asla iki kez gönderilmez."
+    },
+    {
+      "key": "mat.pair",
+      "value": "Çift davranışı"
+    },
+    {
+      "key": "mat.pairHint",
+      "value": "Unity birleştirme önceliği: Average < Minimum < Multiply < Maximum."
+    },
+    {
+      "key": "mat.static",
+      "value": "statik sürtünme"
+    },
+    {
+      "key": "mat.dynamic",
+      "value": "dinamik sürtünme"
+    },
+    {
+      "key": "mat.bounce",
+      "value": "sekmelilik"
+    },
+    {
+      "key": "mat.combine",
+      "value": "birleştirme"
+    },
+    {
+      "key": "mat.summary",
+      "value": "statik {0:F2} · dinamik {1:F2} · sekme {2:F2} · birleştirme {3}/{4}"
+    },
+    {
+      "key": "mat.autoAll",
+      "value": "Tüm grupları preset'lerden doldur"
+    },
+    {
+      "key": "phys.title",
+      "value": "Proje fiziği"
+    },
+    {
+      "key": "phys.apply",
+      "value": "Önerileni uygula"
+    },
+    {
+      "key": "phys.gravity",
+      "value": "gravity.y"
+    },
+    {
+      "key": "phys.bounce",
+      "value": "bounceThreshold"
+    },
+    {
+      "key": "phys.velIter",
+      "value": "solverVelocityIterations"
+    },
+    {
+      "key": "phys.contactOffset",
+      "value": "defaultContactOffset"
+    },
+    {
+      "key": "phys.maxDepen",
+      "value": "defaultMaxDepenetrationVelocity"
+    },
+    {
+      "key": "health.title",
+      "value": "Çarpışma sağlığı"
+    },
+    {
+      "key": "health.rerun",
+      "value": "Yeniden kontrol et"
+    },
+    {
+      "key": "health.none",
+      "value": "Sorun bulunamadı."
+    },
+    {
+      "key": "health.summary",
+      "value": "hata {0} / uyarı {1} / ipucu {2}"
+    },
+    {
+      "key": "health.fix",
+      "value": "Düzelt"
+    },
+    {
+      "key": "health.score",
+      "value": "Puan {0}/100"
+    },
+    {
+      "key": "health.grade",
+      "value": "Not {0}"
+    },
+    {
+      "key": "menu.main",
+      "value": "Ana pencereyi aç"
+    },
+    {
+      "key": "menu.bake",
+      "value": "Seçileni bake et"
+    },
+    {
+      "key": "menu.gizmo",
+      "value": "Gövde gizmosunu aç/kapat"
+    },
+    {
+      "key": "menu.rebuild",
+      "value": "Seçileni yeniden oluştur"
+    },
+    {
+      "key": "menu.health",
+      "value": "Çarpışma sağlığı"
+    },
+    {
+      "key": "menu.about",
+      "value": "Neko Dynamic Collision hakkında"
+    },
+    {
+      "key": "cat.metal",
+      "value": "Metal"
+    },
+    {
+      "key": "cat.plastic",
+      "value": "Plastik"
+    },
+    {
+      "key": "cat.glass",
+      "value": "Cam"
+    },
+    {
+      "key": "cat.wood",
+      "value": "Ahşap"
+    },
+    {
+      "key": "cat.stone",
+      "value": "Taş"
+    },
+    {
+      "key": "cat.rubber",
+      "value": "Kauçuk"
+    },
+    {
+      "key": "cat.fabric",
+      "value": "Kumaş"
+    },
+    {
+      "key": "cat.organic",
+      "value": "Organik"
+    },
+    {
+      "key": "cat.ice",
+      "value": "Buz"
+    },
+    {
+      "key": "cat.other",
+      "value": "Diğer"
+    },
+    {
+      "key": "bake.err.none",
+      "value": "target/set null"
+    },
+    {
+      "key": "bake.err.noSkin",
+      "value": "SkinnedMeshRenderer kaynağı bulunamadı"
+    },
+    {
+      "key": "bake.err.noMesh",
+      "value": "MeshFilter kaynağı bulunamadı"
+    },
+    {
+      "key": "bake.err.noGroups",
+      "value": "Materyal grubu yok. Önce varsayılan bir grup oluşturun."
+    },
+    {
+      "key": "bake.err.empty",
+      "value": "Hiçbir hull üretilmedi."
+    },
+    {
+      "key": "bake.warn.maskMismatch",
+      "value": "Etiket sayısı ({0}) kaynak üçgen sayısıyla ({1}) eşleşmiyor; etiketler bu çalıştırmada yok sayıldı."
+    },
+    {
+      "key": "bake.warn.peak",
+      "value": "Hull vertex sayısı {0}, PhysX sınırı olan 255'i aşıyor."
+    },
+    {
+      "key": "bake.warn.unassigned",
+      "value": "{0} üçgen hiçbir parçaya ait değil ve bake edilmeyecek."
+    },
+    {
+      "key": "bake.warn.none",
+      "value": "Hiçbir hull üretilmedi; parçaları ve hassasiyeti kontrol edin."
+    },
+    {
+      "key": "bake.warn.nobones",
+      "value": "Bone ağırlıkları eksik, bu yüzden Skin bölümleri atanamaz."
+    },
+    {
+      "key": "desc.verySlippery",
+      "value": "çok kaygan"
+    },
+    {
+      "key": "desc.slippery",
+      "value": "kaygan"
+    },
+    {
+      "key": "desc.normal",
+      "value": "normal"
+    },
+    {
+      "key": "desc.grippy",
+      "value": "tutucu"
+    },
+    {
+      "key": "desc.veryGrippy",
+      "value": "çok tutucu"
+    },
+    {
+      "key": "desc.noBounce",
+      "value": "sekme yok"
+    },
+    {
+      "key": "desc.lowBounce",
+      "value": "hafif sekme"
+    },
+    {
+      "key": "desc.bouncy",
+      "value": "sekmeli"
+    },
+    {
+      "key": "desc.veryBouncy",
+      "value": "çok sekmeli"
+    },
+    {
+      "key": "h.nobake.title",
+      "value": "Henüz hiçbir şey bake edilmedi"
+    },
+    {
+      "key": "h.nobake.detail",
+      "value": "Çalışma zamanında hiçbir şey birleştirilmeyecek."
+    },
+    {
+      "key": "h.nobake.fix",
+      "value": "Şimdi bake et"
+    },
+    {
+      "key": "h.peakOver.title",
+      "value": "Hull {0} vertex içeriyor, PhysX sınırı olan 255'in üzerinde"
+    },
+    {
+      "key": "h.peakOver.detail",
+      "value": "Unity sınırı aşan bir hull'u reddeder ve sessizce hiçbir şey yapmaz. Hassasiyeti düşürün veya parça alt bölümünü artırın."
+    },
+    {
+      "key": "h.peakOver.fix",
+      "value": "Bir hassasiyet adımı daha düşük bake et"
+    },
+    {
+      "key": "h.peakNear.title",
+      "value": "En yüksek hull vertex sayısı {0} (255'e yakın)"
+    },
+    {
+      "key": "h.peakNear.detail",
+      "value": "Hâlâ sığıyor, ancak bir hassasiyet adımı daha sınıra dayanır."
+    },
+    {
+      "key": "h.degenerate.title",
+      "value": "{0} küme dejenere oldu ve hull oluşturamıyor"
+    },
+    {
+      "key": "h.degenerate.detail",
+      "value": "Genellikle parçalanmış materyal etiketleri veya çok yüksek ağırlık eşiği nedeniyle olur. Materyal gruplarının parçalanıp parçalanmadığını kontrol edin."
+    },
+    {
+      "key": "h.unassigned.title",
+      "value": "{0} üçgen ({1:F1}%) hiçbir parçaya ait değil"
+    },
+    {
+      "key": "h.unassigned.detail",
+      "value": "Bu yüzler hull almaz ve isabetleri kaçırır. Parça bone'larının tüm iskeleti kapsadığını kontrol edin."
+    },
+    {
+      "key": "h.unassigned.fix",
+      "value": "Parçaları otomatik doldur (Humanoid)"
+    },
+    {
+      "key": "h.hashMismatch.title",
+      "value": "Kaynak mesh değişti ama yeniden bake edilmedi"
+    },
+    {
+      "key": "h.hashMismatch.detail",
+      "value": "Yeniden içe aktarma veya topoloji düzenlemesinden sonra üçgen indeksleri artık bake edilen sonuçla eşleşmez, bu yüzden isabet konumları yanlış olur."
+    },
+    {
+      "key": "h.hashMismatch.fix",
+      "value": "Yeniden bake et"
+    },
+    {
+      "key": "h.layers.title",
+      "value": "{0} rolü var ama hiç etkileşim katmanı ayarlanmamış"
+    },
+    {
+      "key": "h.layers.detail",
+      "value": "Boş bir includeLayers, hull'ların her şeyle etkileşime girmesine neden olur; sıkı bir hitbox ardından ragdoll'u, ortamı ve diğer karakterleri engeller."
+    },
+    {
+      "key": "h.layers.fix",
+      "value": "Bullet katmanıyla sınırla"
+    },
+    {
+      "key": "h.noGroups.title",
+      "value": "Materyal grubu yok"
+    },
+    {
+      "key": "h.noGroups.detail",
+      "value": "Bake için en az bir grup gerekir."
+    },
+    {
+      "key": "h.noGroups.fix",
+      "value": "Varsayılan bir grup oluştur"
+    },
+    {
+      "key": "h.noMaterial.title",
+      "value": "\"{0}\" grubunun physic material'ı yok"
+    },
+    {
+      "key": "h.noMaterial.detail",
+      "value": "Proje varsayılanına döner, böylece sürtünme ve sekme kontrolsüz kalır."
+    },
+    {
+      "key": "h.noMaterial.fix",
+      "value": "Bir preset ata"
+    },
+    {
+      "key": "h.emptyGroup.title",
+      "value": "\"{0}\" grubunun hiç hull'u yok"
+    },
+    {
+      "key": "h.emptyGroup.detail",
+      "value": "Ya fırça hiçbir yüzü etiketlemedi ya da etiketlenen her yüz başka bir parça tarafından sahiplenildi."
+    },
+    {
+      "key": "h.fragmented.title",
+      "value": "\"{0}\" grubunda {1} hull var"
+    },
+    {
+      "key": "h.fragmented.detail",
+      "value": "Parçalanma çok sayıda küçük collider üretir; bu da cooking ve broadphase'i pahalı hale getirir. Etiketleri birleştirin veya hassasiyeti düşürün."
+    },
+    {
+      "key": "h.fragmented.fix",
+      "value": "Komşu bir grupla birleştir"
+    },
+    {
+      "key": "h.noRigidbody.title",
+      "value": "Rigidbody yok, bu yüzden çarpışma olayları asla tetiklenmez"
+    },
+    {
+      "key": "h.noRigidbody.detail",
+      "value": "Unity çarpışma callback'lerini yalnızca Rigidbody'ye sahip GameObject'e iletir. Otomatik Rigidbody'yi etkinleştirin veya üst nesneye kinematik bir Rigidbody ekleyin."
+    },
+    {
+      "key": "h.noRigidbody.fix",
+      "value": "Otomatik Rigidbody'yi etkinleştir"
+    },
+    {
+      "key": "h.massSmall.title",
+      "value": "Rigidbody \"{0}\" kütlesi yalnızca {1:F4}kg"
+    },
+    {
+      "key": "h.massSmall.detail",
+      "value": "Çok küçük bir kütle sayısal olarak kararsızdır ve nesnelerin içinden geçer. Auto Mass from Density'yi etkinleştirin."
+    },
+    {
+      "key": "h.massSmall.fix",
+      "value": "Yoğunluktan kütleyi etkinleştir"
+    },
+    {
+      "key": "h.massLarge.title",
+      "value": "Rigidbody \"{0}\" kütlesi {1:F0}kg"
+    },
+    {
+      "key": "h.massLarge.detail",
+      "value": "Bu kasıtlı değilse yoğunluk birimini (kg/m³) kontrol edin."
+    },
+    {
+      "key": "h.selfCollision.title",
+      "value": "Ragdoll kendi kendine çarpışma tamamen açık"
+    },
+    {
+      "key": "h.selfCollision.detail",
+      "value": "Bone'lar birbirini iter; bu, ragdoll titremesinin yaygın bir nedenidir. \"Bitişikleri yok say\" olağan seçimdir."
+    },
+    {
+      "key": "h.selfCollision.fix",
+      "value": "Bitişikleri yok say olarak değiştir"
+    },
+    {
+      "key": "h.dispatch.title",
+      "value": "{0} gönderimin listener'ı yoktu (son: {1})"
+    },
+    {
+      "key": "h.dispatch.detail",
+      "value": "Yanlış yazılmış bir olay adı hata vermez; yalnızca tanılamada görünür. Listener'ları Dyc_Events.Register ile kaydedin."
+    },
+    {
+      "key": "h.dispatch.fix",
+      "value": "Sayaçları sıfırla"
+    },
+    {
+      "key": "h.physicsBounce.title",
+      "value": "bounceThreshold = {0}: bundan yavaş çarpmalar asla sekmez"
+    },
+    {
+      "key": "h.physicsBounce.detail",
+      "value": "Kauçuk ve top preset'lerinin hiçbir şey yapmıyor gibi görünmesinin nedeni budur."
+    },
+    {
+      "key": "h.physicsBounce.fix",
+      "value": "bounceThreshold → 0.3"
+    },
+    {
+      "key": "h.physicsVelocity.title",
+      "value": "VelocityIterations = {0}: yığınlar ve hızlı çarpmalar titrer veya içinden geçer"
+    },
+    {
+      "key": "h.physicsVelocity.detail",
+      "value": "Unity ragdoll titremesinin yaygın bir kök nedeni."
+    },
+    {
+      "key": "h.physicsVelocity.fix",
+      "value": "VelocityIterations → 2"
+    },
+    {
+      "key": "h.physicsGravity.title",
+      "value": "gravity = {0:F2} (-9.81 değil)"
+    },
+    {
+      "key": "h.physicsGravity.detail",
+      "value": "-9.81'den türetilen her kütle ve itki sezgisi {0:F2}× hatalıdır, bu yüzden yoğunluk preset'leri düzeltilmelidir."
+    },
+    {
+      "key": "h.physicsContact.title",
+      "value": "defaultContactOffset = {0}: temas boşluğu geniş"
+    },
+    {
+      "key": "h.physicsContact.detail",
+      "value": "İnce nesneler havada duruyormuş gibi görünme eğilimindedir."
+    },
+    {
+      "key": "insp.sectionBasic",
+      "value": "Temel"
+    },
+    {
+      "key": "insp.sectionCollision",
+      "value": "Çarpışma"
+    },
+    {
+      "key": "insp.sectionPhysics",
+      "value": "Fizik"
+    },
+    {
+      "key": "insp.sectionTrigger",
+      "value": "Trigger"
+    },
+    {
+      "key": "insp.sectionLod",
+      "value": "LOD"
+    },
+    {
+      "key": "insp.multi",
+      "value": "Çoklu seçim yalnızca toplu bake'i destekler. Ayrıntılı düzenleme için bir nesne seçin."
+    },
+    {
+      "key": "insp.noBake",
+      "value": "Henüz bake edilmedi"
+    },
+    {
+      "key": "insp.noBakeHint",
+      "value": "Aşağıdaki \"Bake\" düğmesine basın."
+    },
+    {
+      "key": "insp.baked",
+      "value": "{0} hull bake edildi"
+    },
+    {
+      "key": "insp.peakVerts",
+      "value": "Vertex / tepe"
+    },
+    {
+      "key": "insp.volume",
+      "value": "Hacim"
+    },
+    {
+      "key": "insp.partsGroups",
+      "value": "Parçalar / gruplar"
+    },
+    {
+      "key": "insp.unassigned",
+      "value": "Atanmamış tris"
+    },
+    {
+      "key": "insp.health",
+      "value": "Sağlık"
+    },
+    {
+      "key": "insp.tally",
+      "value": "{0} hata · {1} uyarı · {2} ipucu"
+    },
+    {
+      "key": "insp.openBaker",
+      "value": "Baker'ı aç"
+    },
+    {
+      "key": "insp.showGizmo",
+      "value": "Hull Gizmo'sunu göster"
+    },
+    {
+      "key": "insp.autoRb",
+      "value": "Otomatik Rigidbody ekle"
+    },
+    {
+      "key": "insp.selfCollision",
+      "value": "Kendi kendine çarpışma"
+    },
+    {
+      "key": "insp.autoMass",
+      "value": "Yoğunluktan kütle"
+    },
+    {
+      "key": "insp.targetMass",
+      "value": "Toplam kütleyi normalleştir (0 = kapalı)"
+    },
+    {
+      "key": "insp.triggerMode",
+      "value": "Mod"
+    },
+    {
+      "key": "insp.pollDivisor",
+      "value": "Geçiş başına kare"
+    },
+    {
+      "key": "insp.pollSweep",
+      "value": "Süpürme payı (m)"
+    },
+    {
+      "key": "insp.pollNote",
+      "value": "Polling örnekleme yapar, olay değildir. Çok hızlı geçişler kaçırılır; süpürme payı bunu telafi eder."
+    },
+    {
+      "key": "insp.lodMode",
+      "value": "Mod"
+    },
+    {
+      "key": "insp.lodDistance",
+      "value": "Mesafe (m)"
+    },
+    {
+      "key": "insp.debugLog",
+      "value": "Debug log"
+    },
+    {
+      "key": "insp.rebuild",
+      "value": "Reassemble (Play mode'da etkili olur)"
+    },
+    {
+      "key": "set.language",
+      "value": "Dil"
+    },
+    {
+      "key": "set.langNote",
+      "value": "Pencereye ve NekoWorks menüsüne hemen uygulanır."
+    },
+    {
+      "key": "set.diagnostics",
+      "value": "Tanılama"
+    },
+    {
+      "key": "set.languagesLoaded",
+      "value": "Yüklenen diller"
+    },
+    {
+      "key": "set.localeRoot",
+      "value": "Dil klasörü"
+    },
+    {
+      "key": "set.langMissing",
+      "value": "Dil klasörü bulunamadı. Aranan yer: {0}"
+    },
+    {
+      "key": "set.presets",
+      "value": "Malzeme ön ayarları"
+    },
+    {
+      "key": "set.gizmoDefault",
+      "value": "Gövde gizmo'su"
+    },
+    {
+      "key": "set.openBaked",
+      "value": "Pişirilmiş varlık klasörünü aç"
+    },
+    {
+      "key": "set.resetPrefs",
+      "value": "Eklenti tercihlerini sıfırla"
+    },
+    {
+      "key": "set.refreshIcon",
+      "value": "Bileşen simgesini yenile"
+    },
+    {
+      "key": "lbl.childMeshes",
+      "value": "Alt meshleri oku"
+    },
+    {
+      "key": "lbl.hullsPerPart",
+      "value": "Parça başına gövde"
+    },
+    {
+      "key": "lbl.trisPerHull",
+      "value": "Gövde başına üçgen"
+    },
+    {
+      "key": "lbl.weightThreshold",
+      "value": "Kemik ağırlığı eşiği"
+    },
+    {
+      "key": "prec.skinHint",
+      "value": "Skin modunda gövde sayısı her bölge için otomatik belirlenir: parmak boğumu ile gövde farklı biçimlerdir ve tüm beden için tek bir sayı her zaman birine yalan söyler. Gövde başına üçgen sizin kararınız olarak kalır — bu bir detay bütçesidir, biçim değil."
+    },
+    {
+      "key": "prec.customHint",
+      "value": "Parça başına gövde sayısı yaklaşımın biçimidir, kalite düzeyi değil. İnce bir nesne — ok, kemik — TEK gövde ister: ikiye bölünürse her yarı yarım gövde yerine ince bir kabuk olur. Gövde ya da araç 4-8 ister. Ağırlık eşiği hangi köşelerin kemiğe ait sayıldığını belirler: altında kalan köşe atılır, kemikte delikli bir yüzey kalır ve gövdesi taç yaprağı gibi görünür."
+    },
+    {
+      "key": "src.autoHint",
+      "value": "Boş kaynak bu nesnedeki MeshFilter anlamına gelir. Alt meshler yalnızca yukarıdaki anahtar açıkken okunur — eskiden altlardaki ilk meshi sessizce arayan davranış yanlış meshi pişirebiliyordu."
+    },
+    {
+      "key": "lbl.shape",
+      "value": "Çarpışma şekli"
+    },
+    {
+      "key": "shape.convex",
+      "value": "Dışbükey gövdeler"
+    },
+    {
+      "key": "shape.concave",
+      "value": "Dışbükey olmayan yüzey"
+    },
+    {
+      "key": "shape.convexHint",
+      "value": "Kemik başına bir dışbükey gövde, çevrimdışı pişirilir. Yalnızca komşu gövdelerin örtüştüğü yerde dikişsizdir; içbükey eklemlerde (koltuk altı, kasık, boyun) gövde arasında boşluk kalır. Hareketli rigidbody'lerde çalışır ve mesh-mesh çarpışır."
+    },
+    {
+      "key": "shape.concaveHint",
+      "value": "Her kemiğin gerçek yüzeyi, kabuk şişirme yok — eklemlerde boşluk kalmaz. Bedel: yalnızca kinematik veya animasyonla sürülen gövdeler, mesh-mesh çarpışması yok, hızlı geniş faz yok. Mobilde fiziksel engelleme için değil, isabet tespiti için uygundur."
+    },
+    {
+      "key": "lbl.excludedBones",
+      "value": "Hariç tutulan kemikler"
+    },
+    {
+      "key": "lbl.excludedBonesHint",
+      "value": "Buraya eklenen kemik ve tüm alt ağacı ne bölge ne çarpışma şekli alır. IK hedefleri, uçlar ve yardımcı kemikler için doğru yer."
+    },
+    {
+      "key": "lbl.excludedSkins",
+      "value": "Hariç tutulan oluşturucular"
+    },
+    {
+      "key": "lbl.excludedSkinsHint",
+      "value": "Hiç pişirilmeyen SkinnedMeshRenderer'lar — saç, ayrı kumaş oluşturucusu, aksesuarlar."
+    },
+    {
+      "key": "lbl.excludeGroup",
+      "value": "Pişirmeden hariç tut"
+    },
+    {
+      "key": "lbl.excludeGroupHint",
+      "value": "Bu grubun yüzleri pişirmeden tamamen çıkar: gruplama yok, ayrıştırma yok, çarpışma şekli yok. Pelerin ya da koşum takımı, malzemesi değişmeden hitbox almaz — yolu budur."
+    },
+    {
+      "key": "btn.expert",
+      "value": "Uzman penceresi"
+    },
+    {
+      "key": "exp.title",
+      "value": "Kemik bazında hassasiyet"
+    },
+    {
+      "key": "exp.noTarget",
+      "value": "Dynamic Collision bileşeni olan bir nesne seçin."
+    },
+    {
+      "key": "exp.basePrecision",
+      "value": "Kemik başına parça"
+    },
+    {
+      "key": "exp.totals",
+      "value": "{1} kemikte {0} parça"
+    },
+    {
+      "key": "exp.decompose",
+      "value": "Ayrıştırma"
+    },
+    {
+      "key": "exp.voxelSize",
+      "value": "Voksel mm"
+    },
+    {
+      "key": "exp.maxHulls",
+      "value": "En çok parça"
+    },
+    {
+      "key": "exp.project",
+      "value": "Yansıt"
+    },
+    {
+      "key": "exp.resetDefaults",
+      "value": "Varsayılana dön"
+    },
+    {
+      "key": "exp.separate",
+      "value": "Ayır"
+    },
+    {
+      "key": "exp.separationMm",
+      "value": "Aralık mm"
+    },
+    {
+      "key": "exp.invertY",
+      "value": "Y'yi ters çevir"
+    },
+    {
+      "key": "exp.secondary",
+      "value": "Şekil, kendi kendine çarpışma, LOD"
+    },
+    {
+      "key": "exp.rebake",
+      "value": "Yeniden pişir"
+    },
+    {
+      "key": "exp.clearManual",
+      "value": "Elle olanları temizle"
+    },
+    {
+      "key": "exp.bones",
+      "value": "Kemik ağacı"
+    },
+    {
+      "key": "exp.noSkeleton",
+      "value": "İskelet yok."
+    },
+    {
+      "key": "exp.concavityShort",
+      "value": "i {0:0.00}"
+    },
+    {
+      "key": "exp.concavity",
+      "value": "İçbükeylik"
+    },
+    {
+      "key": "exp.minDepth",
+      "value": "En az derinlik"
+    },
+    {
+      "key": "exp.kernel",
+      "value": "Çekirdek"
+    },
+    {
+      "key": "exp.kernelOwn",
+      "value": "Kendi vokseli"
+    },
+    {
+      "key": "exp.kernelNative",
+      "value": "Yerel V-HACD"
+    },
+    {
+      "key": "exp.maxVoxels",
+      "value": "Voksel sınırı"
+    },
+    {
+      "key": "exp.fillRatio",
+      "value": "Dolgu"
+    },
+    {
+      "key": "exp.splitDepth",
+      "value": "Bölme derinliği"
+    },
+    {
+      "key": "exp.timeBudget",
+      "value": "Süre sn"
+    },
+    {
+      "key": "bake.progress.title",
+      "value": "Çarpışma pişiriliyor"
+    },
+    {
+      "key": "bake.progress.preparing",
+      "value": "Hazırlanıyor"
+    },
+    {
+      "key": "bake.progress.decomposing",
+      "value": "Gövde dışbükey parçalara ayrılıyor"
+    },
+    {
+      "key": "bake.progress.assembling",
+      "value": "Gövdeler birleştiriliyor"
+    },
+    {
+      "key": "bake.progress.baking",
+      "value": "Pişiriliyor"
+    },
+    {
+      "key": "bake.progress.budget",
+      "value": "Süre bütçesi doldu — hazır olanlar birleştiriliyor"
+    },
+    {
+      "key": "bake.progress.cancel",
+      "value": "İptal"
+    },
+    {
+      "key": "bake.progress.cancelling",
+      "value": "İptal ediliyor…"
+    },
+    {
+      "key": "bake.stage.decompose",
+      "value": "Ayrıştırılıyor"
+    },
+    {
+      "key": "bake.stage.assemble",
+      "value": "Gövdeler birleştiriliyor"
+    },
+    {
+      "key": "exp.triangles",
+      "value": "Üçgenler"
+    },
+    {
+      "key": "exp.pieces",
+      "value": "Parçalar"
+    },
+    {
+      "key": "exp.volume",
+      "value": "Hacim"
+    },
+    {
+      "key": "exp.dropped",
+      "value": "Bütçe {0} parçayı attı. Bu kemik için bütçeyi yükseltin ya da içbükeyliği düşürün."
+    },
+    {
+      "key": "exp.detail",
+      "value": "Kemik"
+    },
+    {
+      "key": "exp.pickBone",
+      "value": "Ağaçtan ya da 3B görünümden bir kemik seçin."
+    },
+    {
+      "key": "exp.noStat",
+      "value": "Bu kemik için pişirme verisi yok. Önce yeniden pişirin."
+    },
+    {
+      "key": "exp.manualPieces",
+      "value": "Parçalar (elle)"
+    },
+    {
+      "key": "exp.locked",
+      "value": "Kilitli"
+    },
+    {
+      "key": "exp.releaseBone",
+      "value": "Otomatiğe dön"
+    },
+    {
+      "key": "exp.hullList",
+      "value": "Parçalar"
+    },
+    {
+      "key": "exp.hullRow",
+      "value": "#{0} · {1} köşe · {2:0.0000} m³"
+    },
+    {
+      "key": "exp.noHulls",
+      "value": "Bu kemik için parça yok."
+    },
+    {
+      "key": "exp.previewFailed",
+      "value": "Önizleme doku döndürmedi. Konsolu kontrol edin."
+    },
+    {
+      "key": "exp.orbitHint",
+      "value": "Sağ sürükle — döndür · Sol sürükle — kaydır · Tekerlek — yakınlaştır · Tıkla — seç · Çift tıkla — dönme merkezi"
+    },
+    {
+      "key": "btn.fromSkeleton",
+      "value": "Bölgeleri iskeletten doldur"
+    },
+    {
+      "key": "btn.hideUncovered",
+      "value": "Kapsanmayan yüzleri gizle"
+    },
+    {
+      "key": "gizmo.occlude",
+      "value": "Gizlenen kenarları karart (%50)"
+    },
+    {
+      "key": "cat.ceramic",
+      "value": "Seramik"
+    },
+    {
+      "key": "cat.body",
+      "value": "Vücut bölgeleri"
+    },
+    {
+      "key": "cat.tissue",
+      "value": "Doku ve organlar"
+    },
+    {
+      "key": "cat.food",
+      "value": "Yiyecek"
+    },
+    {
+      "key": "forge.title",
+      "value": "Malzeme ocağı"
+    },
+    {
+      "key": "forge.hint",
+      "value": "Tablo bir şeyin NEDEN yapıldığını söyler. Ocak ŞU AN ne olduğunu söyler: temel malzeme × yüzey durumu. Vücut bölgeleri ve dokular tablo satırı değildir — doku karışımından türetilirler, bu yüzden sayıları açıklanabilir."
+    },
+    {
+      "key": "forge.base",
+      "value": "Temel malzeme"
+    },
+    {
+      "key": "forge.condition",
+      "value": "Yüzey durumu"
+    },
+    {
+      "key": "forge.group",
+      "value": "Grup"
+    },
+    {
+      "key": "forge.apply",
+      "value": "Döv ve ata"
+    },
+    {
+      "key": "forge.generate",
+      "value": "Varyant varlıkları üret"
+    },
+    {
+      "key": "forge.generateHint",
+      "value": "Her yüzey durumu için pişirme klasörüne bir .physicMaterial yazar; sanatçı eklenti olmadan seçebilir."
+    },
+    {
+      "key": "forge.generated",
+      "value": "{1} içine {0} malzeme varlığı üretildi"
+    },
+    {
+      "key": "forge.variantOf",
+      "value": "{0} · varyant"
+    },
+    {
+      "key": "forge.presets",
+      "value": "{1} kategoride {0} ön ayar"
+    },
+    {
+      "key": "forge.values",
+      "value": "statik {0:F2} · dinamik {1:F2} · sıçrama {2:F2} · {3:F0} kg/m³"
+    },
+    {
+      "key": "forge.derived",
+      "value": "türetilmiş"
+    },
+    {
+      "key": "forge.applied",
+      "value": "\"{0}\" grubu {1} · {2} üzerinden dövüldü"
+    },
+    {
+      "key": "forge.nogroup",
+      "value": "Dövülecek malzeme grubu yok."
+    },
+    {
+      "key": "forge.self",
+      "value": "Kendi üzerine döv"
+    },
+    {
+      "key": "forge.cond.dry",
+      "value": "Kuru"
+    },
+    {
+      "key": "forge.cond.wet",
+      "value": "Islak"
+    },
+    {
+      "key": "forge.cond.oiled",
+      "value": "Yağlı"
+    },
+    {
+      "key": "forge.cond.bloody",
+      "value": "Kanlı"
+    },
+    {
+      "key": "forge.cond.sweaty",
+      "value": "Terli"
+    },
+    {
+      "key": "forge.cond.icy",
+      "value": "Buzlu"
+    },
+    {
+      "key": "forge.cond.frozen",
+      "value": "Donmuş"
+    },
+    {
+      "key": "forge.cond.dusty",
+      "value": "Tozlu"
+    },
+    {
+      "key": "forge.cond.rough",
+      "value": "Pürüzlü"
+    },
+    {
+      "key": "forge.cond.polished",
+      "value": "Cilalı"
+    },
+    {
+      "key": "forge.cond.rusted",
+      "value": "Paslı"
+    },
+    {
+      "key": "forge.cond.worn",
+      "value": "Aşınmış"
+    },
+    {
+      "key": "forge.cond.clothed",
+      "value": "Giyili"
+    },
+    {
+      "key": "forge.cond.armored",
+      "value": "Zırhlı"
+    },
+    {
+      "key": "forge.cond.charred",
+      "value": "Kömürleşmiş"
+    },
+    {
+      "key": "forge.tissue.bone",
+      "value": "Kemik"
+    },
+    {
+      "key": "forge.tissue.cartilage",
+      "value": "Kıkırdak"
+    },
+    {
+      "key": "forge.tissue.tendon",
+      "value": "Tendon"
+    },
+    {
+      "key": "forge.tissue.muscle",
+      "value": "Kas"
+    },
+    {
+      "key": "forge.tissue.fat",
+      "value": "Yağ"
+    },
+    {
+      "key": "forge.tissue.skin",
+      "value": "Deri"
+    },
+    {
+      "key": "forge.tissue.organ",
+      "value": "Organ"
+    },
+    {
+      "key": "forge.tissue.lung",
+      "value": "Akciğer"
+    },
+    {
+      "key": "forge.tissue.brain",
+      "value": "Beyin"
+    },
+    {
+      "key": "forge.tissue.keratin",
+      "value": "Keratin"
+    },
+    {
+      "key": "soft.hard",
+      "value": "sert"
+    },
+    {
+      "key": "soft.firm",
+      "value": "dirençli"
+    },
+    {
+      "key": "soft.soft",
+      "value": "yumuşak"
+    },
+    {
+      "key": "soft.verySoft",
+      "value": "çok yumuşak"
+    },
+    {
+      "key": "soft.gel",
+      "value": "jel gibi"
+    },
+    {
+      "key": "h.concaveDynamic.title",
+      "value": "Hareketli rigidbody üzerinde dışbükey olmayan mesh"
+    },
+    {
+      "key": "h.concaveDynamic.detail",
+      "value": "PhysX dışbükey olmayan MeshCollider'ı yalnızca kinematik veya animasyonlu gövdede kabul eder. Hareketli rigidbody'de Unity çarpışma şeklini sessizce reddeder ve hiçbir şey çarpışmaz."
+    },
+    {
+      "key": "h.concaveDynamic.fix",
+      "value": "Rigidbody'yi kinematik yap"
+    },
+    {
+      "key": "h.concaveScale.title",
+      "value": "Eşit olmayan ölçek ({0:F2}, {1:F2}, {2:F2})"
+    },
+    {
+      "key": "h.concaveScale.detail",
+      "value": "Dışbükey olmayan mesh yerel uzayda pişirilir, bu yüzden gerilmiş ölçek çarpışma şeklini modelden uzaklaştırır. Dışbükey gövdelerde bu sorun yoktur."
+    },
+    {
+      "key": "h.concaveMeshMesh.title",
+      "value": "Dışbükey olmayan mesh: mesh-mesh çarpışması yok"
+    },
+    {
+      "key": "h.concaveMeshMesh.detail",
+      "value": "Bu bir PhysX sınırıdır, ayar değil: dışbükey olmayan mesh başka bir dışbükey olmayanla asla çarpışmaz. İlkel cisimler, arazi ve dışbükey gövdelerle hâlâ çarpışır."
+    },
+    {
+      "key": "h.allExcluded.title",
+      "value": "Tüm malzeme grupları pişirmeden hariç tutulmuş"
+    },
+    {
+      "key": "h.allExcluded.detail",
+      "value": "Pişirme sıfır çarpışma şekli üretir. En az bir grubun hariç tutmasını kaldırın."
+    },
+    {
+      "key": "h.excludeDead.title",
+      "value": "Hariç tutulan \"{0}\" kemiği iskelette yok"
+    },
+    {
+      "key": "h.excludeDead.detail",
+      "value": "Kayıt hiçbir şey yapmaz — kemik pişirilen oluşturucunun parçası değil. Genellikle rig değişiminden kalan bir artıktır."
+    },
+    {
+      "key": "h.softSelfCollision.title",
+      "value": "Tam kendi kendine çarpışmalı yumuşak bölge"
+    },
+    {
+      "key": "h.softSelfCollision.detail",
+      "value": "Yumuşak bölge hem gövdelere sahiptir hem kendi parçacıklarını çözer; kendi kendine çarpışma açıkken ikisi birbirini iter ve kumaş kaynar. \"Komşuları yoksay\" olağan seçimdir."
+    },
+    {
+      "key": "h.softSelfCollision.fix",
+      "value": "Komşuları yoksaymaya geç"
+    },
+    {
+      "key": "h.softNoSource.title",
+      "value": "Yumuşak bölgeler pişirildi ama deformasyon kaynağı yok"
+    },
+    {
+      "key": "h.softNoSource.detail",
+      "value": "Kare yazan bir çözücü olmadan her küme katı bir blok gibi davranır: nesne bir bütün olarak hareket eder ve deforme olmaz. Bu geçerli bir geri dönüş, hata değil."
+    },
+    {
+      "key": "insp.sectionExclusions",
+      "value": "Hariç tutulanlar"
+    },
+    {
+      "key": "shape.concaveWarn",
+      "value": "PhysX dışbükey olmayan mesh'i yalnızca kinematik veya animasyonlu gövdede kabul eder. Hareketli rigidbody'de Unity çarpışma şeklini sessizce reddeder: hiçbir şey çarpışmaz ve hata da çıkmaz. Karakteri kinematik bir gövdede pişirin ya da pişirmeden önce diğer sınırları görmek için uzman penceresini açın."
+    },
+    {
+      "key": "btn.openExpert",
+      "value": "Uzman penceresini aç"
+    },
+    {
+      "key": "exp.groupActions",
+      "value": "Eylemler"
+    },
+    {
+      "key": "exp.groupPrecision",
+      "value": "Ayrıştırma hassasiyeti"
+    },
+    {
+      "key": "exp.groupBody",
+      "value": "Bölgeler ve ayırma"
+    },
+    {
+      "key": "exp.groupKernel",
+      "value": "Çekirdek ve bütçe"
+    },
+    {
+      "key": "exp.groupView",
+      "value": "Görünüm"
+    },
+    {
+      "key": "bake.concaveNote",
+      "value": "Dışbükey olmayan yüzeylerde PhysX köşe sınırı yoktur: üçgen bütçesi yüzeyi bölerek değil, basitleştirerek tutturulur."
+    },
+    {
+      "key": "lbl.decomposeDetail",
+      "value": "Ayrıştırma ayrıntısı"
+    },
+    {
+      "key": "lbl.decomposeVoxel",
+      "value": "Voksel boyutu (mm)"
+    },
+    {
+      "key": "decomp.hint",
+      "value": "Kaba voksel: daha az ve daha büyük parça — en ucuz. {0} mm."
+    },
+    {
+      "key": "decomp.fineHint",
+      "value": "En ince: parçalar yüzeyi izler, bu yüzden maliyet dışbükey olmayan moda eşitlenir. Daha incesi kazanç sağlamaz — yalnızca maliyet."
+    },
+    {
+      "key": "exp.decomposed",
+      "value": "Parçalar: dışbükey ayrıştırma (çukurlar boyunca kesim)"
+    },
+    {
+      "key": "exp.clustered",
+      "value": "Parçalar: uzamsal kümeleme (ayrıştırma yok — yedek yol)"
+    },
+    {
+      "key": "lbl.concaveDetail",
+      "value": "Yüzey ayrıntısı"
+    },
+    {
+      "key": "concave.exact",
+      "value": "Basitleştirme yok: yüzey ağdan olduğu gibi alınır."
+    },
+    {
+      "key": "concave.budget",
+      "value": "Parça başına yaklaşık {0} üçgene basitleştirildi. Ayrıntı için sağa çekin; en sağ tamdır."
+    },
+    {
+      "key": "insp.sectionSimple",
+      "value": "Olağan kullanım (sistem collider'ı gibi)"
+    },
+    {
+      "key": "insp.generateOnStart",
+      "value": "Pişirilmiş bir şey yoksa başlangıçta kur"
+    },
+    {
+      "key": "insp.generateHint",
+      "value": "Bileşeni ekleyip Play'e basın. Collider'lar ağdan kemik başına kurulur; bölgeler ve ayrıştırma yine pişirmeden gelir."
+    },
+    {
+      "key": "insp.isTrigger",
+      "value": "Collider'lar trigger'dır"
+    },
+    {
+      "key": "insp.receiver",
+      "value": "OnCollision*/OnTrigger* şuraya da gönderilsin"
+    },
+    {
+      "key": "insp.receiverHint",
+      "value": "Unity'nin normal davranışı için boş bırakın: mesajlar Rigidbody'nin nesnesine gelir."
+    },
+    {
+      "key": "insp.sectionLive",
+      "value": "Canlı güncelleme (bütçeli)"
+    },
+    {
+      "key": "insp.liveUpdate",
+      "value": "Kabukları geçerli pozdan yeniden kur"
+    },
+    {
+      "key": "insp.liveContinuous",
+      "value": "Sürekli güncelle"
+    },
+    {
+      "key": "insp.idleBudget",
+      "value": "Hareketsiz bütçe (ms/kare)"
+    },
+    {
+      "key": "insp.activeBudget",
+      "value": "Etkin bütçe (ms/kare)"
+    },
+    {
+      "key": "insp.updateThreshold",
+      "value": "Bu hareketin (m) altında güncellemeyi atla"
+    },
+    {
+      "key": "insp.maxColliderTriangles",
+      "value": "Collider başına en çok üçgen"
+    },
+    {
+      "key": "insp.liveHint",
+      "value": "Varsayılan olarak kapalı: eklentinin sözü kare başına sıfır maliyettir. Güçlü deformasyonun önemli olduğu yerde açın."
+    },
+    {
+      "key": "insp.sectionMaterials",
+      "value": "Kaynak malzemeye göre malzemeler"
+    },
+    {
+      "key": "insp.materialSource",
+      "value": "Kaynak malzeme"
+    },
+    {
+      "key": "insp.materialPhysics",
+      "value": "Fizik malzemesi"
+    },
+    {
+      "key": "insp.materialHint",
+      "value": "O kaynak malzemenin kabukları için boyanmış bölge malzemesini geçersiz kılar. Kemiğin kendi Dyc_BoneProperties'i önce gelir."
+    },
+    {
+      "key": "insp.sectionExclusionMap",
+      "value": "Hariç tutma haritası"
+    },
+    {
+      "key": "insp.exclusionMap",
+      "value": "Harita (Read/Write gerekir)"
+    },
+    {
+      "key": "insp.exclusionChannel",
+      "value": "Kanal"
+    },
+    {
+      "key": "insp.exclusionThreshold",
+      "value": "Eşik"
+    },
+    {
+      "key": "insp.exclusionMapHint",
+      "value": "Seçilen kanalda beyaz olan köşe hariç tutulur. Fırça yüzleri, harita köşeleri işaretler."
+    },
+    {
+      "key": "insp.sectionSkeleton",
+      "value": "İskelet"
+    },
+    {
+      "key": "insp.retargetRoot",
+      "value": "Kabukları başka bir iskelete tak"
+    },
+    {
+      "key": "insp.retargetHint",
+      "value": "RetargetSkeleton: kabuklar bu ağdan kurulur ama o kökün aynı adlı kemiklerine takılır (Puppet Master ve benzerleri)."
+    },
+    {
+      "key": "insp.sectionCharLod",
+      "value": "Karakter çarpışma LOD"
+    },
+    {
+      "key": "insp.collisionLod",
+      "value": "Kabukları mesafeye göre kapat"
+    },
+    {
+      "key": "insp.lodNear",
+      "value": "Tam ayrıntı şu mesafeye kadar (m)"
+    },
+    {
+      "key": "insp.lodFar",
+      "value": "Şu mesafeden sonra azalt (m)"
+    },
+    {
+      "key": "insp.lodKeep",
+      "value": "Uzakta tutulan kabuk sayısı"
+    },
+    {
+      "key": "insp.lodHysteresis",
+      "value": "Histerezis (m)"
+    },
+    {
+      "key": "insp.lodVisibility",
+      "value": "Ekranda görünürlüğü de şart koş"
+    },
+    {
+      "key": "insp.lodReference",
+      "value": "Mesafe referansı (boş = Camera.main)"
+    },
+    {
+      "key": "insp.lodHint",
+      "value": "Bu karakterler içindir. Statik çarpışma LOD'u ayrı bir konudur; kalabalık karakterler ayrı bir bütçedir ve bu da o bütçedir."
+    },
+    {
+      "key": "insp.expertMode",
+      "value": "Uzman ayarları"
+    },
+    {
+      "key": "insp.expertHint",
+      "value": "Kapalı: dört kontrol ve bir Pişir düğmesi — başlamak için yeterli. Açık: teknik yüz — bütçeler, ayrıştırma çekirdeği, kemik başına geçersiz kılmalar, malzeme ve hariç tutma haritaları. Hiçbir şey gizli değil, yalnızca katlanmış."
+    }
+  ]
+}

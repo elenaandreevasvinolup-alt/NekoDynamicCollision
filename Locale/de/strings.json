@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "code": "de",
+  "name": "Deutsch",
+  "rtl": false,
+  "order": 50,
+  "ui": [
+    {
+      "key": "win.title",
+      "value": "Dynamic Collision"
+    },
+    {
+      "key": "win.none",
+      "value": "Wähle ein Objekt mit einer Dynamic Collision-Komponente aus."
+    },
+    {
+      "key": "win.notarget",
+      "value": "(keine Komponente an der Auswahl)"
+    },
+    {
+      "key": "win.lang",
+      "value": "Sprache"
+    },
+    {
+      "key": "tab.bake",
+      "value": "Bake"
+    },
+    {
+      "key": "tab.paint",
+      "value": "Paint"
+    },
+    {
+      "key": "tab.gizmo",
+      "value": "Gizmo"
+    },
+    {
+      "key": "tab.parts",
+      "value": "Teile"
+    },
+    {
+      "key": "tab.materials",
+      "value": "Materialien"
+    },
+    {
+      "key": "tab.health",
+      "value": "Gesundheit"
+    },
+    {
+      "key": "tab.settings",
+      "value": "Einstellungen"
+    },
+    {
+      "key": "lbl.mode",
+      "value": "Modus"
+    },
+    {
+      "key": "lbl.precision",
+      "value": "Präzision"
+    },
+    {
+      "key": "lbl.source",
+      "value": "Quelle"
+    },
+    {
+      "key": "lbl.role",
+      "value": "Collider-Rolle"
+    },
+    {
+      "key": "lbl.layers",
+      "value": "Interaktions-Layer"
+    },
+    {
+      "key": "lbl.detect",
+      "value": "Erkennung"
+    },
+    {
+      "key": "lbl.collision",
+      "value": "Kollision"
+    },
+    {
+      "key": "lbl.trigger",
+      "value": "Trigger (Poll)"
+    },
+    {
+      "key": "lbl.groups",
+      "value": "Materialgruppen"
+    },
+    {
+      "key": "lbl.elements",
+      "value": "Teile (Elemente)"
+    },
+    {
+      "key": "lbl.group",
+      "value": "Gruppe"
+    },
+    {
+      "key": "lbl.material",
+      "value": "Physic material"
+    },
+    {
+      "key": "lbl.density",
+      "value": "Dichte kg/m³"
+    },
+    {
+      "key": "lbl.eventName",
+      "value": "Ereignisname"
+    },
+    {
+      "key": "lbl.damage",
+      "value": "Schaden ×"
+    },
+    {
+      "key": "lbl.name",
+      "value": "Name"
+    },
+    {
+      "key": "btn.bake",
+      "value": "Bake"
+    },
+    {
+      "key": "btn.rebuild",
+      "value": "In der Szene neu aufbauen"
+    },
+    {
+      "key": "btn.clear",
+      "value": "Bake löschen"
+    },
+    {
+      "key": "btn.autofill",
+      "value": "Auto-fill parts (Humanoid)"
+    },
+    {
+      "key": "btn.addPart",
+      "value": "+ leeres Teil"
+    },
+    {
+      "key": "btn.addGroup",
+      "value": "+ Gruppe"
+    },
+    {
+      "key": "btn.autoAssign",
+      "value": "Auto-Zuweisung nach Name"
+    },
+    {
+      "key": "btn.pick",
+      "value": "Preset wählen"
+    },
+    {
+      "key": "btn.paint",
+      "value": "Malen starten"
+    },
+    {
+      "key": "btn.stopPaint",
+      "value": "Malen beenden"
+    },
+    {
+      "key": "btn.resetPose",
+      "value": "Auf Bind Pose zurücksetzen"
+    },
+    {
+      "key": "btn.clearPaint",
+      "value": "Alle Labels löschen"
+    },
+    {
+      "key": "btn.remove",
+      "value": "×"
+    },
+    {
+      "key": "btn.paintThis",
+      "value": "Dieses malen"
+    },
+    {
+      "key": "btn.showUncovered",
+      "value": "Unabgedeckte Flächen anzeigen"
+    },
+    {
+      "key": "btn.batchBake",
+      "value": "Alle ausgewählten baken"
+    },
+    {
+      "key": "bake.none",
+      "value": "Noch nichts gebacken."
+    },
+    {
+      "key": "bake.stats",
+      "value": "Statistik"
+    },
+    {
+      "key": "bake.hulls",
+      "value": "Hulls"
+    },
+    {
+      "key": "bake.verts",
+      "value": "Vertices"
+    },
+    {
+      "key": "bake.peak",
+      "value": "Spitze pro Hull"
+    },
+    {
+      "key": "bake.volume",
+      "value": "Volumen"
+    },
+    {
+      "key": "bake.unassigned",
+      "value": "Nicht zugewiesene Tris"
+    },
+    {
+      "key": "bake.precisionRow",
+      "value": "{0} Tris/Hull · {1} Hull/Teil · Naht {2:F1}mm · Gewicht ≥ {3:F2}"
+    },
+    {
+      "key": "cov.title",
+      "value": "Abdeckung"
+    },
+    {
+      "key": "cov.value",
+      "value": "{0:F1}%  ({1} / {2} Tris)"
+    },
+    {
+      "key": "cov.uncovered",
+      "value": "{0} Dreiecke werden von keinem Hull abgedeckt"
+    },
+    {
+      "key": "cov.analyze",
+      "value": "Abdeckung analysieren"
+    },
+    {
+      "key": "cov.none",
+      "value": "Keine Bake-Daten."
+    },
+    {
+      "key": "cov.nosource",
+      "value": "Kein Quell-Mesh."
+    },
+    {
+      "key": "paint.section",
+      "value": "Pinsel"
+    },
+    {
+      "key": "paint.ready",
+      "value": "Bereit zum Malen"
+    },
+    {
+      "key": "paint.blocked",
+      "value": "Malen ist blockiert"
+    },
+    {
+      "key": "paint.radius",
+      "value": "Radius"
+    },
+    {
+      "key": "paint.xray",
+      "value": "X-Ray (Rückseiten ignorieren)"
+    },
+    {
+      "key": "paint.symmetry",
+      "value": "Spiegeln auf X"
+    },
+    {
+      "key": "paint.hud",
+      "value": "Pinsel · Gruppe [{0}] {1} · Radius {2:F1}cm"
+    },
+    {
+      "key": "paint.hudKeys",
+      "value": "LMT malen / Shift radieren / Rad Radius / X-Symmetrie {0}"
+    },
+    {
+      "key": "paint.on",
+      "value": "an"
+    },
+    {
+      "key": "paint.off",
+      "value": "aus"
+    },
+    {
+      "key": "paint.tip1",
+      "value": "Der Pinsel markiert Flächen. Diese Markierungen werden beim Baken zu Partitions-Constraints, sodass ein Objekt in einer Region ein weiches Material und in einer anderen ein hartes tragen kann — erzeugt in einem einzigen Bake."
+    },
+    {
+      "key": "paint.tip2",
+      "value": "Nur im Edit-Modus nutzbar, mit gestopptem Play-Modus und geschlossenem Animation-Fenster. Labels werden pro Dreiecksindex gespeichert, die aktuelle Pose spielt also keine Rolle."
+    },
+    {
+      "key": "paint.nomask",
+      "value": "Noch kein Label-Asset. Einmal baken, um es zu erstellen."
+    },
+    {
+      "key": "paint.trisPerGroup",
+      "value": "{0} Tris"
+    },
+    {
+      "key": "pose.notarget",
+      "value": "Kein Ziel ausgewählt"
+    },
+    {
+      "key": "pose.noplay",
+      "value": "Labels können im Play mode nicht bearbeitet werden (schreibgeschützte Vorschau)"
+    },
+    {
+      "key": "pose.anim",
+      "value": "Das Animation-Fenster zeigt eine Vorschau. Vorschau zuerst beenden."
+    },
+    {
+      "key": "pose.notbind",
+      "value": "Das Rig ist nicht in Bind Pose (Abweichung {0:F1}cm bei {1}). Klicke zuerst auf \"Reset to bind pose\"."
+    },
+    {
+      "key": "gizmo.enabled",
+      "value": "Hulls anzeigen"
+    },
+    {
+      "key": "gizmo.selected",
+      "value": "Nur Auswahl"
+    },
+    {
+      "key": "gizmo.bind",
+      "value": "Bind Pose (T-Pose)"
+    },
+    {
+      "key": "gizmo.source",
+      "value": "Quell-Mesh Drahtgitter"
+    },
+    {
+      "key": "gizmo.uncovered",
+      "value": "Unabgedeckte Flächen hervorheben"
+    },
+    {
+      "key": "gizmo.painted",
+      "value": "Bemalte Flächen anzeigen"
+    },
+    {
+      "key": "gizmo.labels",
+      "value": "Labels"
+    },
+    {
+      "key": "gizmo.max",
+      "value": "Max. gezeichnete Hulls"
+    },
+    {
+      "key": "gizmo.tip",
+      "value": "Standardmäßig Bind Pose: in Bind Pose gilt bone.localToWorldMatrix · bindposes[i] = I, also IST die Bind Pose das Quell-Mesh im Ausgangszustand. Die T-Pose-Hulls bleiben während einer Animation stabil."
+    },
+    {
+      "key": "gizmo.legendOk",
+      "value": "normal"
+    },
+    {
+      "key": "gizmo.legendPeak",
+      "value": "über 255 Vertices"
+    },
+    {
+      "key": "gizmo.legendUncov",
+      "value": "unabgedeckt"
+    },
+    {
+      "key": "part.bone",
+      "value": "Knochen"
+    },
+    {
+      "key": "part.children",
+      "value": "Kind-Knochen einbeziehen"
+    },
+    {
+      "key": "part.rules",
+      "value": "Partitionsregel: der nächste Vorfahre gewinnt. Wenn ein übergeordnetes Teil \"Include child bones\" aktiviert, hat ein tieferes Teil trotzdem Vorrang, sodass Ereignisse nie doppelt ausgelöst werden."
+    },
+    {
+      "key": "mat.pair",
+      "value": "Paar-Verhalten"
+    },
+    {
+      "key": "mat.pairHint",
+      "value": "Unity combine-Priorität: Average < Minimum < Multiply < Maximum."
+    },
+    {
+      "key": "mat.static",
+      "value": "static friction"
+    },
+    {
+      "key": "mat.dynamic",
+      "value": "dynamic friction"
+    },
+    {
+      "key": "mat.bounce",
+      "value": "bounciness"
+    },
+    {
+      "key": "mat.combine",
+      "value": "combine"
+    },
+    {
+      "key": "mat.summary",
+      "value": "static {0:F2} · dynamic {1:F2} · bounce {2:F2} · combine {3}/{4}"
+    },
+    {
+      "key": "mat.autoAll",
+      "value": "Alle Gruppen aus Presets füllen"
+    },
+    {
+      "key": "phys.title",
+      "value": "Projektphysik"
+    },
+    {
+      "key": "phys.apply",
+      "value": "Empfohlene Werte anwenden"
+    },
+    {
+      "key": "phys.gravity",
+      "value": "gravity.y"
+    },
+    {
+      "key": "phys.bounce",
+      "value": "bounceThreshold"
+    },
+    {
+      "key": "phys.velIter",
+      "value": "solverVelocityIterations"
+    },
+    {
+      "key": "phys.contactOffset",
+      "value": "defaultContactOffset"
+    },
+    {
+      "key": "phys.maxDepen",
+      "value": "defaultMaxDepenetrationVelocity"
+    },
+    {
+      "key": "health.title",
+      "value": "Kollisions-Gesundheit"
+    },
+    {
+      "key": "health.rerun",
+      "value": "Erneut prüfen"
+    },
+    {
+      "key": "health.none",
+      "value": "Keine Probleme gefunden."
+    },
+    {
+      "key": "health.summary",
+      "value": "Fehler {0} / Warnungen {1} / Hinweise {2}"
+    },
+    {
+      "key": "health.fix",
+      "value": "Beheben"
+    },
+    {
+      "key": "health.score",
+      "value": "Score {0}/100"
+    },
+    {
+      "key": "health.grade",
+      "value": "Note {0}"
+    },
+    {
+      "key": "menu.main",
+      "value": "Hauptfenster öffnen"
+    },
+    {
+      "key": "menu.bake",
+      "value": "Auswahl baken"
+    },
+    {
+      "key": "menu.gizmo",
+      "value": "Hüllen-Gizmo umschalten"
+    },
+    {
+      "key": "menu.rebuild",
+      "value": "Auswahl neu aufbauen"
+    },
+    {
+      "key": "menu.health",
+      "value": "Kollisions-Gesundheit"
+    },
+    {
+      "key": "menu.about",
+      "value": "Über Neko Dynamic Collision"
+    },
+    {
+      "key": "cat.metal",
+      "value": "Metall"
+    },
+    {
+      "key": "cat.plastic",
+      "value": "Kunststoff"
+    },
+    {
+      "key": "cat.glass",
+      "value": "Glas"
+    },
+    {
+      "key": "cat.wood",
+      "value": "Holz"
+    },
+    {
+      "key": "cat.stone",
+      "value": "Stein"
+    },
+    {
+      "key": "cat.rubber",
+      "value": "Gummi"
+    },
+    {
+      "key": "cat.fabric",
+      "value": "Stoff"
+    },
+    {
+      "key": "cat.organic",
+      "value": "Organisch"
+    },
+    {
+      "key": "cat.ice",
+      "value": "Eis"
+    },
+    {
+      "key": "cat.other",
+      "value": "Sonstiges"
+    },
+    {
+      "key": "bake.err.none",
+      "value": "target/set ist null"
+    },
+    {
+      "key": "bake.err.noSkin",
+      "value": "Keine SkinnedMeshRenderer-Quelle gefunden"
+    },
+    {
+      "key": "bake.err.noMesh",
+      "value": "Keine MeshFilter-Quelle gefunden"
+    },
+    {
+      "key": "bake.err.noGroups",
+      "value": "Keine Materialgruppen. Erstelle zuerst eine Standardgruppe."
+    },
+    {
+      "key": "bake.err.empty",
+      "value": "Es wurde kein Hull erzeugt."
+    },
+    {
+      "key": "bake.warn.maskMismatch",
+      "value": "Label-Anzahl ({0}) stimmt nicht mit der Quell-Dreiecksanzahl ({1}) überein; Labels wurden in diesem Lauf ignoriert."
+    },
+    {
+      "key": "bake.warn.peak",
+      "value": "Die Vertex-Anzahl des Hulls {0} überschreitet das PhysX-Limit von 255."
+    },
+    {
+      "key": "bake.warn.unassigned",
+      "value": "{0} Dreiecke gehören zu keinem Teil und werden nicht gebacken."
+    },
+    {
+      "key": "bake.warn.none",
+      "value": "Es wurde kein Hull erzeugt; prüfe Teile und Präzision."
+    },
+    {
+      "key": "bake.warn.nobones",
+      "value": "Knochengewichte fehlen, daher können Skin-Partitionen nicht zugewiesen werden."
+    },
+    {
+      "key": "desc.verySlippery",
+      "value": "sehr rutschig"
+    },
+    {
+      "key": "desc.slippery",
+      "value": "rutschig"
+    },
+    {
+      "key": "desc.normal",
+      "value": "normal"
+    },
+    {
+      "key": "desc.grippy",
+      "value": "griffig"
+    },
+    {
+      "key": "desc.veryGrippy",
+      "value": "sehr griffig"
+    },
+    {
+      "key": "desc.noBounce",
+      "value": "kein Abprallen"
+    },
+    {
+      "key": "desc.lowBounce",
+      "value": "leichtes Abprallen"
+    },
+    {
+      "key": "desc.bouncy",
+      "value": "sprunghaft"
+    },
+    {
+      "key": "desc.veryBouncy",
+      "value": "sehr sprunghaft"
+    },
+    {
+      "key": "h.nobake.title",
+      "value": "Noch nichts gebacken"
+    },
+    {
+      "key": "h.nobake.detail",
+      "value": "Zur Laufzeit wird nichts zusammengebaut."
+    },
+    {
+      "key": "h.nobake.fix",
+      "value": "Jetzt baken"
+    },
+    {
+      "key": "h.peakOver.title",
+      "value": "Hull hat {0} Vertices, über dem PhysX-Limit von 255"
+    },
+    {
+      "key": "h.peakOver.detail",
+      "value": "Unity lehnt ein Hull über dem Limit ab und tut stillschweigend nichts. Senke die Präzision oder erhöhe die Teil-Unterteilung."
+    },
+    {
+      "key": "h.peakOver.fix",
+      "value": "Eine Präzisionsstufe niedriger neu baken"
+    },
+    {
+      "key": "h.peakNear.title",
+      "value": "Spitzenwert der Hull-Vertices {0} (nahe 255)"
+    },
+    {
+      "key": "h.peakNear.detail",
+      "value": "Passt noch, aber eine weitere Präzisionsstufe erreicht die Obergrenze."
+    },
+    {
+      "key": "h.degenerate.title",
+      "value": "{0} Cluster degenerierten und können kein Hull bilden"
+    },
+    {
+      "key": "h.degenerate.detail",
+      "value": "Meist durch fragmentierte Material-Labels oder eine zu hohe Gewichtsschwelle verursacht. Prüfe, ob die Materialgruppen fragmentiert sind."
+    },
+    {
+      "key": "h.unassigned.title",
+      "value": "{0} Dreiecke ({1:F1}%) gehören zu keinem Teil"
+    },
+    {
+      "key": "h.unassigned.detail",
+      "value": "Diese Flächen bekommen kein Hull und verpassen Treffer. Prüfe, ob die Teil-Knochen das gesamte Skelett abdecken."
+    },
+    {
+      "key": "h.unassigned.fix",
+      "value": "Auto-fill parts (Humanoid)"
+    },
+    {
+      "key": "h.hashMismatch.title",
+      "value": "Das Quell-Mesh wurde geändert, aber nicht neu gebacken"
+    },
+    {
+      "key": "h.hashMismatch.detail",
+      "value": "Nach einem Reimport oder einer Topologie-Änderung stimmen die Dreiecksindizes nicht mehr mit dem Bake-Ergebnis überein, daher sind Trefferpositionen falsch."
+    },
+    {
+      "key": "h.hashMismatch.fix",
+      "value": "Neu baken"
+    },
+    {
+      "key": "h.layers.title",
+      "value": "Rolle {0}, aber keine Interaktions-Layer gesetzt"
+    },
+    {
+      "key": "h.layers.detail",
+      "value": "Ein leeres includeLayers lässt die Hulls mit allem interagieren; eine hautenge Hitbox blockiert dann das Ragdoll, die Umgebung und andere Charaktere."
+    },
+    {
+      "key": "h.layers.fix",
+      "value": "Auf den Bullet-Layer beschränken"
+    },
+    {
+      "key": "h.noGroups.title",
+      "value": "Keine Materialgruppen"
+    },
+    {
+      "key": "h.noGroups.detail",
+      "value": "Baken benötigt mindestens eine Gruppe."
+    },
+    {
+      "key": "h.noGroups.fix",
+      "value": "Standardgruppe erstellen"
+    },
+    {
+      "key": "h.noMaterial.title",
+      "value": "Gruppe \"{0}\" hat kein Physic material"
+    },
+    {
+      "key": "h.noMaterial.detail",
+      "value": "Sie fällt auf den Projektstandard zurück, daher sind Reibung und Abprallen unkontrolliert."
+    },
+    {
+      "key": "h.noMaterial.fix",
+      "value": "Preset zuweisen"
+    },
+    {
+      "key": "h.emptyGroup.title",
+      "value": "Gruppe \"{0}\" hat überhaupt keine Hulls"
+    },
+    {
+      "key": "h.emptyGroup.detail",
+      "value": "Entweder hat der Pinsel nie eine Fläche markiert, oder jede markierte Fläche wurde von einem anderen Teil beansprucht."
+    },
+    {
+      "key": "h.fragmented.title",
+      "value": "Gruppe \"{0}\" hat {1} Hulls"
+    },
+    {
+      "key": "h.fragmented.detail",
+      "value": "Fragmentierung erzeugt viele winzige Collider, was Cooking und Broadphase teuer macht. Führe Labels zusammen oder senke die Präzision."
+    },
+    {
+      "key": "h.fragmented.fix",
+      "value": "In eine benachbarte Gruppe zusammenführen"
+    },
+    {
+      "key": "h.noRigidbody.title",
+      "value": "Kein Rigidbody, daher werden Kollisionsereignisse nie ausgelöst"
+    },
+    {
+      "key": "h.noRigidbody.detail",
+      "value": "Unity liefert Kollisions-Callbacks nur an das GameObject, das den Rigidbody besitzt. Aktiviere Auto-Rigidbody oder füge dem Parent einen kinematischen Rigidbody hinzu."
+    },
+    {
+      "key": "h.noRigidbody.fix",
+      "value": "Auto-Rigidbody aktivieren"
+    },
+    {
+      "key": "h.massSmall.title",
+      "value": "Masse des Rigidbody \"{0}\" beträgt nur {1:F4}kg"
+    },
+    {
+      "key": "h.massSmall.detail",
+      "value": "Eine sehr kleine Masse ist numerisch instabil und tunnelt. Aktiviere Auto Mass from Density."
+    },
+    {
+      "key": "h.massSmall.fix",
+      "value": "Masse aus Dichte aktivieren"
+    },
+    {
+      "key": "h.massLarge.title",
+      "value": "Masse des Rigidbody \"{0}\" beträgt {1:F0}kg"
+    },
+    {
+      "key": "h.massLarge.detail",
+      "value": "Falls das nicht beabsichtigt ist, prüfe die Dichteeinheit (kg/m³)."
+    },
+    {
+      "key": "h.selfCollision.title",
+      "value": "Ragdoll-Selbstkollision ist vollständig aktiv"
+    },
+    {
+      "key": "h.selfCollision.detail",
+      "value": "Knochen stoßen sich gegenseitig ab, was eine häufige Ursache für Ragdoll-Zittern ist. \"Ignore adjacent\" ist die übliche Wahl."
+    },
+    {
+      "key": "h.selfCollision.fix",
+      "value": "Auf ignore adjacent umstellen"
+    },
+    {
+      "key": "h.dispatch.title",
+      "value": "{0} Dispatches hatten keinen Listener (letzter: {1})"
+    },
+    {
+      "key": "h.dispatch.detail",
+      "value": "Ein falsch geschriebener Ereignisname erzeugt keinen Fehler; er erscheint nur in der Diagnose. Registriere Listener mit Dyc_Events.Register."
+    },
+    {
+      "key": "h.dispatch.fix",
+      "value": "Zähler zurücksetzen"
+    },
+    {
+      "key": "h.physicsBounce.title",
+      "value": "bounceThreshold = {0}: langsamere Aufprälle prallen nie ab"
+    },
+    {
+      "key": "h.physicsBounce.detail",
+      "value": "Deshalb scheinen Gummi- und Ball-Presets nichts zu bewirken."
+    },
+    {
+      "key": "h.physicsBounce.fix",
+      "value": "bounceThreshold → 0.3"
+    },
+    {
+      "key": "h.physicsVelocity.title",
+      "value": "VelocityIterations = {0}: Stapel und schnelle Aufprälle zittern oder tunneln"
+    },
+    {
+      "key": "h.physicsVelocity.detail",
+      "value": "Eine häufige Grundursache für Ragdoll-Zittern in Unity."
+    },
+    {
+      "key": "h.physicsVelocity.fix",
+      "value": "VelocityIterations → 2"
+    },
+    {
+      "key": "h.physicsGravity.title",
+      "value": "gravity = {0:F2} (nicht -9.81)"
+    },
+    {
+      "key": "h.physicsGravity.detail",
+      "value": "Jede aus -9.81 abgeleitete Intuition zu Masse und Impuls weicht um {0:F2}× ab, daher müssen Dichte-Presets korrigiert werden."
+    },
+    {
+      "key": "h.physicsContact.title",
+      "value": "defaultContactOffset = {0}: der Kontaktabstand ist groß"
+    },
+    {
+      "key": "h.physicsContact.detail",
+      "value": "Dünne Objekte scheinen oft zu schweben."
+    },
+    {
+      "key": "insp.sectionBasic",
+      "value": "Basis"
+    },
+    {
+      "key": "insp.sectionCollision",
+      "value": "Kollision"
+    },
+    {
+      "key": "insp.sectionPhysics",
+      "value": "Physik"
+    },
+    {
+      "key": "insp.sectionTrigger",
+      "value": "Trigger"
+    },
+    {
+      "key": "insp.sectionLod",
+      "value": "LOD"
+    },
+    {
+      "key": "insp.multi",
+      "value": "Mehrfachauswahl unterstützt nur Batch-Baking. Wähle ein Objekt für die Detailbearbeitung."
+    },
+    {
+      "key": "insp.noBake",
+      "value": "Noch nicht gebacken"
+    },
+    {
+      "key": "insp.noBakeHint",
+      "value": "Drücke unten auf \"Bake\"."
+    },
+    {
+      "key": "insp.baked",
+      "value": "{0} Hulls gebacken"
+    },
+    {
+      "key": "insp.peakVerts",
+      "value": "Vertices / Spitze"
+    },
+    {
+      "key": "insp.volume",
+      "value": "Volumen"
+    },
+    {
+      "key": "insp.partsGroups",
+      "value": "Teile / Gruppen"
+    },
+    {
+      "key": "insp.unassigned",
+      "value": "Nicht zugewiesene Tris"
+    },
+    {
+      "key": "insp.health",
+      "value": "Gesundheit"
+    },
+    {
+      "key": "insp.tally",
+      "value": "{0} Fehler · {1} Warnungen · {2} Hinweise"
+    },
+    {
+      "key": "insp.openBaker",
+      "value": "Baker öffnen"
+    },
+    {
+      "key": "insp.showGizmo",
+      "value": "Hull-Gizmo anzeigen"
+    },
+    {
+      "key": "insp.autoRb",
+      "value": "Rigidbody auto hinzufügen"
+    },
+    {
+      "key": "insp.selfCollision",
+      "value": "Selbstkollision"
+    },
+    {
+      "key": "insp.autoMass",
+      "value": "Masse aus Dichte"
+    },
+    {
+      "key": "insp.targetMass",
+      "value": "Gesamtmasse normalisieren (0 = aus)"
+    },
+    {
+      "key": "insp.triggerMode",
+      "value": "Modus"
+    },
+    {
+      "key": "insp.pollDivisor",
+      "value": "Frames pro Durchlauf"
+    },
+    {
+      "key": "insp.pollSweep",
+      "value": "Sweep-Margin (m)"
+    },
+    {
+      "key": "insp.pollNote",
+      "value": "Polling tastet ab, es ist kein Ereignis. Sehr schnelle Durchläufe werden verpasst; die Sweep-Margin gleicht das aus."
+    },
+    {
+      "key": "insp.lodMode",
+      "value": "Modus"
+    },
+    {
+      "key": "insp.lodDistance",
+      "value": "Distanz (m)"
+    },
+    {
+      "key": "insp.debugLog",
+      "value": "Debug-Log"
+    },
+    {
+      "key": "insp.rebuild",
+      "value": "Neu zusammensetzen (wirkt im Play mode)"
+    },
+    {
+      "key": "set.language",
+      "value": "Sprache"
+    },
+    {
+      "key": "set.langNote",
+      "value": "Gilt sofort für Fenster und NekoWorks-Menü."
+    },
+    {
+      "key": "set.diagnostics",
+      "value": "Diagnose"
+    },
+    {
+      "key": "set.languagesLoaded",
+      "value": "Geladene Sprachen"
+    },
+    {
+      "key": "set.localeRoot",
+      "value": "Sprachordner"
+    },
+    {
+      "key": "set.langMissing",
+      "value": "Kein Sprachordner gefunden. Gesucht in: {0}"
+    },
+    {
+      "key": "set.presets",
+      "value": "Material-Presets"
+    },
+    {
+      "key": "set.gizmoDefault",
+      "value": "Hüllen-Gizmo"
+    },
+    {
+      "key": "set.openBaked",
+      "value": "Ordner der gebackenen Assets öffnen"
+    },
+    {
+      "key": "set.resetPrefs",
+      "value": "Plugin-Einstellungen zurücksetzen"
+    },
+    {
+      "key": "set.refreshIcon",
+      "value": "Komponentensymbol neu setzen"
+    },
+    {
+      "key": "lbl.childMeshes",
+      "value": "Kind-Meshes lesen"
+    },
+    {
+      "key": "lbl.hullsPerPart",
+      "value": "Hüllen pro Teil"
+    },
+    {
+      "key": "lbl.trisPerHull",
+      "value": "Dreiecke pro Hülle"
+    },
+    {
+      "key": "lbl.weightThreshold",
+      "value": "Knochengewicht-Schwelle"
+    },
+    {
+      "key": "prec.skinHint",
+      "value": "Im Skin-Modus wird die Hüllenzahl pro Zone automatisch bestimmt: ein Fingerglied und ein Torso haben verschiedene Formen, und eine Zahl für den ganzen Körper belügt immer einen von beiden. Die Dreiecke pro Hülle bleiben deine Sache — das ist ein Detailbudget, keine Form."
+    },
+    {
+      "key": "prec.customHint",
+      "value": "Hüllen pro Teil ist die Form der Näherung, keine Qualitätsstufe. Ein dünnes Objekt — ein Pfeil, ein Knochen — will EINE Hülle: zwei teilen es und jede Hälfte wird eine dünne Schale statt eines halben Körpers. Ein Torso oder ein Fahrzeug will 4-8. Die Gewichtsschwelle entscheidet, welche Vertices zu einem Knochen zählen: darunter fällt ein Vertex weg, der Knochen bekommt eine löchrige Oberfläche und seine Hülle sieht wie ein Blütenblatt aus."
+    },
+    {
+      "key": "src.autoHint",
+      "value": "Leere Quelle bedeutet den MeshFilter an diesem Objekt. Kind-Meshes werden nur gelesen, wenn der Schalter oben an ist — die alte stille Suche nach dem ersten Mesh in den Kindern konnte das falsche Mesh backen."
+    },
+    {
+      "key": "lbl.shape",
+      "value": "Kolliderform"
+    },
+    {
+      "key": "shape.convex",
+      "value": "Konvexe Hüllen"
+    },
+    {
+      "key": "shape.concave",
+      "value": "Nicht-konvexe Oberfläche"
+    },
+    {
+      "key": "shape.convexHint",
+      "value": "Eine konvexe Hülle pro Knochen, offline gebacken. Nur dort nahtlos, wo benachbarte Hüllen sich überlappen; konkave Gelenke (Achsel, Leiste, Hals) behalten eine Lücke. Läuft auf bewegten Rigidbodies und kollidiert Mesh-Mesh."
+    },
+    {
+      "key": "shape.concaveHint",
+      "value": "Die tatsächliche Oberfläche jedes Knochens, ohne Hüllenaufblähung — keine Lücken an Gelenken. Preis: nur kinematische oder animierte Körper, keine Mesh-Mesh-Kollisionen, keine schnelle Broadphase. Mobil besser für Treffererkennung als für physikalisches Blockieren."
+    },
+    {
+      "key": "lbl.excludedBones",
+      "value": "Ausgeschlossene Knochen"
+    },
+    {
+      "key": "lbl.excludedBonesHint",
+      "value": "Ein hier gelisteter Knochen und sein ganzer Teilbaum bekommen keine Zone und keinen Kollider. Der richtige Ort für IK-Ziele, Spitzen und Hilfsknochen."
+    },
+    {
+      "key": "lbl.excludedSkins",
+      "value": "Ausgeschlossene Renderer"
+    },
+    {
+      "key": "lbl.excludedSkinsHint",
+      "value": "SkinnedMeshRenderer, die gar nicht gebacken werden — Haare, ein separater Stoff-Renderer, Requisiten."
+    },
+    {
+      "key": "lbl.excludeGroup",
+      "value": "Vom Backen ausschließen"
+    },
+    {
+      "key": "lbl.excludeGroupHint",
+      "value": "Flächen dieser Gruppe bleiben ganz aus dem Backen: kein Clustering, keine Zerlegung, keine Kollider. So bekommt ein Umhang oder ein Gurt keine Hitbox, ohne sein Material zu ändern."
+    },
+    {
+      "key": "btn.expert",
+      "value": "Expertenfenster"
+    },
+    {
+      "key": "exp.title",
+      "value": "Knochenpräzision"
+    },
+    {
+      "key": "exp.noTarget",
+      "value": "Wähle ein Objekt mit einer Dynamic-Collision-Komponente."
+    },
+    {
+      "key": "exp.basePrecision",
+      "value": "Teile pro Knochen"
+    },
+    {
+      "key": "exp.totals",
+      "value": "{0} Teile auf {1} Knochen"
+    },
+    {
+      "key": "exp.decompose",
+      "value": "Zerlegung"
+    },
+    {
+      "key": "exp.voxelSize",
+      "value": "Voxel mm"
+    },
+    {
+      "key": "exp.maxHulls",
+      "value": "Max. Teile"
+    },
+    {
+      "key": "exp.project",
+      "value": "Projizieren"
+    },
+    {
+      "key": "exp.resetDefaults",
+      "value": "Auf Standard zurücksetzen"
+    },
+    {
+      "key": "exp.separate",
+      "value": "Trennen"
+    },
+    {
+      "key": "exp.separationMm",
+      "value": "Spalt mm"
+    },
+    {
+      "key": "exp.invertY",
+      "value": "Y umkehren"
+    },
+    {
+      "key": "exp.secondary",
+      "value": "Form, Selbstkollision, LOD"
+    },
+    {
+      "key": "exp.rebake",
+      "value": "Neu backen"
+    },
+    {
+      "key": "exp.clearManual",
+      "value": "Manuelles löschen"
+    },
+    {
+      "key": "exp.bones",
+      "value": "Knochenbaum"
+    },
+    {
+      "key": "exp.noSkeleton",
+      "value": "Kein Skelett."
+    },
+    {
+      "key": "exp.concavityShort",
+      "value": "k {0:0.00}"
+    },
+    {
+      "key": "exp.concavity",
+      "value": "Konkavität"
+    },
+    {
+      "key": "exp.minDepth",
+      "value": "Min. Tiefe"
+    },
+    {
+      "key": "exp.kernel",
+      "value": "Kernel"
+    },
+    {
+      "key": "exp.kernelOwn",
+      "value": "Eigener Voxel"
+    },
+    {
+      "key": "exp.kernelNative",
+      "value": "Natives V-HACD"
+    },
+    {
+      "key": "exp.maxVoxels",
+      "value": "Voxel-Obergrenze"
+    },
+    {
+      "key": "exp.fillRatio",
+      "value": "Füllung"
+    },
+    {
+      "key": "exp.splitDepth",
+      "value": "Teilungstiefe"
+    },
+    {
+      "key": "exp.timeBudget",
+      "value": "Zeit s"
+    },
+    {
+      "key": "bake.progress.title",
+      "value": "Kollision backen"
+    },
+    {
+      "key": "bake.progress.preparing",
+      "value": "Vorbereiten"
+    },
+    {
+      "key": "bake.progress.decomposing",
+      "value": "Körper in konvexe Teile zerlegen"
+    },
+    {
+      "key": "bake.progress.assembling",
+      "value": "Hüllen zusammensetzen"
+    },
+    {
+      "key": "bake.progress.baking",
+      "value": "Backen"
+    },
+    {
+      "key": "bake.progress.budget",
+      "value": "Zeitbudget erreicht — Fertiges wird zusammengesetzt"
+    },
+    {
+      "key": "bake.progress.cancel",
+      "value": "Abbrechen"
+    },
+    {
+      "key": "bake.progress.cancelling",
+      "value": "Wird abgebrochen…"
+    },
+    {
+      "key": "bake.stage.decompose",
+      "value": "Zerlegen"
+    },
+    {
+      "key": "bake.stage.assemble",
+      "value": "Hüllen zusammensetzen"
+    },
+    {
+      "key": "exp.triangles",
+      "value": "Dreiecke"
+    },
+    {
+      "key": "exp.pieces",
+      "value": "Teile"
+    },
+    {
+      "key": "exp.volume",
+      "value": "Volumen"
+    },
+    {
+      "key": "exp.dropped",
+      "value": "{0} Teile wurden vom Budget verworfen. Erhöhe es für diesen Knochen oder senke die Konkavität."
+    },
+    {
+      "key": "exp.detail",
+      "value": "Knochen"
+    },
+    {
+      "key": "exp.pickBone",
+      "value": "Wähle einen Knochen im Baum oder in der 3D-Ansicht."
+    },
+    {
+      "key": "exp.noStat",
+      "value": "Keine Backdaten für diesen Knochen. Erst neu backen."
+    },
+    {
+      "key": "exp.manualPieces",
+      "value": "Teile (manuell)"
+    },
+    {
+      "key": "exp.locked",
+      "value": "Gesperrt"
+    },
+    {
+      "key": "exp.releaseBone",
+      "value": "Zurück auf automatisch"
+    },
+    {
+      "key": "exp.hullList",
+      "value": "Teile"
+    },
+    {
+      "key": "exp.hullRow",
+      "value": "#{0} · {1} Vertices · {2:0.0000} m³"
+    },
+    {
+      "key": "exp.noHulls",
+      "value": "Keine Teile für diesen Knochen."
+    },
+    {
+      "key": "exp.previewFailed",
+      "value": "Vorschau lieferte keine Textur. Prüfe die Konsole auf Fehler."
+    },
+    {
+      "key": "exp.orbitHint",
+      "value": "Rechts ziehen — kreisen · Links ziehen — schwenken · Rad — zoomen · Klick — wählen · Doppelklick — Drehpunkt"
+    },
+    {
+      "key": "btn.fromSkeleton",
+      "value": "Zonen aus Skelett füllen"
+    },
+    {
+      "key": "btn.hideUncovered",
+      "value": "Unbedeckte Flächen ausblenden"
+    },
+    {
+      "key": "gizmo.occlude",
+      "value": "Verdeckte Kanten abdunkeln (50%)"
+    },
+    {
+      "key": "cat.ceramic",
+      "value": "Keramik"
+    },
+    {
+      "key": "cat.body",
+      "value": "Körperteile"
+    },
+    {
+      "key": "cat.tissue",
+      "value": "Gewebe & Organe"
+    },
+    {
+      "key": "cat.food",
+      "value": "Nahrung"
+    },
+    {
+      "key": "forge.title",
+      "value": "Materialschmiede"
+    },
+    {
+      "key": "forge.hint",
+      "value": "Die Tabelle sagt, woraus etwas besteht. Die Schmiede sagt, was es gerade ist: Grundmaterial × Oberflächenzustand. Körperteile und Gewebe sind gar keine Tabellenzeilen — sie werden aus einer Gewebemischung abgeleitet, deshalb lassen sich ihre Zahlen erklären."
+    },
+    {
+      "key": "forge.base",
+      "value": "Grundmaterial"
+    },
+    {
+      "key": "forge.condition",
+      "value": "Oberflächenzustand"
+    },
+    {
+      "key": "forge.group",
+      "value": "Gruppe"
+    },
+    {
+      "key": "forge.apply",
+      "value": "Schmieden und zuweisen"
+    },
+    {
+      "key": "forge.generate",
+      "value": "Varianten-Assets erzeugen"
+    },
+    {
+      "key": "forge.generateHint",
+      "value": "Schreibt je ein .physicMaterial pro Oberflächenzustand in den Back-Ordner, damit ein Artist sie ohne das Plugin wählen kann."
+    },
+    {
+      "key": "forge.generated",
+      "value": "{0} Material-Asset(s) in {1} erzeugt"
+    },
+    {
+      "key": "forge.variantOf",
+      "value": "{0} · Varianten"
+    },
+    {
+      "key": "forge.presets",
+      "value": "{0} Voreinstellungen in {1} Kategorien"
+    },
+    {
+      "key": "forge.values",
+      "value": "statisch {0:F2} · dynamisch {1:F2} · Sprung {2:F2} · {3:F0} kg/m³"
+    },
+    {
+      "key": "forge.derived",
+      "value": "abgeleitet"
+    },
+    {
+      "key": "forge.applied",
+      "value": "Gruppe \"{0}\" geschmiedet aus {1} · {2}"
+    },
+    {
+      "key": "forge.nogroup",
+      "value": "Keine Materialgruppe zum Hineinschmieden."
+    },
+    {
+      "key": "forge.self",
+      "value": "In sich selbst schmieden"
+    },
+    {
+      "key": "forge.cond.dry",
+      "value": "Trocken"
+    },
+    {
+      "key": "forge.cond.wet",
+      "value": "Nass"
+    },
+    {
+      "key": "forge.cond.oiled",
+      "value": "Geölt"
+    },
+    {
+      "key": "forge.cond.bloody",
+      "value": "Blutig"
+    },
+    {
+      "key": "forge.cond.sweaty",
+      "value": "Verschwitzt"
+    },
+    {
+      "key": "forge.cond.icy",
+      "value": "Eisig"
+    },
+    {
+      "key": "forge.cond.frozen",
+      "value": "Gefroren"
+    },
+    {
+      "key": "forge.cond.dusty",
+      "value": "Staubig"
+    },
+    {
+      "key": "forge.cond.rough",
+      "value": "Rau"
+    },
+    {
+      "key": "forge.cond.polished",
+      "value": "Poliert"
+    },
+    {
+      "key": "forge.cond.rusted",
+      "value": "Verrostet"
+    },
+    {
+      "key": "forge.cond.worn",
+      "value": "Abgenutzt"
+    },
+    {
+      "key": "forge.cond.clothed",
+      "value": "Bekleidet"
+    },
+    {
+      "key": "forge.cond.armored",
+      "value": "Gepanzert"
+    },
+    {
+      "key": "forge.cond.charred",
+      "value": "Verkohlt"
+    },
+    {
+      "key": "forge.tissue.bone",
+      "value": "Knochen"
+    },
+    {
+      "key": "forge.tissue.cartilage",
+      "value": "Knorpel"
+    },
+    {
+      "key": "forge.tissue.tendon",
+      "value": "Sehne"
+    },
+    {
+      "key": "forge.tissue.muscle",
+      "value": "Muskel"
+    },
+    {
+      "key": "forge.tissue.fat",
+      "value": "Fett"
+    },
+    {
+      "key": "forge.tissue.skin",
+      "value": "Haut"
+    },
+    {
+      "key": "forge.tissue.organ",
+      "value": "Organ"
+    },
+    {
+      "key": "forge.tissue.lung",
+      "value": "Lunge"
+    },
+    {
+      "key": "forge.tissue.brain",
+      "value": "Gehirn"
+    },
+    {
+      "key": "forge.tissue.keratin",
+      "value": "Keratin"
+    },
+    {
+      "key": "soft.hard",
+      "value": "hart"
+    },
+    {
+      "key": "soft.firm",
+      "value": "fest"
+    },
+    {
+      "key": "soft.soft",
+      "value": "weich"
+    },
+    {
+      "key": "soft.verySoft",
+      "value": "sehr weich"
+    },
+    {
+      "key": "soft.gel",
+      "value": "gelartig"
+    },
+    {
+      "key": "h.concaveDynamic.title",
+      "value": "Nicht-konvexes Mesh auf einem bewegten Rigidbody"
+    },
+    {
+      "key": "h.concaveDynamic.detail",
+      "value": "PhysX akzeptiert einen nicht-konvexen MeshCollider nur auf einem kinematischen oder animierten Körper. Auf einem bewegten Rigidbody lehnt Unity den Kollider still ab, dann kollidiert gar nichts."
+    },
+    {
+      "key": "h.concaveDynamic.fix",
+      "value": "Rigidbody kinematisch machen"
+    },
+    {
+      "key": "h.concaveScale.title",
+      "value": "Ungleichmäßiger Maßstab ({0:F2}, {1:F2}, {2:F2})"
+    },
+    {
+      "key": "h.concaveScale.detail",
+      "value": "Ein nicht-konvexes Mesh wird im lokalen Raum gebacken, daher driftet der Kollider bei gestrecktem Maßstab vom Modell weg. Konvexe Hüllen haben das Problem nicht."
+    },
+    {
+      "key": "h.concaveMeshMesh.title",
+      "value": "Nicht-konvexes Mesh: keine Mesh-Mesh-Kollisionen"
+    },
+    {
+      "key": "h.concaveMeshMesh.detail",
+      "value": "Das ist eine PhysX-Grenze, keine Einstellung: ein nicht-konvexes Mesh kollidiert nie mit einem anderen. Mit Primitiven, Terrain und konvexen Hüllen kollidiert es weiterhin."
+    },
+    {
+      "key": "h.allExcluded.title",
+      "value": "Alle Materialgruppen sind vom Backen ausgeschlossen"
+    },
+    {
+      "key": "h.allExcluded.detail",
+      "value": "Das Backen erzeugt null Kollider. Hebe den Ausschluss für mindestens eine Gruppe auf."
+    },
+    {
+      "key": "h.excludeDead.title",
+      "value": "Ausgeschlossener Knochen \"{0}\" ist nicht im Skelett"
+    },
+    {
+      "key": "h.excludeDead.detail",
+      "value": "Der Eintrag bewirkt nichts — der Knochen gehört nicht zum gebackenen Renderer. Meist ein Rest nach einer Rig-Änderung."
+    },
+    {
+      "key": "h.softSelfCollision.title",
+      "value": "Weiche Zone mit voller Selbstkollision"
+    },
+    {
+      "key": "h.softSelfCollision.detail",
+      "value": "Eine weiche Zone besitzt Hüllen und löst zugleich ihre Partikel; mit Selbstkollision stoßen beide einander ab und der Stoff kocht. \"Benachbarte ignorieren\" ist die übliche Wahl."
+    },
+    {
+      "key": "h.softSelfCollision.fix",
+      "value": "Auf benachbarte ignorieren umstellen"
+    },
+    {
+      "key": "h.softNoSource.title",
+      "value": "Weiche Zonen gebacken, aber keine Deformationsquelle installiert"
+    },
+    {
+      "key": "h.softNoSource.detail",
+      "value": "Ohne einen Solver, der Frames schreibt, verhält sich jeder Cluster wie ein starrer Block: das Objekt bewegt sich als Ganzes und verformt sich nicht. Das ist ein gültiger Rückfall, kein Fehler."
+    },
+    {
+      "key": "insp.sectionExclusions",
+      "value": "Ausschlüsse"
+    },
+    {
+      "key": "shape.concaveWarn",
+      "value": "PhysX akzeptiert ein nicht-konvexes Mesh nur auf einem kinematischen oder animierten Körper. Auf einem bewegten Rigidbody lehnt Unity den Collider still ab: nichts kollidiert, und es erscheint keine Fehlermeldung. Backe den Charakter auf einem kinematischen Körper, oder öffne das Expertenfenster, um die übrigen Grenzen vor dem Backen zu prüfen."
+    },
+    {
+      "key": "btn.openExpert",
+      "value": "Expertenfenster öffnen"
+    },
+    {
+      "key": "exp.groupActions",
+      "value": "Aktionen"
+    },
+    {
+      "key": "exp.groupPrecision",
+      "value": "Zerlegungsgenauigkeit"
+    },
+    {
+      "key": "exp.groupBody",
+      "value": "Zonen und Trennung"
+    },
+    {
+      "key": "exp.groupKernel",
+      "value": "Kernel und Budget"
+    },
+    {
+      "key": "exp.groupView",
+      "value": "Ansicht"
+    },
+    {
+      "key": "bake.concaveNote",
+      "value": "Nicht-konvexe Oberflächen haben keine Vertex-Obergrenze von PhysX: Das Dreiecksbudget wird durch Vereinfachen der Oberfläche eingehalten, nicht durch Zerteilen."
+    },
+    {
+      "key": "lbl.decomposeDetail",
+      "value": "Zerlegungsdetails"
+    },
+    {
+      "key": "lbl.decomposeVoxel",
+      "value": "Voxelgröße (mm)"
+    },
+    {
+      "key": "decomp.hint",
+      "value": "Grobes Voxel: weniger, größere Teile — am günstigsten. {0} mm."
+    },
+    {
+      "key": "decomp.fineHint",
+      "value": "Feinste Stufe: die Teile folgen der Oberfläche, die Kosten entsprechen dem nicht-konvexen Modus. Feiner bringt nichts — nur Kosten."
+    },
+    {
+      "key": "exp.decomposed",
+      "value": "Teile: konvexe Zerlegung (Schnitt entlang der Vertiefungen)"
+    },
+    {
+      "key": "exp.clustered",
+      "value": "Teile: räumliches Clustering (Zerlegung nicht verfügbar — Ersatzweg)"
+    },
+    {
+      "key": "lbl.concaveDetail",
+      "value": "Oberflächendetails"
+    },
+    {
+      "key": "concave.exact",
+      "value": "Keine Vereinfachung: die Oberfläche wird unverändert aus dem Mesh übernommen."
+    },
+    {
+      "key": "concave.budget",
+      "value": "Vereinfacht auf etwa {0} Dreiecke pro Stück. Nach rechts ziehen für mehr Details; ganz rechts ist exakt."
+    },
+    {
+      "key": "insp.sectionSimple",
+      "value": "Einfache Nutzung (wie ein System-Collider)"
+    },
+    {
+      "key": "insp.generateOnStart",
+      "value": "Beim Start bauen, wenn nichts gebacken ist"
+    },
+    {
+      "key": "insp.generateHint",
+      "value": "Komponente hinzufügen und Play drücken. Collider entstehen pro Knochen aus dem Mesh; Zonen und Zerlegung kommen weiterhin vom Backen."
+    },
+    {
+      "key": "insp.isTrigger",
+      "value": "Collider sind Trigger"
+    },
+    {
+      "key": "insp.receiver",
+      "value": "OnCollision*/OnTrigger* zusätzlich senden an"
+    },
+    {
+      "key": "insp.receiverHint",
+      "value": "Leer lassen für Unitys normales Verhalten: Nachrichten erreichen das Objekt mit dem Rigidbody."
+    },
+    {
+      "key": "insp.sectionLive",
+      "value": "Live-Aktualisierung (mit Budget)"
+    },
+    {
+      "key": "insp.liveUpdate",
+      "value": "Hüllen aus der aktuellen Pose neu bauen"
+    },
+    {
+      "key": "insp.liveContinuous",
+      "value": "Fortlaufend aktualisieren"
+    },
+    {
+      "key": "insp.idleBudget",
+      "value": "Ruhe-Budget (ms/Frame)"
+    },
+    {
+      "key": "insp.activeBudget",
+      "value": "Aktiv-Budget (ms/Frame)"
+    },
+    {
+      "key": "insp.updateThreshold",
+      "value": "Aktualisierung unterhalb dieser Bewegung (m) überspringen"
+    },
+    {
+      "key": "insp.maxColliderTriangles",
+      "value": "Max. Dreiecke pro Collider"
+    },
+    {
+      "key": "insp.liveHint",
+      "value": "Standardmäßig aus: das Versprechen des Plugins sind null Kosten pro Frame. Einschalten, wo starke Deformation zählt."
+    },
+    {
+      "key": "insp.sectionMaterials",
+      "value": "Materialien nach Quellmaterial"
+    },
+    {
+      "key": "insp.materialSource",
+      "value": "Quellmaterial"
+    },
+    {
+      "key": "insp.materialPhysics",
+      "value": "Physikmaterial"
+    },
+    {
+      "key": "insp.materialHint",
+      "value": "Überschreibt das Material der bemalten Zone für Hüllen dieses Quellmaterials. Die eigene Dyc_BoneProperties am Knochen hat Vorrang."
+    },
+    {
+      "key": "insp.sectionExclusionMap",
+      "value": "Ausschlusskarte"
+    },
+    {
+      "key": "insp.exclusionMap",
+      "value": "Karte (Read/Write nötig)"
+    },
+    {
+      "key": "insp.exclusionChannel",
+      "value": "Kanal"
+    },
+    {
+      "key": "insp.exclusionThreshold",
+      "value": "Schwelle"
+    },
+    {
+      "key": "insp.exclusionMapHint",
+      "value": "Weiß im gewählten Kanal schließt den Vertex aus. Der Pinsel markiert Flächen, die Karte markiert Vertices."
+    },
+    {
+      "key": "insp.sectionSkeleton",
+      "value": "Skelett"
+    },
+    {
+      "key": "insp.retargetRoot",
+      "value": "Hüllen an ein anderes Skelett hängen"
+    },
+    {
+      "key": "insp.retargetHint",
+      "value": "RetargetSkeleton: Hüllen entstehen aus diesem Mesh, hängen aber an gleichnamigen Knochen jener Wurzel (Puppet Master und ähnliche)."
+    },
+    {
+      "key": "insp.sectionCharLod",
+      "value": "Charakter-Kollisions-LOD"
+    },
+    {
+      "key": "insp.collisionLod",
+      "value": "Hüllen nach Entfernung abschalten"
+    },
+    {
+      "key": "insp.lodNear",
+      "value": "Volle Details bis (m)"
+    },
+    {
+      "key": "insp.lodFar",
+      "value": "Reduzieren ab (m)"
+    },
+    {
+      "key": "insp.lodKeep",
+      "value": "Hüllen im fernen Bereich"
+    },
+    {
+      "key": "insp.lodHysteresis",
+      "value": "Hysterese (m)"
+    },
+    {
+      "key": "insp.lodVisibility",
+      "value": "Auch Sichtbarkeit auf dem Bildschirm verlangen"
+    },
+    {
+      "key": "insp.lodReference",
+      "value": "Distanzreferenz (leer = Camera.main)"
+    },
+    {
+      "key": "insp.lodHint",
+      "value": "Das ist für Charaktere. Kollisions-LOD für Statik ist ein eigenes Thema; eine Menge Charaktere ist ein eigenes Budget — und das ist es."
+    },
+    {
+      "key": "insp.expertMode",
+      "value": "Experten-Einstellungen"
+    },
+    {
+      "key": "insp.expertHint",
+      "value": "Aus: vier Regler und ein Backen-Knopf — genug für den Anfang. An: die technische Seite — Budgets, Zerlegungskern, Überschreibungen je Knochen, Material- und Ausschlusskarten. Nichts ist versteckt, nur eingeklappt."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "com.nekoandreeva.nekodynamiccollision",
+  "version": "1.0.1",
+  "displayName": "Neko Dynamic Collision",
+  "description": "Baked collision for Unity characters and props. Turns a skinned character or a static mesh into per-bone, per-region convex hulls, with all the expensive work done in the Editor so the runtime only loads and routes. Works like a system collider: ordinary Collider components, standard OnCollision*/OnTrigger* messages, layers, physics materials, Physics.Raycast and OverlapSphere, with no NDC-specific API needed. Bone-aware convex decomposition along concavities (a piece never crosses a joint), or the actual per-bone surface with a detail slider that goes all the way to no simplification. Opt-in live update rebuilds hulls from the current pose inside a CPU budget, incremental and priority-ordered. Character collision LOD with automatic active-camera detection and an IDyc_LodProvider hook. Bone-less soft bodies driven by a solver or by code. Per-bone overrides, material association lists, vertex exclusion maps, skeleton retargeting, built-in partition events, 224 material presets in 14 categories plus a material forge, coverage diagnostics, a collision health check, automatic mass from density, an expert-mode switch that keeps the beginner path to four controls, and 14 locales including full Arabic/Hebrew RTL.",
+  "unity": "2022.3",
+  "keywords": [
+    "physics",
+    "collision",
+    "convex-hull",
+    "hitbox",
+    "ragdoll",
+    "physics-material",
+    "baking"
+  ],
+  "author": {
+    "name": "NekoAndreeva",
+    "url": "https://github.com/elenaandreevasvinolup-alt"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elenaandreevasvinulup-alt/NekoDynamicCollision.git"
+  }
+}

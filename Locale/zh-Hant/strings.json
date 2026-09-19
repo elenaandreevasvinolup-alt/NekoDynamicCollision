@@ -1,0 +1,1753 @@
+{
+  "schemaVersion": 1,
+  "code": "zh-Hant",
+  "name": "繁體中文",
+  "rtl": false,
+  "order": 30,
+  "ui": [
+    {
+      "key": "win.title",
+      "value": "動態碰撞"
+    },
+    {
+      "key": "win.none",
+      "value": "請選擇一個帶有 Dynamic Collision 元件的物件。"
+    },
+    {
+      "key": "win.notarget",
+      "value": "（選取的物件上沒有此元件）"
+    },
+    {
+      "key": "win.lang",
+      "value": "語言"
+    },
+    {
+      "key": "tab.bake",
+      "value": "烘焙"
+    },
+    {
+      "key": "tab.paint",
+      "value": "塗刷"
+    },
+    {
+      "key": "tab.gizmo",
+      "value": "Gizmo"
+    },
+    {
+      "key": "tab.parts",
+      "value": "分區"
+    },
+    {
+      "key": "tab.materials",
+      "value": "材質"
+    },
+    {
+      "key": "tab.health",
+      "value": "健康檢查"
+    },
+    {
+      "key": "tab.settings",
+      "value": "設定"
+    },
+    {
+      "key": "lbl.mode",
+      "value": "模式"
+    },
+    {
+      "key": "lbl.precision",
+      "value": "精度"
+    },
+    {
+      "key": "lbl.source",
+      "value": "來源"
+    },
+    {
+      "key": "lbl.role",
+      "value": "碰撞體角色"
+    },
+    {
+      "key": "lbl.layers",
+      "value": "互動層"
+    },
+    {
+      "key": "lbl.detect",
+      "value": "偵測"
+    },
+    {
+      "key": "lbl.collision",
+      "value": "碰撞"
+    },
+    {
+      "key": "lbl.trigger",
+      "value": "Trigger（輪詢）"
+    },
+    {
+      "key": "lbl.groups",
+      "value": "材質群組"
+    },
+    {
+      "key": "lbl.elements",
+      "value": "分區（element）"
+    },
+    {
+      "key": "lbl.group",
+      "value": "群組"
+    },
+    {
+      "key": "lbl.material",
+      "value": "物理材質"
+    },
+    {
+      "key": "lbl.density",
+      "value": "密度 kg/m³"
+    },
+    {
+      "key": "lbl.eventName",
+      "value": "事件名稱"
+    },
+    {
+      "key": "lbl.damage",
+      "value": "傷害 ×"
+    },
+    {
+      "key": "lbl.name",
+      "value": "名稱"
+    },
+    {
+      "key": "btn.bake",
+      "value": "烘焙"
+    },
+    {
+      "key": "btn.rebuild",
+      "value": "在場景中重建"
+    },
+    {
+      "key": "btn.clear",
+      "value": "清除烘焙資料"
+    },
+    {
+      "key": "btn.autofill",
+      "value": "自動填充分區（Humanoid）"
+    },
+    {
+      "key": "btn.addPart",
+      "value": "+ 空白分區"
+    },
+    {
+      "key": "btn.addGroup",
+      "value": "+ 群組"
+    },
+    {
+      "key": "btn.autoAssign",
+      "value": "依名稱自動指派"
+    },
+    {
+      "key": "btn.pick",
+      "value": "選擇預設"
+    },
+    {
+      "key": "btn.paint",
+      "value": "開始塗刷"
+    },
+    {
+      "key": "btn.stopPaint",
+      "value": "停止塗刷"
+    },
+    {
+      "key": "btn.resetPose",
+      "value": "重設為綁定姿勢"
+    },
+    {
+      "key": "btn.clearPaint",
+      "value": "清除所有標籤"
+    },
+    {
+      "key": "btn.remove",
+      "value": "×"
+    },
+    {
+      "key": "btn.paintThis",
+      "value": "塗刷此項"
+    },
+    {
+      "key": "btn.showUncovered",
+      "value": "顯示未覆蓋的面"
+    },
+    {
+      "key": "btn.batchBake",
+      "value": "烘焙所有選取項"
+    },
+    {
+      "key": "bake.none",
+      "value": "尚未烘焙任何內容。"
+    },
+    {
+      "key": "bake.stats",
+      "value": "統計"
+    },
+    {
+      "key": "bake.hulls",
+      "value": "凸包"
+    },
+    {
+      "key": "bake.verts",
+      "value": "頂點"
+    },
+    {
+      "key": "bake.peak",
+      "value": "單塊凸包峰值"
+    },
+    {
+      "key": "bake.volume",
+      "value": "體積"
+    },
+    {
+      "key": "bake.unassigned",
+      "value": "未分配三角形"
+    },
+    {
+      "key": "bake.precisionRow",
+      "value": "{0} 三角形/凸包 · {1} 凸包/分區 · 接縫 {2:F1}mm · 權重 ≥ {3:F2}"
+    },
+    {
+      "key": "cov.title",
+      "value": "覆蓋率"
+    },
+    {
+      "key": "cov.value",
+      "value": "{0:F1}%  （{1} / {2} 三角形）"
+    },
+    {
+      "key": "cov.uncovered",
+      "value": "{0} 個三角形未被任何凸包覆蓋"
+    },
+    {
+      "key": "cov.analyze",
+      "value": "分析覆蓋率"
+    },
+    {
+      "key": "cov.none",
+      "value": "沒有烘焙資料。"
+    },
+    {
+      "key": "cov.nosource",
+      "value": "沒有來源網格。"
+    },
+    {
+      "key": "paint.section",
+      "value": "筆刷"
+    },
+    {
+      "key": "paint.ready",
+      "value": "可以開始塗刷"
+    },
+    {
+      "key": "paint.blocked",
+      "value": "塗刷已被阻止"
+    },
+    {
+      "key": "paint.radius",
+      "value": "半徑"
+    },
+    {
+      "key": "paint.xray",
+      "value": "X-Ray（忽略背面）"
+    },
+    {
+      "key": "paint.symmetry",
+      "value": "沿 X 軸鏡像"
+    },
+    {
+      "key": "paint.hud",
+      "value": "筆刷 · 群組 [{0}] {1} · 半徑 {2:F1}cm"
+    },
+    {
+      "key": "paint.hudKeys",
+      "value": "左鍵塗刷 / Shift 擦除 / 滾輪調整半徑 / X 鏡像 {0}"
+    },
+    {
+      "key": "paint.on",
+      "value": "開"
+    },
+    {
+      "key": "paint.off",
+      "value": "關"
+    },
+    {
+      "key": "paint.tip1",
+      "value": "筆刷會為面加上標籤。標籤在烘焙時會成為分區約束，因此同一個物件可以在一處使用柔軟材質、在另一處使用堅硬材質——一次烘焙即可完成。"
+    },
+    {
+      "key": "paint.tip2",
+      "value": "只能在 Edit 模式下、未進入 Play、且關閉 Animation 視窗預覽時使用。標籤按三角形序號儲存，所以目前姿勢不影響結果。"
+    },
+    {
+      "key": "paint.nomask",
+      "value": "還沒有標籤資源。烘焙一次即可建立。"
+    },
+    {
+      "key": "paint.trisPerGroup",
+      "value": "{0} 三角形"
+    },
+    {
+      "key": "pose.notarget",
+      "value": "未選取目標"
+    },
+    {
+      "key": "pose.noplay",
+      "value": "在 Play mode 下無法編輯標籤（唯讀預覽）"
+    },
+    {
+      "key": "pose.anim",
+      "value": "Animation 視窗正在預覽。請先退出預覽。"
+    },
+    {
+      "key": "pose.notbind",
+      "value": "骨架不處於綁定姿勢（在 {1} 處偏差 {0:F1}cm）。請先點擊「Reset to bind pose」。"
+    },
+    {
+      "key": "gizmo.enabled",
+      "value": "顯示凸包"
+    },
+    {
+      "key": "gizmo.selected",
+      "value": "僅顯示選取項"
+    },
+    {
+      "key": "gizmo.bind",
+      "value": "綁定姿勢（T-pose）"
+    },
+    {
+      "key": "gizmo.source",
+      "value": "來源網格線框"
+    },
+    {
+      "key": "gizmo.uncovered",
+      "value": "凸顯未覆蓋的面"
+    },
+    {
+      "key": "gizmo.painted",
+      "value": "顯示已塗面"
+    },
+    {
+      "key": "gizmo.labels",
+      "value": "標籤"
+    },
+    {
+      "key": "gizmo.max",
+      "value": "最多繪製凸包數"
+    },
+    {
+      "key": "gizmo.tip",
+      "value": "預設使用綁定姿勢：在綁定姿勢下 bone.localToWorldMatrix · bindposes[i] = I，因此綁定姿勢就是來源網格的原始形態。播放動畫時 T-pose 凸包保持穩定。"
+    },
+    {
+      "key": "gizmo.legendOk",
+      "value": "正常"
+    },
+    {
+      "key": "gizmo.legendPeak",
+      "value": "超過 255 個頂點"
+    },
+    {
+      "key": "gizmo.legendUncov",
+      "value": "未覆蓋"
+    },
+    {
+      "key": "part.bone",
+      "value": "骨骼"
+    },
+    {
+      "key": "part.children",
+      "value": "包含子骨骼"
+    },
+    {
+      "key": "part.rules",
+      "value": "分區規則：最近的祖先優先。當父分區啟用「包含子骨骼」時，更深層的分區仍然優先，因此事件不會被派發兩次。"
+    },
+    {
+      "key": "mat.pair",
+      "value": "成對行為"
+    },
+    {
+      "key": "mat.pairHint",
+      "value": "Unity combine 優先順序：Average < Minimum < Multiply < Maximum。"
+    },
+    {
+      "key": "mat.static",
+      "value": "靜摩擦"
+    },
+    {
+      "key": "mat.dynamic",
+      "value": "動摩擦"
+    },
+    {
+      "key": "mat.bounce",
+      "value": "彈性"
+    },
+    {
+      "key": "mat.combine",
+      "value": "合併方式"
+    },
+    {
+      "key": "mat.summary",
+      "value": "靜摩擦 {0:F2} · 動摩擦 {1:F2} · 彈性 {2:F2} · 合併 {3}/{4}"
+    },
+    {
+      "key": "mat.autoAll",
+      "value": "用預設填充所有群組"
+    },
+    {
+      "key": "phys.title",
+      "value": "專案物理設定"
+    },
+    {
+      "key": "phys.apply",
+      "value": "套用推薦值"
+    },
+    {
+      "key": "phys.gravity",
+      "value": "gravity.y"
+    },
+    {
+      "key": "phys.bounce",
+      "value": "bounceThreshold"
+    },
+    {
+      "key": "phys.velIter",
+      "value": "solverVelocityIterations"
+    },
+    {
+      "key": "phys.contactOffset",
+      "value": "defaultContactOffset"
+    },
+    {
+      "key": "phys.maxDepen",
+      "value": "defaultMaxDepenetrationVelocity"
+    },
+    {
+      "key": "health.title",
+      "value": "碰撞健康檢查"
+    },
+    {
+      "key": "health.rerun",
+      "value": "重新檢查"
+    },
+    {
+      "key": "health.none",
+      "value": "未發現問題。"
+    },
+    {
+      "key": "health.summary",
+      "value": "錯誤 {0} / 警告 {1} / 提示 {2}"
+    },
+    {
+      "key": "health.fix",
+      "value": "修復"
+    },
+    {
+      "key": "health.score",
+      "value": "評分 {0}/100"
+    },
+    {
+      "key": "health.grade",
+      "value": "等級 {0}"
+    },
+    {
+      "key": "menu.main",
+      "value": "開啟主視窗"
+    },
+    {
+      "key": "menu.bake",
+      "value": "烘焙選取項"
+    },
+    {
+      "key": "menu.gizmo",
+      "value": "切換凸包 Gizmo"
+    },
+    {
+      "key": "menu.rebuild",
+      "value": "重建選取項"
+    },
+    {
+      "key": "menu.health",
+      "value": "碰撞健康檢查"
+    },
+    {
+      "key": "menu.about",
+      "value": "關於 Neko Dynamic Collision"
+    },
+    {
+      "key": "cat.metal",
+      "value": "金屬"
+    },
+    {
+      "key": "cat.plastic",
+      "value": "塑膠"
+    },
+    {
+      "key": "cat.glass",
+      "value": "玻璃"
+    },
+    {
+      "key": "cat.wood",
+      "value": "木材"
+    },
+    {
+      "key": "cat.stone",
+      "value": "石材"
+    },
+    {
+      "key": "cat.rubber",
+      "value": "橡膠"
+    },
+    {
+      "key": "cat.fabric",
+      "value": "織物"
+    },
+    {
+      "key": "cat.organic",
+      "value": "有機物"
+    },
+    {
+      "key": "cat.ice",
+      "value": "冰"
+    },
+    {
+      "key": "cat.other",
+      "value": "其他"
+    },
+    {
+      "key": "bake.err.none",
+      "value": "target/set 為 null"
+    },
+    {
+      "key": "bake.err.noSkin",
+      "value": "找不到 SkinnedMeshRenderer 來源"
+    },
+    {
+      "key": "bake.err.noMesh",
+      "value": "找不到 MeshFilter 來源"
+    },
+    {
+      "key": "bake.err.noGroups",
+      "value": "沒有材質群組。請先建立一個預設群組。"
+    },
+    {
+      "key": "bake.err.empty",
+      "value": "未產生任何凸包。"
+    },
+    {
+      "key": "bake.warn.maskMismatch",
+      "value": "標籤數量（{0}）與來源三角形數量（{1}）不符；本次已忽略標籤。"
+    },
+    {
+      "key": "bake.warn.peak",
+      "value": "凸包頂點數 {0} 超過 PhysX 的 255 上限。"
+    },
+    {
+      "key": "bake.warn.unassigned",
+      "value": "{0} 個三角形不屬於任何分區，將不會被烘焙。"
+    },
+    {
+      "key": "bake.warn.none",
+      "value": "未產生任何凸包；請檢查分區與精度。"
+    },
+    {
+      "key": "bake.warn.nobones",
+      "value": "缺少骨骼權重，因此無法分配 Skin 分區。"
+    },
+    {
+      "key": "desc.verySlippery",
+      "value": "非常滑"
+    },
+    {
+      "key": "desc.slippery",
+      "value": "滑"
+    },
+    {
+      "key": "desc.normal",
+      "value": "正常"
+    },
+    {
+      "key": "desc.grippy",
+      "value": "抓地"
+    },
+    {
+      "key": "desc.veryGrippy",
+      "value": "抓地力很強"
+    },
+    {
+      "key": "desc.noBounce",
+      "value": "不反彈"
+    },
+    {
+      "key": "desc.lowBounce",
+      "value": "輕微反彈"
+    },
+    {
+      "key": "desc.bouncy",
+      "value": "有彈性"
+    },
+    {
+      "key": "desc.veryBouncy",
+      "value": "很有彈性"
+    },
+    {
+      "key": "h.nobake.title",
+      "value": "尚未烘焙任何內容"
+    },
+    {
+      "key": "h.nobake.detail",
+      "value": "執行時不會裝配任何碰撞體。"
+    },
+    {
+      "key": "h.nobake.fix",
+      "value": "立即烘焙"
+    },
+    {
+      "key": "h.peakOver.title",
+      "value": "凸包有 {0} 個頂點，超過 PhysX 的 255 上限"
+    },
+    {
+      "key": "h.peakOver.detail",
+      "value": "Unity 會拒絕超限的凸包並靜默失效。請降低精度或提高分區細分。"
+    },
+    {
+      "key": "h.peakOver.fix",
+      "value": "降低一階精度重新烘焙"
+    },
+    {
+      "key": "h.peakNear.title",
+      "value": "凸包頂點峰值 {0}（接近 255）"
+    },
+    {
+      "key": "h.peakNear.detail",
+      "value": "仍然可用，但再提高一階精度就會觸頂。"
+    },
+    {
+      "key": "h.degenerate.title",
+      "value": "{0} 個叢集退化，無法形成凸包"
+    },
+    {
+      "key": "h.degenerate.detail",
+      "value": "通常由材質標籤過於零碎或權重閾值過高引起。請檢查材質群組是否過於零碎。"
+    },
+    {
+      "key": "h.unassigned.title",
+      "value": "{0} 個三角形（{1:F1}%）不屬於任何分區"
+    },
+    {
+      "key": "h.unassigned.detail",
+      "value": "這些面不會產生凸包，會漏掉命中。請檢查分區骨骼是否涵蓋整個骨架。"
+    },
+    {
+      "key": "h.unassigned.fix",
+      "value": "自動填充分區（Humanoid）"
+    },
+    {
+      "key": "h.hashMismatch.title",
+      "value": "來源網格已變更但未重新烘焙"
+    },
+    {
+      "key": "h.hashMismatch.detail",
+      "value": "重新匯入或修改拓撲後，三角形索引不再與烘焙結果相符，命中位置會偏移。"
+    },
+    {
+      "key": "h.hashMismatch.fix",
+      "value": "重新烘焙"
+    },
+    {
+      "key": "h.layers.title",
+      "value": "角色為 {0} 但未設定互動層"
+    },
+    {
+      "key": "h.layers.detail",
+      "value": "空的 includeLayers 會讓凸包與所有物件互動；緊貼的 hitbox 會因此阻礙 ragdoll、環境與其他角色。"
+    },
+    {
+      "key": "h.layers.fix",
+      "value": "僅限制到 Bullet 層"
+    },
+    {
+      "key": "h.noGroups.title",
+      "value": "沒有材質群組"
+    },
+    {
+      "key": "h.noGroups.detail",
+      "value": "烘焙至少需要一個群組。"
+    },
+    {
+      "key": "h.noGroups.fix",
+      "value": "建立預設群組"
+    },
+    {
+      "key": "h.noMaterial.title",
+      "value": "群組「{0}」沒有物理材質"
+    },
+    {
+      "key": "h.noMaterial.detail",
+      "value": "它會回退到專案預設值，因此摩擦與彈性不受控制。"
+    },
+    {
+      "key": "h.noMaterial.fix",
+      "value": "指派預設"
+    },
+    {
+      "key": "h.emptyGroup.title",
+      "value": "群組「{0}」完全沒有凸包"
+    },
+    {
+      "key": "h.emptyGroup.detail",
+      "value": "要嘛筆刷從未標記任何面，要嘛所有被標記的面都被其他分區佔用。"
+    },
+    {
+      "key": "h.fragmented.title",
+      "value": "群組「{0}」有 {1} 個凸包"
+    },
+    {
+      "key": "h.fragmented.detail",
+      "value": "碎片化會產生大量微小碰撞體，使烘焙與寬相開銷變大。請合併標籤或降低精度。"
+    },
+    {
+      "key": "h.fragmented.fix",
+      "value": "合併到相鄰群組"
+    },
+    {
+      "key": "h.noRigidbody.title",
+      "value": "沒有 Rigidbody，碰撞事件將永遠不會觸發"
+    },
+    {
+      "key": "h.noRigidbody.detail",
+      "value": "Unity 只會把碰撞回呼發送給擁有 Rigidbody 的 GameObject。請啟用自動 Rigidbody，或在父層新增運動學 Rigidbody。"
+    },
+    {
+      "key": "h.noRigidbody.fix",
+      "value": "啟用自動 Rigidbody"
+    },
+    {
+      "key": "h.massSmall.title",
+      "value": "Rigidbody「{0}」的質量僅為 {1:F4}kg"
+    },
+    {
+      "key": "h.massSmall.detail",
+      "value": "極小的質量在數值上不穩定並會穿透。請啟用 Auto Mass from Density。"
+    },
+    {
+      "key": "h.massSmall.fix",
+      "value": "啟用 Auto Mass from Density"
+    },
+    {
+      "key": "h.massLarge.title",
+      "value": "Rigidbody「{0}」的質量為 {1:F0}kg"
+    },
+    {
+      "key": "h.massLarge.detail",
+      "value": "如果這不是刻意為之，請檢查密度單位（kg/m³）。"
+    },
+    {
+      "key": "h.selfCollision.title",
+      "value": "Ragdoll 自身碰撞已完全開啟"
+    },
+    {
+      "key": "h.selfCollision.detail",
+      "value": "骨骼會互相推開，這是 ragdoll 抖動的常見原因。通常應選擇「忽略相鄰」。"
+    },
+    {
+      "key": "h.selfCollision.fix",
+      "value": "切換為忽略相鄰"
+    },
+    {
+      "key": "h.dispatch.title",
+      "value": "{0} 次派發沒有監聽者（最後一次：{1}）"
+    },
+    {
+      "key": "h.dispatch.detail",
+      "value": "拼錯的事件名稱不會報錯，只會出現在診斷中。請使用 Dyc_Events.Register 註冊監聽器。"
+    },
+    {
+      "key": "h.dispatch.fix",
+      "value": "重設計數器"
+    },
+    {
+      "key": "h.physicsBounce.title",
+      "value": "bounceThreshold = {0}：低於此速度的碰撞永遠不會反彈"
+    },
+    {
+      "key": "h.physicsBounce.detail",
+      "value": "這就是橡膠與球類預設看起來毫無效果的原因。"
+    },
+    {
+      "key": "h.physicsBounce.fix",
+      "value": "bounceThreshold → 0.3"
+    },
+    {
+      "key": "h.physicsVelocity.title",
+      "value": "VelocityIterations = {0}：堆疊與高速碰撞會抖動或穿透"
+    },
+    {
+      "key": "h.physicsVelocity.detail",
+      "value": "這是 Unity ragdoll 抖動的常見根源。"
+    },
+    {
+      "key": "h.physicsVelocity.fix",
+      "value": "VelocityIterations → 2"
+    },
+    {
+      "key": "h.physicsGravity.title",
+      "value": "gravity = {0:F2}（不是 -9.81）"
+    },
+    {
+      "key": "h.physicsGravity.detail",
+      "value": "所有基於 -9.81 得出的質量與衝量直覺都會偏差 {0:F2}×，因此密度預設需要修正。"
+    },
+    {
+      "key": "h.physicsContact.title",
+      "value": "defaultContactOffset = {0}：接觸間隙過大"
+    },
+    {
+      "key": "h.physicsContact.detail",
+      "value": "薄物件容易看起來像懸浮。"
+    },
+    {
+      "key": "insp.sectionBasic",
+      "value": "基本"
+    },
+    {
+      "key": "insp.sectionCollision",
+      "value": "碰撞"
+    },
+    {
+      "key": "insp.sectionPhysics",
+      "value": "物理"
+    },
+    {
+      "key": "insp.sectionTrigger",
+      "value": "Trigger"
+    },
+    {
+      "key": "insp.sectionLod",
+      "value": "LOD"
+    },
+    {
+      "key": "insp.multi",
+      "value": "多選僅支援批次烘焙。請選擇單一物件進行詳細編輯。"
+    },
+    {
+      "key": "insp.noBake",
+      "value": "尚未烘焙"
+    },
+    {
+      "key": "insp.noBakeHint",
+      "value": "請點擊下方的「Bake」。"
+    },
+    {
+      "key": "insp.baked",
+      "value": "已烘焙 {0} 個凸包"
+    },
+    {
+      "key": "insp.peakVerts",
+      "value": "頂點 / 峰值"
+    },
+    {
+      "key": "insp.volume",
+      "value": "體積"
+    },
+    {
+      "key": "insp.partsGroups",
+      "value": "分區 / 群組"
+    },
+    {
+      "key": "insp.unassigned",
+      "value": "未分配三角形"
+    },
+    {
+      "key": "insp.health",
+      "value": "健康檢查"
+    },
+    {
+      "key": "insp.tally",
+      "value": "{0} 個錯誤 · {1} 個警告 · {2} 個提示"
+    },
+    {
+      "key": "insp.openBaker",
+      "value": "開啟烘焙器"
+    },
+    {
+      "key": "insp.showGizmo",
+      "value": "顯示凸包 Gizmo"
+    },
+    {
+      "key": "insp.autoRb",
+      "value": "自動新增 Rigidbody"
+    },
+    {
+      "key": "insp.selfCollision",
+      "value": "自身碰撞"
+    },
+    {
+      "key": "insp.autoMass",
+      "value": "依密度計算質量"
+    },
+    {
+      "key": "insp.targetMass",
+      "value": "正規化總質量（0 = 關閉）"
+    },
+    {
+      "key": "insp.triggerMode",
+      "value": "模式"
+    },
+    {
+      "key": "insp.pollDivisor",
+      "value": "每輪影格數"
+    },
+    {
+      "key": "insp.pollSweep",
+      "value": "掃描餘量（m）"
+    },
+    {
+      "key": "insp.pollNote",
+      "value": "輪詢是取樣而非事件。極快的穿過會被漏掉；掃描餘量可彌補這一點。"
+    },
+    {
+      "key": "insp.lodMode",
+      "value": "模式"
+    },
+    {
+      "key": "insp.lodDistance",
+      "value": "距離（m）"
+    },
+    {
+      "key": "insp.debugLog",
+      "value": "偵錯日誌"
+    },
+    {
+      "key": "insp.rebuild",
+      "value": "重新裝配（在 Play mode 下生效）"
+    },
+    {
+      "key": "set.language",
+      "value": "語言"
+    },
+    {
+      "key": "set.langNote",
+      "value": "立即套用到視窗與 NekoWorks 選單。"
+    },
+    {
+      "key": "set.diagnostics",
+      "value": "診斷"
+    },
+    {
+      "key": "set.languagesLoaded",
+      "value": "已載入語言"
+    },
+    {
+      "key": "set.localeRoot",
+      "value": "語言資料夾"
+    },
+    {
+      "key": "set.langMissing",
+      "value": "找不到語言資料夾。已尋找：{0}"
+    },
+    {
+      "key": "set.presets",
+      "value": "物理材質預設"
+    },
+    {
+      "key": "set.gizmoDefault",
+      "value": "凸包 Gizmo"
+    },
+    {
+      "key": "set.openBaked",
+      "value": "開啟烘焙資產資料夾"
+    },
+    {
+      "key": "set.resetPrefs",
+      "value": "重設外掛偏好"
+    },
+    {
+      "key": "set.refreshIcon",
+      "value": "重新整理組件圖示"
+    },
+    {
+      "key": "lbl.childMeshes",
+      "value": "讀取子網格"
+    },
+    {
+      "key": "lbl.hullsPerPart",
+      "value": "每個分區的凸包數"
+    },
+    {
+      "key": "lbl.trisPerHull",
+      "value": "每個凸包的三角形數"
+    },
+    {
+      "key": "lbl.weightThreshold",
+      "value": "骨骼權重閾值"
+    },
+    {
+      "key": "prec.skinHint",
+      "value": "在 Skin 模式下，凸包數量依分區自動決定：指節與軀幹形狀不同，全身用一個數字必然對其中一個說謊。每個凸包的三角形數仍由你決定——那是細節預算，不是形狀。"
+    },
+    {
+      "key": "prec.customHint",
+      "value": "每個分區的凸包數是近似的形狀，不是品質等級。細長物——箭、骨頭——只要一個凸包：兩個會把它劈成兩半，每一半變成薄殼而不是半個身體。軀幹或車輛要 4-8 個。權重閾值決定哪些頂點算屬於某根骨頭：低於閾值的頂點被丟棄，骨頭得到帶洞的表面，它的凸包看起來像花瓣。"
+    },
+    {
+      "key": "src.autoHint",
+      "value": "來源留空表示用本物件上的 MeshFilter。只有上方開關開啟時才讀取子網格——舊版靜默尋找子物件中第一個網格，會烘錯網格。"
+    },
+    {
+      "key": "lbl.shape",
+      "value": "碰撞體形狀"
+    },
+    {
+      "key": "shape.convex",
+      "value": "凸包"
+    },
+    {
+      "key": "shape.concave",
+      "value": "非凸表面"
+    },
+    {
+      "key": "shape.convexHint",
+      "value": "每根骨頭一個凸包，離線烘焙。只有相鄰凸包重疊處才是無縫的；凹陷關節（腋下、腹股溝、脖子）在凸包之間留有縫隙。可用於移動的剛體，支援網格對網格碰撞。"
+    },
+    {
+      "key": "shape.concaveHint",
+      "value": "每根骨頭的真實表面，不做凸包膨脹——關節處沒有洞。代價：只適用於運動學或動畫驅動的主體，不支援網格對網格碰撞，沒有快速寬相位。行動裝置上適合命中判定，不適合物理阻擋。"
+    },
+    {
+      "key": "lbl.excludedBones",
+      "value": "排除的骨骼"
+    },
+    {
+      "key": "lbl.excludedBonesHint",
+      "value": "列在這裡的骨頭及其整棵子樹都不會產生分區和碰撞體。IK 目標、骨頭末端、輔助骨骼就放這裡。"
+    },
+    {
+      "key": "lbl.excludedSkins",
+      "value": "排除的渲染器"
+    },
+    {
+      "key": "lbl.excludedSkinsHint",
+      "value": "完全不參與烘焙的 SkinnedMeshRenderer——頭髮、獨立的布料渲染器、道具。"
+    },
+    {
+      "key": "lbl.excludeGroup",
+      "value": "從烘焙中排除"
+    },
+    {
+      "key": "lbl.excludeGroupHint",
+      "value": "該組的面完全不進烘焙：不聚類、不分解、不產生碰撞體。披風或背帶不需改材質就能不產生判定盒，靠的就是這個。"
+    },
+    {
+      "key": "btn.expert",
+      "value": "專家視窗"
+    },
+    {
+      "key": "exp.title",
+      "value": "逐骨骼精度"
+    },
+    {
+      "key": "exp.noTarget",
+      "value": "請選擇一個帶有 Dynamic Collision 元件的物件。"
+    },
+    {
+      "key": "exp.basePrecision",
+      "value": "每根骨頭的部件數"
+    },
+    {
+      "key": "exp.totals",
+      "value": "{1} 根骨頭上的 {0} 個部件"
+    },
+    {
+      "key": "exp.decompose",
+      "value": "分解"
+    },
+    {
+      "key": "exp.voxelSize",
+      "value": "體素 mm"
+    },
+    {
+      "key": "exp.maxHulls",
+      "value": "最大部件數"
+    },
+    {
+      "key": "exp.project",
+      "value": "投影"
+    },
+    {
+      "key": "exp.resetDefaults",
+      "value": "恢復預設值"
+    },
+    {
+      "key": "exp.separate",
+      "value": "分離"
+    },
+    {
+      "key": "exp.separationMm",
+      "value": "縫寬 mm"
+    },
+    {
+      "key": "exp.invertY",
+      "value": "反轉Y"
+    },
+    {
+      "key": "exp.secondary",
+      "value": "形狀、自碰撞、LOD"
+    },
+    {
+      "key": "exp.rebake",
+      "value": "重新烘焙"
+    },
+    {
+      "key": "exp.clearManual",
+      "value": "清除手動值"
+    },
+    {
+      "key": "exp.bones",
+      "value": "骨骼樹"
+    },
+    {
+      "key": "exp.noSkeleton",
+      "value": "沒有骨架。"
+    },
+    {
+      "key": "exp.concavityShort",
+      "value": "凹 {0:0.00}"
+    },
+    {
+      "key": "exp.concavity",
+      "value": "凹度"
+    },
+    {
+      "key": "exp.minDepth",
+      "value": "最小凹深"
+    },
+    {
+      "key": "exp.kernel",
+      "value": "核心"
+    },
+    {
+      "key": "exp.kernelOwn",
+      "value": "自研體素"
+    },
+    {
+      "key": "exp.kernelNative",
+      "value": "原生 V-HACD"
+    },
+    {
+      "key": "exp.maxVoxels",
+      "value": "體素上限"
+    },
+    {
+      "key": "exp.fillRatio",
+      "value": "填充"
+    },
+    {
+      "key": "exp.splitDepth",
+      "value": "分割深度"
+    },
+    {
+      "key": "exp.timeBudget",
+      "value": "時間 秒"
+    },
+    {
+      "key": "bake.progress.title",
+      "value": "烘焙碰撞"
+    },
+    {
+      "key": "bake.progress.preparing",
+      "value": "準備"
+    },
+    {
+      "key": "bake.progress.decomposing",
+      "value": "把身體分解成凸塊"
+    },
+    {
+      "key": "bake.progress.assembling",
+      "value": "裝配凸包"
+    },
+    {
+      "key": "bake.progress.baking",
+      "value": "烘焙"
+    },
+    {
+      "key": "bake.progress.budget",
+      "value": "時間預算用盡——裝配已完成的部分"
+    },
+    {
+      "key": "bake.progress.cancel",
+      "value": "取消"
+    },
+    {
+      "key": "bake.progress.cancelling",
+      "value": "正在取消…"
+    },
+    {
+      "key": "bake.stage.decompose",
+      "value": "分解中"
+    },
+    {
+      "key": "bake.stage.assemble",
+      "value": "裝配凸包"
+    },
+    {
+      "key": "exp.triangles",
+      "value": "三角形"
+    },
+    {
+      "key": "exp.pieces",
+      "value": "部件"
+    },
+    {
+      "key": "exp.volume",
+      "value": "體積"
+    },
+    {
+      "key": "exp.dropped",
+      "value": "有 {0} 個部件被預算丟棄。提高這根骨頭的預算，或降低凹度。"
+    },
+    {
+      "key": "exp.detail",
+      "value": "骨骼"
+    },
+    {
+      "key": "exp.pickBone",
+      "value": "在骨骼樹或 3D 檢視中選擇一根骨頭。"
+    },
+    {
+      "key": "exp.noStat",
+      "value": "這根骨頭沒有烘焙資料。請先重新烘焙。"
+    },
+    {
+      "key": "exp.manualPieces",
+      "value": "部件（手動）"
+    },
+    {
+      "key": "exp.locked",
+      "value": "已鎖定"
+    },
+    {
+      "key": "exp.releaseBone",
+      "value": "恢復自動"
+    },
+    {
+      "key": "exp.hullList",
+      "value": "部件"
+    },
+    {
+      "key": "exp.hullRow",
+      "value": "#{0} · {1} 頂點 · {2:0.0000} m³"
+    },
+    {
+      "key": "exp.noHulls",
+      "value": "這根骨頭沒有部件。"
+    },
+    {
+      "key": "exp.previewFailed",
+      "value": "預覽沒有回傳紋理。請檢查主控台錯誤。"
+    },
+    {
+      "key": "exp.orbitHint",
+      "value": "右鍵拖曳 — 旋轉 · 左鍵拖曳 — 平移 · 滾輪 — 縮放 · 單擊 — 選取 · 雙擊 — 旋轉中心"
+    },
+    {
+      "key": "btn.fromSkeleton",
+      "value": "從骨架填充分區"
+    },
+    {
+      "key": "btn.hideUncovered",
+      "value": "隱藏未覆蓋的面"
+    },
+    {
+      "key": "gizmo.occlude",
+      "value": "遮擋稜邊變暗（50%）"
+    },
+    {
+      "key": "cat.ceramic",
+      "value": "陶瓷"
+    },
+    {
+      "key": "cat.body",
+      "value": "人體部位"
+    },
+    {
+      "key": "cat.tissue",
+      "value": "組織與器官"
+    },
+    {
+      "key": "cat.food",
+      "value": "食物"
+    },
+    {
+      "key": "forge.title",
+      "value": "材質鍛造"
+    },
+    {
+      "key": "forge.hint",
+      "value": "表格說的是「由什麼構成」。鍛造說的是「現在是什麼」：基礎材質 × 表面狀態。人體部位和組織根本不是表格列——它們由組織配比推導出來，所以數字解釋得清。"
+    },
+    {
+      "key": "forge.base",
+      "value": "基礎材質"
+    },
+    {
+      "key": "forge.condition",
+      "value": "表面狀態"
+    },
+    {
+      "key": "forge.group",
+      "value": "組"
+    },
+    {
+      "key": "forge.apply",
+      "value": "鍛造並指派"
+    },
+    {
+      "key": "forge.generate",
+      "value": "產生變體資產"
+    },
+    {
+      "key": "forge.generateHint",
+      "value": "把每種表面狀態寫成一個 .physicMaterial 到烘焙目錄，美術不裝外掛也能用。"
+    },
+    {
+      "key": "forge.generated",
+      "value": "已在 {1} 產生 {0} 個材質資產"
+    },
+    {
+      "key": "forge.variantOf",
+      "value": "{0} · 變體"
+    },
+    {
+      "key": "forge.presets",
+      "value": "{1} 類共 {0} 個預設"
+    },
+    {
+      "key": "forge.values",
+      "value": "靜摩擦 {0:F2} · 動摩擦 {1:F2} · 彈性 {2:F2} · {3:F0} kg/m³"
+    },
+    {
+      "key": "forge.derived",
+      "value": "推導"
+    },
+    {
+      "key": "forge.applied",
+      "value": "組「{0}」已由 {1} · {2} 鍛造"
+    },
+    {
+      "key": "forge.nogroup",
+      "value": "沒有可寫入的材質組。"
+    },
+    {
+      "key": "forge.self",
+      "value": "鍛造到自身"
+    },
+    {
+      "key": "forge.cond.dry",
+      "value": "乾燥"
+    },
+    {
+      "key": "forge.cond.wet",
+      "value": "潮濕"
+    },
+    {
+      "key": "forge.cond.oiled",
+      "value": "油污"
+    },
+    {
+      "key": "forge.cond.bloody",
+      "value": "血污"
+    },
+    {
+      "key": "forge.cond.sweaty",
+      "value": "汗濕"
+    },
+    {
+      "key": "forge.cond.icy",
+      "value": "結冰"
+    },
+    {
+      "key": "forge.cond.frozen",
+      "value": "凍結"
+    },
+    {
+      "key": "forge.cond.dusty",
+      "value": "積塵"
+    },
+    {
+      "key": "forge.cond.rough",
+      "value": "粗糙"
+    },
+    {
+      "key": "forge.cond.polished",
+      "value": "拋光"
+    },
+    {
+      "key": "forge.cond.rusted",
+      "value": "鏽蝕"
+    },
+    {
+      "key": "forge.cond.worn",
+      "value": "磨損"
+    },
+    {
+      "key": "forge.cond.clothed",
+      "value": "覆布"
+    },
+    {
+      "key": "forge.cond.armored",
+      "value": "覆甲"
+    },
+    {
+      "key": "forge.cond.charred",
+      "value": "焦黑"
+    },
+    {
+      "key": "forge.tissue.bone",
+      "value": "骨"
+    },
+    {
+      "key": "forge.tissue.cartilage",
+      "value": "軟骨"
+    },
+    {
+      "key": "forge.tissue.tendon",
+      "value": "肌腱"
+    },
+    {
+      "key": "forge.tissue.muscle",
+      "value": "肌肉"
+    },
+    {
+      "key": "forge.tissue.fat",
+      "value": "脂肪"
+    },
+    {
+      "key": "forge.tissue.skin",
+      "value": "皮膚"
+    },
+    {
+      "key": "forge.tissue.organ",
+      "value": "器官"
+    },
+    {
+      "key": "forge.tissue.lung",
+      "value": "肺"
+    },
+    {
+      "key": "forge.tissue.brain",
+      "value": "腦"
+    },
+    {
+      "key": "forge.tissue.keratin",
+      "value": "角蛋白"
+    },
+    {
+      "key": "soft.hard",
+      "value": "硬"
+    },
+    {
+      "key": "soft.firm",
+      "value": "偏硬"
+    },
+    {
+      "key": "soft.soft",
+      "value": "軟"
+    },
+    {
+      "key": "soft.verySoft",
+      "value": "很軟"
+    },
+    {
+      "key": "soft.gel",
+      "value": "膠質"
+    },
+    {
+      "key": "h.concaveDynamic.title",
+      "value": "在移動的剛體上使用非凸網格"
+    },
+    {
+      "key": "h.concaveDynamic.detail",
+      "value": "PhysX 只接受掛在運動學或動畫驅動主體上的非凸 MeshCollider。掛在移動的剛體上時 Unity 會靜默拒絕該碰撞體，結果什麼都不碰。"
+    },
+    {
+      "key": "h.concaveDynamic.fix",
+      "value": "把剛體改為運動學"
+    },
+    {
+      "key": "h.concaveScale.title",
+      "value": "非均勻縮放（{0:F2}, {1:F2}, {2:F2}）"
+    },
+    {
+      "key": "h.concaveScale.detail",
+      "value": "非凸網格在區域空間烹調，縮放被拉伸會讓碰撞體偏離模型。凸包沒有這個問題。"
+    },
+    {
+      "key": "h.concaveMeshMesh.title",
+      "value": "非凸網格：不支援網格對網格碰撞"
+    },
+    {
+      "key": "h.concaveMeshMesh.detail",
+      "value": "這是 PhysX 的硬限制，不是設定項：非凸網格永遠不會與另一個非凸網格碰撞。它仍會與基本體、地形和凸包碰撞。"
+    },
+    {
+      "key": "h.allExcluded.title",
+      "value": "所有材質組都被排除在烘焙之外"
+    },
+    {
+      "key": "h.allExcluded.detail",
+      "value": "這樣烘焙會產出零個碰撞體。請至少取消一個組的排除。"
+    },
+    {
+      "key": "h.excludeDead.title",
+      "value": "排除的骨骼「{0}」不在骨架裡"
+    },
+    {
+      "key": "h.excludeDead.detail",
+      "value": "這一項不起任何作用——該骨頭不屬於被烘焙的渲染器。通常是換綁骨架後留下的殘留。"
+    },
+    {
+      "key": "h.softSelfCollision.title",
+      "value": "軟區開啟了完整自碰撞"
+    },
+    {
+      "key": "h.softSelfCollision.detail",
+      "value": "軟區既有凸包又在解算自己的粒子；開啟自碰撞後兩者互相推擠，布料會「沸騰」。通常應選「忽略相鄰」。"
+    },
+    {
+      "key": "h.softSelfCollision.fix",
+      "value": "切換到忽略相鄰"
+    },
+    {
+      "key": "h.softNoSource.title",
+      "value": "已烘焙軟區，但沒有安裝形變源"
+    },
+    {
+      "key": "h.softNoSource.detail",
+      "value": "沒有解算器寫幀時，每個叢集表現為剛體塊：物件整體移動而不形變。這是有效的降級，不是錯誤。"
+    },
+    {
+      "key": "insp.sectionExclusions",
+      "value": "排除項"
+    },
+    {
+      "key": "shape.concaveWarn",
+      "value": "PhysX 只接受掛在運動學或動畫驅動主體上的非凸網格。掛在移動的剛體上時 Unity 會靜默拒絕該碰撞體：什麼都不碰，也不報任何錯。請把角色放在運動學主體上烘焙，或先開啟專家視窗確認其餘限制再烘焙。"
+    },
+    {
+      "key": "btn.openExpert",
+      "value": "開啟專家視窗"
+    },
+    {
+      "key": "exp.groupActions",
+      "value": "操作"
+    },
+    {
+      "key": "exp.groupPrecision",
+      "value": "分解精度"
+    },
+    {
+      "key": "exp.groupBody",
+      "value": "分區與分離"
+    },
+    {
+      "key": "exp.groupKernel",
+      "value": "核心與預算"
+    },
+    {
+      "key": "exp.groupView",
+      "value": "檢視"
+    },
+    {
+      "key": "bake.concaveNote",
+      "value": "非凸表面沒有 PhysX 頂點上限：三角形預算靠簡化表面來滿足，而不是把表面切開。"
+    },
+    {
+      "key": "lbl.decomposeDetail",
+      "value": "分解精度"
+    },
+    {
+      "key": "lbl.decomposeVoxel",
+      "value": "體素尺寸（毫米）"
+    },
+    {
+      "key": "decomp.hint",
+      "value": "體素越粗：部件越少越大，開銷最低。{0} 毫米。"
+    },
+    {
+      "key": "decomp.fineHint",
+      "value": "已到極限：部件貼合表面，因此開銷對齊非凸模式。再細也換不來精度，只會更貴。"
+    },
+    {
+      "key": "exp.decomposed",
+      "value": "部件：凸分解（沿凹陷切開）"
+    },
+    {
+      "key": "exp.clustered",
+      "value": "部件：空間聚類（分解不可用——兜底路徑）"
+    },
+    {
+      "key": "lbl.concaveDetail",
+      "value": "表面精度"
+    },
+    {
+      "key": "concave.exact",
+      "value": "不簡化：表面直接取自網格。"
+    },
+    {
+      "key": "concave.budget",
+      "value": "簡化到每塊約 {0} 個三角形。往右拖更精細；最右端即不簡化。"
+    },
+    {
+      "key": "insp.sectionSimple",
+      "value": "一般用法（像系統碰撞體）"
+    },
+    {
+      "key": "insp.generateOnStart",
+      "value": "沒有烘焙時在啟動時建構"
+    },
+    {
+      "key": "insp.generateHint",
+      "value": "加上元件按 Play 即可。碰撞體按骨骼從網格生成；分區與分解仍由烘焙提供。"
+    },
+    {
+      "key": "insp.isTrigger",
+      "value": "碰撞體作為觸發器"
+    },
+    {
+      "key": "insp.receiver",
+      "value": "同時把 OnCollision*/OnTrigger* 發往"
+    },
+    {
+      "key": "insp.receiverHint",
+      "value": "留空即 Unity 預設行為：訊息發到帶 Rigidbody 的物件上。"
+    },
+    {
+      "key": "insp.sectionLive",
+      "value": "即時更新（帶預算）"
+    },
+    {
+      "key": "insp.liveUpdate",
+      "value": "按目前姿勢重建外殼"
+    },
+    {
+      "key": "insp.liveContinuous",
+      "value": "持續更新"
+    },
+    {
+      "key": "insp.idleBudget",
+      "value": "靜止預算（毫秒/幀）"
+    },
+    {
+      "key": "insp.activeBudget",
+      "value": "運動預算（毫秒/幀）"
+    },
+    {
+      "key": "insp.updateThreshold",
+      "value": "位移低於此值（公尺）就跳過更新"
+    },
+    {
+      "key": "insp.maxColliderTriangles",
+      "value": "單碰撞體三角形上限"
+    },
+    {
+      "key": "insp.liveHint",
+      "value": "預設關閉：外掛的承諾是每幀零開銷。只有在強形變重要時才打開。"
+    },
+    {
+      "key": "insp.sectionMaterials",
+      "value": "按來源材質指定材質"
+    },
+    {
+      "key": "insp.materialSource",
+      "value": "來源材質"
+    },
+    {
+      "key": "insp.materialPhysics",
+      "value": "物理材質"
+    },
+    {
+      "key": "insp.materialHint",
+      "value": "覆蓋該來源材質外殼的分區材質。骨骼自己的 Dyc_BoneProperties 優先順序更高。"
+    },
+    {
+      "key": "insp.sectionExclusionMap",
+      "value": "排除貼圖"
+    },
+    {
+      "key": "insp.exclusionMap",
+      "value": "貼圖（需開啟 Read/Write）"
+    },
+    {
+      "key": "insp.exclusionChannel",
+      "value": "通道"
+    },
+    {
+      "key": "insp.exclusionThreshold",
+      "value": "閾值"
+    },
+    {
+      "key": "insp.exclusionMapHint",
+      "value": "所選通道為白即排除該頂點。筆刷標的是面，貼圖標的是頂點。"
+    },
+    {
+      "key": "insp.sectionSkeleton",
+      "value": "骨架"
+    },
+    {
+      "key": "insp.retargetRoot",
+      "value": "把外殼掛到另一個骨架"
+    },
+    {
+      "key": "insp.retargetHint",
+      "value": "RetargetSkeleton：外殼按本網格建構，但掛到那個根的同名骨頭上（Puppet Master 一類）。"
+    },
+    {
+      "key": "insp.sectionCharLod",
+      "value": "角色碰撞 LOD"
+    },
+    {
+      "key": "insp.collisionLod",
+      "value": "按距離熄滅外殼"
+    },
+    {
+      "key": "insp.lodNear",
+      "value": "完整細節直到（公尺）"
+    },
+    {
+      "key": "insp.lodFar",
+      "value": "超過此距離開始削減（公尺）"
+    },
+    {
+      "key": "insp.lodKeep",
+      "value": "遠距離保留的外殼數"
+    },
+    {
+      "key": "insp.lodHysteresis",
+      "value": "遲滯（公尺）"
+    },
+    {
+      "key": "insp.lodVisibility",
+      "value": "同時要求在螢幕上可見"
+    },
+    {
+      "key": "insp.lodReference",
+      "value": "距離參照（留空 = Camera.main）"
+    },
+    {
+      "key": "insp.lodHint",
+      "value": "這是給角色用的。靜態碰撞 LOD 是另一個問題；一群角色是另一筆預算——這就是那筆預算。"
+    },
+    {
+      "key": "insp.expertMode",
+      "value": "專家設定"
+    },
+    {
+      "key": "insp.expertHint",
+      "value": "關閉：四個控制項加一個烘焙按鈕，夠上手了。打開：技術面——預算、分解內核、逐骨骼覆蓋、材質與排除貼圖。沒有任何東西被藏起來，只是摺疊了。"
+    }
+  ]
+}
