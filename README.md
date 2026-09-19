@@ -1,6 +1,7 @@
 # Neko Dynamic Collision (NDC)
 
-![Neko Dynamic Collision](Documents/cover.png)
+<img width="1254" height="1254" alt="8bbc6e733962338f9147f4d205453125" src="https://github.com/user-attachments/assets/e65519b5-1544-4ec7-82b1-0f0c2e41ff57" />
+
 
 Baked collision for Unity characters and props. NDC turns a skinned character or a static
 mesh into a set of per-bone, per-region **convex hulls** — and does all the expensive work
@@ -256,3 +257,7 @@ prefabs first if you want a clean scene.
 ## License
 
 MIT. See `package.json` for author and repository details.
+
+https://github.com/user-attachments/assets/097cdf0f-ca01-4915-8fec-4133928eb0b0
+
+
